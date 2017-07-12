@@ -1,11 +1,11 @@
 {
-    "name":        "kazuakim/xml-phpdoc",
+    "name":        "kazuakim/extension-phpdoc",
     "type":        "library",
     "description": "@phpdoc extension phpredis for IDE autocomplete",
     "keywords":    [
         "xml"
     ],
-    "homepage": "https://github.com/KazuakiM/xml-phpdoc",
+    "homepage": "https://github.com/KazuakiM/extension-phpdoc",
     "license":  "MIT",
     "authors":  [{
         "name":     "KazuakiM",
