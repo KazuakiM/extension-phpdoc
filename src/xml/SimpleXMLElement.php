@@ -3,6 +3,8 @@
 /**
  * SimpleXMLElement
  *
+ * Represents an element in an XML document.
+ *
  * @link http://php.net/manual/en/class.simplexmlelement.php
  */
 class SimpleXMLElement implements Traversable
@@ -36,7 +38,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.addattribute.php
      */
-    public function addAttribute(string $name, string $value, string $namespace):void
+    public function addAttribute(string $name, string $value, string $namespace): void
     {
     }
 
@@ -52,7 +54,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.addchild.php
      */
-    public function addChild(string $name, string $value, string $namespace):SimpleXMLElement
+    public function addChild(string $name, string $value, string $namespace): SimpleXMLElement
     {
     }
 
@@ -66,7 +68,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.asxml.php
      */
-    public function asXML(string $filename):mixed
+    public function asXML(string $filename): mixed
     {
     }
 
@@ -81,7 +83,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.attributes.php
      */
-    public function attributes(string $ns = null, bool $is_prefix = false):SimpleXMLElement
+    public function attributes(string $ns = null, bool $is_prefix = false): SimpleXMLElement
     {
     }
 
@@ -96,7 +98,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.children.php
      */
-    public function children(string $ns, bool $is_prefix = false):SimpleXMLElement
+    public function children(string $ns, bool $is_prefix = false): SimpleXMLElement
     {
     }
 
@@ -109,7 +111,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.count.php
      */
-    public function count():int
+    public function count(): int
     {
     }
 
@@ -124,7 +126,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.getdocnamespaces.php
      */
-    public function getDocNamespaces(bool $recursive = false, bool $from_root = true):array
+    public function getDocNamespaces(bool $recursive = false, bool $from_root = true): array
     {
     }
 
@@ -137,7 +139,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.getname.php
      */
-    public function getName():string
+    public function getName(): string
     {
     }
 
@@ -151,7 +153,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.getnamespaces.php
      */
-    public function getNamespaces(bool $recursive = false):array
+    public function getNamespaces(bool $recursive = false): array
     {
     }
 
@@ -166,7 +168,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.registerxpathnamespace.php
      */
-    public function registerXPathNamespace(string $prefix, string $ns):bool
+    public function registerXPathNamespace(string $prefix, string $ns): bool
     {
     }
 
@@ -177,7 +179,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.savexml.php
      */
-    public function saveXML(string $filename):mixed
+    public function saveXML(string $filename): mixed
     {
     }
 
@@ -190,7 +192,7 @@ class SimpleXMLElement implements Traversable
     *
     * @link http://php.net/manual/en/simplexmlelement.tostring.php
     */
-    public function __toString():string
+    public function __toString(): string
     {
     }
 
@@ -204,7 +206,7 @@ class SimpleXMLElement implements Traversable
      *
      * @link http://php.net/manual/en/simplexmlelement.xpath.php
      */
-    public function xpath(string $path):array
+    public function xpath(string $path): array
     {
     }
 }

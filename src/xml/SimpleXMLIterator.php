@@ -3,6 +3,8 @@
 /**
  * SimpleXMLIterator
  *
+ * The SimpleXMLIterator provides recursive iteration over all nodes of a SimpleXMLElement object.
+ *
  * @link http://php.net/manual/en/class.simplexmliterator.php
  */
 class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, Countable
@@ -11,6 +13,8 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
      * current
      *
      * Returns the current element
+     *
+     * @return mixed
      *
      * @link http://php.net/manual/en/simplexmliterator.current.php
      */
@@ -23,6 +27,8 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
      *
      * Returns the sub-elements of the current element
      *
+     * @return SimpleXMLIterator
+     *
      * @link http://php.net/manual/en/simplexmliterator.getchildren.php
      */
     public function getChildren(): SimpleXMLIterator
@@ -34,6 +40,8 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
      *
      * Checks whether the current element has sub elements.
      *
+     * @return bool
+     *
      * @link http://php.net/manual/en/simplexmliterator.haschildren.php
      */
     public function hasChildren(): bool
@@ -44,6 +52,8 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
      * key
      *
      * Return current key
+     *
+     * @return mixed
      *
      * @link http://php.net/manual/en/simplexmliterator.key.php
      */
@@ -77,6 +87,8 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
      * valid
      *
      * Check whether the current element is valid
+     *
+     * @return bool
      *
      * @link http://php.net/manual/en/simplexmliterator.valid.php
      */
