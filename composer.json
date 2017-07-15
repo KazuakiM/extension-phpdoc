@@ -11,5 +11,9 @@
         "name":     "KazuakiM",
         "email":    "kazuaki_mabuchi_to_go@hotmail.co.jp",
         "homepage": "https://kazuakim.github.io/aboutme/"
-    }]
+    }],
+    "scripts": {
+        "create": "sh bin/init.sh"
+    }
+
 }

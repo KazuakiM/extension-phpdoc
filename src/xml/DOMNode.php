@@ -1,0 +1,301 @@
+<?php
+
+/**
+ * DOMNode
+ *
+ * 
+ *
+ * @property-read  string $nodeName
+ * @property-write string $nodeValue
+ * @property-read  int $nodeType
+ * @property-read  DOMNode $parentNode
+ * @property-read  DOMNodeList $childNodes
+ * @property-read  DOMNode $firstChild
+ * @property-read  DOMNode $lastChild
+ * @property-read  DOMNode $previousSibling
+ * @property-read  DOMNode $nextSibling
+ * @property-read  DOMNamedNodeMap $attributes
+ * @property-read  DOMDocument $ownerDocument
+ * @property-read  string $namespaceURI
+ * @property-write string $prefix
+ * @property-read  string $localName
+ * @property-read  string $baseURI
+ * @property-write string $textContent
+ *
+ * @link http://php.net/manual/en/class.domnode.php
+ */
+class DOMNode
+{
+    public string $nodeName;
+    public string $nodeValue;
+    public int $nodeType;
+    public DOMNode $parentNode;
+    public DOMNodeList $childNodes;
+    public DOMNode $firstChild;
+    public DOMNode $lastChild;
+    public DOMNode $previousSibling;
+    public DOMNode $nextSibling;
+    public DOMNamedNodeMap $attributes;
+    public DOMDocument $ownerDocument;
+    public string $namespaceURI;
+    public string $prefix;
+    public string $localName;
+    public string $baseURI;
+    public string $textContent;
+
+    /**
+     * appendChild
+     *
+     * Adds new child at the end of the children
+     *
+     * @param DOMNode $newnode
+     * @return DOMNode
+     * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
+     * @throws DOM_HIERARCHY_REQUEST_ERR
+     * @throws DOM_WRONG_DOCUMENT_ERR
+     *
+     * @link http://php.net/manual/en/domnode.appendchild.php
+     */
+    public function appendChild(DOMNode $newnode): DOMNode
+    {
+    }
+
+    /**
+     * C14N
+     *
+     * Canonicalize nodes to a string
+     *
+     * @param bool $exclusive (optional)
+     * @param bool $with_comments (optional)
+     * @param array $xpath (optional)
+     * @param array $ns_prefixes (optional)
+     * @return string
+     *
+     * @link http://php.net/manual/en/domnode.c14n.php
+     */
+    public function C14N(bool $exclusive, bool $with_comments, array $xpath, array $ns_prefixes): string
+    {
+    }
+
+    /**
+     * C14NFile
+     *
+     * Canonicalize nodes to a file
+     *
+     * @param string $uri
+     * @param bool $exclusive (optional)
+     * @param bool $with_comments (optional)
+     * @param array $xpath (optional)
+     * @param array $ns_prefixes (optional)
+     * @return int
+     *
+     * @link http://php.net/manual/en/domnode.c14nfile.php
+     */
+    public function C14NFile(string $uri, bool $exclusive, bool $with_comments, array $xpath, array $ns_prefixes): int
+    {
+    }
+
+    /**
+     * cloneNode
+     *
+     * Clones a node
+     *
+     * @param bool $deep
+     * @return DOMNode
+     *
+     * @link http://php.net/manual/en/domnode.clonenode.php
+     */
+    public function cloneNode(bool $deep): DOMNode
+    {
+    }
+
+    /**
+     * getLineNo
+     *
+     * Get line number for a node
+     *
+     * @return int
+     *
+     * @link http://php.net/manual/en/domnode.getlineno.php
+     */
+    public function getLineNo(): int
+    {
+    }
+
+    /**
+     * getNodePath
+     *
+     * Get an XPath for a node
+     *
+     * @return string
+     *
+     * @link http://php.net/manual/en/domnode.getnodepath.php
+     */
+    public function getNodePath(): string
+    {
+    }
+
+    /**
+     * hasAttributes
+     *
+     * Checks if node has attributes
+     *
+     * @return bool
+     *
+     * @link http://php.net/manual/en/domnode.hasattributes.php
+     */
+    public function hasAttributes(): bool
+    {
+    }
+
+    /**
+     * hasChildNodes
+     *
+     * Checks if node has children
+     *
+     * @return bool
+     *
+     * @link http://php.net/manual/en/domnode.haschildnodes.php
+     */
+    public function hasChildNodes(): bool
+    {
+    }
+
+    /**
+     * insertBefore
+     *
+     * Adds a new child before a reference node
+     *
+     * @param DOMNode $newnode
+     * @param DOMNode $refnode (optional)
+     * @return DOMNode
+     * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
+     * @throws DOM_HIERARCHY_REQUEST_ERR
+     * @throws DOM_WRONG_DOCUMENT_ERR
+     * @throws DOM_NOT_FOUND
+     *
+     * @link http://php.net/manual/en/domnode.insertbefore.php
+     */
+    public function insertBefore(DOMNode $newnode, DOMNode $refnode): DOMNode
+    {
+    }
+
+    /**
+     * isDefaultNamespace
+     *
+     * Checks if the specified namespaceURI is the default namespace or not
+     *
+     * @param string $namespaceURI
+     * @return bool
+     *
+     * @link http://php.net/manual/en/domnode.isdefaultnamespace.php
+     */
+    public function isDefaultNamespace(string $namespaceURI): bool
+    {
+    }
+
+    /**
+     * isSameNode
+     *
+     * Indicates if two nodes are the same node
+     *
+     * @param DOMNode $node
+     * @return bool
+     *
+     * @link http://php.net/manual/en/domnode.issamenode.php
+     */
+    public function isSameNode(DOMNode $node): bool
+    {
+    }
+
+    /**
+     * isSupported
+     *
+     * Checks if feature is supported for specified version
+     *
+     * @param string $feature
+     * @param string $version
+     * @return bool
+     *
+     * @link http://php.net/manual/en/domnode.issupported.php
+     */
+    public function isSupported(string $feature, string $version): bool
+    {
+    }
+
+    /**
+     * lookupNamespaceURI
+     *
+     * Gets the namespace URI of the node based on the prefix
+     *
+     * @param string $prefix
+     * @return string
+     *
+     * @link http://php.net/manual/en/domnode.lookupnamespaceuri.php
+     */
+    public function lookupNamespaceURI(string $prefix): string
+    {
+    }
+
+    /**
+     * lookupPrefix
+     *
+     * Gets the namespace prefix of the node based on the namespace URI
+     *
+     * @param string $namespaceURI
+     * @return string
+     *
+     * @link http://php.net/manual/en/domnode.lookupprefix.php
+     */
+    public function lookupPrefix(string $namespaceURI): string
+    {
+    }
+
+    /**
+     * normalize
+     *
+     * Normalizes the node
+     *
+     * @return void
+     *
+     * @link http://php.net/manual/en/domnode.normalize.php
+     */
+    public function normalize(): void
+    {
+    }
+
+    /**
+     * removeChild
+     *
+     * Removes child from list of children
+     *
+     * @param DOMNode $oldnode
+     * @return DOMNode
+     * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
+     * @throws DOM_NOT_FOUND
+     *
+     * @link http://php.net/manual/en/domnode.removechild.php
+     */
+    public function removeChild(DOMNode $oldnode): DOMNode
+    {
+    }
+
+    /**
+     * replaceChild
+     *
+     * Replaces a child
+     *
+     * @param DOMNode $newnode
+     * @param DOMNode $oldnode
+     * @return DOMNode
+     * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
+     * @throws DOM_HIERARCHY_REQUEST_ERR
+     * @throws DOM_WRONG_DOCUMENT_ERR
+     * @throws DOM_NOT_FOUND
+     *
+     * @link http://php.net/manual/en/domnode.replacechild.php
+     */
+    public function replaceChild(DOMNode $newnode, DOMNode $oldnode): DOMNode
+    {
+    }
+}
