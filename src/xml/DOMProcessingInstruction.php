@@ -1,14 +1,14 @@
 <?php
 
 /**
- * DOMProcessingInstruction
+ * DOMProcessingInstruction.
  *
- * 
  *
- * @property-read  string $target
- * @property-write string $data
  *
- * @link http://php.net/manual/en/class.domprocessinginstruction.php
+ * @property  string $target
+ * @property string $data
+ *
+ * @see http://php.net/manual/en/class.domprocessinginstruction.php
  */
 class DOMProcessingInstruction extends DOMNode
 {
@@ -16,14 +16,14 @@ class DOMProcessingInstruction extends DOMNode
     public $data;
 
     /**
-     * __construct
+     * __construct.
      *
      * Creates a new DOMProcessingInstruction object
      *
      * @param string $name
      * @param string $value (optional)
      *
-     * @link http://php.net/manual/en/domprocessinginstruction.construct.php
+     * @see http://php.net/manual/en/domprocessinginstruction.construct.php
      */
     public function __construct(string $name, string $value)
     {

@@ -1,18 +1,18 @@
 <?php
 
 /**
- * DOMDocumentType
+ * DOMDocumentType.
  *
  * Each DOMDocument has a doctype attribute whose value is either NULL or a DOMDocumentType object.
  *
- * @property-read  string $publicId
- * @property-read  string $systemId
- * @property-read  string $name
- * @property-read  DOMNamedNodeMap $entities
- * @property-read  DOMNamedNodeMap $notations
- * @property-read  string $internalSubset
+ * @property  string $publicId
+ * @property  string $systemId
+ * @property  string $name
+ * @property  DOMNamedNodeMap $entities
+ * @property  DOMNamedNodeMap $notations
+ * @property  string $internalSubset
  *
- * @link http://php.net/manual/en/class.domdocumenttype.php
+ * @see http://php.net/manual/en/class.domdocumenttype.php
  */
 class DOMDocumentType extends DOMNode
 {

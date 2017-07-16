@@ -1,14 +1,14 @@
 <?php
 
 /**
- * DOMNotation
+ * DOMNotation.
  *
- * 
  *
- * @property-read  string $publicId
- * @property-read  string $systemId
  *
- * @link http://php.net/manual/en/class.domnotation.php
+ * @property  string $publicId
+ * @property  string $systemId
+ *
+ * @see http://php.net/manual/en/class.domnotation.php
  */
 class DOMNotation extends DOMNode
 {

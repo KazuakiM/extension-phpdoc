@@ -1,28 +1,28 @@
 <?php
 
 /**
- * DOMNodeList
+ * DOMNodeList.
  *
- * 
  *
- * @property-read  int $length
  *
- * @link http://php.net/manual/en/class.domnodelist.php
+ * @property  int $length
+ *
+ * @see http://php.net/manual/en/class.domnodelist.php
  */
-class DOMNodeList implements Traversable {
-
+class DOMNodeList implements Traversable
+{
     public $length;
 
-
     /**
-     * item
+     * item.
      *
      * Retrieves a node specified by index
      *
      * @param int $index
+     *
      * @return DOMElement
      *
-     * @link http://php.net/manual/en/domnodelist.item.php
+     * @see http://php.net/manual/en/domnodelist.item.php
      */
     public function item(int $index): DOMElement
     {

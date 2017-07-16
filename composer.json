@@ -1,9 +1,11 @@
 {
     "name":        "kazuakim/extension-phpdoc",
     "type":        "library",
-    "description": "@phpdoc extension phpredis for IDE autocomplete",
+    "description": "@phpdoc extension php for IDE autocomplete",
     "keywords":    [
-        "xml"
+        "xml",
+        "redis",
+        "phpdoc"
     ],
     "homepage": "https://github.com/KazuakiM/extension-phpdoc",
     "license":  "MIT",
@@ -13,7 +15,7 @@
         "homepage": "https://kazuakim.github.io/aboutme/"
     }],
     "scripts": {
-        "create": "sh bin/init.sh"
+        "create": "sh bin/init.sh",
+        "csfixer": "php vendor/bin/php-cs-fixer fix --dry-run --verbose"
     }
-
 }

@@ -1,24 +1,24 @@
 <?php
 
 /**
- * DOMEntityReference
+ * DOMEntityReference.
  *
- * 
  *
- * @link http://php.net/manual/en/class.domentityreference.php
+ *
+ * @see http://php.net/manual/en/class.domentityreference.php
  */
 class DOMEntityReference extends DOMNode
 {
     /**
-     * __construct
+     * __construct.
      *
      * Creates a new DOMEntityReference object
      *
      * @param string $name
      *
-     * @link http://php.net/manual/en/domentityreference.construct.php
+     * @see http://php.net/manual/en/domentityreference.construct.php
      */
-    public function (string $name)
+    public function __construct(string $name)
     {
     }
 

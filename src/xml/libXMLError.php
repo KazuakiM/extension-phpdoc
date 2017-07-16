@@ -1,18 +1,18 @@
 <?php
 
 /**
- * libXMLError
+ * libXMLError.
  *
  * Contains various information about errors thrown by libxml. The error codes are described within the official [xmlError API documentation](http://www.xmlsoft.org/html/libxml-xmlerror.html).
  *
- * @property-write int $level
- * @property-write int $code
- * @property-write int $column
- * @property-write string $message
- * @property-write string $file
- * @property-write int $line
+ * @property int $level
+ * @property int $code
+ * @property int $column
+ * @property string $message
+ * @property string $file
+ * @property int $line
  *
- * @link http://php.net/manual/en/class.libxmlerror.php
+ * @see http://php.net/manual/en/class.libxmlerror.php
  */
 class libXMLError
 {

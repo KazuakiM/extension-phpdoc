@@ -1,22 +1,22 @@
 <?php
 
 /**
- * DOMComment
+ * DOMComment.
  *
  * Represents comment nodes, characters delimited by <!-- and -->.
  *
- * @link http://php.net/manual/en/class.domcomment.php
+ * @see http://php.net/manual/en/class.domcomment.php
  */
 class DOMComment extends DOMCharacterData
 {
     /**
-     * __construct
+     * __construct.
      *
      * Creates a new DOMComment object
      *
      * @param string $vale (optional)
      *
-     * @link http://php.net/manual/en/domcomment.construct.php
+     * @see http://php.net/manual/en/domcomment.construct.php
      */
     public function __construct(string $value)
     {

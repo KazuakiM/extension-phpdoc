@@ -1,14 +1,14 @@
 <?php
 
 /**
- * DOMCharacterData
+ * DOMCharacterData.
  *
  * Represents nodes with character data. No nodes directly correspond to this class, but other nodes do inherit from it.
  *
- * @property-write string $data
- * @property-read  int $length
+ * @property string $data
+ * @property  int $length
  *
- * @link http://php.net/manual/en/class.domcharacterdata.php
+ * @see http://php.net/manual/en/class.domcharacterdata.php
  */
 class DOMCharacterData extends DOMNode
 {
@@ -16,75 +16,80 @@ class DOMCharacterData extends DOMNode
     public $length;
 
     /**
-     * appendData
+     * appendData.
      *
      * Append the string to the end of the character data of the node
      *
      * @param string $data
      *
-     * @link http://php.net/manual/en/domcharacterdata.appenddata.php
+     * @see http://php.net/manual/en/domcharacterdata.appenddata.php
      */
     public function appendData(string $data): void
     {
     }
 
     /**
-     * deleteData
+     * deleteData.
      *
      * Remove a range of characters from the node
      *
      * @param int $offset
      * @param int $count
+     *
      * @throws DOM_INDEX_SIZE_ERR
      *
-     * @link http://php.net/manual/en/domcharacterdata.deletedata.php
+     * @see http://php.net/manual/en/domcharacterdata.deletedata.php
      */
     public function deleteData(int $offset, int $count): void
     {
     }
 
     /**
-     * insertData
+     * insertData.
      *
      * Insert a string at the specified 16-bit unit offset
      *
-     * @param int $offset
+     * @param int    $offset
      * @param string $data
+     *
      * @throws DOM_INDEX_SIZE_ERR
      *
-     * @link http://php.net/manual/en/domcharacterdata.insertdata.php
+     * @see http://php.net/manual/en/domcharacterdata.insertdata.php
      */
     public function insertData(int $offset, string $data): void
     {
     }
 
     /**
-     * replaceData
+     * replaceData.
      *
      * Replace a substring within the DOMCharacterData node
      *
      * @param int    $offset
      * @param int    $count
      * @param string $data
+     *
      * @throws DOM_INDEX_SIZE_ERR
      *
-     * @link http://php.net/manual/en/domcharacterdata.replacedata.php
+     * @see http://php.net/manual/en/domcharacterdata.replacedata.php
      */
     public function replaceData(int $offset, int $count, string $data): void
     {
     }
 
     /**
-     * substringData
+     * substringData.
      *
      * Extracts a range of data from the node
      *
      * @param int $offset
      * @param int $count
-     * @return string
+     *
      * @throws DOM_INDEX_SIZE_ERR
      *
-     * @link http://php.net/manual/en/domcharacterdata.substringdata.php
+     * @return string
+     *
+     * @see http://php.net/manual/en/domcharacterdata.substringdata.php
      */
     public function substringData(int $offset, int $count): string
     {

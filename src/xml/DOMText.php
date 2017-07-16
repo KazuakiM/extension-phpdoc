@@ -1,53 +1,54 @@
 <?php
 
 /**
- * DOMText
+ * DOMText.
  *
  * The DOMText class inherits from DOMCharacterData and represents the textual content of a DOMElement or DOMAttr.
  *
- * @property-read  string $wholeText
+ * @property  string $wholeText
  *
- * @link http://php.net/manual/en/class.domtext.php
+ * @see http://php.net/manual/en/class.domtext.php
  */
 class DOMText extends DOMCharacterData
 {
     public $wholeText;
 
     /**
-     * __construct
+     * __construct.
      *
      * Creates a new DOMText object
      *
      * @param string $value
      *
-     * @link http://php.net/manual/en/domtext.construct.php
+     * @see http://php.net/manual/en/domtext.construct.php
      */
     public function __construct(string $value)
     {
     }
 
     /**
-     * isWhitespaceInElementContent
+     * isWhitespaceInElementContent.
      *
      * Indicates whether this text node contains whitespace
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/domtext.iswhitespaceinelementcontent.php
+     * @see http://php.net/manual/en/domtext.iswhitespaceinelementcontent.php
      */
     public function isWhitespaceInElementContent(): bool
     {
     }
 
     /**
-     * splitText
+     * splitText.
      *
      * Breaks this node into two nodes at the specified offset
      *
      * @param int $offset
+     *
      * @return DOMText
      *
-     * @link http://php.net/manual/en/domtext.splittext.php
+     * @see http://php.net/manual/en/domtext.splittext.php
      */
     public function splitText(int $offset): DOMText
     {

@@ -3,39 +3,41 @@
 namespace XMLDiff;
 
 /**
- * XMLDiff
+ * XMLDiff.
  *
- * 
  *
- * @link http://php.net/manual/en/class.xmldiff-file.php
+ *
+ * @see http://php.net/manual/en/class.xmldiff-file.php
  */
-class File extends Base
+class XMLDiffFile extends Base
 {
     /**
-     * diff
+     * diff.
      *
      * Diff two XML files
      *
      * @param string $from
      * @param string $to
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/xmldiff-file.diff.php
+     * @see http://php.net/manual/en/xmldiff-file.diff.php
      */
     public function diff(string $from, string $to): string
     {
     }
 
     /**
-     * merge
+     * merge.
      *
      * Produce merged XML document
      *
      * @param string $src
      * @param string $diff
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/xmldiff-file.merge.php
+     * @see http://php.net/manual/en/xmldiff-file.merge.php
      */
     public function merge(string $src, string $diff): string
     {

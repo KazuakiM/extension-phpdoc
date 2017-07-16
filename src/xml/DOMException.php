@@ -1,13 +1,13 @@
 <?php
 
 /**
- * DOMException
+ * DOMException.
  *
- * 
  *
- * @property-read  int $code
  *
- * @link http://php.net/manual/en/class.domexception.php
+ * @property  int $code
+ *
+ * @see http://php.net/manual/en/class.domexception.php
  */
 class DOMException extends Exception
 {

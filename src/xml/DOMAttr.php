@@ -1,17 +1,17 @@
 <?php
 
 /**
- * DOMAttr
+ * DOMAttr.
  *
  * DOMAttr represents an attribute in the DOMElement object.
  *
- * @property-read  string     $name
- * @property-read  DOMElement $ownerElement
- * @property-read  bool       $schemaTypeInfo
- * @property-read  bool       $specified
- * @property-write string     $value
+ * @property  string     $name
+ * @property  DOMElement $ownerElement
+ * @property  bool       $schemaTypeInfo
+ * @property  bool       $specified
+ * @property string     $value
  *
- * @link http://php.net/manual/en/class.domattr.php
+ * @see http://php.net/manual/en/class.domattr.php
  */
 class DOMAttr extends DOMNode
 {
@@ -22,23 +22,23 @@ class DOMAttr extends DOMNode
     public $value;
 
     /**
-     *  __construct
+     *  __construct.
      *
      *  @param string $name
      *  @param string $value (optional)
      *
-     *  @link http://php.net/manual/en/domattr.construct.php
+     *  @see http://php.net/manual/en/domattr.construct.php
      */
     public function __construct(string $name, string $value)
     {
     }
 
     /**
-     * isId
+     * isId.
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/domattr.isid.php
+     * @see http://php.net/manual/en/domattr.isid.php
      */
     public function isId(): bool
     {

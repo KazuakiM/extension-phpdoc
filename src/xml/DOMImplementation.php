@@ -1,71 +1,77 @@
 <?php
 
 /**
- * DOMImplementation
+ * DOMImplementation.
  *
  * The DOMImplementation interface provides a number of methods for performing operations that are independent of any particular instance of the document object model.
  *
- * @link http://php.net/manual/en/class.domimplementation.php
+ * @see http://php.net/manual/en/class.domimplementation.php
  */
-class DOMImplementation {
-
+class DOMImplementation
+{
     /**
-     *  __construct
+     *  __construct.
      *
      * Creates a new DOMImplementation object
      *
-     *  @link http://php.net/manual/en/domimplementation.construct.php
+     *  @see http://php.net/manual/en/domimplementation.construct.php
      */
     public function __construct()
     {
     }
 
     /**
-     * createDocument
+     * createDocument.
      *
      * Creates a DOMDocument object of the specified type with its document element
      *
-     * @param string $namespaceURI = null
-     * @param string $qualifiedName = null
-     * @param DOMDocumentType $doctype = null
-     * @return DOMDocument
+     * @param string          $namespaceURI  = null
+     * @param string          $qualifiedName = null
+     * @param DOMDocumentType $doctype       = null
+     *
      * @throws DOM_WRONG_DOCUMENT_ERR
      * @throws DOM_NAMESPACE_ERR
      *
-     * @link http://php.net/manual/en/domimplementation.createdocument.php
+     * @return DOMDocument
+     *
+     * @see http://php.net/manual/en/domimplementation.createdocument.php
      */
     public function createDocument(string $namespaceURI = null, string $qualifiedName = null, DOMDocumentType $doctype = null): DOMDocument
     {
     }
 
     /**
-     * createDocumentType
+     * createDocumentType.
      *
      * Creates an empty DOMDocumentType object
      *
      * @param string $qualifiedName = null
-     * @param string $publicId = null
-     * @param string $systemId = null
-     * @return DOMDocumentType
+     * @param string $publicId      = null
+     * @param string $systemId      = null
+     *
      * @throws DOM_NAMESPACE_ERR
      *
-     * @link http://php.net/manual/en/domimplementation.createdocumenttype.php
+     * @return DOMDocumentType
+     *
+     * @see http://php.net/manual/en/domimplementation.createdocumenttype.php
      */
     public function createDocumentType(string $qualifiedName = null, string $publicId = null, string $systemId = null): DOMDocumentType
     {
     }
 
     /**
-     * hasFeature
+     * hasFeature.
      *
      * Test if the DOM implementation implements a specific feature
      *
      * @param string $feature
      * @param string $version
-     * @return bool
+     *
      * @throws E_STRICT
      *
-     * @link http://php.net/manual/en/domimplementation.hasfeature.php
+     * @return bool
+     *
+     * @see http://php.net/manual/en/domimplementation.hasfeature.php
      */
     public function hasFeature(string $feature, string $version): bool
     {
