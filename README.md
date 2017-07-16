@@ -3,7 +3,7 @@ extension-phpdoc
 
 [![TravisCI](https://travis-ci.org/KazuakiM/extension-phpdoc.svg?branch=master)](https://travis-ci.org/KazuakiM/extension-phpdoc)
 [![GitHub issues](https://img.shields.io/github/issues/KazuakiM/extension-phpdoc.svg?style=flat-square)](https://github.com/KazuakiM/extension-phpdoc/issues)
-[![Packagist](https://img.shields.io/packagist/dt/doctrine/orm.svg?style=flat-square)](https://packagist.org/packages/kazuakim/extension-phpdoc)
+[![Packagist](https://img.shields.io/packagist/dt/kazuakim/extension-phpdoc.svg?style=flat-square)](https://packagist.org/packages/kazuakim/extension-phpdoc)
 [![license](https://img.shields.io/github/license/KazuakiM/extension-phpdoc.svg?style=flat-square)](https://raw.githubusercontent.com/KazuakiM/extension-phpdoc/master/LICENSE)
 
 ## Install
