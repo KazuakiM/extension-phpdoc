@@ -11,7 +11,7 @@
  */
 class DOMText extends DOMCharacterData
 {
-    public string $wholeText;
+    public $wholeText;
 
     /**
      * __construct

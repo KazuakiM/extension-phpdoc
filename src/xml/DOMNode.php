@@ -26,22 +26,22 @@
  */
 class DOMNode
 {
-    public string $nodeName;
-    public string $nodeValue;
-    public int $nodeType;
-    public DOMNode $parentNode;
-    public DOMNodeList $childNodes;
-    public DOMNode $firstChild;
-    public DOMNode $lastChild;
-    public DOMNode $previousSibling;
-    public DOMNode $nextSibling;
-    public DOMNamedNodeMap $attributes;
-    public DOMDocument $ownerDocument;
-    public string $namespaceURI;
-    public string $prefix;
-    public string $localName;
-    public string $baseURI;
-    public string $textContent;
+    public $nodeName;
+    public $nodeValue;
+    public $nodeType;
+    public $parentNode;
+    public $childNodes;
+    public $firstChild;
+    public $lastChild;
+    public $previousSibling;
+    public $nextSibling;
+    public $attributes;
+    public $ownerDocument;
+    public $namespaceURI;
+    public $prefix;
+    public $localName;
+    public $baseURI;
+    public $textContent;
 
     /**
      * appendChild

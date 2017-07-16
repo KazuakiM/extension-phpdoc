@@ -15,11 +15,11 @@
  */
 class DOMAttr extends DOMNode
 {
-    public string     $name;
-    public DOMElement $ownerElement;
-    public bool       $schemaTypeInfo;
-    public bool       $specified;
-    public string     $value;
+    public $name;
+    public $ownerElement;
+    public $schemaTypeInfo;
+    public $specified;
+    public $value;
 
     /**
      *  __construct

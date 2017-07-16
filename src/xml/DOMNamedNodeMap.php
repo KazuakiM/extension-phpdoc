@@ -11,7 +11,7 @@
  */
 class DOMNamedNodeMap implements Traversable
 {
-    public int $length;
+    public $length;
 
     /**
      * getNamedItem

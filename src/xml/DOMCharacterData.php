@@ -12,8 +12,8 @@
  */
 class DOMCharacterData extends DOMNode
 {
-    public string $data;
-    public int    $length;
+    public $data;
+    public $length;
 
     /**
      * appendData

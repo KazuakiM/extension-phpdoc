@@ -12,8 +12,8 @@
  */
 class DOMNotation extends DOMNode
 {
-    public string $publicId;
-    public string $systemId;
+    public $publicId;
+    public $systemId;
 
     /* Inherited methods */
     //public function DOMNode::appendChild(DOMNode $newnode): DOMNode

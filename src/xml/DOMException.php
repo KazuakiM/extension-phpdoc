@@ -11,7 +11,7 @@
  */
 class DOMException extends Exception
 {
-    public int $code;
+    public $code;
 
     /* Inherited methods */
     //final public function Exception::getMessage(): string

@@ -16,12 +16,12 @@
  */
 class DOMDocumentType extends DOMNode
 {
-    public string $publicId;
-    public string $systemId;
-    public string $name;
-    public DOMNamedNodeMap $entities;
-    public DOMNamedNodeMap $notations;
-    public string $internalSubset;
+    public $publicId;
+    public $systemId;
+    public $name;
+    public $entities;
+    public $notations;
+    public $internalSubset;
 
     /* Inherited methods */
     //public function DOMNode::appendChild(DOMNode $newnode): DOMNode

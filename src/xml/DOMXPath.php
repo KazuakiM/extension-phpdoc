@@ -11,7 +11,7 @@
  */
 class DOMXPath
 {
-    public DOMDocument $document;
+    public $document;
 
     /**
      * __construct

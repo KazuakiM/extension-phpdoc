@@ -11,7 +11,7 @@
  */
 class DOMNodeList implements Traversable {
 
-    public int $length;
+    public $length;
 
 
     /**

@@ -12,8 +12,8 @@
  */
 class DOMElement extends DOMNode
 {
-    public bool $schemaTypeInfo;
-    public string $tagName;
+    public $schemaTypeInfo;
+    public $tagName;
 
 
     /**

@@ -12,8 +12,8 @@
  */
 class DOMProcessingInstruction extends DOMNode
 {
-    public string $target;
-    public string $data;
+    public $target;
+    public $data;
 
     /**
      * __construct

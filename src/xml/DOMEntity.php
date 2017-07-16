@@ -16,12 +16,12 @@
  */
 class DOMEntity extends DOMNode
 {
-    public string $publicId;
-    public string $systemId;
-    public string $notationName;
-    public string $actualEncoding;
-    public string $encoding;
-    public string $version;
+    public $publicId;
+    public $systemId;
+    public $notationName;
+    public $actualEncoding;
+    public $encoding;
+    public $version;
 
     /* Inherited methods */
     //public function DOMNode::appendChild(DOMNode $newnode): DOMNode

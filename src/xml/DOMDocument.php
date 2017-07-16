@@ -29,25 +29,25 @@
  */
 class DOMDocument extends DOMNode
 {
-    public string $actualEncoding;
-    public DOMConfiguration $config;
-    public DOMDocumentType $doctype;
-    public DOMElement $documentElement;
-    public string $documentURI;
-    public string $encoding;
-    public bool $formatOutput;
-    public DOMImplementation $implementation;
-    public bool $preserveWhiteSpace = true;
-    public bool $recover;
-    public bool $resolveExternals;
-    public bool $standalone;
-    public bool $strictErrorChecking = true;
-    public bool $substituteEntities;
-    public bool $validateOnParse = false;
-    public string $version;
-    public string $xmlEncoding;
-    public bool $xmlStandalone;
-    public string $xmlVersion;
+    public $actualEncoding;
+    public $config;
+    public $doctype;
+    public $documentElement;
+    public $documentURI;
+    public $encoding;
+    public $formatOutput;
+    public $implementation;
+    public $preserveWhiteSpace = true;
+    public $recover;
+    public $resolveExternals;
+    public $standalone;
+    public $strictErrorChecking = true;
+    public $substituteEntities;
+    public $validateOnParse = false;
+    public $version;
+    public $xmlEncoding;
+    public $xmlStandalone;
+    public $xmlVersion;
 
     /**
      * __construct
