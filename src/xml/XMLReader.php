@@ -1,26 +1,26 @@
 <?php
 
 /**
- * XMLReader
+ * XMLReader.
  *
  * The XMLReader extension is an XML Pull parser. The reader acts as a cursor going forward on the document stream and stopping at each node on the way.
  *
- * @property-read  int $attributeCount
- * @property-read  string $baseURI
- * @property-read  int $depth
- * @property-read  bool $hasAttributes
- * @property-read  bool $hasValue
- * @property-read  bool $isDefault
- * @property-read  bool $isEmptyElement
- * @property-read  string $localName
- * @property-read  string $name
- * @property-read  string $namespaceURI
- * @property-read  int $nodeType
- * @property-read  string $prefix
- * @property-read  string $value
- * @property-read  string $xmlLang
+ * @property  int $attributeCount
+ * @property  string $baseURI
+ * @property  int $depth
+ * @property  bool $hasAttributes
+ * @property  bool $hasValue
+ * @property  bool $isDefault
+ * @property  bool $isEmptyElement
+ * @property  string $localName
+ * @property  string $name
+ * @property  string $namespaceURI
+ * @property  int $nodeType
+ * @property  string $prefix
+ * @property  string $value
+ * @property  string $xmlLang
  *
- * @link http://php.net/manual/en/class.xmlreader.php
+ * @see http://php.net/manual/en/class.xmlreader.php
  */
 class XMLReader
 {
@@ -63,351 +63,370 @@ class XMLReader
     public $xmlLang;
 
     /**
-     * close
+     * close.
      *
      * Close the XMLReader input
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.close.php
+     * @see http://php.net/manual/en/xmlreader.close.php
      */
     public function close(): bool
     {
     }
 
     /**
-     * expand
+     * expand.
      *
      * Returns a copy of the current node as a DOM object
      *
      * @param DOMNode $basenode(optional)
+     *
      * @return DOMNode
      *
-     * @link http://php.net/manual/en/xmlreader.expand.php
+     * @see http://php.net/manual/en/xmlreader.expand.php
      */
     public function expand(DOMNode $basenode): DOMNode
     {
     }
 
     /**
-     * getAttribute
+     * getAttribute.
      *
      * Get the value of a named attribute
      *
      * @param string $name
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/xmlreader.getattribute.php
+     * @see http://php.net/manual/en/xmlreader.getattribute.php
      */
     public function getAttribute(string $name): string
     {
     }
 
     /**
-     * getAttributeNo
+     * getAttributeNo.
      *
      * Get the value of an attribute by index
      *
      * @param int $index
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/xmlreader.getattributeno.php
+     * @see http://php.net/manual/en/xmlreader.getattributeno.php
      */
     public function getAttributeNo(int $index): string
     {
     }
 
     /**
-     * getAttributeNs
+     * getAttributeNs.
      *
      * Get the value of an attribute by localname and URI
      *
      * @param string $localName
      * @param string $namespaceURI
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/xmlreader.getattributens.php
+     * @see http://php.net/manual/en/xmlreader.getattributens.php
      */
     public function getAttributeNs(string $localName, string $namespaceURI): string
     {
     }
 
     /**
-     * getParserProperty
+     * getParserProperty.
      *
      * Indicates if specified property has been set
      *
      * @param int $property
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.getparserproperty.php
+     * @see http://php.net/manual/en/xmlreader.getparserproperty.php
      */
     public function getParserProperty(int $property): bool
     {
     }
 
     /**
-     * isValid
+     * isValid.
      *
      * Indicates if the parsed document is valid
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.isvalid.php
+     * @see http://php.net/manual/en/xmlreader.isvalid.php
      */
     public function isValid(): bool
     {
     }
 
     /**
-     * lookupNamespace
+     * lookupNamespace.
      *
      * Lookup namespace for a prefix
      *
      * @param string $prefix
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/xmlreader.lookupnamespace.php
+     * @see http://php.net/manual/en/xmlreader.lookupnamespace.php
      */
     public function lookupNamespace(string $prefix): string
     {
     }
 
     /**
-     * moveToAttribute
+     * moveToAttribute.
      *
      * Move cursor to a named attribute
      *
      * @param string $name
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.movetoattribute.php
+     * @see http://php.net/manual/en/xmlreader.movetoattribute.php
      */
     public function moveToAttribute(string $name): bool
     {
     }
 
     /**
-     * moveToAttributeNo
+     * moveToAttributeNo.
      *
      * Move cursor to an attribute by index
      *
      * @param int $index
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.movetoattributeno.php
+     * @see http://php.net/manual/en/xmlreader.movetoattributeno.php
      */
     public function moveToAttributeNo(int $index): bool
     {
     }
 
     /**
-     * moveToAttributeNs
+     * moveToAttributeNs.
      *
      * Move cursor to a named attribute
      *
      * @param string $localName
      * @param string $namespaceURI
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.movetoattributens.php
+     * @see http://php.net/manual/en/xmlreader.movetoattributens.php
      */
     public function moveToAttributeNs(string $localName, string $namespaceURI): bool
     {
     }
 
     /**
-     * moveToElement
+     * moveToElement.
      *
      * Position cursor on the parent Element of current Attribute
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.movetoelement.php
+     * @see http://php.net/manual/en/xmlreader.movetoelement.php
      */
     public function moveToElement(): bool
     {
     }
 
     /**
-     * moveToFirstAttribute
+     * moveToFirstAttribute.
      *
      * Position cursor on the first Attribute
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.movetofirstattribute.php
+     * @see http://php.net/manual/en/xmlreader.movetofirstattribute.php
      */
     public function moveToFirstAttribute(): bool
     {
     }
 
     /**
-     * moveToNextAttribute
+     * moveToNextAttribute.
      *
      * Position cursor on the next Attribute
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.movetonextattribute.php
+     * @see http://php.net/manual/en/xmlreader.movetonextattribute.php
      */
     public function moveToNextAttribute(): bool
     {
     }
 
     /**
-     * next
+     * next.
      *
      * Move cursor to next node skipping all subtrees
      *
      * @param string $localname
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.next.php
+     * @see http://php.net/manual/en/xmlreader.next.php
      */
     public function next(string $localname): bool
     {
     }
 
     /**
-     * open
+     * open.
      *
      * Set the URI containing the XML to parse
      *
      * @param string $URI
      * @param string $encoding (optional)
-     * @param int $options = 0
-     * @return bool
+     * @param int    $options  = 0
+     *
      * @throws E_STRICT
      *
-     * @link http://php.net/manual/en/xmlreader.open.php
+     * @return bool
+     *
+     * @see http://php.net/manual/en/xmlreader.open.php
      */
     public function open(string $URI, string $encoding, int $options = 0): bool
     {
     }
 
     /**
-     * read
+     * read.
      *
      * Move to next node in document
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.read.php
+     * @see http://php.net/manual/en/xmlreader.read.php
      */
     public function read(): bool
     {
     }
 
     /**
-     * readInnerXML
+     * readInnerXML.
      *
      * Retrieve XML from current node
      *
      * @return string
      *
-     * @link http://php.net/manual/en/xmlreader.readinnerxml.php
+     * @see http://php.net/manual/en/xmlreader.readinnerxml.php
      */
     public function readInnerXML(): string
     {
     }
 
     /**
-     * readOuterXML
+     * readOuterXML.
      *
      * Retrieve XML from current node, including itself
      *
      * @return string
      *
-     * @link http://php.net/manual/en/xmlreader.readouterxml.php
+     * @see http://php.net/manual/en/xmlreader.readouterxml.php
      */
     public function readOuterXML(): string
     {
     }
 
     /**
-     * readString
+     * readString.
      *
      * Reads the contents of the current node as a string
      *
      * @return string
      *
-     * @link http://php.net/manual/en/xmlreader.readstring.php
+     * @see http://php.net/manual/en/xmlreader.readstring.php
      */
     public function readString(): string
     {
     }
 
     /**
-     * setParserProperty
+     * setParserProperty.
      *
      * Set parser options
      *
-     * @param int $property
+     * @param int  $property
      * @param bool $value
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.setparserproperty.php
+     * @see http://php.net/manual/en/xmlreader.setparserproperty.php
      */
     public function setParserProperty(int $property, bool $value): bool
     {
     }
 
     /**
-     * setRelaxNGSchema
+     * setRelaxNGSchema.
      *
      * Set the filename or URI for a RelaxNG Schema
      *
      * @param string $filename
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.setrelaxngschema.php
+     * @see http://php.net/manual/en/xmlreader.setrelaxngschema.php
      */
     public function setRelaxNGSchema(string $filename): bool
     {
     }
 
     /**
-     * setRelaxNGSchemaSource
+     * setRelaxNGSchemaSource.
      *
      * Set the data containing a RelaxNG Schema
      *
      * @param string $source
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xmlreader.setrelaxngschemasource.php
+     * @see http://php.net/manual/en/xmlreader.setrelaxngschemasource.php
      */
     public function setRelaxNGSchemaSource(string $source): bool
     {
     }
 
     /**
-     * setSchema
+     * setSchema.
      *
      * Validate document against XSD
      *
      * @param string $filename
-     * @return bool
+     *
      * @throws E_WARNING
      *
-     * @link http://php.net/manual/en/xmlreader.setschema.php
+     * @return bool
+     *
+     * @see http://php.net/manual/en/xmlreader.setschema.php
      */
     public function setSchema(string $filename): bool
     {
     }
 
     /**
-     * xml
+     * xml.
      *
      * Set the data containing the XML to parse
      *
      * @param string $source
      * @param string $encoding (optional)
-     * @param int $options = 0
-     * @return bool
+     * @param int    $options  = 0
+     *
      * @throws E_STRICT
      *
-     * @link http://php.net/manual/en/xmlreader.xml.php
+     * @return bool
+     *
+     * @see http://php.net/manual/en/xmlreader.xml.php
      */
     public function xml(string $source, string $encoding, int $options = 0): bool
     {

@@ -1,23 +1,24 @@
 <?php
 
 /**
- * DOMDocumentFragment
+ * DOMDocumentFragment.
  *
- * 
  *
- * @link http://php.net/manual/en/class.domdocumentfragment.php
+ *
+ * @see http://php.net/manual/en/class.domdocumentfragment.php
  */
 class DOMDocumentFragment extends DOMNode
 {
     /**
-     * appendXML
+     * appendXML.
      *
      * Append raw XML data
      *
      * @param string $data
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/domdocumentfragment.appendxml.php
+     * @see http://php.net/manual/en/domdocumentfragment.appendxml.php
      */
     public function appendXML(string $data): bool
     {

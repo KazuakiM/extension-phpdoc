@@ -1,310 +1,329 @@
 <?php
 
 /**
- * DOMElement
+ * DOMElement.
  *
- * 
  *
- * @property-read  bool $schemaTypeInfo
- * @property-read  string $tagName
  *
- * @link http://php.net/manual/en/class.domelement.php
+ * @property  bool $schemaTypeInfo
+ * @property  string $tagName
+ *
+ * @see http://php.net/manual/en/class.domelement.php
  */
 class DOMElement extends DOMNode
 {
     public $schemaTypeInfo;
     public $tagName;
 
-
     /**
-     * __construct
+     * __construct.
      *
      * Creates a new DOMElement object
      *
      * @param string $name
-     * @param string $value (optional)
+     * @param string $value        (optional)
      * @param string $namespaceURI (optional)
      *
-     * @link http://php.net/manual/en/domelement.construct.php
+     * @see http://php.net/manual/en/domelement.construct.php
      */
-    public function (string $name, string $value, string $namespaceURI)
+    public function __construct(string $name, string $value, string $namespaceURI)
     {
     }
 
     /**
-     * getAttribute
+     * getAttribute.
      *
      * Returns value of attribute
      *
      * @param string $name
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/domelement.getattribute.php
+     * @see http://php.net/manual/en/domelement.getattribute.php
      */
     public function getAttribute(string $name): string
     {
     }
 
     /**
-     * getAttributeNode
+     * getAttributeNode.
      *
      * Returns attribute node
      *
      * @param string $name
+     *
      * @return DOMAttr
      *
-     * @link http://php.net/manual/en/domelement.getattributenode.php
+     * @see http://php.net/manual/en/domelement.getattributenode.php
      */
     public function getAttributeNode(string $name): DOMAttr
     {
     }
 
     /**
-     * getAttributeNodeNS
+     * getAttributeNodeNS.
      *
      * Returns attribute node
      *
      * @param string $namespaceURI
      * @param string $localName
+     *
      * @return DOMAttr
      *
-     * @link http://php.net/manual/en/domelement.getattributenodens.php
+     * @see http://php.net/manual/en/domelement.getattributenodens.php
      */
     public function getAttributeNodeNS(string $namespaceURI, string $localName): DOMAttr
     {
     }
 
     /**
-     * getAttributeNS
+     * getAttributeNS.
      *
      * Returns value of attribute
      *
      * @param string $namespaceURI
      * @param string $localName
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/domelement.getattributens.php
+     * @see http://php.net/manual/en/domelement.getattributens.php
      */
     public function getAttributeNS(string $namespaceURI, string $localName): string
     {
     }
 
     /**
-     * getElementsByTagName
+     * getElementsByTagName.
      *
      * Gets elements by tagname
      *
      * @param string $name
+     *
      * @return DOMNodeList
      *
-     * @link http://php.net/manual/en/domelement.getelementsbytagname.php
+     * @see http://php.net/manual/en/domelement.getelementsbytagname.php
      */
     public function getElementsByTagName(string $name): DOMNodeList
     {
     }
 
     /**
-     * getElementsByTagNameNS
+     * getElementsByTagNameNS.
      *
      * Get elements by namespaceURI and localName
      *
      * @param string $namespaceURI
      * @param string $localName
+     *
      * @return DOMNodeList
      *
-     * @link http://php.net/manual/en/domelement.getelementsbytagnamens.php
+     * @see http://php.net/manual/en/domelement.getelementsbytagnamens.php
      */
     public function getElementsByTagNameNS(string $namespaceURI, string $localName): DOMNodeList
     {
     }
 
     /**
-     * hasAttribute
+     * hasAttribute.
      *
      * Checks to see if attribute exists
      *
      * @parm string $name
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/domelement.hasattribute.php
+     * @see http://php.net/manual/en/domelement.hasattribute.php
      */
     public function hasAttribute(string $name): bool
     {
     }
 
     /**
-     * hasAttributeNS
+     * hasAttributeNS.
      *
      * Checks to see if attribute exists
      *
      * @param string $namespaceURI
      * @param string $localName
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/domelement.hasattributens.php
+     * @see http://php.net/manual/en/domelement.hasattributens.php
      */
     public function hasAttributeNS(string $namespaceURI, string $localName): bool
     {
     }
 
     /**
-     * removeAttribute
+     * removeAttribute.
      *
      * Removes attribute
      *
      * @param string $name
-     * @return bool
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      *
-     * @link http://php.net/manual/en/domelement.removeattribute.php
+     * @return bool
+     *
+     * @see http://php.net/manual/en/domelement.removeattribute.php
      */
     public function removeAttribute(string $name): bool
     {
     }
 
     /**
-     * removeAttributeNode
+     * removeAttributeNode.
      *
      * Removes attribute
      *
      * @param DOMAttr $oldnode
-     * @return bool
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      * @throws DOM_NOT_FOUND_ERROR
      *
-     * @link http://php.net/manual/en/domelement.removeattributenode.php
+     * @return bool
+     *
+     * @see http://php.net/manual/en/domelement.removeattributenode.php
      */
     public function removeAttributeNode(DOMAttr $oldnode): bool
     {
     }
 
     /**
-     * removeAttributeNS
+     * removeAttributeNS.
      *
      * Removes attribute
      *
      * @param string $namespaceURI
      * @param string $localName
-     * @return bool
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      *
-     * @link http://php.net/manual/en/domelement.removeattributens.php
+     * @return bool
+     *
+     * @see http://php.net/manual/en/domelement.removeattributens.php
      */
     public function removeAttributeNS(string $namespaceURI, string $localName): bool
     {
     }
 
     /**
-     * setAttribute
+     * setAttribute.
      *
      * Adds new attribute
      *
      * @param string $name
      * @param string $value
-     * @return DOMAttr
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      *
-     * @link http://php.net/manual/en/domelement.setattribute.php
+     * @return DOMAttr
+     *
+     * @see http://php.net/manual/en/domelement.setattribute.php
      */
     public function setAttribute(string $name, string $value): DOMAttr
     {
     }
 
     /**
-     * setAttributeNode
+     * setAttributeNode.
      *
      * Adds new attribute node to element
      *
      * @param DOMAttr $attr
-     * @return DOMAttr
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      *
-     * @link http://php.net/manual/en/domelement.setattributenode.php
+     * @return DOMAttr
+     *
+     * @see http://php.net/manual/en/domelement.setattributenode.php
      */
     public function setAttributeNode(DOMAttr $attr): DOMAttr
     {
     }
 
     /**
-     * setAttributeNodeNS
+     * setAttributeNodeNS.
      *
      * Adds new attribute node to element
      *
      * @param DOMAttr $attr
-     * @return DOMAttr
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      *
-     * @link http://php.net/manual/en/domelement.setattributenodens.php
+     * @return DOMAttr
+     *
+     * @see http://php.net/manual/en/domelement.setattributenodens.php
      */
     public function setAttributeNodeNS(DOMAttr $attr): DOMAttr
     {
     }
 
     /**
-     * setAttributeNS
+     * setAttributeNS.
      *
      * Adds new attribute
      *
      * @param string $namespaceURI
      * @param string $qualifiedName
      * @param string $value
-     * @return void
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      * @throws DOM_NAMESPACE_ERR
      *
-     * @link http://php.net/manual/en/domelement.setattributens.php
+     * @see http://php.net/manual/en/domelement.setattributens.php
      */
     public function setAttributeNS(string $namespaceURI, string $qualifiedName, string $value): void
     {
     }
 
     /**
-     * setIdAttribute
+     * setIdAttribute.
      *
      * Declares the attribute specified by name to be of type ID
      *
      * @param string $name
-     * @param bool $isId
-     * @return void
+     * @param bool   $isId
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      * @throws DOM_NOT_FOUND
      *
-     * @link http://php.net/manual/en/domelement.setidattribute.php
+     * @see http://php.net/manual/en/domelement.setidattribute.php
      */
     public function setIdAttribute(string $name, bool $isId): void
     {
     }
 
     /**
-     * setIdAttributeNode
+     * setIdAttributeNode.
      *
      * Declares the attribute specified by node to be of type ID
      *
      * @param DOMAttr $attr
-     * @param bool $isId
-     * @return void
+     * @param bool    $isId
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      * @throws DOM_NOT_FOUND
      *
-     * @link http://php.net/manual/en/domelement.setidattributenode.php
+     * @see http://php.net/manual/en/domelement.setidattributenode.php
      */
     public function setIdAttributeNode(DOMAttr $attr, bool $isId): void
     {
     }
 
     /**
-     * setIdAttributeNS
+     * setIdAttributeNS.
      *
      * Declares the attribute specified by local name and namespace URI to be of type ID
      *
      * @param string $namespaceURI
      * @param string $localName
-     * @param bool $isId
-     * @return void
+     * @param bool   $isId
+     *
      * @throws DOM_NO_MODIFICATION_ALLOWED_ERR
      * @throws DOM_NOT_FOUND
      *
-     * @link http://php.net/manual/en/domelement.setidattributens.php
+     * @see http://php.net/manual/en/domelement.setidattributens.php
      */
     public function setIdAttributeNS(string $namespaceURI, string $localName, bool $isId): void
     {

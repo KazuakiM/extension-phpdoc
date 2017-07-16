@@ -1,31 +1,31 @@
 <?php
 
 /**
- * DOMDocument
+ * DOMDocument.
  *
- * 
  *
- * @property-read  string $actualEncoding
- * @property-read  DOMConfiguration $config
- * @property-read  DOMDocumentType $doctype
- * @property-read  DOMElement $documentElement
- * @property-write string $documentURI
- * @property-write string $encoding
- * @property-write bool $formatOutput
- * @property-read  DOMImplementation $implementation
- * @property-write bool $preserveWhiteSpace = true
- * @property-write bool $recover
- * @property-write bool $resolveExternals
- * @property-write bool $standalone
- * @property-write bool $strictErrorChecking = true
- * @property-write bool $substituteEntities
- * @property-write bool $validateOnParse = false
- * @property-write string $version
- * @property-read  string $xmlEncoding
- * @property-write bool $xmlStandalone
- * @property-write string $xmlVersion
  *
- * @link http://php.net/manual/en/class.domdocument.php
+ * @property  string $actualEncoding
+ * @property  DOMConfiguration $config
+ * @property  DOMDocumentType $doctype
+ * @property  DOMElement $documentElement
+ * @property string $documentURI
+ * @property string $encoding
+ * @property bool $formatOutput
+ * @property  DOMImplementation $implementation
+ * @property bool $preserveWhiteSpace = true
+ * @property bool $recover
+ * @property bool $resolveExternals
+ * @property bool $standalone
+ * @property bool $strictErrorChecking = true
+ * @property bool $substituteEntities
+ * @property bool $validateOnParse = false
+ * @property string $version
+ * @property  string $xmlEncoding
+ * @property bool $xmlStandalone
+ * @property string $xmlVersion
+ *
+ * @see http://php.net/manual/en/class.domdocument.php
  */
 class DOMDocument extends DOMNode
 {
@@ -50,462 +50,500 @@ class DOMDocument extends DOMNode
     public $xmlVersion;
 
     /**
-     * __construct
+     * __construct.
      *
      * Creates a new DOMDocument object
      *
      * @param string $version  (optional)
      * @param string $encoding (optional)
      *
-     * @link http://php.net/manual/en/domdocument.construct.php
+     * @see http://php.net/manual/en/domdocument.construct.php
      */
     public function __construct(string $version, string $encoding)
     {
     }
 
     /**
-     * createAttribute
+     * createAttribute.
      *
      * Create new attribute
      *
      * @param string $name
-     * @return DOMAttr
+     *
      * @throws DOM_INVALID_CHARACTER_ERR
      *
-     * @link http://php.net/manual/en/domdocument.createattribute.php
+     * @return DOMAttr
+     *
+     * @see http://php.net/manual/en/domdocument.createattribute.php
      */
     public function createAttribute(string $name): DOMAttr
     {
     }
 
     /**
-     * createAttributeNS
+     * createAttributeNS.
      *
      * Create new attribute node with an associated namespace
      *
      * @param string $namespaceURI
      * @param string $qualifiedName
-     * @return DOMAttr
+     *
      * @throws DOM_INVALID_CHARACTER_ERR
      * @throws DOM_NAMESPACE_ERR
      *
-     * @link http://php.net/manual/en/domdocument.createattributens.php
+     * @return DOMAttr
+     *
+     * @see http://php.net/manual/en/domdocument.createattributens.php
      */
     public function createAttributeNS(string $namespaceURI, string $qualifiedName): DOMAttr
     {
     }
 
     /**
-     * createCDATASection
+     * createCDATASection.
      *
      * Create new cdata node
      *
      * @param string $data
+     *
      * @return DOMCDATASection
      *
-     * @link http://php.net/manual/en/domdocument.createcdatasection.php
+     * @see http://php.net/manual/en/domdocument.createcdatasection.php
      */
     public function createCDATASection(string $data): DOMCDATASection
     {
     }
 
     /**
-     * createComment
+     * createComment.
      *
      * Create new comment node
      *
      * @param string $data
+     *
      * @return DOMComment
      *
-     * @link http://php.net/manual/en/domdocument.createcomment.php
+     * @see http://php.net/manual/en/domdocument.createcomment.php
      */
     public function createComment(string $data): DOMComment
     {
     }
 
     /**
-     * createDocumentFragment
+     * createDocumentFragment.
      *
      * Create new document fragment
      *
      * @return DOMDocumentFragment
      *
-     * @link http://php.net/manual/en/domdocument.createdocumentfragment.php
+     * @see http://php.net/manual/en/domdocument.createdocumentfragment.php
      */
     public function createDocumentFragment(): DOMDocumentFragment
     {
     }
 
     /**
-     * createElement
+     * createElement.
      *
      * Create new element node
      *
      * @param string $name
      * @param string $value (optional)
-     * @return DOMElement
+     *
      * @throws DOM_INVALID_CHARACTER_ERR
      *
-     * @link http://php.net/manual/en/domdocument.createelement.php
+     * @return DOMElement
+     *
+     * @see http://php.net/manual/en/domdocument.createelement.php
      */
-    public function createElement(string $name [, string $value ]): DOMElement
+    public function createElement(string $name, string $value): DOMElement
     {
     }
 
     /**
-     * createElementNS
+     * createElementNS.
      *
      * Create new element node with an associated namespace
      *
      * @param string $namespaceURI
      * @param string $qualifiedName
      * @param string $value         (optional)
-     * @return DOMElement
+     *
      * @throws DOM_INVALID_CHARACTER_ERR
      * @throws DOM_NAMESPACE_ERR
      *
-     * @link http://php.net/manual/en/domdocument.createelementns.php
+     * @return DOMElement
+     *
+     * @see http://php.net/manual/en/domdocument.createelementns.php
      */
     public function createElementNS(string $namespaceURI, string $qualifiedName, string $value): DOMElement
     {
     }
 
     /**
-     * createEntityReference
+     * createEntityReference.
      *
      * Create new entity reference node
      *
      * @param string $name
-     * @return DOMEntityReference
+     *
      * @throws DOM_INVALID_CHARACTER_ERR
      *
-     * @link http://php.net/manual/en/domdocument.createentityreference.php
+     * @return DOMEntityReference
+     *
+     * @see http://php.net/manual/en/domdocument.createentityreference.php
      */
     public function createEntityReference(string $name): DOMEntityReference
     {
     }
 
     /**
-     * createProcessingInstruction
+     * createProcessingInstruction.
      *
      * Creates new PI node
      *
      * @param string $target
-     * @param string $data  (optional)
-     * @return DOMProcessingInstruction
+     * @param string $data   (optional)
+     *
      * @throws DOM_INVALID_CHARACTER_ERR
      *
-     * @link http://php.net/manual/en/domdocument.createprocessinginstruction.php
+     * @return DOMProcessingInstruction
+     *
+     * @see http://php.net/manual/en/domdocument.createprocessinginstruction.php
      */
     public function createProcessingInstruction(string $target, string $data): DOMProcessingInstruction
     {
     }
 
     /**
-     * createTextNode
+     * createTextNode.
      *
      * Create new text node
      *
      * @param string $content
+     *
      * @return DOMText
      *
-     * @link http://php.net/manual/en/domdocument.createtextnode.php
+     * @see http://php.net/manual/en/domdocument.createtextnode.php
      */
     public function createTextNode(string $content): DOMText
     {
     }
 
     /**
-     * getElementById
+     * getElementById.
      *
      * Searches for an element with a certain id
      *
      * @param string $elementId
+     *
      * @return DOMElement
      *
-     * @link http://php.net/manual/en/domdocument.getelementbyid.php
+     * @see http://php.net/manual/en/domdocument.getelementbyid.php
      */
     public function getElementById(string $elementId): DOMElement
     {
     }
 
     /**
-     * getElementsByTagName
+     * getElementsByTagName.
      *
      * Searches for all elements with given local tag name
      *
      * @param string $name
+     *
      * @return DOMNodeList
      *
-     * @link http://php.net/manual/en/domdocument.getelementsbytagname.php
+     * @see http://php.net/manual/en/domdocument.getelementsbytagname.php
      */
     public function getElementsByTagName(string $name): DOMNodeList
     {
     }
 
     /**
-     * getElementsByTagNameNS
+     * getElementsByTagNameNS.
      *
      * Searches for all elements with given tag name in specified namespace
      *
      * @param string $namespaceURI
      * @param string $localName
+     *
      * @return DOMNodeList
      *
-     * @link http://php.net/manual/en/domdocument.getelementsbytagnamens.php
+     * @see http://php.net/manual/en/domdocument.getelementsbytagnamens.php
      */
     public function getElementsByTagNameNS(string $namespaceURI, string $localName): DOMNodeList
     {
     }
 
     /**
-     * importNode
+     * importNode.
      *
      * Import node into current document
      *
      * @param DOMNode $importedNode
      * @param bool    $deep         (optional)
-     * @return DOMNode
+     *
      * @throws DOMException
      *
-     * @link http://php.net/manual/en/domdocument.importnode.php
+     * @return DOMNode
+     *
+     * @see http://php.net/manual/en/domdocument.importnode.php
      */
     public function importNode(DOMNode $importedNode, bool $deep): DOMNode
     {
     }
 
     /**
-     * load
+     * load.
      *
      * Load XML from a file
      *
      * @param string $filename
-     * @param int $options = 0
-     * @return mixed
+     * @param int    $options  = 0
+     *
      * @throws E_STRICT
      *
-     * @link http://php.net/manual/en/domdocument.load.php
+     * @return mixed
+     *
+     * @see http://php.net/manual/en/domdocument.load.php
      */
     public function load(string $filename, int $options = 0): mixed
     {
     }
 
     /**
-     * loadHTML
+     * loadHTML.
      *
      * Load HTML from a string
      *
      * @param string $source
-     * @param int $options = 0
-     * @return bool
+     * @param int    $options = 0
+     *
      * @throws E_STRICT
      *
-     * @link http://php.net/manual/en/domdocument.loadhtml.php
+     * @return bool
+     *
+     * @see http://php.net/manual/en/domdocument.loadhtml.php
      */
     public function loadHTML(string $source, int $options = 0): bool
     {
     }
 
     /**
-     * loadHTMLFile
+     * loadHTMLFile.
      *
      * Load HTML from a file
      *
      * @param string $filename
-     * @param int $options = 0
-     * @return bool
+     * @param int    $options  = 0
+     *
      * @throws E_STRICT
      * @throws E_WARNING
      *
-     * @link http://php.net/manual/en/domdocument.loadhtmlfile.php
+     * @return bool
+     *
+     * @see http://php.net/manual/en/domdocument.loadhtmlfile.php
      */
     public function loadHTMLFile(string $filename, int $options = 0): bool
     {
     }
 
     /**
-     * loadXML
+     * loadXML.
      *
      * Load XML from a string
      *
      * @param string $source
-     * @param int $options = 0
-     * @return mixed
+     * @param int    $options = 0
+     *
      * @throws E_STRICT
      *
-     * @link http://php.net/manual/en/domdocument.loadxml.php
+     * @return mixed
+     *
+     * @see http://php.net/manual/en/domdocument.loadxml.php
      */
     public function loadXML(string $source, int $options = 0): mixed
     {
     }
 
     /**
-     * normalizeDocument
+     * normalizeDocument.
      *
      * Normalizes the document
      *
-     * @return void
      *
-     * @link http://php.net/manual/en/domdocument.normalizedocument.php
+     * @see http://php.net/manual/en/domdocument.normalizedocument.php
      */
     public function normalizeDocument(): void
     {
     }
 
     /**
-     * registerNodeClass
+     * registerNodeClass.
      *
      * Register extended class used to create base node type
      *
      * @param string $baseclass
      * @param string $extendedclass
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/domdocument.registernodeclass.php
+     * @see http://php.net/manual/en/domdocument.registernodeclass.php
      */
     public function registerNodeClass(string $baseclass, string $extendedclass): bool
     {
     }
 
     /**
-     * relaxNGValidate
+     * relaxNGValidate.
      *
      * Performs relaxNG validation on the document
      *
      * @param string $filename
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/domdocument.relaxngvalidate.php
+     * @see http://php.net/manual/en/domdocument.relaxngvalidate.php
      */
     public function relaxNGValidate(string $filename): bool
     {
     }
 
     /**
-     * relaxNGValidateSource
+     * relaxNGValidateSource.
      *
      * Performs relaxNG validation on the document
      *
      * @param string $source
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/domdocument.relaxngvalidatesource.php
+     * @see http://php.net/manual/en/domdocument.relaxngvalidatesource.php
      */
     public function relaxNGValidateSource(string $source): bool
     {
     }
 
     /**
-     * save
+     * save.
      *
-     * Dumps the internal XML tree back into a file 
+     * Dumps the internal XML tree back into a file
      *
      * @param string $filename
-     * @param int $options (optional)
+     * @param int    $options  (optional)
+     *
      * @return int
      *
-     * @link 
+     * @see http://php.net/manual/en/domdocument.save.php
      */
     public function save(string $filename, int $options): int
     {
     }
 
     /**
-     * saveHTML
+     * saveHTML.
      *
      * Dumps the internal document into a string using HTML formatting
      *
      * @param DOMNode $node = NULL
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/domdocument.savehtml.php
+     * @see http://php.net/manual/en/domdocument.savehtml.php
      */
     public function saveHTML(DOMNode $node = null): string
     {
     }
 
     /**
-     * saveHTMLFile
+     * saveHTMLFile.
      *
      * Dumps the internal document into a file using HTML formatting
      *
      * @param string $filename
+     *
      * @return int
      *
-     * @link http://php.net/manual/en/domdocument.savehtmlfile.php
+     * @see http://php.net/manual/en/domdocument.savehtmlfile.php
      */
     public function saveHTMLFile(string $filename): int
     {
     }
 
     /**
-     * saveXML
+     * saveXML.
      *
      * Dumps the internal XML tree back into a string
      *
-     * @param DOMNode $node (optional)
-     * @param int $options  (optional)
-     * @return string
+     * @param DOMNode $node    (optional)
+     * @param int     $options (optional)
+     *
      * @throws DOM_WRONG_DOCUMENT_ERR
      *
-     * @link http://php.net/manual/en/domdocument.savexml.php
+     * @return string
+     *
+     * @see http://php.net/manual/en/domdocument.savexml.php
      */
     public function saveXML(DOMNode $node, int $options): string
     {
     }
 
     /**
-     * schemaValidate
+     * schemaValidate.
      *
      * Validates a document based on a schema
      *
      * @param string $filename
-     * @param int $flags (optional)
+     * @param int    $flags    (optional)
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/domdocument.schemavalidate.php
+     * @see http://php.net/manual/en/domdocument.schemavalidate.php
      */
     public function schemaValidate(string $filename, int $flags): bool
     {
     }
 
     /**
-     * schemaValidateSource
+     * schemaValidateSource.
      *
      * Validates a document based on a schema
      *
      * @param string $source
-     * @param int $flags
+     * @param int    $flags
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/domdocument.schemavalidatesource.php
+     * @see http://php.net/manual/en/domdocument.schemavalidatesource.php
      */
     public function schemaValidateSource(string $source, int $flags): bool
     {
     }
 
     /**
-     * validate
+     * validate.
      *
      * Validates the document based on its DTD
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/domdocument.validate.php
+     * @see http://php.net/manual/en/domdocument.validate.php
      */
     public function validate(): bool
     {
     }
 
     /**
-     * xinclude
+     * xinclude.
      *
      * Substitutes XIncludes in a DOMDocument Object
      *
      * @param int $options (optional)
+     *
      * @return int
      *
-     * @link 
+     * @see http://php.net/manual/en/domdocument.xinclude.php
      */
     public function xinclude(int $options): int
     {

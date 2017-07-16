@@ -1,191 +1,199 @@
 <?php
 
 /**
- * XSLTProcessor
+ * XSLTProcessor.
  *
- * 
  *
- * @link http://php.net/manual/en/class.xsltprocessor.php
+ *
+ * @see http://php.net/manual/en/class.xsltprocessor.php
  */
 class XSLTProcessor
 {
     /**
-     *  __construct
+     *  __construct.
      *
      * Creates a new XSLTProcessor object
      *
-     * @link http://php.net/manual/en/xsltprocessor.construct.php
+     * @see http://php.net/manual/en/xsltprocessor.construct.php
      */
     public function __construct()
     {
     }
 
     /**
-     * getParameter
+     * getParameter.
      *
      * Get value of a parameter
      *
      * @param string $namespaceURI
      * @param string $localName
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/xsltprocessor.getparameter.php
+     * @see http://php.net/manual/en/xsltprocessor.getparameter.php
      */
     public function getParameter(string $namespaceURI, string $localName): string
     {
     }
 
     /**
-     * getSecurityPrefs
+     * getSecurityPrefs.
      *
      * Get security preferences
      *
      * @return int
      *
-     * @link http://php.net/manual/en/xsltprocessor.getsecurityprefs.php
+     * @see http://php.net/manual/en/xsltprocessor.getsecurityprefs.php
      */
     public function getSecurityPrefs(): int
     {
     }
 
     /**
-     * hasExsltSupport
+     * hasExsltSupport.
      *
      * Determine if PHP has EXSLT support
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/xsltprocessor.hasexsltsupport.php
+     * @see http://php.net/manual/en/xsltprocessor.hasexsltsupport.php
      */
     public function hasExsltSupport(): bool
     {
     }
 
     /**
-     * importStylesheet
+     * importStylesheet.
      *
      * Import stylesheet
      *
      * @param object $stylesheet
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xsltprocessor.importstylesheet.php
+     * @see http://php.net/manual/en/xsltprocessor.importstylesheet.php
      */
     public function importStylesheet(object $stylesheet): bool
     {
     }
 
     /**
-     * registerPHPFunctions
+     * registerPHPFunctions.
      *
      * Enables the ability to use PHP functions as XSLT functions
      *
      * @pram mixed $restrict
-     * @return void
      *
-     * @link http://php.net/manual/en/xsltprocessor.registerphpfunctions.php
+     * @see http://php.net/manual/en/xsltprocessor.registerphpfunctions.php
      */
-    public function registerPHPFunctions([ mixed $restrict ]): void
+    public function registerPHPFunctions(mixed $restrict): void
     {
     }
 
     /**
-     * removeParameter
+     * removeParameter.
      *
      * Remove parameter
      *
      * @param string $namespaceURI
      * @param string $localName
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xsltprocessor.removeparameter.php
+     * @see http://php.net/manual/en/xsltprocessor.removeparameter.php
      */
     public function removeParameter(string $namespaceURI, string $localName): bool
     {
     }
 
     /**
-     * setParameter
+     * setParameter.
      *
      * Set value for a parameter
      *
      * @param string $namespace
      * @param string $name
      * @param string $value
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xsltprocessor.setparameter.php
+     * @see http://php.net/manual/en/xsltprocessor.setparameter.php
      */
     public function setParameter(string $namespace, string $name, string $value): bool
     {
     }
 
     /**
-     * setProfiling
+     * setProfiling.
      *
      * Sets profiling output file
      *
      * @param string $filename
+     *
      * @return bool
      *
-     * @link http://php.net/manual/en/xsltprocessor.setprofiling.php
+     * @see http://php.net/manual/en/xsltprocessor.setprofiling.php
      */
     public function setProfiling(string $filename): bool
     {
     }
 
     /**
-     * setSecurityPrefs
+     * setSecurityPrefs.
      *
      * Set security preferences
      *
      * @param int $securityPrefs
+     *
      * @return int
      *
-     * @link http://php.net/manual/en/xsltprocessor.setsecurityprefs.php
+     * @see http://php.net/manual/en/xsltprocessor.setsecurityprefs.php
      */
     public function setSecurityPrefs(int $securityPrefs): int
     {
     }
 
     /**
-     * transformToDoc
+     * transformToDoc.
      *
      * Transform to a DOMDocument
      *
      * @param DOMNode $doc
+     *
      * @return DOMDocument
      *
-     * @link http://php.net/manual/en/xsltprocessor.transformtodoc.php
+     * @see http://php.net/manual/en/xsltprocessor.transformtodoc.php
      */
     public function transformToDoc(DOMNode $doc): DOMDocument
     {
     }
 
     /**
-     * transformToURI
+     * transformToURI.
      *
      * Transform to URI
      *
      * @param DOMDocument $doc
-     * @param string $uri
+     * @param string      $uri
+     *
      * @return int
      *
-     * @link http://php.net/manual/en/xsltprocessor.transformtouri.php
+     * @see http://php.net/manual/en/xsltprocessor.transformtouri.php
      */
     public function transformToURI(DOMDocument $doc, string $uri): int
     {
     }
 
     /**
-     * transformToXML
+     * transformToXML.
      *
      * Transform to XML
      *
      * @param object $doc
+     *
      * @return string
      *
-     * @link http://php.net/manual/en/xsltprocessor.transformtoxml.php
+     * @see http://php.net/manual/en/xsltprocessor.transformtoxml.php
      */
     public function transformToXML(object $doc): string
     {

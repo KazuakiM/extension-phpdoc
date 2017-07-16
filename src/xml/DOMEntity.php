@@ -1,18 +1,18 @@
 <?php
 
 /**
- * DOMEntity
+ * DOMEntity.
  *
  * This interface represents a known entity, either parsed or unparsed, in an XML document.
  *
- * @property-read  string $publicId
- * @property-read  string $systemId
- * @property-read  string $notationName
- * @property-write string $actualEncoding
- * @property-read  string $encoding
- * @property-read  string $version
+ * @property  string $publicId
+ * @property  string $systemId
+ * @property  string $notationName
+ * @property string $actualEncoding
+ * @property  string $encoding
+ * @property  string $version
  *
- * @link http://php.net/manual/en/class.domentity.php
+ * @see http://php.net/manual/en/class.domentity.php
  */
 class DOMEntity extends DOMNode
 {

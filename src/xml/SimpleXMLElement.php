@@ -1,34 +1,48 @@
 <?php
 
 /**
- * SimpleXMLElement
+ * SimpleXMLElement.
  *
  * Represents an element in an XML document.
  *
- * @link http://php.net/manual/en/class.simplexmlelement.php
+ * @see http://php.net/manual/en/class.simplexmlelement.php
  */
 class SimpleXMLElement implements Traversable
 {
     /**
-     * __construct
+     * __construct.
      *
      * Creates a new SimpleXMLElement object
      *
      * @param string $data
-     * @param int    $options = 0
+     * @param int    $options     = 0
      * @param bool   $data_is_url = false
-     * @param string $ns = ""
-     * @param bool   $is_prefix = false
+     * @param string $ns          = ""
+     * @param bool   $is_prefix   = false
+     *
      * @throws Exception
      *
-     * @link http://php.net/manual/en/simplexmlelement.construct.php
+     * @see http://php.net/manual/en/simplexmlelement.construct.php
      */
-    final public function __construct(string $data, int $options = 0, bool $data_is_url = false, string $ns = "", bool $is_prefix = false)
+    final public function __construct(string $data, int $options = 0, bool $data_is_url = false, string $ns = '', bool $is_prefix = false)
     {
     }
 
     /**
-     * addAttribute
+     * __toString.
+     *
+     * Returns the string content
+     *
+     * @retun string
+     *
+     * @see http://php.net/manual/en/simplexmlelement.tostring.php
+     */
+    public function __toString(): string
+    {
+    }
+
+    /**
+     * addAttribute.
      *
      * Adds an attribute to the SimpleXML element
      *
@@ -36,14 +50,14 @@ class SimpleXMLElement implements Traversable
      * @param string $value     (optional)
      * @param string $namespace (optional)
      *
-     * @link http://php.net/manual/en/simplexmlelement.addattribute.php
+     * @see http://php.net/manual/en/simplexmlelement.addattribute.php
      */
     public function addAttribute(string $name, string $value, string $namespace): void
     {
     }
 
     /**
-     * addChild
+     * addChild.
      *
      * Adds a child element to the XML node
      *
@@ -52,71 +66,71 @@ class SimpleXMLElement implements Traversable
      * @param string $namespace (optional)
      * @retun SimpleXMLElement
      *
-     * @link http://php.net/manual/en/simplexmlelement.addchild.php
+     * @see http://php.net/manual/en/simplexmlelement.addchild.php
      */
     public function addChild(string $name, string $value, string $namespace): SimpleXMLElement
     {
     }
 
     /**
-     * asXML
+     * asXML.
      *
      * Return a well-formed XML string based on SimpleXML element
      *
      * @param string $filename (optional)
      * @retun mixed
      *
-     * @link http://php.net/manual/en/simplexmlelement.asxml.php
+     * @see http://php.net/manual/en/simplexmlelement.asxml.php
      */
     public function asXML(string $filename): mixed
     {
     }
 
     /**
-     * attributes
+     * attributes.
      *
      * Identifies an element's attributes
      *
-     * @param string $ns = NULL
+     * @param string $ns        = NULL
      * @param bool   $is_prefix = false
      * @retun SimpleXMLElement
      *
-     * @link http://php.net/manual/en/simplexmlelement.attributes.php
+     * @see http://php.net/manual/en/simplexmlelement.attributes.php
      */
     public function attributes(string $ns = null, bool $is_prefix = false): SimpleXMLElement
     {
     }
 
     /**
-     * children
+     * children.
      *
      * Finds children of given node
      *
-     * @param string $ns                (optional)
+     * @param string $ns        (optional)
      * @param bool   $is_prefix = false (optional)
      * @retun SimpleXMLElement
      *
-     * @link http://php.net/manual/en/simplexmlelement.children.php
+     * @see http://php.net/manual/en/simplexmlelement.children.php
      */
     public function children(string $ns, bool $is_prefix = false): SimpleXMLElement
     {
     }
 
     /**
-     * count
+     * count.
      *
      * Counts the children of an element
      *
      * @retun int
      *
-     * @link http://php.net/manual/en/simplexmlelement.count.php
+     * @see http://php.net/manual/en/simplexmlelement.count.php
      */
     public function count(): int
     {
     }
 
     /**
-     * getDocNamespaces
+     * getDocNamespaces.
      *
      * Returns namespaces declared in document
      *
@@ -124,41 +138,41 @@ class SimpleXMLElement implements Traversable
      * @param bool $from_root = true
      * @retun array
      *
-     * @link http://php.net/manual/en/simplexmlelement.getdocnamespaces.php
+     * @see http://php.net/manual/en/simplexmlelement.getdocnamespaces.php
      */
     public function getDocNamespaces(bool $recursive = false, bool $from_root = true): array
     {
     }
 
     /**
-     * getName
+     * getName.
      *
      * Gets the name of the XML element
      *
      * @retun string
      *
-     * @link http://php.net/manual/en/simplexmlelement.getname.php
+     * @see http://php.net/manual/en/simplexmlelement.getname.php
      */
     public function getName(): string
     {
     }
 
     /**
-     * getNamespaces
+     * getNamespaces.
      *
      * Returns namespaces used in document
      *
      * @param bool $recursive = false
      * @retun array
      *
-     * @link http://php.net/manual/en/simplexmlelement.getnamespaces.php
+     * @see http://php.net/manual/en/simplexmlelement.getnamespaces.php
      */
     public function getNamespaces(bool $recursive = false): array
     {
     }
 
     /**
-     * registerXPathNamespace
+     * registerXPathNamespace.
      *
      * Creates a prefix/ns context for the next XPath query
      *
@@ -166,45 +180,32 @@ class SimpleXMLElement implements Traversable
      * @param string $ns
      * @retun bool
      *
-     * @link http://php.net/manual/en/simplexmlelement.registerxpathnamespace.php
+     * @see http://php.net/manual/en/simplexmlelement.registerxpathnamespace.php
      */
     public function registerXPathNamespace(string $prefix, string $ns): bool
     {
     }
 
     /**
-     * saveXML
+     * saveXML.
      *
      * @alias asXML()
      *
-     * @link http://php.net/manual/en/simplexmlelement.savexml.php
+     * @see http://php.net/manual/en/simplexmlelement.savexml.php
      */
     public function saveXML(string $filename): mixed
     {
     }
 
-   /**
-    * __toString
-    *
-    * Returns the string content
-    *
-    * @retun string
-    *
-    * @link http://php.net/manual/en/simplexmlelement.tostring.php
-    */
-    public function __toString(): string
-    {
-    }
-
     /**
-     * xpath
+     * xpath.
      *
      * Runs XPath query on XML data
      *
      * @param string $path
      * @retun array
      *
-     * @link http://php.net/manual/en/simplexmlelement.xpath.php
+     * @see http://php.net/manual/en/simplexmlelement.xpath.php
      */
     public function xpath(string $path): array
     {

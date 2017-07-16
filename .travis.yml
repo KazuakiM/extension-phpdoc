@@ -1,0 +1,19 @@
+language: php
+
+php:
+  - 7.1
+
+sudo: true
+
+cache: vendor
+
+before_script:
+  - composer require friendsofphp/php-cs-fixer
+  - composer install --no-progress --no-ansi --no-interaction --profile
+
+script:
+  - composer csfixer
+
+notifications:
+  email: false
+# vim:fdl=0:sts=2:sw=2:ts=2

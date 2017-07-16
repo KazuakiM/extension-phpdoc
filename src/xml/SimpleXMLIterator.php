@@ -1,96 +1,96 @@
 <?php
 
 /**
- * SimpleXMLIterator
+ * SimpleXMLIterator.
  *
  * The SimpleXMLIterator provides recursive iteration over all nodes of a SimpleXMLElement object.
  *
- * @link http://php.net/manual/en/class.simplexmliterator.php
+ * @see http://php.net/manual/en/class.simplexmliterator.php
  */
 class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, Countable
 {
     /**
-     * current
+     * current.
      *
      * Returns the current element
      *
      * @return mixed
      *
-     * @link http://php.net/manual/en/simplexmliterator.current.php
+     * @see http://php.net/manual/en/simplexmliterator.current.php
      */
     public function current(): mixed
     {
     }
 
     /**
-     * getChildren
+     * getChildren.
      *
      * Returns the sub-elements of the current element
      *
      * @return SimpleXMLIterator
      *
-     * @link http://php.net/manual/en/simplexmliterator.getchildren.php
+     * @see http://php.net/manual/en/simplexmliterator.getchildren.php
      */
     public function getChildren(): SimpleXMLIterator
     {
     }
 
     /**
-     * hasChildren
+     * hasChildren.
      *
      * Checks whether the current element has sub elements.
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/simplexmliterator.haschildren.php
+     * @see http://php.net/manual/en/simplexmliterator.haschildren.php
      */
     public function hasChildren(): bool
     {
     }
 
     /**
-     * key
+     * key.
      *
      * Return current key
      *
      * @return mixed
      *
-     * @link http://php.net/manual/en/simplexmliterator.key.php
+     * @see http://php.net/manual/en/simplexmliterator.key.php
      */
     public function key(): mixed
     {
     }
 
     /**
-     * next
+     * next.
      *
      * Move to next element
      *
-     * @link http://php.net/manual/en/simplexmliterator.next.php
+     * @see http://php.net/manual/en/simplexmliterator.next.php
      */
     public function next(): void
     {
     }
 
     /**
-     * rewind
+     * rewind.
      *
      * Rewind to the first element
      *
-     * @link http://php.net/manual/en/simplexmliterator.rewind.php
+     * @see http://php.net/manual/en/simplexmliterator.rewind.php
      */
     public function rewind(): void
     {
     }
 
     /**
-     * valid
+     * valid.
      *
      * Check whether the current element is valid
      *
      * @return bool
      *
-     * @link http://php.net/manual/en/simplexmliterator.valid.php
+     * @see http://php.net/manual/en/simplexmliterator.valid.php
      */
     public function valid(): bool
     {
