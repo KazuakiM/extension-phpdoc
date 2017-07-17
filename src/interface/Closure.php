@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Closure.
  *
@@ -10,7 +9,7 @@
  *
  * @see http://php.net/manual/en/class.closure.php
  */
-interface Closure
+class Closure
 {
     /**
      * __construct.

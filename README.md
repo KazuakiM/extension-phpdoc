@@ -20,6 +20,7 @@ $ composer global remove kazuakim/extension-phpdoc
 
 ## [Function Reference](http://php.net/manual/en/funcref.php)
 
+* [Other Services](http://php.net/manual/en/refs.remote.other.php)
 * [XML Manipulation](http://php.net/manual/en/refs.xml.php)
 
 ## [Language Reference](http://php.net/manual/en/langref.php)
