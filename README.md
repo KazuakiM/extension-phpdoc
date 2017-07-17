@@ -24,6 +24,8 @@ $ composer global remove kazuakim/extension-phpdoc
 
 ## [Language Reference](http://php.net/manual/en/langref.php)
 
+* [Predefined Exceptions](http://php.net/manual/en/reserved.exceptions.php)
+
 ## Other
 
 * [Redis](https://github.com/phpredis/phpredis)
