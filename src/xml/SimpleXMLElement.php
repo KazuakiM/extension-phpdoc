@@ -64,6 +64,7 @@ class SimpleXMLElement implements Traversable
      * @param string $name
      * @param string $value     (optional)
      * @param string $namespace (optional)
+     *
      * @retun SimpleXMLElement
      *
      * @see http://php.net/manual/en/simplexmlelement.addchild.php
@@ -78,6 +79,7 @@ class SimpleXMLElement implements Traversable
      * Return a well-formed XML string based on SimpleXML element
      *
      * @param string $filename (optional)
+     *
      * @retun mixed
      *
      * @see http://php.net/manual/en/simplexmlelement.asxml.php
@@ -93,6 +95,7 @@ class SimpleXMLElement implements Traversable
      *
      * @param string $ns        = NULL
      * @param bool   $is_prefix = false
+     *
      * @retun SimpleXMLElement
      *
      * @see http://php.net/manual/en/simplexmlelement.attributes.php
@@ -108,6 +111,7 @@ class SimpleXMLElement implements Traversable
      *
      * @param string $ns        (optional)
      * @param bool   $is_prefix = false (optional)
+     *
      * @retun SimpleXMLElement
      *
      * @see http://php.net/manual/en/simplexmlelement.children.php
@@ -136,6 +140,7 @@ class SimpleXMLElement implements Traversable
      *
      * @param bool $recursive = false
      * @param bool $from_root = true
+     *
      * @retun array
      *
      * @see http://php.net/manual/en/simplexmlelement.getdocnamespaces.php
@@ -163,6 +168,7 @@ class SimpleXMLElement implements Traversable
      * Returns namespaces used in document
      *
      * @param bool $recursive = false
+     *
      * @retun array
      *
      * @see http://php.net/manual/en/simplexmlelement.getnamespaces.php
@@ -178,6 +184,7 @@ class SimpleXMLElement implements Traversable
      *
      * @param string $prefix
      * @param string $ns
+     *
      * @retun bool
      *
      * @see http://php.net/manual/en/simplexmlelement.registerxpathnamespace.php
@@ -203,6 +210,7 @@ class SimpleXMLElement implements Traversable
      * Runs XPath query on XML data
      *
      * @param string $path
+     *
      * @retun array
      *
      * @see http://php.net/manual/en/simplexmlelement.xpath.php

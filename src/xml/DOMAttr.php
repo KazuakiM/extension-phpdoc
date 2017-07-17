@@ -5,10 +5,10 @@
  *
  * DOMAttr represents an attribute in the DOMElement object.
  *
- * @property  string     $name
- * @property  DOMElement $ownerElement
- * @property  bool       $schemaTypeInfo
- * @property  bool       $specified
+ * @property string     $name
+ * @property DOMElement $ownerElement
+ * @property bool       $schemaTypeInfo
+ * @property bool       $specified
  * @property string     $value
  *
  * @see http://php.net/manual/en/class.domattr.php

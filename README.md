@@ -25,6 +25,7 @@ $ composer global remove kazuakim/extension-phpdoc
 ## [Language Reference](http://php.net/manual/en/langref.php)
 
 * [Predefined Exceptions](http://php.net/manual/en/reserved.exceptions.php)
+* [Predefined Interfaces and Classes](http://php.net/manual/en/reserved.interfaces.php)
 
 ## Other
 
