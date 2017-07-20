@@ -3,21 +3,32 @@
 /**
  * GearmanWorker.
  *
- * 
+ *
  *
  * @see http://php.net/manual/en/class.gearmanworker.php
  */
 class GearmanWorker
 {
     /**
+     * __construct.
+     *
+     * Create a GearmanWorker instance
+     *
+     * @see http://php.net/manual/en/gearmanworker.construct.php
+     */
+    public function __construct()
+    {
+    }
+
+    /**
      * addFunction.
      *
      * Register and add callback function
      *
-     * @param string $function_name
+     * @param string   $function_name
      * @param callable $function
-     * @param mixed &$context (optional)
-     * @param int $timeout (optional)
+     * @param mixed    &$context      (optional)
+     * @param int      $timeout       (optional)
      *
      * @return bool
      *
@@ -48,7 +59,7 @@ class GearmanWorker
      * Add a job server
      *
      * @param string $host = '127.0.0.1'
-     * @param int $port = 4730
+     * @param int    $port = 4730
      *
      * @return bool
      *
@@ -78,22 +89,10 @@ class GearmanWorker
      *
      * Create a copy of the worker
      *
-     * @return void
      *
      * @see http://php.net/manual/en/gearmanworker.clone.php
      */
     public function clone(): void
-    {
-    }
-
-    /**
-     * __construct.
-     *
-     * Create a GearmanWorker instance
-     *
-     * @see http://php.net/manual/en/gearmanworker.construct.php
-     */
-    public function __construct()
     {
     }
 
@@ -157,7 +156,7 @@ class GearmanWorker
      * Register a function with the job server
      *
      * @param string $function_name
-     * @param int $timeout (optional)
+     * @param int    $timeout       (optional)
      *
      * @return bool
      *

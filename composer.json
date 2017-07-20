@@ -1,11 +1,18 @@
 {
     "name":        "kazuakim/extension-phpdoc",
     "type":        "library",
-    "description": "@phpdoc extension php for IDE autocomplete",
+    "description": "@phpdoc for IDE autocomplete",
     "keywords":    [
-        "xml",
+        "chdb",
+        "event",
+        "exception",
+        "gearman",
+        "interface",
+        "memcache",
+        "memcached",
+        "phpdoc",
         "redis",
-        "phpdoc"
+        "xml"
     ],
     "homepage": "https://github.com/KazuakiM/extension-phpdoc",
     "license":  "MIT",

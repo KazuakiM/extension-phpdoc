@@ -10,6 +10,17 @@
 class GearmanClient
 {
     /**
+     * __construct.
+     *
+     * Create a GearmanClient instance
+     *
+     * @see http://php.net/manual/en/gearmanclient.construct.php
+     */
+    public function __construct()
+    {
+    }
+
+    /**
      * addOptions.
      *
      * Add client options
@@ -30,7 +41,7 @@ class GearmanClient
      * Add a job server to the client
      *
      * @param string $host = '127.0.0.1'
-     * @param int $port = 4730
+     * @param int    $port = 4730
      *
      * @return bool
      *
@@ -62,8 +73,8 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param mixed &$context (optional)
-     * @param string $unique (optional)
+     * @param mixed  &$context      (optional)
+     * @param string $unique        (optional)
      *
      * @return GearmanTask
      *
@@ -80,8 +91,8 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param mixed &$context (optional)
-     * @param string $unique (optional)
+     * @param mixed  &$context      (optional)
+     * @param string $unique        (optional)
      *
      * @return GearmanTask
      *
@@ -98,8 +109,8 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param mixed &$context (optional)
-     * @param string $unique (optional)
+     * @param mixed  &$context      (optional)
+     * @param string $unique        (optional)
      *
      * @return GearmanTask
      *
@@ -116,8 +127,8 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param mixed &$context (optional)
-     * @param string $unique (optional)
+     * @param mixed  &$context      (optional)
+     * @param string $unique        (optional)
      *
      * @return GearmanTask
      *
@@ -134,8 +145,8 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param mixed &$context (optional)
-     * @param string $unique (optional)
+     * @param mixed  &$context      (optional)
+     * @param string $unique        (optional)
      *
      * @return GearmanTask
      *
@@ -152,8 +163,8 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param mixed &$context (optional)
-     * @param string $unique (optional)
+     * @param mixed  &$context      (optional)
+     * @param string $unique        (optional)
      *
      * @return GearmanTask
      *
@@ -169,7 +180,7 @@ class GearmanClient
      * Add a task to get status
      *
      * @param string $job_handle
-     * @param string &$context (optional)
+     * @param string &$context   (optional)
      *
      * @return GearmanTask
      *
@@ -206,17 +217,6 @@ class GearmanClient
     }
 
     /**
-     * __construct.
-     *
-     * Create a GearmanClient instance
-     *
-     * @see http://php.net/manual/en/gearmanclient.construct.php
-     */
-    public function __construct()
-    {
-    }
-
-    /**
      * context.
      *
      * Get the application context
@@ -249,7 +249,7 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param string $unique (optional)
+     * @param string $unique        (optional)
      *
      * @return string
      *
@@ -266,7 +266,7 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param string $unique (optional)
+     * @param string $unique        (optional)
      *
      * @return string
      *
@@ -283,7 +283,7 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param string $unique (optional)
+     * @param string $unique        (optional)
      *
      * @return string
      *
@@ -300,7 +300,7 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param string $unique (optional)
+     * @param string $unique        (optional)
      *
      * @return string
      *
@@ -330,7 +330,7 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param string $unique (optional)
+     * @param string $unique        (optional)
      *
      * @return string
      *
@@ -347,7 +347,7 @@ class GearmanClient
      *
      * @param string $function_name
      * @param string $workload
-     * @param string $unique (optional)
+     * @param string $unique        (optional)
      *
      * @return string
      *
@@ -362,9 +362,9 @@ class GearmanClient
      *
      * Run a single task and return a result
      *
-     * @param string $function_name
+     * @param string        $function_name
      * @param string string $workload
-     * @param string $unique (optional)
+     * @param string        $unique        (optional)
      *
      * @return string
      *
@@ -505,8 +505,6 @@ class GearmanClient
      * Callback function when there is a data packet for a task (deprecated)
      *
      * @param callable $callback
-     *
-     * @return void
      *
      * @see http://php.net/manual/en/gearmanclient.setclientcallback.php
      */

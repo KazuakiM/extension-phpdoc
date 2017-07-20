@@ -3,7 +3,7 @@
 /**
  * GearmanTask.
  *
- * 
+ *
  *
  * @see http://php.net/manual/en/class.gearmantask.php
  */

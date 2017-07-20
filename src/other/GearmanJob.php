@@ -3,12 +3,23 @@
 /**
  * GearmanJob.
  *
- * 
+ *
  *
  * @see http://php.net/manual/en/class.gearmanjob.php
  */
 class GearmanJob
 {
+    /**
+     * __construct.
+     *
+     * Create a GearmanJob instance
+     *
+     * @see http://php.net/manual/en/gearmanjob.construct.php
+     */
+    public function __construct()
+    {
+    }
+
     /**
      * complete.
      *
@@ -21,17 +32,6 @@ class GearmanJob
      * @see http://php.net/manual/en/gearmanjob.complete.php
      */
     public function complete(string $result): bool
-    {
-    }
-
-    /**
-     * __construct.
-     *
-     * Create a GearmanJob instance
-     *
-     * @see http://php.net/manual/en/gearmanjob.construct.php
-     */
-    public function __construct()
     {
     }
 
