@@ -15,7 +15,7 @@ class RedisArray
      * @param array  $hosts Array of hosts to construct the array with
      * @param array  $opts  Array of options
      *
-     * @see    https://github.com/nicolasff/phpredis/blob/master/arrays.markdown
+     * @see https://github.com/nicolasff/phpredis/blob/master/arrays.markdown
      */
     public function __construct($name = '', array $hosts = null, array $opts = null)
     {
