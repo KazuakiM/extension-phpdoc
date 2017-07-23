@@ -12,6 +12,10 @@
         "memcached",
         "phpdoc",
         "redis",
+        "rrd",
+        "snmp",
+        "stomp",
+        "svm",
         "xml"
     ],
     "homepage": "https://github.com/KazuakiM/extension-phpdoc",
