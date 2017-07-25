@@ -7,6 +7,8 @@
  * Anonymous functions, implemented in PHP 5.3, yield objects of this type. This fact used to be considered an implementation detail, but it can now be relied upon. Starting with PHP 5.4, this class has methods that allow further control of the anonymous function after it has been created.
  * Besides the methods listed here, this class also has an __invoke method. This is for consistency with other classes that implement calling magic, as this method is not used for calling the function.
  *
+ * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
+ *
  * @see http://php.net/manual/en/class.closure.php
  */
 class Closure

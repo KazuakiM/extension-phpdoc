@@ -5,6 +5,8 @@
  *
  * The DOMCdataSection inherits from DOMText for textural representation of CData constructs.
  *
+ * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
+ *
  * @see http://php.net/manual/en/class.domcdatasection.php
  */
 class DOMCdataSection extends DOMText

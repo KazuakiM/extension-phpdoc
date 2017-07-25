@@ -5,6 +5,8 @@
  *
  * The SVMModel is the end result of the training process. It can be used to classify previously unseen data.
  *
+ * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
+ *
  * @see http://php.net/manual/en/class.svmmodel.php
  */
 class SVMModel

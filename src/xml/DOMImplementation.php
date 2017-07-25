@@ -5,6 +5,8 @@
  *
  * The DOMImplementation interface provides a number of methods for performing operations that are independent of any particular instance of the document object model.
  *
+ * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
+ *
  * @see http://php.net/manual/en/class.domimplementation.php
  */
 class DOMImplementation
