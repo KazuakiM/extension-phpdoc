@@ -44,4 +44,4 @@ sed -i -e 's/-/]/g' $action
 sed -i -e 's/"/'\''/g' $action
 # }}}
 
-sed -i -e 's/^\(public\|protected\|private\)\s\([a-zA-Z0-9_]*\)\s\([a-zA-Z0-9_=$:\.\ ]*\)/ * @property \2 \3\n    \1 \3/g' $action
+sed -i -e 's/^\(public\|protected\|private\)\s\([a-zA-Z0-9_\\]*\)\s\([a-zA-Z0-9_=$:\.\ ]*\)/ * @property \2 \3\n    \1 \3/g' $action

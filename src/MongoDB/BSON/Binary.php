@@ -122,7 +122,6 @@ class Binary implements MongoDB\BSON\Type, Serializable, JsonSerializable
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      * @throws MongoDB\Driver\Exception\UnexpectedValueException
-     * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
      * @see http://php.net/manual/en/mongodb-bson-binary.unserialize.php
      */
