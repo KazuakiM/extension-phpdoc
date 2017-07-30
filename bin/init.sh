@@ -23,7 +23,7 @@ sed -i -e 's/readonly\s*//g' $action
 sed -i -e '/\/\*\s*Methods\s*\*\//,/}/  s/^\([a-zA-Z0-9_]*\)\s/public \1 /g' $action
 sed -i -e 's/^public\s\(final\s\|abstract\s\|public\s\|protected\s\|private\s\)/\1/g' $action
 sed -i -e 's/\([a-zA-Z0-9_]*\)::\([a-zA-Z0-9_]*\)/\2/g' $action
-sed -i -e '1 s/\s*\(final\s\|abstract\s\|\)\([a-zA-Z0-9_\\]*\)\s*\(.*\)/<?php\n\n\/**\n * \2.\n *\n * \n *\n * @see \n *\/\n\1class \2 \3/' $action
+sed -i -e '1 s/\s*\(final\s\|abstract\s\|\)\([-a-zA-Z0-9_\\]*\)\s*\(.*\)/<?php\n\n\/**\n * \2.\n *\n * \n *\n * @see \n *\/\n\1class \2 \3/' $action
 sed -i -e 's/ ;/;/g' $action
 sed -i -e 's/ ( /(/g' $action
 sed -i -e 's/ (\[/(\[/g' $action

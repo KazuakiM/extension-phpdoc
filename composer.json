@@ -3,24 +3,9 @@
     "type":        "library",
     "description": "@phpdoc for IDE autocomplete",
     "keywords":    [
-        "chdb",
-        "event",
-        "exception",
-        "gearman",
-        "interface",
-        "memcache",
-        "memcached",
-        "phpdoc",
-        "redis",
-        "rrd",
-        "snmp",
-        "stomp",
-        "svm",
-        "varnish",
-        "xml"
+        "phpdoc"
     ],
     "homepage": "https://github.com/KazuakiM/extension-phpdoc",
-    "license":  "MIT",
     "authors":  [{
         "name":     "KazuakiM",
         "email":    "kazuaki_mabuchi_to_go@hotmail.co.jp",
