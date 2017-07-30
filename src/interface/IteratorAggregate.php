@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * IteratorAggregate.
  *
@@ -21,7 +20,5 @@ interface IteratorAggregate extends Traversable
      *
      * @see http://php.net/manual/en/iteratoraggregate.getiterator.php
      */
-    abstract public function getIterator(): Traversable
-    {
-    }
+    public function getIterator(): Traversable;
 }

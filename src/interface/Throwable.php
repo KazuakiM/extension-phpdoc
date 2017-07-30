@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Throwable.
  *
@@ -21,9 +20,7 @@ interface Throwable
      *
      * @see http://php.net/manual/en/throwable.tostring.php
      */
-    abstract public function __toString(): string
-    {
-    }
+    public function __toString(): string;
 
     /**
      * getMessage.
@@ -34,9 +31,7 @@ interface Throwable
      *
      * @see http://php.net/manual/en/throwable.getmessage.php
      */
-    abstract public function getMessage(): string
-    {
-    }
+    public function getMessage(): string;
 
     /**
      * getCode.
@@ -47,9 +42,7 @@ interface Throwable
      *
      * @see http://php.net/manual/en/throwable.getcode.php
      */
-    abstract public function getCode(): int
-    {
-    }
+    public function getCode(): int;
 
     /**
      * getFile.
@@ -60,9 +53,7 @@ interface Throwable
      *
      * @see http://php.net/manual/en/throwable.getfile.php
      */
-    abstract public function getFile(): string
-    {
-    }
+    public function getFile(): string;
 
     /**
      * getLine.
@@ -73,9 +64,7 @@ interface Throwable
      *
      * @see http://php.net/manual/en/throwable.getline.php
      */
-    abstract public function getLine(): int
-    {
-    }
+    public function getLine(): int;
 
     /**
      * getTrace.
@@ -86,9 +75,7 @@ interface Throwable
      *
      * @see http://php.net/manual/en/throwable.gettrace.php
      */
-    abstract public function getTrace(): array
-    {
-    }
+    public function getTrace(): array;
 
     /**
      * getTraceAsString.
@@ -99,9 +86,7 @@ interface Throwable
      *
      * @see http://php.net/manual/en/throwable.gettraceasstring.php
      */
-    abstract public function getTraceAsString(): string
-    {
-    }
+    public function getTraceAsString(): string;
 
     /**
      * getPrevious.
@@ -112,7 +97,5 @@ interface Throwable
      *
      * @see http://php.net/manual/en/throwable.getprevious.php
      */
-    abstract public function getPrevious(): Throwable
-    {
-    }
+    public function getPrevious(): Throwable;
 }

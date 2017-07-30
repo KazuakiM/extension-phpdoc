@@ -66,7 +66,7 @@ class ZMQContext
      *
      * @see http://php.net/manual/en/zmqcontext.ispersistent.php
      */
-    public function isPersistent(): boolean
+    public function isPersistent(): bool
     {
     }
 

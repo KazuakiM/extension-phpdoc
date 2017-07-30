@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Serializable.
  *
@@ -23,9 +22,7 @@ interface Serializable
      *
      * @see http://php.net/manual/en/serializable.serialize.php
      */
-    abstract public function serialize(): string
-    {
-    }
+    public function serialize(): string;
 
     /**
      * unserialize.
@@ -36,7 +33,5 @@ interface Serializable
      *
      * @see http://php.net/manual/en/serializable.unserialize.php
      */
-    abstract public function unserialize(string $serialized): void
-    {
-    }
+    public function unserialize(string $serialized): void;
 }

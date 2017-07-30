@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Iterator.
  *
@@ -21,9 +20,7 @@ interface Iterator extends Traversable
      *
      * @see http://php.net/manual/en/iterator.current.php
      */
-    abstract public function current(): mixed
-    {
-    }
+    public function current(): mixed;
 
     /**
      * key.
@@ -34,9 +31,7 @@ interface Iterator extends Traversable
      *
      * @see http://php.net/manual/en/iterator.key.php
      */
-    abstract public function key(): scalar
-    {
-    }
+    public function key(): scalar;
 
     /**
      * next.
@@ -46,9 +41,7 @@ interface Iterator extends Traversable
      *
      * @see http://php.net/manual/en/iterator.next.php
      */
-    abstract public function next(): void
-    {
-    }
+    public function next(): void;
 
     /**
      * rewind.
@@ -58,9 +51,7 @@ interface Iterator extends Traversable
      *
      * @see http://php.net/manual/en/iterator.rewind.php
      */
-    abstract public function rewind(): void
-    {
-    }
+    public function rewind(): void;
 
     /**
      * valid.
@@ -71,7 +62,5 @@ interface Iterator extends Traversable
      *
      * @see http://php.net/manual/en/iterator.valid.php
      */
-    abstract public function valid(): boolean
-    {
-    }
+    public function valid(): bool;
 }

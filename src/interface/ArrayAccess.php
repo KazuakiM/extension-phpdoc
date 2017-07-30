@@ -23,9 +23,7 @@ interface ArrayAccess
      *
      * @see http://php.net/manual/en/arrayaccess.offsetexists.php
      */
-    abstract public function offsetExists(mixed $offset): boolean
-    {
-    }
+    public function offsetExists(mixed $offset): bool;
 
     /**
      * offsetGet.
@@ -38,9 +36,7 @@ interface ArrayAccess
      *
      * @see http://php.net/manual/en/arrayaccess.offsetget.php
      */
-    abstract public function offsetGet(mixed $offset): mixed
-    {
-    }
+    public function offsetGet(mixed $offset): mixed;
 
     /**
      * offsetSet.
@@ -52,9 +48,7 @@ interface ArrayAccess
      *
      * @see http://php.net/manual/en/arrayaccess.offsetset.php
      */
-    abstract public function offsetSet(mixed $offset, mixed $value): void
-    {
-    }
+    public function offsetSet(mixed $offset, mixed $value): void;
 
     /**
      * offsetUnset.
@@ -65,7 +59,5 @@ interface ArrayAccess
      *
      * @see http://php.net/manual/en/arrayaccess.offsetunset.php
      */
-    abstract public function offsetUnset(mixed $offset): void
-    {
-    }
+    public function offsetUnset(mixed $offset): void;
 }
