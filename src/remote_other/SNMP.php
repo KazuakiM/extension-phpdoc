@@ -2,7 +2,6 @@
 
 /**
  * SNMP.
- *
  * Represents SNMP session.
  *
  * @property int $max_oids
@@ -44,8 +43,7 @@ class SNMP
 
     /**
      * __construct.
-     *
-     * Creates SNMP instance representing session to remote SNMP agent
+     * Creates SNMP instance representing session to remote SNMP agent.
      *
      * @param int    $version
      * @param string $hostname
@@ -61,8 +59,7 @@ class SNMP
 
     /**
      * close.
-     *
-     * Close SNMP session
+     * Close SNMP session.
      *
      * @return bool
      *
@@ -74,8 +71,7 @@ class SNMP
 
     /**
      * get.
-     *
-     * Fetch an SNMP object
+     * Fetch an SNMP object.
      *
      * @param mixed $object_id
      * @param bool  $preserve_keys = false
@@ -90,8 +86,7 @@ class SNMP
 
     /**
      * getErrno.
-     *
-     * Get last error code
+     * Get last error code.
      *
      * @return int
      *
@@ -103,8 +98,7 @@ class SNMP
 
     /**
      * getError.
-     *
-     * Get last error message
+     * Get last error message.
      *
      * @return string
      *
@@ -116,8 +110,7 @@ class SNMP
 
     /**
      * getnext.
-     *
-     * Fetch an SNMP object which follows the given object id
+     * Fetch an SNMP object which follows the given object id.
      *
      * @param mixed $object_id
      *
@@ -131,8 +124,7 @@ class SNMP
 
     /**
      * set.
-     *
-     * Set the value of an SNMP object
+     * Set the value of an SNMP object.
      *
      * @param mixed $object_id
      * @param mixed $type
@@ -148,8 +140,7 @@ class SNMP
 
     /**
      * setSecurity.
-     *
-     * Configures security-related SNMPv3 session parameters
+     * Configures security-related SNMPv3 session parameters.
      *
      * @param string $sec_level
      * @param string $auth_protocol   (optional)
@@ -169,8 +160,7 @@ class SNMP
 
     /**
      * walk.
-     *
-     * Fetch SNMP object subtree
+     * Fetch SNMP object subtree.
      *
      * @param string $object_id
      * @param bool   $suffix_as_key   = false

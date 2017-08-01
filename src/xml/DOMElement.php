@@ -3,8 +3,6 @@
 /**
  * DOMElement.
  *
- *
- *
  * @property  bool $schemaTypeInfo
  * @property  string $tagName
  *
@@ -19,8 +17,7 @@ class DOMElement extends DOMNode
 
     /**
      * __construct.
-     *
-     * Creates a new DOMElement object
+     * Creates a new DOMElement object.
      *
      * @param string $name
      * @param string $value        (optional)
@@ -34,8 +31,7 @@ class DOMElement extends DOMNode
 
     /**
      * getAttribute.
-     *
-     * Returns value of attribute
+     * Returns value of attribute.
      *
      * @param string $name
      *
@@ -49,8 +45,7 @@ class DOMElement extends DOMNode
 
     /**
      * getAttributeNode.
-     *
-     * Returns attribute node
+     * Returns attribute node.
      *
      * @param string $name
      *
@@ -64,8 +59,7 @@ class DOMElement extends DOMNode
 
     /**
      * getAttributeNodeNS.
-     *
-     * Returns attribute node
+     * Returns attribute node.
      *
      * @param string $namespaceURI
      * @param string $localName
@@ -80,8 +74,7 @@ class DOMElement extends DOMNode
 
     /**
      * getAttributeNS.
-     *
-     * Returns value of attribute
+     * Returns value of attribute.
      *
      * @param string $namespaceURI
      * @param string $localName
@@ -96,8 +89,7 @@ class DOMElement extends DOMNode
 
     /**
      * getElementsByTagName.
-     *
-     * Gets elements by tagname
+     * Gets elements by tagname.
      *
      * @param string $name
      *
@@ -111,8 +103,7 @@ class DOMElement extends DOMNode
 
     /**
      * getElementsByTagNameNS.
-     *
-     * Get elements by namespaceURI and localName
+     * Get elements by namespaceURI and localName.
      *
      * @param string $namespaceURI
      * @param string $localName
@@ -127,8 +118,7 @@ class DOMElement extends DOMNode
 
     /**
      * hasAttribute.
-     *
-     * Checks to see if attribute exists
+     * Checks to see if attribute exists.
      *
      * @parm string $name
      *
@@ -142,8 +132,7 @@ class DOMElement extends DOMNode
 
     /**
      * hasAttributeNS.
-     *
-     * Checks to see if attribute exists
+     * Checks to see if attribute exists.
      *
      * @param string $namespaceURI
      * @param string $localName
@@ -158,8 +147,7 @@ class DOMElement extends DOMNode
 
     /**
      * removeAttribute.
-     *
-     * Removes attribute
+     * Removes attribute.
      *
      * @param string $name
      *
@@ -175,8 +163,7 @@ class DOMElement extends DOMNode
 
     /**
      * removeAttributeNode.
-     *
-     * Removes attribute
+     * Removes attribute.
      *
      * @param DOMAttr $oldnode
      *
@@ -193,8 +180,7 @@ class DOMElement extends DOMNode
 
     /**
      * removeAttributeNS.
-     *
-     * Removes attribute
+     * Removes attribute.
      *
      * @param string $namespaceURI
      * @param string $localName
@@ -211,8 +197,7 @@ class DOMElement extends DOMNode
 
     /**
      * setAttribute.
-     *
-     * Adds new attribute
+     * Adds new attribute.
      *
      * @param string $name
      * @param string $value
@@ -229,8 +214,7 @@ class DOMElement extends DOMNode
 
     /**
      * setAttributeNode.
-     *
-     * Adds new attribute node to element
+     * Adds new attribute node to element.
      *
      * @param DOMAttr $attr
      *
@@ -246,8 +230,7 @@ class DOMElement extends DOMNode
 
     /**
      * setAttributeNodeNS.
-     *
-     * Adds new attribute node to element
+     * Adds new attribute node to element.
      *
      * @param DOMAttr $attr
      *
@@ -263,8 +246,7 @@ class DOMElement extends DOMNode
 
     /**
      * setAttributeNS.
-     *
-     * Adds new attribute
+     * Adds new attribute.
      *
      * @param string $namespaceURI
      * @param string $qualifiedName
@@ -281,8 +263,7 @@ class DOMElement extends DOMNode
 
     /**
      * setIdAttribute.
-     *
-     * Declares the attribute specified by name to be of type ID
+     * Declares the attribute specified by name to be of type ID.
      *
      * @param string $name
      * @param bool   $isId
@@ -298,8 +279,7 @@ class DOMElement extends DOMNode
 
     /**
      * setIdAttributeNode.
-     *
-     * Declares the attribute specified by node to be of type ID
+     * Declares the attribute specified by node to be of type ID.
      *
      * @param DOMAttr $attr
      * @param bool    $isId
@@ -315,8 +295,7 @@ class DOMElement extends DOMNode
 
     /**
      * setIdAttributeNS.
-     *
-     * Declares the attribute specified by local name and namespace URI to be of type ID
+     * Declares the attribute specified by local name and namespace URI to be of type ID.
      *
      * @param string $namespaceURI
      * @param string $localName

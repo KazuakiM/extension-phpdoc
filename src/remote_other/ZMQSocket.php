@@ -3,8 +3,6 @@
 /**
  * ZMQSocket.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.zmqsocket.php
@@ -13,8 +11,7 @@ class ZMQSocket
 {
     /**
      * __construct.
-     *
-     * Construct a new ZMQSocket
+     * Construct a new ZMQSocket.
      *
      * @param ZMQContext $context
      * @param int        $type
@@ -29,8 +26,7 @@ class ZMQSocket
 
     /**
      * bind.
-     *
-     * Bind the socket
+     * Bind the socket.
      *
      * @param string $dsn
      * @param bool   $force = false
@@ -45,8 +41,7 @@ class ZMQSocket
 
     /**
      * connect.
-     *
-     * Connect the socket
+     * Connect the socket.
      *
      * @param string $dsn
      * @param bool   $force = false
@@ -61,8 +56,7 @@ class ZMQSocket
 
     /**
      * disconnect.
-     *
-     * Disconnect a socket
+     * Disconnect a socket.
      *
      * @param string $dsn
      *
@@ -76,8 +70,7 @@ class ZMQSocket
 
     /**
      * getEndpoints.
-     *
-     * Get list of endpoints
+     * Get list of endpoints.
      *
      * @return array
      *
@@ -89,8 +82,7 @@ class ZMQSocket
 
     /**
      * getPersistentId.
-     *
-     * Get the persistent id
+     * Get the persistent id.
      *
      * @return string
      *
@@ -102,8 +94,7 @@ class ZMQSocket
 
     /**
      * getSocketType.
-     *
-     * Get the socket type
+     * Get the socket type.
      *
      * @return int
      *
@@ -115,8 +106,7 @@ class ZMQSocket
 
     /**
      * getSockOpt.
-     *
-     * Get socket option
+     * Get socket option.
      *
      * @param string $key
      *
@@ -130,8 +120,7 @@ class ZMQSocket
 
     /**
      * isPersistent.
-     *
-     * Whether the socket is persistent
+     * Whether the socket is persistent.
      *
      * @return bool
      *
@@ -143,8 +132,7 @@ class ZMQSocket
 
     /**
      * recv.
-     *
-     * Receives a message
+     * Receives a message.
      *
      * @param int $mode = 0
      *
@@ -158,8 +146,7 @@ class ZMQSocket
 
     /**
      * recvMulti.
-     *
-     * Receives a multipart message
+     * Receives a multipart message.
      *
      * @param int $mode = 0
      *
@@ -173,8 +160,7 @@ class ZMQSocket
 
     /**
      * send.
-     *
-     * Sends a message
+     * Sends a message.
      *
      * @param string $message
      * @param int    $mode    = 0
@@ -189,8 +175,7 @@ class ZMQSocket
 
     /**
      * sendmulti.
-     *
-     * Sends a message
+     * Sends a message.
      *
      * @param array $message
      * @param int   $mode    = 0
@@ -205,8 +190,7 @@ class ZMQSocket
 
     /**
      * setSockOpt.
-     *
-     * Set a socket option
+     * Set a socket option.
      *
      * @param int   $key
      * @param mixed $value
@@ -221,8 +205,7 @@ class ZMQSocket
 
     /**
      * unbind.
-     *
-     * Unbind the socket
+     * Unbind the socket.
      *
      * @param string $dsn
      *

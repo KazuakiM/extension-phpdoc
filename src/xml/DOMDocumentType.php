@@ -2,7 +2,6 @@
 
 /**
  * DOMDocumentType.
- *
  * Each DOMDocument has a doctype attribute whose value is either NULL or a DOMDocumentType object.
  *
  * @property  string $publicId

@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\Exception\ConnectionTimeoutException.
- *
  * Thrown when the driver fails to establish a database connection within a specified time limit (e.g. [connectTimeoutMS](https://docs.mongodb.com/manual/reference/connection-string/#uri.connectTimeoutMS)).
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).

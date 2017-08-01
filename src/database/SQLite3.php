@@ -2,7 +2,6 @@
 
 /**
  * SQLite3.
- *
  * A class that interfaces SQLite 3 databases.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class SQLite3
 {
     /**
      * __construct.
-     *
-     * Instantiates an SQLite3 object and opens an SQLite 3 database
+     * Instantiates an SQLite3 object and opens an SQLite 3 database.
      *
      * @param string $filename
      * @param int    $flags          = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE
@@ -30,8 +28,7 @@ class SQLite3
 
     /**
      * busyTimeout.
-     *
-     * Sets the busy connection handler
+     * Sets the busy connection handler.
      *
      * @param int $msecs
      *
@@ -45,8 +42,7 @@ class SQLite3
 
     /**
      * changes.
-     *
-     * Returns the number of database rows that were changed (or inserted or deleted) by the most recent SQL statement
+     * Returns the number of database rows that were changed (or inserted or deleted) by the most recent SQL statement.
      *
      * @return int
      *
@@ -58,8 +54,7 @@ class SQLite3
 
     /**
      * close.
-     *
-     * Closes the database connection
+     * Closes the database connection.
      *
      * @return bool
      *
@@ -71,8 +66,7 @@ class SQLite3
 
     /**
      * createAggregate.
-     *
-     * Registers a PHP function for use as an SQL aggregate function
+     * Registers a PHP function for use as an SQL aggregate function.
      *
      * @param string $name
      * @param mixed  $step_callback
@@ -89,8 +83,7 @@ class SQLite3
 
     /**
      * createCollation.
-     *
-     * Registers a PHP function for use as an SQL collating function
+     * Registers a PHP function for use as an SQL collating function.
      *
      * @param string   $name
      * @param callable $callback
@@ -105,8 +98,7 @@ class SQLite3
 
     /**
      * createFunction.
-     *
-     * Registers a PHP function for use as an SQL scalar function
+     * Registers a PHP function for use as an SQL scalar function.
      *
      * @param string $name
      * @param mixed  $callback
@@ -123,8 +115,7 @@ class SQLite3
 
     /**
      * enableExceptions.
-     *
-     * Enable throwing exceptions
+     * Enable throwing exceptions.
      *
      * @param bool $enableExceptions = false
      *
@@ -138,8 +129,7 @@ class SQLite3
 
     /**
      * escapeString.
-     *
-     * Returns a string that has been properly escaped
+     * Returns a string that has been properly escaped.
      *
      * @param string $value
      *
@@ -153,8 +143,7 @@ class SQLite3
 
     /**
      * exec.
-     *
-     * Executes a result-less query against a given database
+     * Executes a result-less query against a given database.
      *
      * @param string $query
      *
@@ -168,8 +157,7 @@ class SQLite3
 
     /**
      * lastErrorCode.
-     *
-     * Returns the numeric result code of the most recent failed SQLite request
+     * Returns the numeric result code of the most recent failed SQLite request.
      *
      * @return int
      *
@@ -181,8 +169,7 @@ class SQLite3
 
     /**
      * lastErrorMsg.
-     *
-     * Returns English text describing the most recent failed SQLite request
+     * Returns English text describing the most recent failed SQLite request.
      *
      * @return string
      *
@@ -194,8 +181,7 @@ class SQLite3
 
     /**
      * lastInsertRowID.
-     *
-     * Returns the row ID of the most recent INSERT into the database
+     * Returns the row ID of the most recent INSERT into the database.
      *
      * @return int
      *
@@ -207,8 +193,7 @@ class SQLite3
 
     /**
      * loadExtension.
-     *
-     * Attempts to load an SQLite extension library
+     * Attempts to load an SQLite extension library.
      *
      * @param string $shared_library
      *
@@ -222,8 +207,7 @@ class SQLite3
 
     /**
      * open.
-     *
-     * Opens an SQLite database
+     * Opens an SQLite database.
      *
      * @param string $filename
      * @param int    $flags          = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE
@@ -237,8 +221,7 @@ class SQLite3
 
     /**
      * openBlob.
-     *
-     * Opens a stream resource to read a BLOB
+     * Opens a stream resource to read a BLOB.
      *
      * @param string $table
      * @param string $column
@@ -256,8 +239,7 @@ class SQLite3
 
     /**
      * prepare.
-     *
-     * Prepares an SQL statement for execution
+     * Prepares an SQL statement for execution.
      *
      * @param string $query
      *
@@ -271,8 +253,7 @@ class SQLite3
 
     /**
      * query.
-     *
-     * Executes an SQL query
+     * Executes an SQL query.
      *
      * @param string $query
      *
@@ -286,8 +267,7 @@ class SQLite3
 
     /**
      * querySingle.
-     *
-     * Executes a query and returns a single result
+     * Executes a query and returns a single result.
      *
      * @param string $query
      * @param bool   $entire_row = false
@@ -302,8 +282,7 @@ class SQLite3
 
     /**
      * version.
-     *
-     * Returns the SQLite3 library version as a string constant and as a number
+     * Returns the SQLite3 library version as a string constant and as a number.
      *
      * @return array
      *

@@ -2,7 +2,6 @@
 
 /**
  * IteratorAggregate.
- *
  * Interface to create an external Iterator.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ interface IteratorAggregate extends Traversable
 {
     /**
      * getIterator.
-     *
-     * Retrieve an external iterator
+     * Retrieve an external iterator.
      *
      * @return Traversable
      *

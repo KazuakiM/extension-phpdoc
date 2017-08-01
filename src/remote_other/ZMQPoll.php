@@ -3,8 +3,6 @@
 /**
  * ZMQPoll.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.zmqpoll.php
@@ -13,8 +11,7 @@ class ZMQPoll
 {
     /**
      * add.
-     *
-     * Add item to the poll set
+     * Add item to the poll set.
      *
      * @param mixed $entry
      * @param int   $type
@@ -29,8 +26,7 @@ class ZMQPoll
 
     /**
      * clear.
-     *
-     * Clear the poll set
+     * Clear the poll set.
      *
      * @return ZMQPoll
      *
@@ -42,8 +38,7 @@ class ZMQPoll
 
     /**
      * count.
-     *
-     * Count items in the poll set
+     * Count items in the poll set.
      *
      * @return int
      *
@@ -55,8 +50,7 @@ class ZMQPoll
 
     /**
      * getLastErrors.
-     *
-     * Get poll errors
+     * Get poll errors.
      *
      * @return array
      *
@@ -68,8 +62,7 @@ class ZMQPoll
 
     /**
      * poll.
-     *
-     * Poll the items
+     * Poll the items.
      *
      * @param array &$readable
      * @param array &$writable
@@ -85,8 +78,7 @@ class ZMQPoll
 
     /**
      * remove.
-     *
-     * Remove item from poll set
+     * Remove item from poll set.
      *
      * @param mixed $item
      *

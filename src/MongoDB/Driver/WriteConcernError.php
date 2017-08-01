@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\WriteConcernError.
- *
  * The MongoDB\Driver\WriteConcernError class encapsulates information about a write concern error and may be returned by MongoDB\Driver\WriteResult::getWriteConcernError().
  *
  * @copyrightCopyright(http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed underCC by 3.0 or later(http://creativecommons.org/licenses/by/3.0/).
@@ -16,8 +15,7 @@ final class WriteConcernError
 {
     /**
      * getCode.
-     *
-     * Returns the WriteConcernError's error code
+     * Returns the WriteConcernError's error code.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -31,8 +29,7 @@ final class WriteConcernError
 
     /**
      * getInfo.
-     *
-     * Returns additional metadata for the WriteConcernError
+     * Returns additional metadata for the WriteConcernError.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -46,8 +43,7 @@ final class WriteConcernError
 
     /**
      * getMessage.
-     *
-     * Returns the WriteConcernError's error message
+     * Returns the WriteConcernError's error message.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *

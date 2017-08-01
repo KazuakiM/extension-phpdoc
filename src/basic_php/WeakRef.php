@@ -2,7 +2,6 @@
 
 /**
  * WeakRef.
- *
  * The WeakRef class provides a gateway to objects without preventing the garbage collector from freeing those objects. It also provides a way to turn a weak reference into a strong one.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class WeakRef
 {
     /**
      * __construct.
-     *
-     * Constructs a new weak reference
+     * Constructs a new weak reference.
      *
      * @param object $object
      *
@@ -26,8 +24,7 @@ class WeakRef
 
     /**
      * acquire.
-     *
-     * Acquires a strong reference on that object
+     * Acquires a strong reference on that object.
      *
      * @return bool
      *
@@ -39,8 +36,7 @@ class WeakRef
 
     /**
      * get.
-     *
-     * Returns the object pointed to by the weak reference
+     * Returns the object pointed to by the weak reference.
      *
      * @return object
      *
@@ -52,8 +48,7 @@ class WeakRef
 
     /**
      * release.
-     *
-     * Releases a previously acquired reference
+     * Releases a previously acquired reference.
      *
      * @return bool
      *
@@ -65,8 +60,7 @@ class WeakRef
 
     /**
      * valid.
-     *
-     * Checks whether the object referenced still exists
+     * Checks whether the object referenced still exists.
      *
      * @return bool
      *

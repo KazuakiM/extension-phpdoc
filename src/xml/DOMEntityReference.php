@@ -3,8 +3,6 @@
 /**
  * DOMEntityReference.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.domentityreference.php
@@ -13,8 +11,7 @@ class DOMEntityReference extends DOMNode
 {
     /**
      * __construct.
-     *
-     * Creates a new DOMEntityReference object
+     * Creates a new DOMEntityReference object.
      *
      * @param string $name
      *

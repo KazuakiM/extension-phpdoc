@@ -2,7 +2,6 @@
 
 /**
  * OCI-Lob.
- *
  * OCI8 LOB functionality for large binary (BLOB) and character (CLOB) objects.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -14,8 +13,7 @@ class OCILob
 {
     /**
      * append.
-     *
-     * Appends data from the large object to another large object
+     * Appends data from the large object to another large object.
      *
      * @param OCI-Lob $lob_from
      *
@@ -30,8 +28,7 @@ class OCILob
 
     /**
      * close.
-     *
-     * Closes LOB descriptor
+     * Closes LOB descriptor.
      *
      * @return bool
      *
@@ -43,8 +40,7 @@ class OCILob
 
     /**
      * eof.
-     *
-     * Tests for end-of-file on a large object's descriptor
+     * Tests for end-of-file on a large object's descriptor.
      *
      * @return bool
      *
@@ -56,8 +52,7 @@ class OCILob
 
     /**
      * erase.
-     *
-     * Erases a specified portion of the internal LOB data
+     * Erases a specified portion of the internal LOB data.
      *
      * @param int $offset
      * @param int $length (optional)
@@ -72,8 +67,7 @@ class OCILob
 
     /**
      * export.
-     *
-     * Exports LOB's contents to a file
+     * Exports LOB's contents to a file.
      *
      * @param string $filename
      * @param int    $start    (optional)
@@ -100,8 +94,7 @@ class OCILob
 
     /**
      * flush.
-     *
-     * Flushes/writes buffer of the LOB to the server
+     * Flushes/writes buffer of the LOB to the server.
      *
      * @param int $flag (optional)
      *
@@ -115,8 +108,7 @@ class OCILob
 
     /**
      * free.
-     *
-     * Frees resources associated with the LOB descriptor
+     * Frees resources associated with the LOB descriptor.
      *
      * @return bool
      *
@@ -128,8 +120,7 @@ class OCILob
 
     /**
      * getBuffering.
-     *
-     * Returns current state of buffering for the large object
+     * Returns current state of buffering for the large object.
      *
      * @return bool
      *
@@ -141,8 +132,7 @@ class OCILob
 
     /**
      * import.
-     *
-     * Imports file data to the LOB
+     * Imports file data to the LOB.
      *
      * @param string $filename
      *
@@ -167,8 +157,7 @@ class OCILob
 
     /**
      * load.
-     *
-     * Returns large object's contents
+     * Returns large object's contents.
      *
      * @return string
      *
@@ -180,8 +169,7 @@ class OCILob
 
     /**
      * read.
-     *
-     * Reads part of the large object
+     * Reads part of the large object.
      *
      * @param int $length
      *
@@ -195,8 +183,7 @@ class OCILob
 
     /**
      * rewind.
-     *
-     * Moves the internal pointer to the beginning of the large object
+     * Moves the internal pointer to the beginning of the large object.
      *
      * @return bool
      *
@@ -208,8 +195,7 @@ class OCILob
 
     /**
      * save.
-     *
-     * Saves data to the large object
+     * Saves data to the large object.
      *
      * @param string $data
      * @param int    $offset (optional)
@@ -224,8 +210,7 @@ class OCILob
 
     /**
      * seek.
-     *
-     * Sets the internal pointer of the large object
+     * Sets the internal pointer of the large object.
      *
      * @param int $offset
      * @param int $whence = OCI_SEEK_SET
@@ -240,8 +225,7 @@ class OCILob
 
     /**
      * setBuffering.
-     *
-     * Changes current state of buffering for the large object
+     * Changes current state of buffering for the large object.
      *
      * @param bool $on_off
      *
@@ -255,8 +239,7 @@ class OCILob
 
     /**
      * size.
-     *
-     * Returns size of large object
+     * Returns size of large object.
      *
      * @return int
      *
@@ -268,8 +251,7 @@ class OCILob
 
     /**
      * tell.
-     *
-     * Returns the current position of internal pointer of large object
+     * Returns the current position of internal pointer of large object.
      *
      * @return int
      *
@@ -281,8 +263,7 @@ class OCILob
 
     /**
      * truncate.
-     *
-     * Truncates large object
+     * Truncates large object.
      *
      * @param int $length = 0
      *
@@ -296,8 +277,7 @@ class OCILob
 
     /**
      * write.
-     *
-     * Writes data to the large object
+     * Writes data to the large object.
      *
      * @param string $data
      * @param int    $length (optional)
@@ -312,8 +292,7 @@ class OCILob
 
     /**
      * writeTemporary.
-     *
-     * Writes a temporary large object
+     * Writes a temporary large object.
      *
      * @param string $data
      * @param int    $lob_type = OCI_TEMP_CLOB

@@ -2,7 +2,6 @@
 
 /**
  * StompFrame.
- *
  * Represents a message which was sent or received from a Stomp compliant Message Broker.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -17,8 +16,7 @@ class StompFrame
 
     /**
      * __construct.
-     *
-     * Constructor
+     * Constructor.
      *
      * @param string $command (optional)
      * @param array  $headers (optional)

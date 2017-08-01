@@ -4,7 +4,6 @@ namespace XMLDiff;
 
 /**
  * XMLDiff.
- *
  * Base abstract class for all the comparsion classes in the extension.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -15,8 +14,7 @@ abstract class XMLDiffBase
 {
     /**
      * __construct.
-     *
-     * Constructor
+     * Constructor.
      *
      * @param string $nsname
      *
@@ -28,8 +26,7 @@ abstract class XMLDiffBase
 
     /**
      * diff.
-     *
-     * Produce diff of two XML documents
+     * Produce diff of two XML documents.
      *
      * @param mixed $from
      * @param mixed $to
@@ -44,8 +41,7 @@ abstract class XMLDiffBase
 
     /**
      * merge.
-     *
-     * Produce new XML document based on diff
+     * Produce new XML document based on diff.
      *
      * @param mixed $src
      * @param mixed $diff

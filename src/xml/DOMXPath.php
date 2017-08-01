@@ -3,8 +3,6 @@
 /**
  * DOMXPath.
  *
- *
- *
  * @property DOMDocument $document
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -17,8 +15,7 @@ class DOMXPath
 
     /**
      * __construct.
-     *
-     * Creates a new DOMXPath object
+     * Creates a new DOMXPath object.
      *
      * @parm DOMDocument $doc
      *
@@ -30,8 +27,7 @@ class DOMXPath
 
     /**
      * evaluate.
-     *
-     * Evaluates the given XPath expression and returns a typed result if possible
+     * Evaluates the given XPath expression and returns a typed result if possible.
      *
      * @param string  $expression
      * @param DOMNode $contextnode    (optional)
@@ -47,8 +43,7 @@ class DOMXPath
 
     /**
      * query.
-     *
-     * Evaluates the given XPath expression
+     * Evaluates the given XPath expression.
      *
      * @param string  $expression
      * @param DOMNode $contextnode    (optional)
@@ -64,8 +59,7 @@ class DOMXPath
 
     /**
      * registerNamespace.
-     *
-     * Registers the namespace with the DOMXPath object
+     * Registers the namespace with the DOMXPath object.
      *
      * @param string $prefix
      * @param string $namespaceURI
@@ -80,8 +74,7 @@ class DOMXPath
 
     /**
      * registerPhpFunctions.
-     *
-     * Register PHP functions as XPath functions
+     * Register PHP functions as XPath functions.
      *
      * @param mixed $restrict (optional)
      *

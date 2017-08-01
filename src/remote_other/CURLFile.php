@@ -2,7 +2,6 @@
 
 /**
  * CURLFile.
- *
  * CURLFile should be used to upload a file with CURLOPT_POSTFIELDS.
  *
  * @property string $name
@@ -21,8 +20,7 @@ class CURLFile
 
     /**
      * __construct.
-     *
-     * curl_file_create — Create a CURLFile object
+     * curl_file_create — Create a CURLFile object.
      *
      * @param string $filename
      * @param string $mimetype (optional)
@@ -36,9 +34,7 @@ class CURLFile
 
     /**
      * __wakeup.
-     *
-     * Unserialization handler
-     *
+     * Unserialization handler.
      *
      * @see http://php.net/manual/en/curlfile.wakeup.php
      */
@@ -48,8 +44,7 @@ class CURLFile
 
     /**
      * getFilename.
-     *
-     * Get file name
+     * Get file name.
      *
      * @return string
      *
@@ -61,8 +56,7 @@ class CURLFile
 
     /**
      * getMimeType.
-     *
-     * Get MIME type
+     * Get MIME type.
      *
      * @return string
      *
@@ -74,8 +68,7 @@ class CURLFile
 
     /**
      * getPostFilename.
-     *
-     * Get file name for POST
+     * Get file name for POST.
      *
      * @return string
      *
@@ -87,8 +80,7 @@ class CURLFile
 
     /**
      * setMimeType.
-     *
-     * Set MIME type
+     * Set MIME type.
      *
      * @param string $mime
      *
@@ -100,8 +92,7 @@ class CURLFile
 
     /**
      * setPostFilename.
-     *
-     * Set file name for POST
+     * Set file name for POST.
      *
      * @param string $postname
      *

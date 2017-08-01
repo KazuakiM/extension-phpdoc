@@ -3,8 +3,6 @@
 /**
  * DOMProcessingInstruction.
  *
- *
- *
  * @property  string $target
  * @property string $data
  *
@@ -19,8 +17,7 @@ class DOMProcessingInstruction extends DOMNode
 
     /**
      * __construct.
-     *
-     * Creates a new DOMProcessingInstruction object
+     * Creates a new DOMProcessingInstruction object.
      *
      * @param string $name
      * @param string $value (optional)

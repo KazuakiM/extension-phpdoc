@@ -3,8 +3,6 @@
 /**
  * MongoDB\BSON\Regex.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-bson-regex.php
@@ -16,8 +14,7 @@ class Regex implements MongoDB\BSON\Type, Serializable, JsonSerializable
 {
     /**
      * __construct.
-     *
-     * Construct a new Regex
+     * Construct a new Regex.
      *
      * @param string $pattern
      * @param string $flags   = ''
@@ -32,8 +29,7 @@ class Regex implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * __toString.
-     *
-     * Returns the string representation of this Regex
+     * Returns the string representation of this Regex.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -47,8 +43,7 @@ class Regex implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * getFlags.
-     *
-     * Returns the Regex's flags
+     * Returns the Regex's flags.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -62,8 +57,7 @@ class Regex implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * getPattern.
-     *
-     * Returns the Regex's pattern
+     * Returns the Regex's pattern.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -77,8 +71,7 @@ class Regex implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * jsonSerialize.
-     *
-     * Returns a representation that can be converted to JSON
+     * Returns a representation that can be converted to JSON.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -92,8 +85,7 @@ class Regex implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * serialize.
-     *
-     * Serialize a Regex
+     * Serialize a Regex.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -107,8 +99,7 @@ class Regex implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * unserialize.
-     *
-     * Unserialize a Regex
+     * Unserialize a Regex.
      *
      * @param string $serialized
      *

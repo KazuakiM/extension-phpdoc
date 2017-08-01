@@ -3,8 +3,6 @@
 /**
  * GearmanJob.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.gearmanjob.php
@@ -13,8 +11,7 @@ class GearmanJob
 {
     /**
      * __construct.
-     *
-     * Create a GearmanJob instance
+     * Create a GearmanJob instance.
      *
      * @see http://php.net/manual/en/gearmanjob.construct.php
      */
@@ -24,8 +21,7 @@ class GearmanJob
 
     /**
      * complete.
-     *
-     * Send the result and complete status (deprecated)
+     * Send the result and complete status (deprecated).
      *
      * @param string $result
      *
@@ -39,8 +35,7 @@ class GearmanJob
 
     /**
      * data.
-     *
-     * Send data for a running job (deprecated)
+     * Send data for a running job (deprecated).
      *
      * @param string $data
      *
@@ -54,8 +49,7 @@ class GearmanJob
 
     /**
      * exception.
-     *
-     * Send exception for running job (deprecated)
+     * Send exception for running job (deprecated).
      *
      * @param string $exception
      *
@@ -69,8 +63,7 @@ class GearmanJob
 
     /**
      * fail.
-     *
-     * Send fail status (deprecated)
+     * Send fail status (deprecated).
      *
      * @return bool
      *
@@ -82,8 +75,7 @@ class GearmanJob
 
     /**
      * functionName.
-     *
-     * Get function name
+     * Get function name.
      *
      * @return string
      *
@@ -95,8 +87,7 @@ class GearmanJob
 
     /**
      * handle.
-     *
-     * Get the job handle
+     * Get the job handle.
      *
      * @return string
      *
@@ -108,8 +99,7 @@ class GearmanJob
 
     /**
      * returnCode.
-     *
-     * Get last return code
+     * Get last return code.
      *
      * @return int
      *
@@ -121,8 +111,7 @@ class GearmanJob
 
     /**
      * sendComplete.
-     *
-     * Send the result and complete status
+     * Send the result and complete status.
      *
      * @param string $result
      *
@@ -136,8 +125,7 @@ class GearmanJob
 
     /**
      * sendData.
-     *
-     * Send data for a running job
+     * Send data for a running job.
      *
      * @param string $data
      *
@@ -151,8 +139,7 @@ class GearmanJob
 
     /**
      * sendException.
-     *
-     * Send exception for running job (exception)
+     * Send exception for running job (exception).
      *
      * @param string $exception
      *
@@ -166,8 +153,7 @@ class GearmanJob
 
     /**
      * sendFail.
-     *
-     * Send fail status
+     * Send fail status.
      *
      * @return bool
      *
@@ -179,8 +165,7 @@ class GearmanJob
 
     /**
      * sendStatus.
-     *
-     * Send status
+     * Send status.
      *
      * @param int $numerator
      * @param int $denominator
@@ -195,8 +180,7 @@ class GearmanJob
 
     /**
      * sendWarning.
-     *
-     * Send a warning
+     * Send a warning.
      *
      * @param string $warning
      *
@@ -210,8 +194,7 @@ class GearmanJob
 
     /**
      * setReturn.
-     *
-     * Set a return value
+     * Set a return value.
      *
      * @param int $gearman_return_t
      *
@@ -225,8 +208,7 @@ class GearmanJob
 
     /**
      * status.
-     *
-     * Send status (deprecated)
+     * Send status (deprecated).
      *
      * @param int $numerator
      * @param int $denominator
@@ -241,8 +223,7 @@ class GearmanJob
 
     /**
      * unique.
-     *
-     * Get the unique identifier
+     * Get the unique identifier.
      *
      * @return string
      *
@@ -254,8 +235,7 @@ class GearmanJob
 
     /**
      * warning.
-     *
-     * Send a warning (deprecated)
+     * Send a warning (deprecated).
      *
      * @param string $warning
      *
@@ -269,8 +249,7 @@ class GearmanJob
 
     /**
      * workload.
-     *
-     * Get workload
+     * Get workload.
      *
      * @return string
      *
@@ -282,8 +261,7 @@ class GearmanJob
 
     /**
      * workloadSize.
-     *
-     * Get size of work load
+     * Get size of work load.
      *
      * @return int
      *

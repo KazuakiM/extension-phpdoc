@@ -2,7 +2,6 @@
 
 /**
  * SNMPException.
- *
  * Represents an error raised by SNMP. You should not throw a SNMPException from your own code. See Exceptions for more information about Exceptions in PHP.
  *
  * @property string $code

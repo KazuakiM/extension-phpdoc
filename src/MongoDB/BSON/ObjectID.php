@@ -3,8 +3,6 @@
 /**
  * MongoDB\BSON\ObjectID.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-bson-objectid.php
@@ -16,8 +14,7 @@ class ObjectID implements MongoDB\BSON\Type, Serializable, JsonSerializable
 {
     /**
      * __construct.
-     *
-     * Construct a new ObjectID
+     * Construct a new ObjectID.
      *
      * @param string $id (optional)
      *
@@ -31,8 +28,7 @@ class ObjectID implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * __toString.
-     *
-     * Returns the hexidecimal representation of this ObjectID
+     * Returns the hexidecimal representation of this ObjectID.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -46,8 +42,7 @@ class ObjectID implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * getTimestamp.
-     *
-     * Returns the timestamp component of this ObjectID
+     * Returns the timestamp component of this ObjectID.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -61,8 +56,7 @@ class ObjectID implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * jsonSerialize.
-     *
-     * Returns a representation that can be converted to JSON
+     * Returns a representation that can be converted to JSON.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -76,8 +70,7 @@ class ObjectID implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * serialize.
-     *
-     * Serialize an ObjectID
+     * Serialize an ObjectID.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -91,8 +84,7 @@ class ObjectID implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * unserialize.
-     *
-     * Unserialize an ObjectID
+     * Unserialize an ObjectID.
      *
      * @param string $serialized
      *

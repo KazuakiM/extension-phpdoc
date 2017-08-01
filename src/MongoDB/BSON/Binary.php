@@ -3,8 +3,6 @@
 /**
  * MongoDB\BSON\Binary.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-bson-binary.php
@@ -24,8 +22,7 @@ class Binary implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * __construct.
-     *
-     * Construct a new Binary
+     * Construct a new Binary.
      *
      * @param string $data
      * @param int    $type
@@ -40,8 +37,7 @@ class Binary implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * __toString.
-     *
-     * Returns the Binary's data
+     * Returns the Binary's data.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -55,8 +51,7 @@ class Binary implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * getData.
-     *
-     * Returns the Binary's data
+     * Returns the Binary's data.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -70,8 +65,7 @@ class Binary implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * getType.
-     *
-     * Returns the Binary's type
+     * Returns the Binary's type.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -85,8 +79,7 @@ class Binary implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * jsonSerialize.
-     *
-     * Returns a representation that can be converted to JSON
+     * Returns a representation that can be converted to JSON.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -100,8 +93,7 @@ class Binary implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * serialize.
-     *
-     * Serialize a Binary
+     * Serialize a Binary.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -115,8 +107,7 @@ class Binary implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * unserialize.
-     *
-     * Unserialize a Binary
+     * Unserialize a Binary.
      *
      * @param string $serialized
      *

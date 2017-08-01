@@ -2,7 +2,6 @@
 
 /**
  * KTaglib_ID3v2_Frame.
- *
  * The base class for ID3v2 frames. ID3v2 tags are separated in various specialized frames. Some frames can exists multiple times.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class KTaglib_ID3v2_Frame extends KTaglib_Tag
 {
     /**
      * __toString.
-     *
-     * Returns a string representation of the frame
+     * Returns a string representation of the frame.
      *
      * @return string
      *
@@ -26,8 +24,7 @@ class KTaglib_ID3v2_Frame extends KTaglib_Tag
 
     /**
      * getSize.
-     *
-     * Returns the size of the frame in bytes
+     * Returns the size of the frame in bytes.
      *
      * @return int
      *

@@ -3,8 +3,6 @@
 /**
  * VarnishStat.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.varnishstat.php
@@ -13,8 +11,7 @@ class VarnishStat
 {
     /**
      * __construct.
-     *
-     * VarnishStat constructor
+     * VarnishStat constructor.
      *
      * @param array $args (optional)
      *
@@ -26,8 +23,7 @@ class VarnishStat
 
     /**
      * getSnapshot.
-     *
-     * Get the current varnish instance statistics snapshot
+     * Get the current varnish instance statistics snapshot.
      *
      * @return array
      *

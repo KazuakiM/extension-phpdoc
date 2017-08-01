@@ -2,7 +2,6 @@
 
 /**
  * Closure.
- *
  * Class used to represent anonymous functions.
  * Anonymous functions, implemented in PHP 5.3, yield objects of this type. This fact used to be considered an implementation detail, but it can now be relied upon. Starting with PHP 5.4, this class has methods that allow further control of the anonymous function after it has been created.
  * Besides the methods listed here, this class also has an __invoke method. This is for consistency with other classes that implement calling magic, as this method is not used for calling the function.
@@ -15,8 +14,7 @@ class Closure
 {
     /**
      * __construct.
-     *
-     * Constructor that disallows instantiation
+     * Constructor that disallows instantiation.
      *
      * @see http://php.net/manual/en/closure.construct.php
      */
@@ -26,8 +24,7 @@ class Closure
 
     /**
      * bind.
-     *
-     * Duplicates a closure with a specific bound object and class scope
+     * Duplicates a closure with a specific bound object and class scope.
      *
      * @param Closure $closure
      * @param object  $newthis
@@ -43,8 +40,7 @@ class Closure
 
     /**
      * bindTo.
-     *
-     * Duplicates the closure with a new bound object and class scope
+     * Duplicates the closure with a new bound object and class scope.
      *
      * @param object $newthis
      * @param mixed  $newscope = "static"
@@ -59,8 +55,7 @@ class Closure
 
     /**
      * call.
-     *
-     * Binds and calls the closure
+     * Binds and calls the closure.
      *
      * @param object $newthis
      * @param mixed  $...
@@ -73,7 +68,6 @@ class Closure
 
     /**
      * fromCallable.
-     *
      * Converts a callable into a closure.
      *
      * @param callable $callable

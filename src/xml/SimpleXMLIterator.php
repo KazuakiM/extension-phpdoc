@@ -2,7 +2,6 @@
 
 /**
  * SimpleXMLIterator.
- *
  * The SimpleXMLIterator provides recursive iteration over all nodes of a SimpleXMLElement object.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
 {
     /**
      * current.
-     *
-     * Returns the current element
+     * Returns the current element.
      *
      * @return mixed
      *
@@ -26,8 +24,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
 
     /**
      * getChildren.
-     *
-     * Returns the sub-elements of the current element
+     * Returns the sub-elements of the current element.
      *
      * @return SimpleXMLIterator
      *
@@ -39,7 +36,6 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
 
     /**
      * hasChildren.
-     *
      * Checks whether the current element has sub elements.
      *
      * @return bool
@@ -52,8 +48,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
 
     /**
      * key.
-     *
-     * Return current key
+     * Return current key.
      *
      * @return mixed
      *
@@ -65,8 +60,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
 
     /**
      * next.
-     *
-     * Move to next element
+     * Move to next element.
      *
      * @see http://php.net/manual/en/simplexmliterator.next.php
      */
@@ -76,8 +70,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
 
     /**
      * rewind.
-     *
-     * Rewind to the first element
+     * Rewind to the first element.
      *
      * @see http://php.net/manual/en/simplexmliterator.rewind.php
      */
@@ -87,8 +80,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
 
     /**
      * valid.
-     *
-     * Check whether the current element is valid
+     * Check whether the current element is valid.
      *
      * @return bool
      *

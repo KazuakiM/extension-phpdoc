@@ -3,8 +3,6 @@
 /**
  * MongoDB\Driver\Server.
  *
- *
- *
  * @copyrightCopyright(http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed underCC by 3.0 or later(http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-driver-server.php
@@ -26,8 +24,7 @@ final class Server
 
     /**
      * __construct.
-     *
-     * Create a new Server (not used)
+     * Create a new Server (not used).
      *
      * @see http://php.net/manual/en/mongodb-driver-server.construct.php
      */
@@ -37,8 +34,7 @@ final class Server
 
     /**
      * executeBulkWrite.
-     *
-     * Execute one or more write operations on this server
+     * Execute one or more write operations on this server.
      *
      * @param string                      $namespace
      * @param MongoDB\Driver\BulkWrite    $bulk
@@ -60,8 +56,7 @@ final class Server
 
     /**
      * executeCommand.
-     *
-     * Execute a database command on this server
+     * Execute a database command on this server.
      *
      * @param string                        $db
      * @param MongoDB\Driver\Command        $command
@@ -82,8 +77,7 @@ final class Server
 
     /**
      * executeQuery.
-     *
-     * Execute a database query on this server
+     * Execute a database query on this server.
      *
      * @param string                        $namespace
      * @param MongoDB\Driver\Query          $query
@@ -104,8 +98,7 @@ final class Server
 
     /**
      * getHost.
-     *
-     * Returns the hostname of this server
+     * Returns the hostname of this server.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -119,8 +112,7 @@ final class Server
 
     /**
      * getInfo.
-     *
-     * Returns an array of information about this server
+     * Returns an array of information about this server.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -134,8 +126,7 @@ final class Server
 
     /**
      * getLatency.
-     *
-     * Returns the latency of this server
+     * Returns the latency of this server.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -149,8 +140,7 @@ final class Server
 
     /**
      * getPort.
-     *
-     * Returns the port on which this server is listening
+     * Returns the port on which this server is listening.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -164,8 +154,7 @@ final class Server
 
     /**
      * getTags.
-     *
-     * Returns an array of tags describing this server in a replica set
+     * Returns an array of tags describing this server in a replica set.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -179,8 +168,7 @@ final class Server
 
     /**
      * getType.
-     *
-     * Returns an integer denoting the type of this server
+     * Returns an integer denoting the type of this server.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -194,8 +182,7 @@ final class Server
 
     /**
      * isArbiter.
-     *
-     * Checks if this server is an arbiter member of a replica set
+     * Checks if this server is an arbiter member of a replica set.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -209,8 +196,7 @@ final class Server
 
     /**
      * isHidden.
-     *
-     * Checks if this server is a hidden member of a replica set
+     * Checks if this server is a hidden member of a replica set.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -224,8 +210,7 @@ final class Server
 
     /**
      * isPassive.
-     *
-     * Checks if this server is a passive member of a replica set
+     * Checks if this server is a passive member of a replica set.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -239,8 +224,7 @@ final class Server
 
     /**
      * isPrimary.
-     *
-     * Checks if this server is a primary member of a replica set
+     * Checks if this server is a primary member of a replica set.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -254,8 +238,7 @@ final class Server
 
     /**
      * isSecondary.
-     *
-     * Checks if this server is a secondary member of a replica set
+     * Checks if this server is a secondary member of a replica set.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *

@@ -2,7 +2,6 @@
 
 /**
  * ErrorException.
- *
  * An Error Exception.
  *
  * @property int $severity
@@ -27,8 +26,7 @@ class ErrorException extends Exception
 
     /**
      * __construct.
-     *
-     * Constructs the exception
+     * Constructs the exception.
      *
      * @param string    $message  = ""
      * @param int       $code     = 0
@@ -45,8 +43,7 @@ class ErrorException extends Exception
 
     /**
      * getSeverity.
-     *
-     * Gets the exception severity
+     * Gets the exception severity.
      *
      * @return int
      *

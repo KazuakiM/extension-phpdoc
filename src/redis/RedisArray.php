@@ -54,7 +54,6 @@ class RedisArray
 
     /**
      * _rehash.
-     *
      * Use this function when a new node is added and keys need to be rehashed.
      */
     public function _rehash()

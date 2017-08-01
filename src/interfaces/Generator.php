@@ -2,7 +2,6 @@
 
 /**
  * Generator.
- *
  * Generator objects are returned from generators.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,9 +12,7 @@ class Generator implements Iterator
 {
     /**
      * __wakeup.
-     *
-     * Serialize callback
-     *
+     * Serialize callback.
      *
      * @see http://php.net/manual/en/generator.wakeup.php
      */
@@ -25,8 +22,7 @@ class Generator implements Iterator
 
     /**
      * current.
-     *
-     * Get the yielded value
+     * Get the yielded value.
      *
      * @return mixed
      *
@@ -38,8 +34,7 @@ class Generator implements Iterator
 
     /**
      * getReturn.
-     *
-     * Get the return value of a generator
+     * Get the return value of a generator.
      *
      * @return mixed
      *
@@ -51,8 +46,7 @@ class Generator implements Iterator
 
     /**
      * key.
-     *
-     * Get the yielded key
+     * Get the yielded key.
      *
      * @return mixed
      *
@@ -64,9 +58,7 @@ class Generator implements Iterator
 
     /**
      * next.
-     *
-     * Resume execution of the generator
-     *
+     * Resume execution of the generator.
      *
      * @see http://php.net/manual/en/generator.next.php
      */
@@ -76,9 +68,7 @@ class Generator implements Iterator
 
     /**
      * rewind.
-     *
-     * Rewind the iterator
-     *
+     * Rewind the iterator.
      *
      * @see http://php.net/manual/en/generator.rewind.php
      */
@@ -88,8 +78,7 @@ class Generator implements Iterator
 
     /**
      * send.
-     *
-     * Send a value to the generator
+     * Send a value to the generator.
      *
      * @param mixed $value
      *
@@ -103,8 +92,7 @@ class Generator implements Iterator
 
     /**
      * throw.
-     *
-     * Throw an exception into the generator
+     * Throw an exception into the generator.
      *
      * @param Throwable $exception
      *
@@ -118,8 +106,7 @@ class Generator implements Iterator
 
     /**
      * valid.
-     *
-     * Check if the iterator has been closed
+     * Check if the iterator has been closed.
      *
      * @return bool
      *

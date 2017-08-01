@@ -2,7 +2,6 @@
 
 /**
  * RRDCreator.
- *
  * Class for creation of RRD database file.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class RRDCreator
 {
     /**
      * __construct.
-     *
-     * Creates new RRDCreator instance
+     * Creates new RRDCreator instance.
      *
      * @param string $path
      * @param string $startTime (optional)
@@ -28,7 +26,6 @@ class RRDCreator
 
     /**
      * addArchive.
-     *
      * Adds RRA - archive of data values for each data source.
      *
      * @param string $description
@@ -41,7 +38,6 @@ class RRDCreator
 
     /**
      * addDataSource.
-     *
      * Adds data source definition for RRD database.
      *
      * @param string $description
@@ -54,8 +50,7 @@ class RRDCreator
 
     /**
      * save.
-     *
-     * Saves the RRD database to a file
+     * Saves the RRD database to a file.
      *
      * @return bool
      *

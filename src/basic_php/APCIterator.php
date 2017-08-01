@@ -2,7 +2,6 @@
 
 /**
  * APCIterator.
- *
  * The APCIterator class makes it easier to iterate over large APC caches. This is helpful as it allows iterating over large caches in steps, while grabbing a defined number of entries per lock instance, so it frees the cache locks for other activities rather than hold up the entire cache to grab 100 (the default) entries. Also, using regular expression matching is more efficient as it's been moved to the C level.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class APCIterator implements Iterator
 {
     /**
      * __construct.
-     *
-     * Constructs an APCIterator iterator object
+     * Constructs an APCIterator iterator object.
      *
      * @param string $cache
      * @param mixed  $search     = null
@@ -30,8 +28,7 @@ class APCIterator implements Iterator
 
     /**
      * current.
-     *
-     * Get current item
+     * Get current item.
      *
      * @return mixed
      *
@@ -43,8 +40,7 @@ class APCIterator implements Iterator
 
     /**
      * getTotalCount.
-     *
-     * Get total count
+     * Get total count.
      *
      * @return int
      *
@@ -56,8 +52,7 @@ class APCIterator implements Iterator
 
     /**
      * getTotalHits.
-     *
-     * Get total cache hits
+     * Get total cache hits.
      *
      * @return int
      *
@@ -69,8 +64,7 @@ class APCIterator implements Iterator
 
     /**
      * getTotalSize.
-     *
-     * Get total cache size
+     * Get total cache size.
      *
      * @return int
      *
@@ -82,8 +76,7 @@ class APCIterator implements Iterator
 
     /**
      * key.
-     *
-     * Get iterator key
+     * Get iterator key.
      *
      * @return string
      *
@@ -95,9 +88,7 @@ class APCIterator implements Iterator
 
     /**
      * next.
-     *
-     * Move pointer to next item
-     *
+     * Move pointer to next item.
      *
      * @see http://php.net/manual/en/apciterator.next.php
      */
@@ -107,9 +98,7 @@ class APCIterator implements Iterator
 
     /**
      * rewind.
-     *
-     * Rewinds iterator
-     *
+     * Rewinds iterator.
      *
      * @see http://php.net/manual/en/apciterator.rewind.php
      */
@@ -119,9 +108,7 @@ class APCIterator implements Iterator
 
     /**
      * valid.
-     *
-     * Checks if current position is valid
-     *
+     * Checks if current position is valid.
      *
      * @see http://php.net/manual/en/apciterator.valid.php
      */

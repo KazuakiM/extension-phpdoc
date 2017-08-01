@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\Query.
- *
  * The MongoDB\Driver\Query class is a value object that represents a database query.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -16,8 +15,7 @@ final class Query
 {
     /**
      * __construct.
-     *
-     * Construct new Query
+     * Construct new Query.
      *
      * @param array|object mixed $filter
      * @param array              $queryOptions (optional)

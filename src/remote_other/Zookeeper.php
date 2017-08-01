@@ -2,7 +2,6 @@
 
 /**
  * Zookeeper.
- *
  * Represents ZooKeeper session.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -31,7 +30,6 @@ class Zookeeper
 
     /**
      * __construct.
-     *
      * Create a handle to used communicate with zookeeper.
      *
      * @param string   $host         = ''
@@ -46,7 +44,6 @@ class Zookeeper
 
     /**
      * addAuth.
-     *
      * Specify application credentials.
      *
      * @param string   $scheme
@@ -63,7 +60,6 @@ class Zookeeper
 
     /**
      * connect.
-     *
      * Create a handle to used communicate with zookeeper.
      *
      * @param string   $host
@@ -78,7 +74,6 @@ class Zookeeper
 
     /**
      * create.
-     *
      * Create a node synchronously.
      *
      * @param string $path
@@ -96,7 +91,6 @@ class Zookeeper
 
     /**
      * delete.
-     *
      * Delete a node in zookeeper synchronously.
      *
      * @param string $path
@@ -112,7 +106,6 @@ class Zookeeper
 
     /**
      * exists.
-     *
      * Checks the existence of a node in zookeeper synchronously.
      *
      * @param string   $path
@@ -128,7 +121,6 @@ class Zookeeper
 
     /**
      * get.
-     *
      * Gets the data associated with a node synchronously.
      *
      * @param string   $path
@@ -146,7 +138,6 @@ class Zookeeper
 
     /**
      * getAcl.
-     *
      * Gets the acl associated with a node synchronously.
      *
      * @param string $path
@@ -161,8 +152,7 @@ class Zookeeper
 
     /**
      * getClientId.
-     *
-     * return the client session id, only valid if the connections is currently connected (ie. last watcher state is ZOO_CONNECTED_STATE)
+     * return the client session id, only valid if the connections is currently connected (ie. last watcher state is ZOO_CONNECTED_STATE).
      *
      * @return int
      *
@@ -174,7 +164,6 @@ class Zookeeper
 
     /**
      * getRecvTimeout.
-     *
      * Return the timeout for this session, only valid if the connections is currently connected (ie. last watcher state is ZOO_CONNECTED_STATE). This value may change after a server re-connect.
      *
      * @return int
@@ -187,7 +176,6 @@ class Zookeeper
 
     /**
      * getState.
-     *
      * Get the state of the zookeeper connection.
      *
      * @return int
@@ -200,7 +188,6 @@ class Zookeeper
 
     /**
      * isRecoverable.
-     *
      * Checks if the current zookeeper connection state can be recovered.
      *
      * @return bool
@@ -213,7 +200,6 @@ class Zookeeper
 
     /**
      * set.
-     *
      * Sets the data associated with a node.
      *
      * @param string $path
@@ -231,7 +217,6 @@ class Zookeeper
 
     /**
      * setAcl.
-     *
      * Sets the acl associated with a node synchronously.
      *
      * @param string $path
@@ -248,7 +233,6 @@ class Zookeeper
 
     /**
      * setDebugLevel.
-     *
      * Sets the debugging level for the library.
      *
      * @param int $logLevel
@@ -263,7 +247,6 @@ class Zookeeper
 
     /**
      * setDeterministicConnOrder.
-     *
      * Enable/disable quorum endpoint order randomization.
      *
      * @param bool $yesOrNo
@@ -278,7 +261,6 @@ class Zookeeper
 
     /**
      * setLogStream.
-     *
      * Sets the stream to be used by the library for logging.
      *
      * @param resource $stream
@@ -293,7 +275,6 @@ class Zookeeper
 
     /**
      * setWatcher.
-     *
      * Set a watcher function.
      *
      * @param callable $watcher_cb

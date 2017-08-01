@@ -2,7 +2,6 @@
 
 /**
  * DOMText.
- *
  * The DOMText class inherits from DOMCharacterData and represents the textual content of a DOMElement or DOMAttr.
  *
  * @property  string $wholeText
@@ -17,8 +16,7 @@ class DOMText extends DOMCharacterData
 
     /**
      * __construct.
-     *
-     * Creates a new DOMText object
+     * Creates a new DOMText object.
      *
      * @param string $value
      *
@@ -30,8 +28,7 @@ class DOMText extends DOMCharacterData
 
     /**
      * isWhitespaceInElementContent.
-     *
-     * Indicates whether this text node contains whitespace
+     * Indicates whether this text node contains whitespace.
      *
      * @return bool
      *
@@ -43,8 +40,7 @@ class DOMText extends DOMCharacterData
 
     /**
      * splitText.
-     *
-     * Breaks this node into two nodes at the specified offset
+     * Breaks this node into two nodes at the specified offset.
      *
      * @param int $offset
      *

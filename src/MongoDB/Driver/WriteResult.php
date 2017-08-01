@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\WriteResult.
- *
  * The MongoDB\Driver\WriteResult class encapsulates information about an executed MongoDB\Driver\BulkWrite and may be returned by MongoDB\Driver\Manager::executeBulkWrite().
  *
  * @copyrightCopyright(http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed underCC by 3.0 or later(http://creativecommons.org/licenses/by/3.0/).
@@ -16,8 +15,7 @@ final class WriteResult
 {
     /**
      * getDeletedCount.
-     *
-     * Returns the number of documents deleted
+     * Returns the number of documents deleted.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -31,8 +29,7 @@ final class WriteResult
 
     /**
      * getInsertedCount.
-     *
-     * Returns the number of documents inserted (excluding upserts)
+     * Returns the number of documents inserted (excluding upserts).
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -46,8 +43,7 @@ final class WriteResult
 
     /**
      * getMatchedCount.
-     *
-     * Returns the number of documents selected for update
+     * Returns the number of documents selected for update.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -61,8 +57,7 @@ final class WriteResult
 
     /**
      * getModifiedCount.
-     *
-     * Returns the number of existing documents updated
+     * Returns the number of existing documents updated.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -76,8 +71,7 @@ final class WriteResult
 
     /**
      * getServer.
-     *
-     * Returns the server associated with this write result
+     * Returns the server associated with this write result.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -91,8 +85,7 @@ final class WriteResult
 
     /**
      * getUpsertedCount.
-     *
-     * Returns the number of documents inserted by an upsert
+     * Returns the number of documents inserted by an upsert.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -106,8 +99,7 @@ final class WriteResult
 
     /**
      * getUpsertedIds.
-     *
-     * Returns an array of identifiers for upserted documents
+     * Returns an array of identifiers for upserted documents.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -121,8 +113,7 @@ final class WriteResult
 
     /**
      * getWriteConcernError.
-     *
-     * Returns any write concern error that occurred
+     * Returns any write concern error that occurred.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -136,8 +127,7 @@ final class WriteResult
 
     /**
      * getWriteErrors.
-     *
-     * Returns any write errors that occurred
+     * Returns any write errors that occurred.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -151,8 +141,7 @@ final class WriteResult
 
     /**
      * isAcknowledged.
-     *
-     * Returns whether the write was acknowledged
+     * Returns whether the write was acknowledged.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *

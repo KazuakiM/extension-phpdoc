@@ -2,7 +2,6 @@
 
 /**
  * SQLite3Stmt.
- *
  * A class that handles prepared statements for the SQLite 3 extension.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class SQLite3Stmt
 {
     /**
      * bindParam.
-     *
-     * Binds a parameter to a statement variable
+     * Binds a parameter to a statement variable.
      *
      * @param mixed $sql_param
      * @param mixed &$param
@@ -30,8 +28,7 @@ class SQLite3Stmt
 
     /**
      * bindValue.
-     *
-     * Binds the value of a parameter to a statement variable
+     * Binds the value of a parameter to a statement variable.
      *
      * @param mixed $sql_param
      * @param mixed $value
@@ -47,8 +44,7 @@ class SQLite3Stmt
 
     /**
      * clear.
-     *
-     * Clears all current bound parameters
+     * Clears all current bound parameters.
      *
      * @return bool
      *
@@ -60,8 +56,7 @@ class SQLite3Stmt
 
     /**
      * close.
-     *
-     * Closes the prepared statement
+     * Closes the prepared statement.
      *
      * @return bool
      *
@@ -73,8 +68,7 @@ class SQLite3Stmt
 
     /**
      * execute.
-     *
-     * Executes a prepared statement and returns a result set object
+     * Executes a prepared statement and returns a result set object.
      *
      * @return SQLite3Result
      *
@@ -86,8 +80,7 @@ class SQLite3Stmt
 
     /**
      * paramCount.
-     *
-     * Returns the number of parameters within the prepared statement
+     * Returns the number of parameters within the prepared statement.
      *
      * @return int
      *
@@ -99,8 +92,7 @@ class SQLite3Stmt
 
     /**
      * readOnly.
-     *
-     * Returns whether a statement is definitely read only
+     * Returns whether a statement is definitely read only.
      *
      * @return bool
      *
@@ -112,8 +104,7 @@ class SQLite3Stmt
 
     /**
      * reset.
-     *
-     * Resets the prepared statement
+     * Resets the prepared statement.
      *
      * @return bool
      *

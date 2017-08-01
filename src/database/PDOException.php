@@ -2,7 +2,6 @@
 
 /**
  * PDOException.
- *
  * Represents an error raised by PDO. You should not throw a PDOException from your own code. See Exceptions for more information about Exceptions in PHP.
  *
  * @property array $errorInfo

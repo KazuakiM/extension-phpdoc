@@ -2,7 +2,6 @@
 
 /**
  * EventSslContext.
- *
  * Represents SSL_CTX structure. Provides methods and properties to configure the SSL context.
  *
  * @property string $local_cert
@@ -37,8 +36,7 @@ final class EventSslContext
 
     /**
      * __construct.
-     *
-     * Constructs an OpenSSL context for use with Event classes
+     * Constructs an OpenSSL context for use with Event classes.
      *
      * @param string $method
      * @param string $options

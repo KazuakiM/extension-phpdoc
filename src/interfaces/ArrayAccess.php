@@ -3,7 +3,6 @@
 
 /**
  * ArrayAccess.
- *
  * Interface to provide accessing objects as arrays.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -14,8 +13,7 @@ interface ArrayAccess
 {
     /**
      * offsetExists.
-     *
-     * Whether an offset exists
+     * Whether an offset exists.
      *
      * @param mixed $offset
      *
@@ -27,8 +25,7 @@ interface ArrayAccess
 
     /**
      * offsetGet.
-     *
-     * Offset to retrieve
+     * Offset to retrieve.
      *
      * @param mixed $offset
      *
@@ -40,8 +37,7 @@ interface ArrayAccess
 
     /**
      * offsetSet.
-     *
-     * Assign a value to the specified offset
+     * Assign a value to the specified offset.
      *
      * @param mixed $offset
      * @param mixed $value
@@ -52,8 +48,7 @@ interface ArrayAccess
 
     /**
      * offsetUnset.
-     *
-     * Unset an offset
+     * Unset an offset.
      *
      * @param mixed $offset
      *

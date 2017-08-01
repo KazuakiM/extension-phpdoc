@@ -2,7 +2,6 @@
 
 /**
  * Iterator.
- *
  * Interface for external iterators or objects that can be iterated themselves internally.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ interface Iterator extends Traversable
 {
     /**
      * current.
-     *
-     * Return the current element
+     * Return the current element.
      *
      * @return mixed
      *
@@ -24,8 +22,7 @@ interface Iterator extends Traversable
 
     /**
      * key.
-     *
-     * Return the key of the current element
+     * Return the key of the current element.
      *
      * @return scalar
      *
@@ -35,9 +32,7 @@ interface Iterator extends Traversable
 
     /**
      * next.
-     *
-     * Move forward to next element
-     *
+     * Move forward to next element.
      *
      * @see http://php.net/manual/en/iterator.next.php
      */
@@ -45,9 +40,7 @@ interface Iterator extends Traversable
 
     /**
      * rewind.
-     *
-     * Rewind the Iterator to the first element
-     *
+     * Rewind the Iterator to the first element.
      *
      * @see http://php.net/manual/en/iterator.rewind.php
      */
@@ -55,8 +48,7 @@ interface Iterator extends Traversable
 
     /**
      * valid.
-     *
-     * Checks if current position is valid
+     * Checks if current position is valid.
      *
      * @return bool
      *

@@ -3,8 +3,6 @@
 /**
  * ZMQDevice.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.zmqdevice.php
@@ -13,8 +11,7 @@ class ZMQDevice
 {
     /**
      * __construct.
-     *
-     * Construct a new device
+     * Construct a new device.
      *
      * @param ZMQSocket $frontend
      * @param ZMQSocket $backend
@@ -28,8 +25,7 @@ class ZMQDevice
 
     /**
      * getIdleTimeout.
-     *
-     * Get the idle timeout
+     * Get the idle timeout.
      *
      * @return ZMQDevice
      *
@@ -41,8 +37,7 @@ class ZMQDevice
 
     /**
      * getTimerTimeout.
-     *
-     * Get the timer timeout
+     * Get the timer timeout.
      *
      * @return ZMQDevice
      *
@@ -54,9 +49,7 @@ class ZMQDevice
 
     /**
      * run.
-     *
-     * Run the new device
-     *
+     * Run the new device.
      *
      * @see http://php.net/manual/en/zmqdevice.run.php
      */
@@ -66,8 +59,7 @@ class ZMQDevice
 
     /**
      * setIdleCallback.
-     *
-     * Set the idle callback function
+     * Set the idle callback function.
      *
      * @param callable $cb_func
      * @param int      $timeout
@@ -83,8 +75,7 @@ class ZMQDevice
 
     /**
      * setIdleTimeout.
-     *
-     * Set the idle timeout
+     * Set the idle timeout.
      *
      * @param int $timeout
      *
@@ -98,8 +89,7 @@ class ZMQDevice
 
     /**
      * setTimerCallback.
-     *
-     * Set the timer callback function
+     * Set the timer callback function.
      *
      * @param callable $cb_func
      * @param int      $timeout
@@ -115,8 +105,7 @@ class ZMQDevice
 
     /**
      * setTimerTimeout.
-     *
-     * Set the timer timeout
+     * Set the timer timeout.
      *
      * @param int $timeout
      *

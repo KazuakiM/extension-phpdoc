@@ -2,8 +2,7 @@
 
 /**
  * KTaglib_Tag.
- *
- * Base class for ID3v1 or ID3v2 tags
+ * Base class for ID3v1 or ID3v2 tags.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
@@ -13,8 +12,7 @@ class KTaglib_Tag
 {
     /**
      * getAlbum.
-     *
-     * Returns the album string from a ID3 tag
+     * Returns the album string from a ID3 tag.
      *
      * @return string
      *
@@ -26,8 +24,7 @@ class KTaglib_Tag
 
     /**
      * getArtist.
-     *
-     * Returns the artist string from a ID3 tag
+     * Returns the artist string from a ID3 tag.
      *
      * @return string
      *
@@ -39,8 +36,7 @@ class KTaglib_Tag
 
     /**
      * getComment.
-     *
-     * Returns the comment from a ID3 tag
+     * Returns the comment from a ID3 tag.
      *
      * @return string
      *
@@ -52,8 +48,7 @@ class KTaglib_Tag
 
     /**
      * getGenre.
-     *
-     * Returns the genre from a ID3 tag
+     * Returns the genre from a ID3 tag.
      *
      * @return string
      *
@@ -65,8 +60,7 @@ class KTaglib_Tag
 
     /**
      * getTitle.
-     *
-     * Returns the title string from a ID3 tag
+     * Returns the title string from a ID3 tag.
      *
      * @return string
      *
@@ -78,8 +72,7 @@ class KTaglib_Tag
 
     /**
      * getTrack.
-     *
-     * Returns the track number from a ID3 tag
+     * Returns the track number from a ID3 tag.
      *
      * @return int
      *
@@ -91,8 +84,7 @@ class KTaglib_Tag
 
     /**
      * getYear.
-     *
-     * Returns the year from a ID3 tag
+     * Returns the year from a ID3 tag.
      *
      * @return int
      *
@@ -104,8 +96,7 @@ class KTaglib_Tag
 
     /**
      * isEmpty.
-     *
-     * Returns true if the tag is empty
+     * Returns true if the tag is empty.
      *
      * @return bool
      *

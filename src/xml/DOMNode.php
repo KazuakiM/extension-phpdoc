@@ -3,8 +3,6 @@
 /**
  * DOMNode.
  *
- *
- *
  * @property  string $nodeName
  * @property string $nodeValue
  * @property  int $nodeType
@@ -47,8 +45,7 @@ class DOMNode
 
     /**
      * appendChild.
-     *
-     * Adds new child at the end of the children
+     * Adds new child at the end of the children.
      *
      * @param DOMNode $newnode
      *
@@ -66,8 +63,7 @@ class DOMNode
 
     /**
      * C14N.
-     *
-     * Canonicalize nodes to a string
+     * Canonicalize nodes to a string.
      *
      * @param bool  $exclusive     (optional)
      * @param bool  $with_comments (optional)
@@ -84,8 +80,7 @@ class DOMNode
 
     /**
      * C14NFile.
-     *
-     * Canonicalize nodes to a file
+     * Canonicalize nodes to a file.
      *
      * @param string $uri
      * @param bool   $exclusive     (optional)
@@ -103,8 +98,7 @@ class DOMNode
 
     /**
      * cloneNode.
-     *
-     * Clones a node
+     * Clones a node.
      *
      * @param bool $deep
      *
@@ -118,8 +112,7 @@ class DOMNode
 
     /**
      * getLineNo.
-     *
-     * Get line number for a node
+     * Get line number for a node.
      *
      * @return int
      *
@@ -131,8 +124,7 @@ class DOMNode
 
     /**
      * getNodePath.
-     *
-     * Get an XPath for a node
+     * Get an XPath for a node.
      *
      * @return string
      *
@@ -144,8 +136,7 @@ class DOMNode
 
     /**
      * hasAttributes.
-     *
-     * Checks if node has attributes
+     * Checks if node has attributes.
      *
      * @return bool
      *
@@ -157,8 +148,7 @@ class DOMNode
 
     /**
      * hasChildNodes.
-     *
-     * Checks if node has children
+     * Checks if node has children.
      *
      * @return bool
      *
@@ -170,8 +160,7 @@ class DOMNode
 
     /**
      * insertBefore.
-     *
-     * Adds a new child before a reference node
+     * Adds a new child before a reference node.
      *
      * @param DOMNode $newnode
      * @param DOMNode $refnode (optional)
@@ -191,8 +180,7 @@ class DOMNode
 
     /**
      * isDefaultNamespace.
-     *
-     * Checks if the specified namespaceURI is the default namespace or not
+     * Checks if the specified namespaceURI is the default namespace or not.
      *
      * @param string $namespaceURI
      *
@@ -206,8 +194,7 @@ class DOMNode
 
     /**
      * isSameNode.
-     *
-     * Indicates if two nodes are the same node
+     * Indicates if two nodes are the same node.
      *
      * @param DOMNode $node
      *
@@ -221,8 +208,7 @@ class DOMNode
 
     /**
      * isSupported.
-     *
-     * Checks if feature is supported for specified version
+     * Checks if feature is supported for specified version.
      *
      * @param string $feature
      * @param string $version
@@ -237,8 +223,7 @@ class DOMNode
 
     /**
      * lookupNamespaceURI.
-     *
-     * Gets the namespace URI of the node based on the prefix
+     * Gets the namespace URI of the node based on the prefix.
      *
      * @param string $prefix
      *
@@ -252,8 +237,7 @@ class DOMNode
 
     /**
      * lookupPrefix.
-     *
-     * Gets the namespace prefix of the node based on the namespace URI
+     * Gets the namespace prefix of the node based on the namespace URI.
      *
      * @param string $namespaceURI
      *
@@ -267,9 +251,7 @@ class DOMNode
 
     /**
      * normalize.
-     *
-     * Normalizes the node
-     *
+     * Normalizes the node.
      *
      * @see http://php.net/manual/en/domnode.normalize.php
      */
@@ -279,8 +261,7 @@ class DOMNode
 
     /**
      * removeChild.
-     *
-     * Removes child from list of children
+     * Removes child from list of children.
      *
      * @param DOMNode $oldnode
      *
@@ -297,8 +278,7 @@ class DOMNode
 
     /**
      * replaceChild.
-     *
-     * Replaces a child
+     * Replaces a child.
      *
      * @param DOMNode $newnode
      * @param DOMNode $oldnode

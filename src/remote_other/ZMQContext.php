@@ -3,8 +3,6 @@
 /**
  * ZMQContext.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.zmqcontext.php
@@ -13,8 +11,7 @@ class ZMQContext
 {
     /**
      * __construct.
-     *
-     * Construct a new ZMQContext object
+     * Construct a new ZMQContext object.
      *
      * @param int  $io_threads    = 1
      * @param bool $is_persistent = true
@@ -27,8 +24,7 @@ class ZMQContext
 
     /**
      * getOpt.
-     *
-     * Get context option
+     * Get context option.
      *
      * @param string $key
      *
@@ -42,8 +38,7 @@ class ZMQContext
 
     /**
      * getSocket.
-     *
-     * Create a new socket
+     * Create a new socket.
      *
      * @param int      $type
      * @param string   $persistent_id = null
@@ -59,8 +54,7 @@ class ZMQContext
 
     /**
      * isPersistent.
-     *
-     * Whether the context is persistent
+     * Whether the context is persistent.
      *
      * @return bool
      *
@@ -72,8 +66,7 @@ class ZMQContext
 
     /**
      * setOpt.
-     *
-     * Set a socket option
+     * Set a socket option.
      *
      * @param int   $key
      * @param mixed $value

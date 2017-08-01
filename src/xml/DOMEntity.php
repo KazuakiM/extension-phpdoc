@@ -2,7 +2,6 @@
 
 /**
  * DOMEntity.
- *
  * This interface represents a known entity, either parsed or unparsed, in an XML document.
  *
  * @property  string $publicId

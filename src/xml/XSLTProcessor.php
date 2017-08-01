@@ -3,8 +3,6 @@
 /**
  * XSLTProcessor.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.xsltprocessor.php
@@ -13,8 +11,7 @@ class XSLTProcessor
 {
     /**
      *  __construct.
-     *
-     * Creates a new XSLTProcessor object
+     * Creates a new XSLTProcessor object.
      *
      * @see http://php.net/manual/en/xsltprocessor.construct.php
      */
@@ -24,8 +21,7 @@ class XSLTProcessor
 
     /**
      * getParameter.
-     *
-     * Get value of a parameter
+     * Get value of a parameter.
      *
      * @param string $namespaceURI
      * @param string $localName
@@ -40,8 +36,7 @@ class XSLTProcessor
 
     /**
      * getSecurityPrefs.
-     *
-     * Get security preferences
+     * Get security preferences.
      *
      * @return int
      *
@@ -53,8 +48,7 @@ class XSLTProcessor
 
     /**
      * hasExsltSupport.
-     *
-     * Determine if PHP has EXSLT support
+     * Determine if PHP has EXSLT support.
      *
      * @return bool
      *
@@ -66,8 +60,7 @@ class XSLTProcessor
 
     /**
      * importStylesheet.
-     *
-     * Import stylesheet
+     * Import stylesheet.
      *
      * @param object $stylesheet
      *
@@ -81,8 +74,7 @@ class XSLTProcessor
 
     /**
      * registerPHPFunctions.
-     *
-     * Enables the ability to use PHP functions as XSLT functions
+     * Enables the ability to use PHP functions as XSLT functions.
      *
      * @pram mixed $restrict
      *
@@ -94,8 +86,7 @@ class XSLTProcessor
 
     /**
      * removeParameter.
-     *
-     * Remove parameter
+     * Remove parameter.
      *
      * @param string $namespaceURI
      * @param string $localName
@@ -110,8 +101,7 @@ class XSLTProcessor
 
     /**
      * setParameter.
-     *
-     * Set value for a parameter
+     * Set value for a parameter.
      *
      * @param string $namespace
      * @param string $name
@@ -127,8 +117,7 @@ class XSLTProcessor
 
     /**
      * setProfiling.
-     *
-     * Sets profiling output file
+     * Sets profiling output file.
      *
      * @param string $filename
      *
@@ -142,8 +131,7 @@ class XSLTProcessor
 
     /**
      * setSecurityPrefs.
-     *
-     * Set security preferences
+     * Set security preferences.
      *
      * @param int $securityPrefs
      *
@@ -157,8 +145,7 @@ class XSLTProcessor
 
     /**
      * transformToDoc.
-     *
-     * Transform to a DOMDocument
+     * Transform to a DOMDocument.
      *
      * @param DOMNode $doc
      *
@@ -172,8 +159,7 @@ class XSLTProcessor
 
     /**
      * transformToURI.
-     *
-     * Transform to URI
+     * Transform to URI.
      *
      * @param DOMDocument $doc
      * @param string      $uri
@@ -188,8 +174,7 @@ class XSLTProcessor
 
     /**
      * transformToXML.
-     *
-     * Transform to XML
+     * Transform to XML.
      *
      * @param object $doc
      *

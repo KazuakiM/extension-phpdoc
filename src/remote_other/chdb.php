@@ -2,7 +2,6 @@
 
 /**
  * chdb.
- *
  * Represents a loaded chdb file.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class chdb
 {
     /**
      * __construct.
-     *
-     * Creates a chdb instance
+     * Creates a chdb instance.
      *
      * @param string $pathname
      *
@@ -26,8 +24,7 @@ class chdb
 
     /**
      * get.
-     *
-     * Gets the value associated with a key
+     * Gets the value associated with a key.
      *
      * @param string $key
      *

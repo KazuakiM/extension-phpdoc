@@ -2,7 +2,6 @@
 
 /**
  * EventBufferEvent.
- *
  * Represents Libevent's buffer event.
  * Usually an application wants to perform some amount of data buffering in addition to just responding to events. When we want to write data, for example, the usual pattern looks like:
  * Decide that we want to write some data to a connection; put that data in a buffer.
@@ -43,8 +42,7 @@ final class EventBufferEvent
 
     /**
      * __construct.
-     *
-     * Constructs EventBufferEvent object
+     * Constructs EventBufferEvent object.
      *
      * @param EventBase $base
      * @param mixed     $socket  = null
@@ -61,9 +59,7 @@ final class EventBufferEvent
 
     /**
      * close.
-     *
-     * Closes file descriptor associated with the current buffer event
-     *
+     * Closes file descriptor associated with the current buffer event.
      *
      * @see http://php.net/manual/en/eventbufferevent.close.php
      */
@@ -73,8 +69,7 @@ final class EventBufferEvent
 
     /**
      * connect.
-     *
-     * Connect buffer event's file descriptor to given address or UNIX socket
+     * Connect buffer event's file descriptor to given address or UNIX socket.
      *
      * @param string $addr
      *
@@ -88,8 +83,7 @@ final class EventBufferEvent
 
     /**
      * connectHost.
-     *
-     * Connects to a hostname with optionally asyncronous DNS
+     * Connects to a hostname with optionally asyncronous DNS.
      *
      * @param EventDnsBase $dns_base
      * @param string       $hostname
@@ -106,8 +100,7 @@ final class EventBufferEvent
 
     /**
      * createPair.
-     *
-     * Creates two buffer events connected to each other
+     * Creates two buffer events connected to each other.
      *
      * @param EventBase $base
      * @param int       $options = 0
@@ -122,7 +115,6 @@ final class EventBufferEvent
 
     /**
      * disable.
-     *
      * Disable events read, write, or both on a buffer event.
      *
      * @param int $events
@@ -137,7 +129,6 @@ final class EventBufferEvent
 
     /**
      * enable.
-     *
      * Enable events read, write, or both on a buffer event.
      *
      * @param int $events
@@ -152,9 +143,7 @@ final class EventBufferEvent
 
     /**
      * free.
-     *
-     * Free a buffer event
-     *
+     * Free a buffer event.
      *
      * @see http://php.net/manual/en/eventbufferevent.free.php
      */
@@ -164,8 +153,7 @@ final class EventBufferEvent
 
     /**
      * getDnsErrorString.
-     *
-     * Returns string describing the last failed DNS lookup attempt
+     * Returns string describing the last failed DNS lookup attempt.
      *
      * @return string
      *
@@ -177,8 +165,7 @@ final class EventBufferEvent
 
     /**
      * getEnabled.
-     *
-     * Returns bitmask of events currently enabled on the buffer event
+     * Returns bitmask of events currently enabled on the buffer event.
      *
      * @return int
      *
@@ -190,8 +177,7 @@ final class EventBufferEvent
 
     /**
      * getInput.
-     *
-     * Returns underlying input buffer associated with current buffer event
+     * Returns underlying input buffer associated with current buffer event.
      *
      * @return EventBuffer
      *
@@ -203,8 +189,7 @@ final class EventBufferEvent
 
     /**
      * getOutput.
-     *
-     * Returns underlying output buffer associated with current buffer event
+     * Returns underlying output buffer associated with current buffer event.
      *
      * @return EventBuffer
      *
@@ -216,8 +201,7 @@ final class EventBufferEvent
 
     /**
      * read.
-     *
-     * Read buffer's data
+     * Read buffer's data.
      *
      * @param int $size
      *
@@ -231,8 +215,7 @@ final class EventBufferEvent
 
     /**
      * readBuffer.
-     *
-     * Drains the entire contents of the input buffer and places them into buf
+     * Drains the entire contents of the input buffer and places them into buf.
      *
      * @param EventBuffer $buf
      *
@@ -246,8 +229,7 @@ final class EventBufferEvent
 
     /**
      * setCallbacks.
-     *
-     * Assigns read, write and event(status) callbacks
+     * Assigns read, write and event(status) callbacks.
      *
      * @param callable $readcb
      * @param callable $writecb
@@ -262,8 +244,7 @@ final class EventBufferEvent
 
     /**
      * setPriority.
-     *
-     * Assign a priority to a bufferevent
+     * Assign a priority to a bufferevent.
      *
      * @param int $priority
      *
@@ -277,8 +258,7 @@ final class EventBufferEvent
 
     /**
      * setTimeouts.
-     *
-     * Set the read and write timeout for a buffer event
+     * Set the read and write timeout for a buffer event.
      *
      * @param float $timeout_read
      * @param float $timeout_write
@@ -293,8 +273,7 @@ final class EventBufferEvent
 
     /**
      * setWatermark.
-     *
-     * Adjusts read and/or write watermarks
+     * Adjusts read and/or write watermarks.
      *
      * @param int $events
      * @param int $lowmark
@@ -308,8 +287,7 @@ final class EventBufferEvent
 
     /**
      * sslError.
-     *
-     * Returns most recent OpenSSL error reported on the buffer event
+     * Returns most recent OpenSSL error reported on the buffer event.
      *
      * @return string
      *
@@ -321,8 +299,7 @@ final class EventBufferEvent
 
     /**
      * sslFilter.
-     *
-     * Create a new SSL buffer event to send its data over another buffer event
+     * Create a new SSL buffer event to send its data over another buffer event.
      *
      * @param EventBase        $base
      * @param EventBufferEvent $underlying
@@ -340,7 +317,6 @@ final class EventBufferEvent
 
     /**
      * sslGetCipherInfo.
-     *
      * Returns a textual description of the cipher.
      *
      * @return string
@@ -353,7 +329,6 @@ final class EventBufferEvent
 
     /**
      * sslGetCipherName.
-     *
      * Returns the current cipher name of the SSL connection.
      *
      * @return string
@@ -366,7 +341,6 @@ final class EventBufferEvent
 
     /**
      * sslGetCipherVersion.
-     *
      * Returns version of cipher used by current SSL connection.
      *
      * @return string
@@ -379,8 +353,7 @@ final class EventBufferEvent
 
     /**
      * sslGetProtocol.
-     *
-     * Returns the name of the protocol used for current SSL
+     * Returns the name of the protocol used for current SSL.
      *
      * @return string
      *
@@ -392,9 +365,7 @@ final class EventBufferEvent
 
     /**
      * sslRenegotiate.
-     *
      * Tells a bufferevent to begin SSL renegotiation.
-     *
      *
      * @see http://php.net/manual/en/eventbufferevent.sslrenegotiate.php
      */
@@ -404,8 +375,7 @@ final class EventBufferEvent
 
     /**
      * sslSocket.
-     *
-     * Creates a new SSL buffer event to send its data over an SSL on a socket
+     * Creates a new SSL buffer event to send its data over an SSL on a socket.
      *
      * @param EventBase       $base
      * @param mixed           $socket
@@ -423,8 +393,7 @@ final class EventBufferEvent
 
     /**
      * write.
-     *
-     * Adds data to a buffer event's output buffer
+     * Adds data to a buffer event's output buffer.
      *
      * @param string $data
      *
@@ -438,8 +407,7 @@ final class EventBufferEvent
 
     /**
      * writeBuffer.
-     *
-     * Adds contents of the entire buffer to a buffer event's output buffer
+     * Adds contents of the entire buffer to a buffer event's output buffer.
      *
      * @param EventBuffer $buf
      *

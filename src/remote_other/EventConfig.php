@@ -2,7 +2,6 @@
 
 /**
  * EventConfig.
- *
  * Represents configuration structure which could be used in construction of the EventBase .
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -17,8 +16,7 @@ final class EventConfig
 
     /**
      * __construct.
-     *
-     * Constructs EventConfig object
+     * Constructs EventConfig object.
      *
      * @see http://php.net/manual/en/eventconfig.construct.php
      */
@@ -28,8 +26,7 @@ final class EventConfig
 
     /**
      * avoidMethod.
-     *
-     * Tells libevent to avoid specific event method
+     * Tells libevent to avoid specific event method.
      *
      * @param string $method
      *
@@ -43,8 +40,7 @@ final class EventConfig
 
     /**
      * requireFeatures.
-     *
-     * Enters a required event method feature that the application demands
+     * Enters a required event method feature that the application demands.
      *
      * @param int $feature
      *
@@ -58,8 +54,7 @@ final class EventConfig
 
     /**
      * setMaxDispatchInterval.
-     *
-     * Prevents priority inversion
+     * Prevents priority inversion.
      *
      * @param int $max_interval
      * @param int $max_callbacks

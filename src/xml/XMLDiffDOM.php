@@ -5,8 +5,6 @@ namespace XMLDiff;
 /**
  * XMLDiff.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.xmldiff-dom.php
@@ -15,8 +13,7 @@ class XMLDiffDOM extends Base
 {
     /**
      * diff.
-     *
-     * Diff two DOMDocument objects
+     * Diff two DOMDocument objects.
      *
      * @param DOMDocument $from
      * @param DOMDocument $to
@@ -31,8 +28,7 @@ class XMLDiffDOM extends Base
 
     /**
      * merge.
-     *
-     * Produce merged DOMDocument
+     * Produce merged DOMDocument.
      *
      * @param DOMDocument $src
      * @param DOMDocument $diff

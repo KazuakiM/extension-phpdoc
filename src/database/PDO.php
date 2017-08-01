@@ -2,7 +2,6 @@
 
 /**
  * PDO.
- *
  * Represents a connection between PHP and a database server.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class PDO
 {
     /**
      * __construct.
-     *
-     * Creates a PDO instance representing a connection to a database
+     * Creates a PDO instance representing a connection to a database.
      *
      * @param string $dsn
      * @param string $username (optional)
@@ -31,8 +29,7 @@ class PDO
 
     /**
      * beginTransaction.
-     *
-     * Initiates a transaction
+     * Initiates a transaction.
      *
      * @throws PDOException
      *
@@ -46,8 +43,7 @@ class PDO
 
     /**
      * commit.
-     *
-     * Commits a transaction
+     * Commits a transaction.
      *
      * @throws PDOException
      *
@@ -61,8 +57,7 @@ class PDO
 
     /**
      * errorCode.
-     *
-     * Fetch the SQLSTATE associated with the last operation on the database handle
+     * Fetch the SQLSTATE associated with the last operation on the database handle.
      *
      * @return mixed
      *
@@ -74,8 +69,7 @@ class PDO
 
     /**
      * errorInfo.
-     *
-     * Fetch extended error information associated with the last operation on the database handle
+     * Fetch extended error information associated with the last operation on the database handle.
      *
      * @return array
      *
@@ -87,8 +81,7 @@ class PDO
 
     /**
      * exec.
-     *
-     * Execute an SQL statement and return the number of affected rows
+     * Execute an SQL statement and return the number of affected rows.
      *
      * @param string $statement
      *
@@ -102,8 +95,7 @@ class PDO
 
     /**
      * getAttribute.
-     *
-     * Retrieve a database connection attribute
+     * Retrieve a database connection attribute.
      *
      * @param int $attribute
      *
@@ -117,8 +109,7 @@ class PDO
 
     /**
      * getAvailableDrivers.
-     *
-     * Return an array of available PDO drivers
+     * Return an array of available PDO drivers.
      *
      * @return array
      *
@@ -130,8 +121,7 @@ class PDO
 
     /**
      * inTransaction.
-     *
-     * Checks if inside a transaction
+     * Checks if inside a transaction.
      *
      * @return bool
      *
@@ -143,8 +133,7 @@ class PDO
 
     /**
      * lastInsertId.
-     *
-     * Returns the ID of the last inserted row or sequence value
+     * Returns the ID of the last inserted row or sequence value.
      *
      * @param string $name = null (optional)
      *
@@ -158,8 +147,7 @@ class PDO
 
     /**
      * prepare.
-     *
-     * Prepares a statement for execution and returns a statement object
+     * Prepares a statement for execution and returns a statement object.
      *
      * @param string $statement
      * @param array  $driver_options = array()
@@ -174,8 +162,7 @@ class PDO
 
     /**
      * query.
-     *
-     * Executes an SQL statement, returning a result set as a PDOStatement object
+     * Executes an SQL statement, returning a result set as a PDOStatement object.
      *
      * @param string $statement
      *
@@ -189,7 +176,6 @@ class PDO
 
     /**
      * quote.
-     *
      * Quotes a string for use in a query.
      *
      * @param string $string
@@ -205,8 +191,7 @@ class PDO
 
     /**
      * rollBack.
-     *
-     * Rolls back a transaction
+     * Rolls back a transaction.
      *
      * @throws PDOException
      *
@@ -220,8 +205,7 @@ class PDO
 
     /**
      * setAttribute.
-     *
-     * Set an attribute
+     * Set an attribute.
      *
      * @param int   $attribute
      * @param mixed $value

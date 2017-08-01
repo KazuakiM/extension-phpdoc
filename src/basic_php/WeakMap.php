@@ -3,8 +3,6 @@
 /**
  * WeakMap.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.weakmap.php
@@ -13,8 +11,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 {
     /**
      * __construct.
-     *
-     * Constructs a new map
+     * Constructs a new map.
      *
      * @see http://php.net/manual/en/weakmap.construct.php
      */
@@ -24,8 +21,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * count.
-     *
-     * Counts the number of live entries in the map
+     * Counts the number of live entries in the map.
      *
      * @return int
      *
@@ -37,8 +33,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * current.
-     *
-     * Returns the current value under iteration
+     * Returns the current value under iteration.
      *
      * @return mixed
      *
@@ -50,7 +45,6 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * key.
-     *
      * Returns the current key under iteration.
      *
      * @return object
@@ -63,9 +57,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * next.
-     *
-     * Advances to the next map element
-     *
+     * Advances to the next map element.
      *
      * @see http://php.net/manual/en/weakmap.next.php
      */
@@ -75,8 +67,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * offsetExists.
-     *
-     * Checks whether a certain object is in the map
+     * Checks whether a certain object is in the map.
      *
      * @param object $object
      *
@@ -90,8 +81,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * offsetGet.
-     *
-     * Returns the value pointed to by a certain object
+     * Returns the value pointed to by a certain object.
      *
      * @param object $object
      *
@@ -105,8 +95,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * offsetSet.
-     *
-     * Updates the map with a new key-value pair
+     * Updates the map with a new key-value pair.
      *
      * @param object $object
      * @param mixed  $value
@@ -119,8 +108,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * offsetUnset.
-     *
-     * Removes an entry from the map
+     * Removes an entry from the map.
      *
      * @param object $object
      *
@@ -132,9 +120,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * rewind.
-     *
-     * Rewinds the iterator to the beginning of the map
-     *
+     * Rewinds the iterator to the beginning of the map.
      *
      * @see http://php.net/manual/en/weakmap.rewind.php
      */
@@ -144,8 +130,7 @@ class WeakMap implements Countable, ArrayAccess, Iterator
 
     /**
      * valid.
-     *
-     * Returns whether the iterator is still on a valid map element
+     * Returns whether the iterator is still on a valid map element.
      *
      * @return bool
      *

@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\WriteError.
- *
  * The MongoDB\Driver\WriteError class encapsulates information about a write error and may be returned as an array element from MongoDB\Driver\WriteResult::getWriteErrors().
  *
  * @copyrightCopyright(http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed underCC by 3.0 or later(http://creativecommons.org/licenses/by/3.0/).
@@ -16,8 +15,7 @@ final class WriteError
 {
     /**
      * getCode.
-     *
-     * Returns the WriteError's error code
+     * Returns the WriteError's error code.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -31,8 +29,7 @@ final class WriteError
 
     /**
      * getIndex.
-     *
-     * Returns the index of the write operation corresponding to this WriteError
+     * Returns the index of the write operation corresponding to this WriteError.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -46,8 +43,7 @@ final class WriteError
 
     /**
      * getInfo.
-     *
-     * Returns additional metadata for the WriteError
+     * Returns additional metadata for the WriteError.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -61,8 +57,7 @@ final class WriteError
 
     /**
      * getMessage.
-     *
-     * Returns the WriteError's error message
+     * Returns the WriteError's error message.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *

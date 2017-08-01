@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\Manager.
- *
  * The MongoDB\Driver\Manager is the main entry point to the extension. It is responsible for maintaining connections to MongoDB (be it standalone server, replica set, or sharded cluster).
  * No connection to MongoDB is made upon instantiating the Manager. This means the MongoDB\Driver\Manager can always be constructed, even though one or more MongoDB servers are down.
  * Any write or query can throw connection exceptions as connections are created lazily. A MongoDB server may also become unavailable during the life time of the script. It is therefore important that all actions on the Manager to be wrapped in try/catch statements.
@@ -18,8 +17,7 @@ final class Manager
 {
     /**
      * __construct.
-     *
-     * Create new MongoDB Manager
+     * Create new MongoDB Manager.
      *
      * @param string $uri           = 'mongodb://127.0.0.1/'
      * @param array  $uriOptions    = []
@@ -33,8 +31,7 @@ final class Manager
 
     /**
      * executeBulkWrite.
-     *
-     * Execute one or more write operations
+     * Execute one or more write operations.
      *
      * @param string                      $namespace
      * @param MongoDB\Driver\BulkWrite    $bulk
@@ -56,8 +53,7 @@ final class Manager
 
     /**
      * executeCommand.
-     *
-     * Execute a database command
+     * Execute a database command.
      *
      * @param string                        $db
      * @param MongoDB\Driver\Command        $command
@@ -78,8 +74,7 @@ final class Manager
 
     /**
      * executeQuery.
-     *
-     * Execute a database query
+     * Execute a database query.
      *
      * @param string                        $namespace
      * @param MongoDB\Driver\Query          $query
@@ -100,8 +95,7 @@ final class Manager
 
     /**
      * getReadConcern.
-     *
-     * Return the ReadConcern for the Manager
+     * Return the ReadConcern for the Manager.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -115,8 +109,7 @@ final class Manager
 
     /**
      * getReadPreference.
-     *
-     * Return the ReadPreference for the Manager
+     * Return the ReadPreference for the Manager.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -130,8 +123,7 @@ final class Manager
 
     /**
      * getServers.
-     *
-     * Return the servers to which this manager is connected
+     * Return the servers to which this manager is connected.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -145,8 +137,7 @@ final class Manager
 
     /**
      * getWriteConcern.
-     *
-     * Return the WriteConcern for the Manager
+     * Return the WriteConcern for the Manager.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -160,8 +151,7 @@ final class Manager
 
     /**
      * selectServer.
-     *
-     * Select a server matching a read preference
+     * Select a server matching a read preference.
      *
      * @param MongoDB\Driver\ReadPreference $readPreference
      *

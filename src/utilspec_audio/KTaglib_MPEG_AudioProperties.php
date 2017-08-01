@@ -2,7 +2,6 @@
 
 /**
  * KTaglib_MPEG_AudioProperties.
- *
  * Represents the audio properties of a MPEG file, like length, bitrate or samplerate.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class KTaglib_MPEG_AudioProperties
 {
     /**
      * getBitrate.
-     *
-     * Returns the bitrate of the MPEG file
+     * Returns the bitrate of the MPEG file.
      *
      * @return int
      *
@@ -26,8 +24,7 @@ class KTaglib_MPEG_AudioProperties
 
     /**
      * getChannels.
-     *
-     * Returns the amount of channels of a MPEG file
+     * Returns the amount of channels of a MPEG file.
      *
      * @return int
      *
@@ -39,8 +36,7 @@ class KTaglib_MPEG_AudioProperties
 
     /**
      * getLayer.
-     *
-     * Returns the layer of a MPEG file
+     * Returns the layer of a MPEG file.
      *
      * @return int
      *
@@ -52,8 +48,7 @@ class KTaglib_MPEG_AudioProperties
 
     /**
      * getLength.
-     *
-     * Returns the length of a MPEG file
+     * Returns the length of a MPEG file.
      *
      * @return int
      *
@@ -65,8 +60,7 @@ class KTaglib_MPEG_AudioProperties
 
     /**
      * getSampleBitrate.
-     *
-     * Returns the sample bitrate of a MPEG file
+     * Returns the sample bitrate of a MPEG file.
      *
      * @return int
      *
@@ -78,8 +72,7 @@ class KTaglib_MPEG_AudioProperties
 
     /**
      * getVersion.
-     *
-     * Returns the version of a MPEG file
+     * Returns the version of a MPEG file.
      *
      * @return int
      *
@@ -91,8 +84,7 @@ class KTaglib_MPEG_AudioProperties
 
     /**
      * isCopyrighted.
-     *
-     * Returns the copyright status of an MPEG file
+     * Returns the copyright status of an MPEG file.
      *
      * @return bool
      *
@@ -104,8 +96,7 @@ class KTaglib_MPEG_AudioProperties
 
     /**
      * isOriginal.
-     *
-     * Returns if the file is marked as the original file
+     * Returns if the file is marked as the original file.
      *
      * @return bool
      *
@@ -117,8 +108,7 @@ class KTaglib_MPEG_AudioProperties
 
     /**
      * isProtectionEnabled.
-     *
-     * Returns if protection mechanisms of an MPEG file are enabled
+     * Returns if protection mechanisms of an MPEG file are enabled.
      *
      * @return bool
      *

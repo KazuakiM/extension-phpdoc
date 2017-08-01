@@ -2,7 +2,6 @@
 
 /**
  * EventBase.
- *
  * EventBase class represents libevent's event base structure. It holds a set of events and can poll to determine which events are active.
  * Each event base has a method, or a backend that it uses to determine which events are ready. The recognized methods are: select, poll, epoll, kqueue, devpoll, evport and win32 .
  * To configure event base to use, or avoid specific backend EventConfig class can be used.
@@ -22,8 +21,7 @@ final class EventBase
 
     /**
      * __construct.
-     *
-     * Constructs EventBase object
+     * Constructs EventBase object.
      *
      * @param EventConfig $cfg
      *
@@ -35,9 +33,7 @@ final class EventBase
 
     /**
      * dispatch.
-     *
-     * Dispatch pending events
-     *
+     * Dispatch pending events.
      *
      * @see http://php.net/manual/en/eventbase.dispatch.php
      */
@@ -47,8 +43,7 @@ final class EventBase
 
     /**
      * exit.
-     *
-     * Stop dispatching events
+     * Stop dispatching events.
      *
      * @param float $timeout
      *
@@ -62,9 +57,7 @@ final class EventBase
 
     /**
      * free.
-     *
-     * Free resources allocated for this event base
-     *
+     * Free resources allocated for this event base.
      *
      * @see http://php.net/manual/en/eventbase.free.php
      */
@@ -74,8 +67,7 @@ final class EventBase
 
     /**
      * getFeatures.
-     *
-     * Returns bitmask of features supported
+     * Returns bitmask of features supported.
      *
      * @return int
      *
@@ -87,8 +79,7 @@ final class EventBase
 
     /**
      * getMethod.
-     *
-     * Returns event method in use
+     * Returns event method in use.
      *
      * @return string
      *
@@ -100,8 +91,7 @@ final class EventBase
 
     /**
      * getTimeOfDayCached.
-     *
-     * Returns the current event base time
+     * Returns the current event base time.
      *
      * @return float
      *
@@ -113,8 +103,7 @@ final class EventBase
 
     /**
      * gotExit.
-     *
-     * Checks if the event loop was told to exit
+     * Checks if the event loop was told to exit.
      *
      * @return bool
      *
@@ -126,8 +115,7 @@ final class EventBase
 
     /**
      * gotStop.
-     *
-     * Checks if the event loop was told to exit
+     * Checks if the event loop was told to exit.
      *
      * @return bool
      *
@@ -139,8 +127,7 @@ final class EventBase
 
     /**
      * loop.
-     *
-     * Dispatch pending events
+     * Dispatch pending events.
      *
      * @param int $flags
      *
@@ -154,8 +141,7 @@ final class EventBase
 
     /**
      * priorityInit.
-     *
-     * Sets number of priorities per event base
+     * Sets number of priorities per event base.
      *
      * @param int $n_priorities
      *
@@ -169,7 +155,6 @@ final class EventBase
 
     /**
      * reInit.
-     *
      * Re]initialize event base(after a fork).
      *
      * @return bool
@@ -182,8 +167,7 @@ final class EventBase
 
     /**
      * stop.
-     *
-     * Tells event_base to stop dispatching events
+     * Tells event_base to stop dispatching events.
      *
      * @return bool
      *

@@ -2,7 +2,6 @@
 
 /**
  * DOMCharacterData.
- *
  * Represents nodes with character data. No nodes directly correspond to this class, but other nodes do inherit from it.
  *
  * @property string $data
@@ -19,8 +18,7 @@ class DOMCharacterData extends DOMNode
 
     /**
      * appendData.
-     *
-     * Append the string to the end of the character data of the node
+     * Append the string to the end of the character data of the node.
      *
      * @param string $data
      *
@@ -32,8 +30,7 @@ class DOMCharacterData extends DOMNode
 
     /**
      * deleteData.
-     *
-     * Remove a range of characters from the node
+     * Remove a range of characters from the node.
      *
      * @param int $offset
      * @param int $count
@@ -48,8 +45,7 @@ class DOMCharacterData extends DOMNode
 
     /**
      * insertData.
-     *
-     * Insert a string at the specified 16-bit unit offset
+     * Insert a string at the specified 16-bit unit offset.
      *
      * @param int    $offset
      * @param string $data
@@ -64,8 +60,7 @@ class DOMCharacterData extends DOMNode
 
     /**
      * replaceData.
-     *
-     * Replace a substring within the DOMCharacterData node
+     * Replace a substring within the DOMCharacterData node.
      *
      * @param int    $offset
      * @param int    $count
@@ -81,8 +76,7 @@ class DOMCharacterData extends DOMNode
 
     /**
      * substringData.
-     *
-     * Extracts a range of data from the node
+     * Extracts a range of data from the node.
      *
      * @param int $offset
      * @param int $count

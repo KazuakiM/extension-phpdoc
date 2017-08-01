@@ -2,7 +2,6 @@
 
 /**
  * GearmanClient.
- *
  * Represents a class for connecting to a Gearman job server and making requests to perform some function on provided data. The function performed must be one registered by a Gearman worker and the data passed is opaque to the job server.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class GearmanClient
 {
     /**
      * __construct.
-     *
-     * Create a GearmanClient instance
+     * Create a GearmanClient instance.
      *
      * @see http://php.net/manual/en/gearmanclient.construct.php
      */
@@ -24,8 +22,7 @@ class GearmanClient
 
     /**
      * addOptions.
-     *
-     * Add client options
+     * Add client options.
      *
      * @param int $options
      *
@@ -39,8 +36,7 @@ class GearmanClient
 
     /**
      * addServer.
-     *
-     * Add a job server to the client
+     * Add a job server to the client.
      *
      * @param string $host = '127.0.0.1'
      * @param int    $port = 4730
@@ -55,8 +51,7 @@ class GearmanClient
 
     /**
      * addServers.
-     *
-     * Add a list of job servers to the client
+     * Add a list of job servers to the client.
      *
      * @param string $servers = '127.0.0.1:4730'
      *
@@ -70,8 +65,7 @@ class GearmanClient
 
     /**
      * addTask.
-     *
-     * Add a task to be run in parallel
+     * Add a task to be run in parallel.
      *
      * @param string $function_name
      * @param string $workload
@@ -88,8 +82,7 @@ class GearmanClient
 
     /**
      * addTaskBackground.
-     *
-     * Add a background task to be run in parallel
+     * Add a background task to be run in parallel.
      *
      * @param string $function_name
      * @param string $workload
@@ -106,8 +99,7 @@ class GearmanClient
 
     /**
      * addTaskHigh.
-     *
-     * Add a high priority task to run in parallel
+     * Add a high priority task to run in parallel.
      *
      * @param string $function_name
      * @param string $workload
@@ -124,8 +116,7 @@ class GearmanClient
 
     /**
      * addTaskHighBackground.
-     *
-     * Add a high priority background task to be run in parallel
+     * Add a high priority background task to be run in parallel.
      *
      * @param string $function_name
      * @param string $workload
@@ -142,8 +133,7 @@ class GearmanClient
 
     /**
      * addTaskLow.
-     *
-     * Add a low priority task to run in parallel
+     * Add a low priority task to run in parallel.
      *
      * @param string $function_name
      * @param string $workload
@@ -160,8 +150,7 @@ class GearmanClient
 
     /**
      * addTaskLowBackground.
-     *
-     * Add a low priority background task to be run in parallel
+     * Add a low priority background task to be run in parallel.
      *
      * @param string $function_name
      * @param string $workload
@@ -178,8 +167,7 @@ class GearmanClient
 
     /**
      * addTaskStatus.
-     *
-     * Add a task to get status
+     * Add a task to get status.
      *
      * @param string $job_handle
      * @param string &$context   (optional)
@@ -194,8 +182,7 @@ class GearmanClient
 
     /**
      * clearCallbacks.
-     *
-     * Clear all task callback functions
+     * Clear all task callback functions.
      *
      * @return bool
      *
@@ -207,8 +194,7 @@ class GearmanClient
 
     /**
      * clone.
-     *
-     * Create a copy of a GearmanClient object
+     * Create a copy of a GearmanClient object.
      *
      * @return GearmanClient
      *
@@ -220,8 +206,7 @@ class GearmanClient
 
     /**
      * context.
-     *
-     * Get the application context
+     * Get the application context.
      *
      * @return string
      *
@@ -233,8 +218,7 @@ class GearmanClient
 
     /**
      * data.
-     *
-     * Get the application data (deprecated)
+     * Get the application data (deprecated).
      *
      * @return string
      *
@@ -246,8 +230,7 @@ class GearmanClient
 
     /**
      * do.
-     *
-     * Run a single task and return a result [deprecated]
+     * Run a single task and return a result [deprecated].
      *
      * @param string $function_name
      * @param string $workload
@@ -263,8 +246,7 @@ class GearmanClient
 
     /**
      * doBackground.
-     *
-     * Run a task in the background
+     * Run a task in the background.
      *
      * @param string $function_name
      * @param string $workload
@@ -280,8 +262,7 @@ class GearmanClient
 
     /**
      * doHigh.
-     *
-     * Run a single high priority task
+     * Run a single high priority task.
      *
      * @param string $function_name
      * @param string $workload
@@ -297,8 +278,7 @@ class GearmanClient
 
     /**
      * doHighBackground.
-     *
-     * Run a high priority task in the background
+     * Run a high priority task in the background.
      *
      * @param string $function_name
      * @param string $workload
@@ -314,8 +294,7 @@ class GearmanClient
 
     /**
      * doJobHandle.
-     *
-     * Get the job handle for the running task
+     * Get the job handle for the running task.
      *
      * @return string
      *
@@ -327,8 +306,7 @@ class GearmanClient
 
     /**
      * doLow.
-     *
-     * Run a single low priority task
+     * Run a single low priority task.
      *
      * @param string $function_name
      * @param string $workload
@@ -344,8 +322,7 @@ class GearmanClient
 
     /**
      * doLowBackground.
-     *
-     * Run a low priority task in the background
+     * Run a low priority task in the background.
      *
      * @param string $function_name
      * @param string $workload
@@ -361,8 +338,7 @@ class GearmanClient
 
     /**
      * doNormal.
-     *
-     * Run a single task and return a result
+     * Run a single task and return a result.
      *
      * @param string        $function_name
      * @param string string $workload
@@ -378,8 +354,7 @@ class GearmanClient
 
     /**
      * doStatus.
-     *
-     * Get the status for the running task
+     * Get the status for the running task.
      *
      * @return array
      *
@@ -391,8 +366,7 @@ class GearmanClient
 
     /**
      * echo.
-     *
-     * Send data to all job servers to see if they echo it back [deprecated]
+     * Send data to all job servers to see if they echo it back [deprecated].
      *
      * @param string $workload
      *
@@ -406,7 +380,6 @@ class GearmanClient
 
     /**
      * error.
-     *
      * Returns an error string for the last error encountered.
      *
      * @return string
@@ -419,8 +392,7 @@ class GearmanClient
 
     /**
      * getErrno.
-     *
-     * Get an errno value
+     * Get an errno value.
      *
      * @return int
      *
@@ -432,8 +404,7 @@ class GearmanClient
 
     /**
      * jobStatus.
-     *
-     * gearman_job_status — Get the status of a background job
+     * gearman_job_status — Get the status of a background job.
      *
      * @param string $job_handle
      *
@@ -447,8 +418,7 @@ class GearmanClient
 
     /**
      * ping.
-     *
-     * Send data to all job servers to see if they echo it back
+     * Send data to all job servers to see if they echo it back.
      *
      * @param string $workload
      *
@@ -462,8 +432,7 @@ class GearmanClient
 
     /**
      * removeOptions.
-     *
-     * Remove client options
+     * Remove client options.
      *
      * @param int $options
      *
@@ -477,8 +446,7 @@ class GearmanClient
 
     /**
      * returnCode.
-     *
-     * Get the last Gearman return code
+     * Get the last Gearman return code.
      *
      * @return int
      *
@@ -490,8 +458,7 @@ class GearmanClient
 
     /**
      * runTasks.
-     *
-     * Run a list of tasks in parallel
+     * Run a list of tasks in parallel.
      *
      * @return bool
      *
@@ -503,8 +470,7 @@ class GearmanClient
 
     /**
      * setClientCallback.
-     *
-     * Callback function when there is a data packet for a task (deprecated)
+     * Callback function when there is a data packet for a task (deprecated).
      *
      * @param callable $callback
      *
@@ -516,8 +482,7 @@ class GearmanClient
 
     /**
      * setCompleteCallback.
-     *
-     * Set a function to be called on task completion
+     * Set a function to be called on task completion.
      *
      * @param callable $callback
      *
@@ -531,8 +496,7 @@ class GearmanClient
 
     /**
      * setContext.
-     *
-     * Set application context
+     * Set application context.
      *
      * @param string $context
      *
@@ -546,8 +510,7 @@ class GearmanClient
 
     /**
      * setCreatedCallback.
-     *
-     * Set a callback for when a task is queued
+     * Set a callback for when a task is queued.
      *
      * @param string $callback
      *
@@ -561,8 +524,7 @@ class GearmanClient
 
     /**
      * setData.
-     *
-     * Set application data (deprecated)
+     * Set application data (deprecated).
      *
      * @param string $data
      *
@@ -576,8 +538,7 @@ class GearmanClient
 
     /**
      * setDataCallback.
-     *
-     * Callback function when there is a data packet for a task
+     * Callback function when there is a data packet for a task.
      *
      * @param callable $callback
      *
@@ -591,8 +552,7 @@ class GearmanClient
 
     /**
      * setExceptionCallback.
-     *
-     * Set a callback for worker exceptions
+     * Set a callback for worker exceptions.
      *
      * @param callable $callback
      *
@@ -606,8 +566,7 @@ class GearmanClient
 
     /**
      * setFailCallback.
-     *
-     * Set callback for job failure
+     * Set callback for job failure.
      *
      * @param callable $callback
      *
@@ -621,8 +580,7 @@ class GearmanClient
 
     /**
      * setOptions.
-     *
-     * Set client options
+     * Set client options.
      *
      * @param int $options
      *
@@ -636,8 +594,7 @@ class GearmanClient
 
     /**
      * setStatusCallback.
-     *
-     * Set a callback for collecting task status
+     * Set a callback for collecting task status.
      *
      * @param callable $callback
      *
@@ -651,8 +608,7 @@ class GearmanClient
 
     /**
      * setTimeout.
-     *
-     * Set socket I/O activity timeout
+     * Set socket I/O activity timeout.
      *
      * @param int $timeout
      *
@@ -666,8 +622,7 @@ class GearmanClient
 
     /**
      * setWarningCallback.
-     *
-     * Set a callback for worker warnings
+     * Set a callback for worker warnings.
      *
      * @param callable $callback
      *
@@ -681,8 +636,7 @@ class GearmanClient
 
     /**
      * setWorkloadCallback.
-     *
-     * Set a callback for accepting incremental data updates
+     * Set a callback for accepting incremental data updates.
      *
      * @param callable $callback
      *
@@ -696,8 +650,7 @@ class GearmanClient
 
     /**
      * timeout.
-     *
-     * Get current socket I/O activity timeout value
+     * Get current socket I/O activity timeout value.
      *
      * @return int
      *

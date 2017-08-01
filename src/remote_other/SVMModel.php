@@ -2,7 +2,6 @@
 
 /**
  * SVMModel.
- *
  * The SVMModel is the end result of the training process. It can be used to classify previously unseen data.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class SVMModel
 {
     /**
      * __construct.
-     *
-     * Construct a new SVMModel
+     * Construct a new SVMModel.
      *
      * @param string $filename (optional)
      *
@@ -26,8 +24,7 @@ class SVMModel
 
     /**
      * checkProbabilityModel.
-     *
-     * Returns true if the model has probability information
+     * Returns true if the model has probability information.
      *
      * @return bool
      *
@@ -39,8 +36,7 @@ class SVMModel
 
     /**
      * getLabels.
-     *
-     * Get the labels the model was trained on
+     * Get the labels the model was trained on.
      *
      * @return array
      *
@@ -52,8 +48,7 @@ class SVMModel
 
     /**
      * getNrClass.
-     *
-     * Returns the number of classes the model was trained with
+     * Returns the number of classes the model was trained with.
      *
      * @return int
      *
@@ -65,8 +60,7 @@ class SVMModel
 
     /**
      * getSvmType.
-     *
-     * Get the SVM type the model was trained with
+     * Get the SVM type the model was trained with.
      *
      * @return int
      *
@@ -78,8 +72,7 @@ class SVMModel
 
     /**
      * getSvrProbability.
-     *
-     * Get the sigma value for regression types
+     * Get the sigma value for regression types.
      *
      * @return float
      *
@@ -91,8 +84,7 @@ class SVMModel
 
     /**
      * load.
-     *
-     * Load a saved SVM Model
+     * Load a saved SVM Model.
      *
      * @param string $filename
      *
@@ -106,8 +98,7 @@ class SVMModel
 
     /**
      * predict_probability.
-     *
-     * Return class probabilities for previous unseen data
+     * Return class probabilities for previous unseen data.
      *
      * @param array $data
      *
@@ -121,8 +112,7 @@ class SVMModel
 
     /**
      * predict.
-     *
-     * Predict a value for previously unseen data
+     * Predict a value for previously unseen data.
      *
      * @param array $data
      *
@@ -136,8 +126,7 @@ class SVMModel
 
     /**
      * save.
-     *
-     * Save a model to a file
+     * Save a model to a file.
      *
      * @param string $filename
      *

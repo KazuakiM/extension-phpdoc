@@ -2,7 +2,6 @@
 
 /**
  * Error.
- *
  * Error is the base class for all internal PHP errors.
  *
  * @property string $message
@@ -23,8 +22,7 @@ class Error implements Throwable
 
     /**
      * __construct.
-     *
-     * Construct the error object
+     * Construct the error object.
      *
      * @param string    $message  = ""
      * @param int       $code     = 0
@@ -38,8 +36,7 @@ class Error implements Throwable
 
     /**
      * __toString.
-     *
-     * String representation of the error
+     * String representation of the error.
      *
      * @return string
      *
@@ -51,9 +48,7 @@ class Error implements Throwable
 
     /**
      * __clone.
-     *
-     * Clone the error
-     *
+     * Clone the error.
      *
      * @see http://php.net/manual/en/error.clone.php
      */
@@ -63,8 +58,7 @@ class Error implements Throwable
 
     /**
      * getMessage.
-     *
-     * Gets the error message
+     * Gets the error message.
      *
      * @return string
      *
@@ -76,8 +70,7 @@ class Error implements Throwable
 
     /**
      * getPrevious.
-     *
-     * Returns previous Throwable
+     * Returns previous Throwable.
      *
      * @return Throwable
      *
@@ -89,8 +82,7 @@ class Error implements Throwable
 
     /**
      * getCode.
-     *
-     * Gets the error code
+     * Gets the error code.
      *
      * @return mixed
      *
@@ -102,8 +94,7 @@ class Error implements Throwable
 
     /**
      * getFile.
-     *
-     * Gets the file in which the error occurred
+     * Gets the file in which the error occurred.
      *
      * @return string
      *
@@ -115,8 +106,7 @@ class Error implements Throwable
 
     /**
      * getLine.
-     *
-     * Gets the line in which the error occurred
+     * Gets the line in which the error occurred.
      *
      * @return int
      *
@@ -128,8 +118,7 @@ class Error implements Throwable
 
     /**
      * getTrace.
-     *
-     * Gets the stack trace
+     * Gets the stack trace.
      *
      * @return array
      *
@@ -141,8 +130,7 @@ class Error implements Throwable
 
     /**
      * getTraceAsString.
-     *
-     * Gets the stack trace as a string
+     * Gets the stack trace as a string.
      *
      * @return string
      *

@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\Exception\WriteException.
- *
  * Base class for exceptions thrown by a failed write operation. The exception encapsulates a MongoDB\Driver\WriteResult object.
  *
  * @property MongoDB\Driver\WriteResult $writeResult
@@ -26,7 +25,6 @@ abstract class WriteException extends MongoDB\Driver\Exception\RuntimeException 
 
     /**
      * getWriteResult.
-     *
      * associated with the failed write operation.
      *
      * @return MongoDB\Driver\WriteResult

@@ -2,8 +2,7 @@
 
 /**
  * TokyoTyrantQuery.
- *
- * This class is used to query the table databases
+ * This class is used to query the table databases.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
@@ -13,8 +12,7 @@ class TokyoTyrantQuery implements Iterator
 {
     /**
      * __construct.
-     *
-     * Construct a new query
+     * Construct a new query.
      *
      * @param TokyoTyrantTable $table
      *
@@ -28,8 +26,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * addCond.
-     *
-     * Adds a condition to the query
+     * Adds a condition to the query.
      *
      * @param string $name
      * @param int    $op
@@ -47,8 +44,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * count.
-     *
-     * Counts records
+     * Counts records.
      *
      * @throws TokyoTyrantException
      *
@@ -62,8 +58,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * current.
-     *
-     * Returns the current element
+     * Returns the current element.
      *
      * @return array
      *
@@ -75,8 +70,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * hint.
-     *
-     * Get the hint string of the query
+     * Get the hint string of the query.
      *
      * @return string
      *
@@ -88,8 +82,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * key.
-     *
-     * Returns the current key
+     * Returns the current key.
      *
      * @throws TokyoTyrantException
      *
@@ -103,8 +96,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * metaSearch.
-     *
-     * Retrieve records with multiple queries
+     * Retrieve records with multiple queries.
      *
      * @param array $queries
      * @param int   $type
@@ -121,8 +113,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * next.
-     *
-     * Moves the iterator to next entry
+     * Moves the iterator to next entry.
      *
      * @throws TokyoTyrantException
      *
@@ -136,8 +127,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * out.
-     *
-     * Removes records based on query
+     * Removes records based on query.
      *
      * @throws TokyoTyrantException
      *
@@ -151,8 +141,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * rewind.
-     *
-     * Rewinds the iterator
+     * Rewinds the iterator.
      *
      * @return bool
      *
@@ -164,8 +153,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * search.
-     *
-     * Searches records
+     * Searches records.
      *
      * @throws TokyoTyrantException
      *
@@ -179,8 +167,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * setLimit.
-     *
-     * Limit results
+     * Limit results.
      *
      * @param int $max  (optional)
      * @param int $skip (optional)
@@ -197,8 +184,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * setOrder.
-     *
-     * Orders results
+     * Orders results.
      *
      * @param string $name
      * @param int    $type
@@ -213,8 +199,7 @@ class TokyoTyrantQuery implements Iterator
 
     /**
      * valid.
-     *
-     * Checks the validity of current item
+     * Checks the validity of current item.
      *
      * @return bool
      *

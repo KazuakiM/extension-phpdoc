@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\BSON\Decimal128.
- *
  * BSON type for the » Decimal128 floating-point format, which supports numbers with up to 34 decimal digits (i.e. significant digits) and an exponent range of −6143 to +6144.
  * Unlike the double BSON type (i.e. float in PHP), which only stores an approximation of the decimal values, the decimal data type stores the exact value. For example, MongoDB\BSON\Decimal128('9.99') has a precise value of 9.99 where as a double 9.99 would have an approximate value of 9.9900000000000002131628….
  *
@@ -17,9 +16,7 @@ class Decimal128 implements MongoDB\BSON\Type, Serializable, JsonSerializable
 {
     /**
      * __construct.
-     *
-     * Construct a new Decimal128
-     *
+     * Construct a new Decimal128.
      *
      * @param string $value (optional)
      *
@@ -33,8 +30,7 @@ class Decimal128 implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * __toString.
-     *
-     * Returns the string representation of this Decimal128
+     * Returns the string representation of this Decimal128.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -48,8 +44,7 @@ class Decimal128 implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * jsonSerialize.
-     *
-     * Returns a representation that can be converted to JSON
+     * Returns a representation that can be converted to JSON.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -63,8 +58,7 @@ class Decimal128 implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * serialize.
-     *
-     * Serialize a Decimal128
+     * Serialize a Decimal128.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -78,8 +72,7 @@ class Decimal128 implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * unserialize.
-     *
-     * Unserialize a Decimal128
+     * Unserialize a Decimal128.
      *
      * @param string $serialized
      *

@@ -3,8 +3,6 @@
 /**
  * GearmanWorker.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.gearmanworker.php
@@ -13,8 +11,7 @@ class GearmanWorker
 {
     /**
      * __construct.
-     *
-     * Create a GearmanWorker instance
+     * Create a GearmanWorker instance.
      *
      * @see http://php.net/manual/en/gearmanworker.construct.php
      */
@@ -24,8 +21,7 @@ class GearmanWorker
 
     /**
      * addFunction.
-     *
-     * Register and add callback function
+     * Register and add callback function.
      *
      * @param string   $function_name
      * @param callable $function
@@ -42,8 +38,7 @@ class GearmanWorker
 
     /**
      * addOptions.
-     *
-     * Add worker options
+     * Add worker options.
      *
      * @param int $option
      *
@@ -57,8 +52,7 @@ class GearmanWorker
 
     /**
      * addServer.
-     *
-     * Add a job server
+     * Add a job server.
      *
      * @param string $host = '127.0.0.1'
      * @param int    $port = 4730
@@ -73,8 +67,7 @@ class GearmanWorker
 
     /**
      * addServers.
-     *
-     * Add job servers
+     * Add job servers.
      *
      * @param string $servers = '127.0.0.1:4730'
      *
@@ -88,9 +81,7 @@ class GearmanWorker
 
     /**
      * clone.
-     *
-     * Create a copy of the worker
-     *
+     * Create a copy of the worker.
      *
      * @see http://php.net/manual/en/gearmanworker.clone.php
      */
@@ -100,8 +91,7 @@ class GearmanWorker
 
     /**
      * echo.
-     *
-     * Test job server response
+     * Test job server response.
      *
      * @param string $workload
      *
@@ -115,8 +105,7 @@ class GearmanWorker
 
     /**
      * error.
-     *
-     * Get the last error encountered
+     * Get the last error encountered.
      *
      * @return string
      *
@@ -128,8 +117,7 @@ class GearmanWorker
 
     /**
      * getErrno.
-     *
-     * Get errno
+     * Get errno.
      *
      * @return int
      *
@@ -141,8 +129,7 @@ class GearmanWorker
 
     /**
      * options.
-     *
-     * Get worker options
+     * Get worker options.
      *
      * @return int
      *
@@ -154,8 +141,7 @@ class GearmanWorker
 
     /**
      * register.
-     *
-     * Register a function with the job server
+     * Register a function with the job server.
      *
      * @param string $function_name
      * @param int    $timeout       (optional)
@@ -170,8 +156,7 @@ class GearmanWorker
 
     /**
      * removeOptions.
-     *
-     * Remove worker options
+     * Remove worker options.
      *
      * @param int $option
      *
@@ -185,8 +170,7 @@ class GearmanWorker
 
     /**
      * returnCode.
-     *
-     * Get last Gearman return code
+     * Get last Gearman return code.
      *
      * @return int
      *
@@ -198,7 +182,6 @@ class GearmanWorker
 
     /**
      * setId.
-     *
      * Give the worker an identifier so it can be tracked when asking gearmand for the list of available workers.
      *
      * @param string $id
@@ -213,8 +196,7 @@ class GearmanWorker
 
     /**
      * setOptions.
-     *
-     * Set worker options
+     * Set worker options.
      *
      * @param int $option
      *
@@ -228,8 +210,7 @@ class GearmanWorker
 
     /**
      * setTimeout.
-     *
-     * Set socket I/O activity timeout
+     * Set socket I/O activity timeout.
      *
      * @param int $timeout
      *
@@ -243,8 +224,7 @@ class GearmanWorker
 
     /**
      * timeout.
-     *
-     * Get socket I/O activity timeout
+     * Get socket I/O activity timeout.
      *
      * @return int
      *
@@ -256,8 +236,7 @@ class GearmanWorker
 
     /**
      * unregister.
-     *
-     * Unregister a function name with the job servers
+     * Unregister a function name with the job servers.
      *
      * @param string $function_name
      *
@@ -271,8 +250,7 @@ class GearmanWorker
 
     /**
      * unregisterAll.
-     *
-     * Unregister all function names with the job servers
+     * Unregister all function names with the job servers.
      *
      * @return bool
      *
@@ -284,8 +262,7 @@ class GearmanWorker
 
     /**
      * wait.
-     *
-     * Wait for activity from one of the job servers
+     * Wait for activity from one of the job servers.
      *
      * @return bool
      *
@@ -297,8 +274,7 @@ class GearmanWorker
 
     /**
      * work.
-     *
-     * Wait for and perform jobs
+     * Wait for and perform jobs.
      *
      * @return bool
      *

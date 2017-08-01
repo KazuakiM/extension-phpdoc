@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\Command.
- *
  * The MongoDB\Driver\Command class is a value object that represents a database command.
  * To provide "Command Helpers" the MongoDB\Driver\Command object should be composed.
  *
@@ -17,8 +16,7 @@ final class Command
 {
     /**
      * __construct.
-     *
-     * Create a new Command
+     * Create a new Command.
      *
      * @param array|object $document
      *

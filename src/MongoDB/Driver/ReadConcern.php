@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\ReadConcern.
- *
  * MongoDB\Driver\ReadConcern controls the level of isolation for read operations for replica sets and replica set shards. This option requires the WiredTiger storage engine and MongoDB 3.2 or later.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -20,8 +19,7 @@ final class ReadConcern implements MongoDB\BSON\Serializable
 
     /**
      * __construct.
-     *
-     * Construct immutable ReadConcern
+     * Construct immutable ReadConcern.
      *
      * @param string $level (optional)
      *
@@ -35,8 +33,7 @@ final class ReadConcern implements MongoDB\BSON\Serializable
 
     /**
      * bsonSerialize.
-     *
-     * Returns an object for BSON serialization
+     * Returns an object for BSON serialization.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -50,8 +47,7 @@ final class ReadConcern implements MongoDB\BSON\Serializable
 
     /**
      * getLevel.
-     *
-     * Returns the ReadConcern's "level" option
+     * Returns the ReadConcern's "level" option.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *

@@ -2,7 +2,6 @@
 
 /**
  * EventDnsBase.
- *
  * Represents Libevent's DNS base structure. Used to resolve DNS asyncronously, parse configuration files like resolv.conf etc.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -19,8 +18,7 @@ final class EventDnsBase
 
     /**
      * __construct.
-     *
-     * Constructs EventDnsBase object
+     * Constructs EventDnsBase object.
      *
      * @param EventBase $base
      * @param bool      $initialize
@@ -33,8 +31,7 @@ final class EventDnsBase
 
     /**
      * addNameserverIp.
-     *
-     * Adds a nameserver to the DNS base
+     * Adds a nameserver to the DNS base.
      *
      * @param string $ip
      *
@@ -48,8 +45,7 @@ final class EventDnsBase
 
     /**
      * addSearch.
-     *
-     * Adds a domain to the list of search domains
+     * Adds a domain to the list of search domains.
      *
      * @param string $domain
      *
@@ -61,9 +57,7 @@ final class EventDnsBase
 
     /**
      * clearSearch.
-     *
-     * Removes all current search suffixes
-     *
+     * Removes all current search suffixes.
      *
      * @see http://php.net/manual/en/eventdnsbase.clearsearch.php
      */
@@ -73,8 +67,7 @@ final class EventDnsBase
 
     /**
      * countNameservers.
-     *
-     * Gets the number of configured nameservers
+     * Gets the number of configured nameservers.
      *
      * @return int
      *
@@ -86,8 +79,7 @@ final class EventDnsBase
 
     /**
      * loadHosts.
-     *
-     * Loads a hosts file (in the same format as /etc/hosts) from hosts file
+     * Loads a hosts file (in the same format as /etc/hosts) from hosts file.
      *
      * @param string $hosts
      *
@@ -101,8 +93,7 @@ final class EventDnsBase
 
     /**
      * parseResolvConf.
-     *
-     * Scans the resolv.conf-formatted file
+     * Scans the resolv.conf-formatted file.
      *
      * @param int    $flags
      * @param string $filename
@@ -117,8 +108,7 @@ final class EventDnsBase
 
     /**
      * setOption.
-     *
-     * Set the value of a configuration option
+     * Set the value of a configuration option.
      *
      * @param string $option
      * @param string $value
@@ -133,8 +123,7 @@ final class EventDnsBase
 
     /**
      * setSearchNdots.
-     *
-     * Set the 'ndots' parameter for searches
+     * Set the 'ndots' parameter for searches.
      *
      * @param int $ndots
      *

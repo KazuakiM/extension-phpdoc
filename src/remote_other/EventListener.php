@@ -2,7 +2,6 @@
 
 /**
  * EventListener.
- *
  * Represents a connection listener.
  *
  * @property int $fd
@@ -23,8 +22,7 @@ final class EventListener
 
     /**
      * __construct.
-     *
-     * Creates new connection listener associated with an event base
+     * Creates new connection listener associated with an event base.
      *
      * @param EventBase $base
      * @param callable  $cb
@@ -41,8 +39,7 @@ final class EventListener
 
     /**
      * disable.
-     *
-     * Disables an event connect listener object
+     * Disables an event connect listener object.
      *
      * @return bool
      *
@@ -54,8 +51,7 @@ final class EventListener
 
     /**
      * enable.
-     *
-     * Enables an event connect listener object
+     * Enables an event connect listener object.
      *
      * @return bool
      *
@@ -67,9 +63,7 @@ final class EventListener
 
     /**
      * getBase.
-     *
-     * Returns event base associated with the event listener
-     *
+     * Returns event base associated with the event listener.
      *
      * @see http://php.net/manual/en/eventlistener.getbase.php
      */
@@ -79,7 +73,6 @@ final class EventListener
 
     /**
      * getSocketName.
-     *
      * Retreives the current address to which the listener's socket is bound.
      *
      * @param string &$address
@@ -95,8 +88,7 @@ final class EventListener
 
     /**
      * setCallback.
-     *
-     * The setCallback purpose
+     * The setCallback purpose.
      *
      * @param callable $cb
      * @param mixed    $arg = null
@@ -109,8 +101,7 @@ final class EventListener
 
     /**
      * setErrorCallback.
-     *
-     * Set event listener's error callback
+     * Set event listener's error callback.
      *
      * @param string $cb
      *

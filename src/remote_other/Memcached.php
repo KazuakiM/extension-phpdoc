@@ -2,7 +2,6 @@
 
 /**
  * Memcached.
- *
  * Represents a connection to a set of memcached servers.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class Memcached
 {
     /**
      * __construct.
-     *
-     * Create a Memcached instance
+     * Create a Memcached instance.
      *
      * @param string $persistent_id (optional)
      *
@@ -26,8 +24,7 @@ class Memcached
 
     /**
      * add.
-     *
-     * Add an item under a new key
+     * Add an item under a new key.
      *
      * @param string $key
      * @param mixed  $value
@@ -43,8 +40,7 @@ class Memcached
 
     /**
      * addByKey.
-     *
-     * Add an item under a new key on a specific server
+     * Add an item under a new key on a specific server.
      *
      * @param string $server_key
      * @param string $key
@@ -61,8 +57,7 @@ class Memcached
 
     /**
      * addServer.
-     *
-     * Add a server to the server pool
+     * Add a server to the server pool.
      *
      * @param string $host
      * @param int    $port
@@ -78,8 +73,7 @@ class Memcached
 
     /**
      * addServers.
-     *
-     * Add multiple servers to the server pool
+     * Add multiple servers to the server pool.
      *
      * @param array $servers
      *
@@ -93,8 +87,7 @@ class Memcached
 
     /**
      * append.
-     *
-     * Append data to an existing item
+     * Append data to an existing item.
      *
      * @param string $key
      * @param string $value
@@ -109,8 +102,7 @@ class Memcached
 
     /**
      * appendByKey.
-     *
-     * Append data to an existing item on a specific server
+     * Append data to an existing item on a specific server.
      *
      * @param string $server_key
      * @param string $key
@@ -126,8 +118,7 @@ class Memcached
 
     /**
      * cas.
-     *
-     * Compare and swap an item
+     * Compare and swap an item.
      *
      * @param float  $cas_token
      * @param string $key
@@ -144,8 +135,7 @@ class Memcached
 
     /**
      * casByKey.
-     *
-     * Compare and swap an item on a specific server
+     * Compare and swap an item on a specific server.
      *
      * @param float  $cas_token
      * @param string $server_key
@@ -163,8 +153,7 @@ class Memcached
 
     /**
      * decrement.
-     *
-     * Decrement numeric item's value
+     * Decrement numeric item's value.
      *
      * @param string $key
      * @param int    $offset        = 1
@@ -181,8 +170,7 @@ class Memcached
 
     /**
      * decrementByKey.
-     *
-     * Decrement numeric item's value, stored on a specific server
+     * Decrement numeric item's value, stored on a specific server.
      *
      * @param string $server_key
      * @param string $key
@@ -200,8 +188,7 @@ class Memcached
 
     /**
      * delete.
-     *
-     * Delete an item
+     * Delete an item.
      *
      * @param string $key
      * @param int    $time = 0
@@ -216,8 +203,7 @@ class Memcached
 
     /**
      * deleteByKey.
-     *
-     * Delete an item from a specific server
+     * Delete an item from a specific server.
      *
      * @param string $server_key
      * @param string $key
@@ -233,8 +219,7 @@ class Memcached
 
     /**
      * deleteMulti.
-     *
-     * Delete multiple items
+     * Delete multiple items.
      *
      * @param array $keys
      * @param int   $time = 0
@@ -249,8 +234,7 @@ class Memcached
 
     /**
      * deleteMultiByKey.
-     *
-     * Delete multiple items from a specific server
+     * Delete multiple items from a specific server.
      *
      * @param string $server_key
      * @param array  $keys
@@ -266,8 +250,7 @@ class Memcached
 
     /**
      * fetch.
-     *
-     * Fetch the next result
+     * Fetch the next result.
      *
      * @return array
      *
@@ -279,8 +262,7 @@ class Memcached
 
     /**
      * fetchAll.
-     *
-     * Fetch all the remaining results
+     * Fetch all the remaining results.
      *
      * @return array
      *
@@ -292,8 +274,7 @@ class Memcached
 
     /**
      * flush.
-     *
-     * Invalidate all items in the cache
+     * Invalidate all items in the cache.
      *
      * @param int $delay = 0
      *
@@ -307,8 +288,7 @@ class Memcached
 
     /**
      * get.
-     *
-     * Retrieve an item
+     * Retrieve an item.
      *
      * @param string   $key
      * @param callable $cache_cb (optional)
@@ -324,8 +304,7 @@ class Memcached
 
     /**
      * getAllKeys.
-     *
-     * Gets the keys stored on all the servers
+     * Gets the keys stored on all the servers.
      *
      * @return array
      *
@@ -337,8 +316,7 @@ class Memcached
 
     /**
      * getByKey.
-     *
-     * Retrieve an item from a specific server
+     * Retrieve an item from a specific server.
      *
      * @param string   $server_key
      * @param string   $key
@@ -355,8 +333,7 @@ class Memcached
 
     /**
      * getDelayed.
-     *
-     * Request multiple items
+     * Request multiple items.
      *
      * @param array    $keys
      * @param bool     $with_cas (optional)
@@ -372,8 +349,7 @@ class Memcached
 
     /**
      * getDelayedByKey.
-     *
-     * Request multiple items from a specific server
+     * Request multiple items from a specific server.
      *
      * @param string   $server_key
      * @param array    $keys
@@ -390,8 +366,7 @@ class Memcached
 
     /**
      * getMulti.
-     *
-     * Retrieve multiple items
+     * Retrieve multiple items.
      *
      * @param array $keys
      * @param int   $flags (optional)
@@ -406,8 +381,7 @@ class Memcached
 
     /**
      * getMultiByKey.
-     *
-     * Retrieve multiple items from a specific server
+     * Retrieve multiple items from a specific server.
      *
      * @param string $server_key
      * @param array  $keys
@@ -423,8 +397,7 @@ class Memcached
 
     /**
      * getOption.
-     *
-     * Retrieve a Memcached option value
+     * Retrieve a Memcached option value.
      *
      * @param int $option
      *
@@ -438,8 +411,7 @@ class Memcached
 
     /**
      * getResultCode.
-     *
-     * Return the result code of the last operation
+     * Return the result code of the last operation.
      *
      * @return int
      *
@@ -451,8 +423,7 @@ class Memcached
 
     /**
      * getResultMessage.
-     *
-     * Return the message describing the result of the last operation
+     * Return the message describing the result of the last operation.
      *
      * @return string
      *
@@ -464,8 +435,7 @@ class Memcached
 
     /**
      * getServerByKey.
-     *
-     * Map a key to a server
+     * Map a key to a server.
      *
      * @param string $server_key
      *
@@ -479,8 +449,7 @@ class Memcached
 
     /**
      * getServerList.
-     *
-     * Get the list of the servers in the pool
+     * Get the list of the servers in the pool.
      *
      * @return array
      *
@@ -492,8 +461,7 @@ class Memcached
 
     /**
      * getStats.
-     *
-     * Get server pool statistics
+     * Get server pool statistics.
      *
      * @return array
      *
@@ -505,8 +473,7 @@ class Memcached
 
     /**
      * getVersion.
-     *
-     * Get server pool version info
+     * Get server pool version info.
      *
      * @return array
      *
@@ -518,8 +485,7 @@ class Memcached
 
     /**
      * increment.
-     *
-     * Increment numeric item's value
+     * Increment numeric item's value.
      *
      * @param string $key
      * @param int    $offset        = 1
@@ -536,8 +502,7 @@ class Memcached
 
     /**
      * incrementByKey.
-     *
-     * Increment numeric item's value, stored on a specific server
+     * Increment numeric item's value, stored on a specific server.
      *
      * @param string $server_key
      * @param string $key
@@ -555,8 +520,7 @@ class Memcached
 
     /**
      * isPersistent.
-     *
-     * Check if a persitent connection to memcache is being used
+     * Check if a persitent connection to memcache is being used.
      *
      * @return bool
      *
@@ -568,8 +532,7 @@ class Memcached
 
     /**
      * isPristine.
-     *
-     * Check if the instance was recently created
+     * Check if the instance was recently created.
      *
      * @return bool
      *
@@ -581,8 +544,7 @@ class Memcached
 
     /**
      * prepend.
-     *
-     * Prepend data to an existing item
+     * Prepend data to an existing item.
      *
      * @param string $key
      * @param string $value
@@ -597,8 +559,7 @@ class Memcached
 
     /**
      * prependByKey.
-     *
-     * Prepend data to an existing item on a specific server
+     * Prepend data to an existing item on a specific server.
      *
      * @param string $server_key
      * @param string $key
@@ -614,8 +575,7 @@ class Memcached
 
     /**
      * quit.
-     *
-     * Close any open connections
+     * Close any open connections.
      *
      * @return bool
      *
@@ -627,8 +587,7 @@ class Memcached
 
     /**
      * replace.
-     *
-     * Replace the item under an existing key
+     * Replace the item under an existing key.
      *
      * @param string $key
      * @param mixed  $value
@@ -644,8 +603,7 @@ class Memcached
 
     /**
      * replaceByKey.
-     *
-     * Replace the item under an existing key on a specific server
+     * Replace the item under an existing key on a specific server.
      *
      * @param string $server_key
      * @param string $key
@@ -662,8 +620,7 @@ class Memcached
 
     /**
      * resetServerList.
-     *
-     * Clears all servers from the server list
+     * Clears all servers from the server list.
      *
      * @return bool
      *
@@ -675,8 +632,7 @@ class Memcached
 
     /**
      * set.
-     *
-     * Store an item
+     * Store an item.
      *
      * @param string $key
      * @param mixed  $value
@@ -692,8 +648,7 @@ class Memcached
 
     /**
      * setByKey.
-     *
-     * Store an item on a specific server
+     * Store an item on a specific server.
      *
      * @param string $server_key
      * @param string $key
@@ -710,8 +665,7 @@ class Memcached
 
     /**
      * setMulti.
-     *
-     * Store multiple items
+     * Store multiple items.
      *
      * @param array $items
      * @param int   $expiration (optional)
@@ -726,8 +680,7 @@ class Memcached
 
     /**
      * setMultiByKey.
-     *
-     * Store multiple items on a specific server
+     * Store multiple items on a specific server.
      *
      * @param string $server_key
      * @param array  $items
@@ -743,8 +696,7 @@ class Memcached
 
     /**
      * setOption.
-     *
-     * Set a Memcached option
+     * Set a Memcached option.
      *
      * @param int   $option
      * @param mixed $value
@@ -759,8 +711,7 @@ class Memcached
 
     /**
      * setOptions.
-     *
-     * Set Memcached options
+     * Set Memcached options.
      *
      * @param array $options
      *
@@ -774,8 +725,7 @@ class Memcached
 
     /**
      * setSaslAuthData.
-     *
-     * Set the credentials to use for authentication
+     * Set the credentials to use for authentication.
      *
      * @param string $username
      * @param string $password
@@ -788,8 +738,7 @@ class Memcached
 
     /**
      * touch.
-     *
-     * Set a new expiration on an item
+     * Set a new expiration on an item.
      *
      * @param string $key
      * @param int    $expiration
@@ -804,8 +753,7 @@ class Memcached
 
     /**
      * touchByKey.
-     *
-     * Set a new expiration on an item on a specific server
+     * Set a new expiration on an item on a specific server.
      *
      * @param string $server_key
      * @param string $key

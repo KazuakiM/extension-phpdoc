@@ -2,7 +2,6 @@
 
 /**
  * libXMLError.
- *
  * Contains various information about errors thrown by libxml. The error codes are described within the official [xmlError API documentation](http://www.xmlsoft.org/html/libxml-xmlerror.html).
  *
  * @property int $level

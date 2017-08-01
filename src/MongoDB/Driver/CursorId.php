@@ -3,8 +3,6 @@
 /**
  * MongoDB\Driver\CursorId.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-driver-cursorid.php
@@ -16,8 +14,7 @@ final class CursorId
 {
     /**
      * __construct.
-     *
-     * Create a new CursorId (not used)
+     * Create a new CursorId (not used).
      *
      * @see http://php.net/manual/en/mongodb-driver-cursorid.construct.php
      */
@@ -27,8 +24,7 @@ final class CursorId
 
     /**
      * __toString.
-     *
-     * String representation of the cursor ID
+     * String representation of the cursor ID.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *

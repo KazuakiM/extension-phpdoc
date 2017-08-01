@@ -3,7 +3,6 @@
 
 /**
  * MongoDB\BSON\Unserializable.
- *
  * Classes that implement this interface may be specified in a type map for unserializing BSON arrays and documents (both root and embedded).
  *
  * @see http://php.net/manual/en/class.mongodb-bson-unserializable.php
@@ -15,8 +14,7 @@ class Unserializable
 {
     /**
      * bsonUnserialize.
-     *
-     * Constructs the object from a BSON array or document
+     * Constructs the object from a BSON array or document.
      *
      * @param array $data
      *

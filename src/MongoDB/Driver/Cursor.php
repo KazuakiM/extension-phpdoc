@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\Cursor.
- *
  * The MongoDB\Driver\Cursor class encapsulates the results of a MongoDB command or query and may be returned by MongoDB\Driver\Manager::executeCommand() or MongoDB\Driver\Manager::executeQuery(), respectively.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -16,8 +15,7 @@ class Cursor implements Traversable
 {
     /**
      * __construct.
-     *
-     * Create a new Cursor (not used)
+     * Create a new Cursor (not used).
      *
      * @see http://php.net/manual/en/mongodb-driver-cursor.construct.php
      */
@@ -27,8 +25,7 @@ class Cursor implements Traversable
 
     /**
      * getId.
-     *
-     * Returns the ID for this cursor
+     * Returns the ID for this cursor.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -42,8 +39,7 @@ class Cursor implements Traversable
 
     /**
      * getServer.
-     *
-     * Returns the server associated with this cursor
+     * Returns the server associated with this cursor.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -57,8 +53,7 @@ class Cursor implements Traversable
 
     /**
      * isDead.
-     *
-     * Checks if the cursor is still open on the server
+     * Checks if the cursor is still open on the server.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -72,8 +67,7 @@ class Cursor implements Traversable
 
     /**
      * setTypeMap.
-     *
-     * Sets a type map to use for BSON unserialization
+     * Sets a type map to use for BSON unserialization.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -85,8 +79,7 @@ class Cursor implements Traversable
 
     /**
      * toArray.
-     *
-     * Returns an array containing all results for this cursor
+     * Returns an array containing all results for this cursor.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *

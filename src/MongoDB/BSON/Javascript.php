@@ -3,8 +3,6 @@
 /**
  * MongoDB\BSON\Javascript.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-bson-javascript.php
@@ -16,8 +14,7 @@ class Javascript implements MongoDB\BSON\Type, Serializable, JsonSerializable
 {
     /**
      * __construct.
-     *
-     * Construct a new Javascript
+     * Construct a new Javascript.
      *
      * @param string       $code
      * @param array|object $scope (optional)
@@ -32,8 +29,7 @@ class Javascript implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * __toString.
-     *
-     * Returns the Javascript's code
+     * Returns the Javascript's code.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -47,8 +43,7 @@ class Javascript implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * getCode.
-     *
-     * Returns the Javascript's code
+     * Returns the Javascript's code.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -62,8 +57,7 @@ class Javascript implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * getScope.
-     *
-     * Returns the Javascript's scope document
+     * Returns the Javascript's scope document.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -77,8 +71,7 @@ class Javascript implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * jsonSerialize.
-     *
-     * Returns a representation that can be converted to JSON
+     * Returns a representation that can be converted to JSON.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -92,8 +85,7 @@ class Javascript implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * serialize.
-     *
-     * Serialize a Javascript
+     * Serialize a Javascript.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -107,8 +99,7 @@ class Javascript implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * unserialize.
-     *
-     * Unserialize a Javascript
+     * Unserialize a Javascript.
      *
      * @param string $serialized
      *

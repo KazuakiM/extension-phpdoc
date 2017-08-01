@@ -2,7 +2,6 @@
 
 /**
  * Throwable.
- *
  * Throwable is the base interface for any object that can be thrown via a throw statement in PHP 7, including Error and Exception.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ interface Throwable
 {
     /**
      * __toString.
-     *
-     * Gets a string representation of the thrown object
+     * Gets a string representation of the thrown object.
      *
      * @return string
      *
@@ -24,8 +22,7 @@ interface Throwable
 
     /**
      * getMessage.
-     *
-     * Gets the message
+     * Gets the message.
      *
      * @return string
      *
@@ -35,8 +32,7 @@ interface Throwable
 
     /**
      * getCode.
-     *
-     * Gets the exception code
+     * Gets the exception code.
      *
      * @return int
      *
@@ -46,8 +42,7 @@ interface Throwable
 
     /**
      * getFile.
-     *
-     * Gets the file in which the exception was created
+     * Gets the file in which the exception was created.
      *
      * @return string
      *
@@ -57,8 +52,7 @@ interface Throwable
 
     /**
      * getLine.
-     *
-     * Gets the line on which the object was instantiated
+     * Gets the line on which the object was instantiated.
      *
      * @return int
      *
@@ -68,8 +62,7 @@ interface Throwable
 
     /**
      * getTrace.
-     *
-     * Gets the stack trace
+     * Gets the stack trace.
      *
      * @return array
      *
@@ -79,8 +72,7 @@ interface Throwable
 
     /**
      * getTraceAsString.
-     *
-     * Gets the stack trace as a string
+     * Gets the stack trace as a string.
      *
      * @return string
      *
@@ -90,8 +82,7 @@ interface Throwable
 
     /**
      * getPrevious.
-     *
-     * Returns the previous Throwable
+     * Returns the previous Throwable.
      *
      * @return Throwable
      *

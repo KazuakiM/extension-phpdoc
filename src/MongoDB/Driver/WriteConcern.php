@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\WriteConcern.
- *
  * MongoDB\Driver\WriteConcern describes the level of acknowledgement requested from MongoDB for write operations to a standalone mongod or to replica sets or to sharded clusters. In sharded clusters, mongos instances will pass the write concern on to the shards.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -18,8 +17,7 @@ final class WriteConcern implements MongoDB\BSON\Serializable
 
     /**
      * __construct.
-     *
-     * Construct immutable WriteConcern
+     * Construct immutable WriteConcern.
      *
      * @param string|int $w
      * @param int        $wtimeout (optional)
@@ -35,8 +33,7 @@ final class WriteConcern implements MongoDB\BSON\Serializable
 
     /**
      * bsonSerialize.
-     *
-     * Returns an object for BSON serialization
+     * Returns an object for BSON serialization.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -50,8 +47,7 @@ final class WriteConcern implements MongoDB\BSON\Serializable
 
     /**
      * getJournal.
-     *
-     * Returns the WriteConcern's "journal" option
+     * Returns the WriteConcern's "journal" option.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -65,8 +61,7 @@ final class WriteConcern implements MongoDB\BSON\Serializable
 
     /**
      * getW.
-     *
-     * Returns the WriteConcern's "w" option
+     * Returns the WriteConcern's "w" option.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -80,8 +75,7 @@ final class WriteConcern implements MongoDB\BSON\Serializable
 
     /**
      * getWtimeout.
-     *
-     * Returns the WriteConcern's "wtimeout" option
+     * Returns the WriteConcern's "wtimeout" option.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *

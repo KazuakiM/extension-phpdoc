@@ -2,7 +2,6 @@
 
 /**
  * Event.
- *
  * Event class represents and event firing on a file descriptor being ready to read from or write to; a file descriptor becoming ready to read from or write to(edge-triggered I/O only); a timeout expiring; a signal occuring; a user-triggered event.
  * Every event is associated with EventBase . However, event will never fire until it is added (via Event::add() ). An added event remains in pending state until the registered event occurs, thus turning it to active state. To handle events user may register a callback which is called when event becomes active. If event is configured persistent , it remains pending. If it is not persistent, it stops being pending when it's callback runs. Event::del() method deletes event, thus making it non-pending. By means of Event::add() method it could be added again.
  *
@@ -25,8 +24,7 @@ final class Event
 
     /**
      * __construct.
-     *
-     * Constructs Event object
+     * Constructs Event object.
      *
      * @param EventBase $base
      * @param mixed     $fd
@@ -42,8 +40,7 @@ final class Event
 
     /**
      * add.
-     *
-     * Makes event pending
+     * Makes event pending.
      *
      * @param float $timeout (optional)
      *
@@ -57,8 +54,7 @@ final class Event
 
     /**
      * addSignal.
-     *
-     * Makes signal event pending
+     * Makes signal event pending.
      *
      * @param float $timeout (optional)
      *
@@ -72,8 +68,7 @@ final class Event
 
     /**
      * addTimer.
-     *
-     * Makes timer event pending
+     * Makes timer event pending.
      *
      * @param float $timeout (optional)
      *
@@ -87,8 +82,7 @@ final class Event
 
     /**
      * del.
-     *
-     * Makes event non-pending
+     * Makes event non-pending.
      *
      * @return bool
      *
@@ -100,8 +94,7 @@ final class Event
 
     /**
      * delSignal.
-     *
-     * Makes signal event non-pending
+     * Makes signal event non-pending.
      *
      * @return bool
      *
@@ -113,8 +106,7 @@ final class Event
 
     /**
      * delTimer.
-     *
-     * Makes timer event non-pending
+     * Makes timer event non-pending.
      *
      * @return bool
      *
@@ -126,9 +118,7 @@ final class Event
 
     /**
      * free.
-     *
      * Make event non-pending and free resources allocated for this event.
-     *
      *
      * @see http://php.net/manual/en/event.free.php
      */
@@ -138,8 +128,7 @@ final class Event
 
     /**
      * getSupportedMethods.
-     *
-     * Returns array with of the names of the methods supported in this version of Libevent
+     * Returns array with of the names of the methods supported in this version of Libevent.
      *
      * @return array
      *
@@ -151,8 +140,7 @@ final class Event
 
     /**
      * pending.
-     *
-     * Detects whether event is pending or scheduled
+     * Detects whether event is pending or scheduled.
      *
      * @param int $flags
      *
@@ -166,8 +154,7 @@ final class Event
 
     /**
      * set.
-     *
-     * Re-configures event
+     * Re-configures event.
      *
      * @param EventBase $base
      * @param mixed     $fd
@@ -185,8 +172,7 @@ final class Event
 
     /**
      * setPriority.
-     *
-     * Set event priority
+     * Set event priority.
      *
      * @return bool
      *
@@ -198,8 +184,7 @@ final class Event
 
     /**
      * setTimer.
-     *
-     * Re-configures timer event
+     * Re-configures timer event.
      *
      * @param EventBase $base
      * @param callable  $cb
@@ -215,8 +200,7 @@ final class Event
 
     /**
      * signal.
-     *
-     * Constructs signal event object
+     * Constructs signal event object.
      *
      * @param EventBase $base
      * @param int       $signum
@@ -233,8 +217,7 @@ final class Event
 
     /**
      * timer.
-     *
-     * Constructs timer event object
+     * Constructs timer event object.
      *
      * @param EventBase $base
      * @param callable  $cb

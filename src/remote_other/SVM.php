@@ -3,8 +3,6 @@
 /**
  * SVM.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.svm.php
@@ -36,8 +34,7 @@ class SVM
 
     /**
      * __construct.
-     *
-     * Construct a new SVM object
+     * Construct a new SVM object.
      *
      * @see http://php.net/manual/en/svm.construct.php
      */
@@ -47,7 +44,6 @@ class SVM
 
     /**
      * crossvalidate.
-     *
      * Test training params on subsets of the training data.
      *
      * @param array $problem
@@ -63,8 +59,7 @@ class SVM
 
     /**
      * getOptions.
-     *
-     * Return the current training parameters
+     * Return the current training parameters.
      *
      * @return array
      *
@@ -76,8 +71,7 @@ class SVM
 
     /**
      * setOptions.
-     *
-     * Set training parameters
+     * Set training parameters.
      *
      * @param array $params
      *
@@ -91,8 +85,7 @@ class SVM
 
     /**
      * train.
-     *
-     * Create a SVMModel based on training data
+     * Create a SVMModel based on training data.
      *
      * @param array $problem
      * @param array $weights (optional)

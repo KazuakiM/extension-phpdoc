@@ -3,8 +3,6 @@
 /**
  * VarnishLog.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.varnishlog.php
@@ -66,8 +64,7 @@ class VarnishLog
 
     /**
      * __construct.
-     *
-     * Varnishlog constructor
+     * Varnishlog constructor.
      *
      * @param array $args (optional)
      *
@@ -79,8 +76,7 @@ class VarnishLog
 
     /**
      * getLine.
-     *
-     * Get next log line
+     * Get next log line.
      *
      * @return array
      *
@@ -92,8 +88,7 @@ class VarnishLog
 
     /**
      * getTagName.
-     *
-     * Get the log tag string representation by its index
+     * Get the log tag string representation by its index.
      *
      * @param int $index
      *

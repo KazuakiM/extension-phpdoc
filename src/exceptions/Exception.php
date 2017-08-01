@@ -2,7 +2,6 @@
 
 /**
  * Exception.
- *
  * Exception is the base class for all Exceptions in PHP 5, and the base class for all user exceptions in PHP 7.
  * In PHP 7, Exception implements the Throwable interface.
  *
@@ -24,8 +23,7 @@ class Exception
 
     /**
      * __construct.
-     *
-     * Construct the exception
+     * Construct the exception.
      *
      * @param string    $message  = ""
      * @param int       $code     = 0
@@ -39,8 +37,7 @@ class Exception
 
     /**
      * __toString.
-     *
-     * String representation of the exception
+     * String representation of the exception.
      *
      * @return string
      *
@@ -52,9 +49,7 @@ class Exception
 
     /**
      * __clone.
-     *
-     * Clone the exception
-     *
+     * Clone the exception.
      *
      * @see http://php.net/manual/en/exception.clone.php
      */
@@ -64,8 +59,7 @@ class Exception
 
     /**
      * getMessage.
-     *
-     * Gets the Exception message
+     * Gets the Exception message.
      *
      * @return string
      *
@@ -77,8 +71,7 @@ class Exception
 
     /**
      * getPrevious.
-     *
-     * Returns previous Exception
+     * Returns previous Exception.
      *
      * @return Throwable
      *
@@ -90,8 +83,7 @@ class Exception
 
     /**
      * getCode.
-     *
-     * Gets the Exception code
+     * Gets the Exception code.
      *
      * @return mixed
      *
@@ -103,8 +95,7 @@ class Exception
 
     /**
      * getFile.
-     *
-     * Gets the file in which the exception was created
+     * Gets the file in which the exception was created.
      *
      * @return string
      *
@@ -116,8 +107,7 @@ class Exception
 
     /**
      * getLine.
-     *
-     * Gets the line in which the exception was created
+     * Gets the line in which the exception was created.
      *
      * @return int
      *
@@ -129,8 +119,7 @@ class Exception
 
     /**
      * getTrace.
-     *
-     * Gets the stack trace
+     * Gets the stack trace.
      *
      * @return array
      *
@@ -142,8 +131,7 @@ class Exception
 
     /**
      * getTraceAsString.
-     *
-     * Gets the stack trace as a string
+     * Gets the stack trace as a string.
      *
      * @return string
      *

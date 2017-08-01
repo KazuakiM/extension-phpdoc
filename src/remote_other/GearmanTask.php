@@ -3,8 +3,6 @@
 /**
  * GearmanTask.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.gearmantask.php
@@ -13,8 +11,7 @@ class GearmanTask
 {
     /**
      * __construct.
-     *
-     * Create a GearmanTask instance
+     * Create a GearmanTask instance.
      *
      * @see http://php.net/manual/en/gearmantask.construct.php
      */
@@ -24,8 +21,7 @@ class GearmanTask
 
     /**
      * create.
-     *
-     * Create a task (deprecated)
+     * Create a task (deprecated).
      *
      * @return GearmanTask
      *
@@ -37,8 +33,7 @@ class GearmanTask
 
     /**
      * data.
-     *
-     * Get data returned for a task
+     * Get data returned for a task.
      *
      * @return string
      *
@@ -50,8 +45,7 @@ class GearmanTask
 
     /**
      * dataSize.
-     *
-     * Get the size of returned data
+     * Get the size of returned data.
      *
      * @return int
      *
@@ -63,8 +57,7 @@ class GearmanTask
 
     /**
      * function.
-     *
-     * Get associated function name (deprecated)
+     * Get associated function name (deprecated).
      *
      * @return string
      *
@@ -76,8 +69,7 @@ class GearmanTask
 
     /**
      * functionName.
-     *
-     * Get associated function name
+     * Get associated function name.
      *
      * @return string
      *
@@ -89,8 +81,7 @@ class GearmanTask
 
     /**
      * isKnown.
-     *
-     * Determine if task is known
+     * Determine if task is known.
      *
      * @return bool
      *
@@ -102,8 +93,7 @@ class GearmanTask
 
     /**
      * isRunning.
-     *
-     * Test whether the task is currently running
+     * Test whether the task is currently running.
      *
      * @return bool
      *
@@ -115,8 +105,7 @@ class GearmanTask
 
     /**
      * jobHandle.
-     *
-     * gearman_job_handle — Get the job handle
+     * gearman_job_handle — Get the job handle.
      *
      * @return string
      *
@@ -128,8 +117,7 @@ class GearmanTask
 
     /**
      * recvData.
-     *
-     * Read work or result data into a buffer for a task
+     * Read work or result data into a buffer for a task.
      *
      * @param int $data_len
      *
@@ -143,8 +131,7 @@ class GearmanTask
 
     /**
      * returnCode.
-     *
-     * Get the last return code
+     * Get the last return code.
      *
      * @return int
      *
@@ -156,8 +143,7 @@ class GearmanTask
 
     /**
      * sendData.
-     *
-     * Send data for a task (deprecated)
+     * Send data for a task (deprecated).
      *
      * @param string $data
      *
@@ -171,8 +157,7 @@ class GearmanTask
 
     /**
      * sendWorkload.
-     *
-     * Send data for a task
+     * Send data for a task.
      *
      * @param string $data
      *
@@ -186,8 +171,7 @@ class GearmanTask
 
     /**
      * taskDenominator.
-     *
-     * Get completion percentage denominator
+     * Get completion percentage denominator.
      *
      * @return int
      *
@@ -199,8 +183,7 @@ class GearmanTask
 
     /**
      * taskNumerator.
-     *
-     * Get completion percentage numerator
+     * Get completion percentage numerator.
      *
      * @return int
      *
@@ -212,8 +195,7 @@ class GearmanTask
 
     /**
      * unique.
-     *
-     * Get the unique identifier for a task
+     * Get the unique identifier for a task.
      *
      * @return string
      *
@@ -225,8 +207,7 @@ class GearmanTask
 
     /**
      * uuid.
-     *
-     * Get the unique identifier for a task (deprecated)
+     * Get the unique identifier for a task (deprecated).
      *
      * @return string
      *

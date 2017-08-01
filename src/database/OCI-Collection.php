@@ -2,7 +2,6 @@
 
 /**
  * OCI-Collection.
- *
  * OCI8 Collection functionality.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -14,8 +13,7 @@ class OCICollection
 {
     /**
      * append.
-     *
-     * Appends element to the collection
+     * Appends element to the collection.
      *
      * @param mixed $value
      *
@@ -29,8 +27,7 @@ class OCICollection
 
     /**
      * assign.
-     *
-     * Assigns a value to the collection from another existing collection
+     * Assigns a value to the collection from another existing collection.
      *
      * @param OCI-Collection $from
      *
@@ -45,8 +42,7 @@ class OCICollection
 
     /**
      * assignElem.
-     *
-     * Assigns a value to the element of the collection
+     * Assigns a value to the element of the collection.
      *
      * @param int   $index
      * @param mixed $value
@@ -61,8 +57,7 @@ class OCICollection
 
     /**
      * free.
-     *
-     * Frees the resources associated with the collection object
+     * Frees the resources associated with the collection object.
      *
      * @return bool
      *
@@ -74,8 +69,7 @@ class OCICollection
 
     /**
      * getElem.
-     *
-     * Returns value of the element
+     * Returns value of the element.
      *
      * @param int $index
      *
@@ -89,8 +83,7 @@ class OCICollection
 
     /**
      * max.
-     *
-     * Returns the maximum number of elements in the collection
+     * Returns the maximum number of elements in the collection.
      *
      * @return int
      *
@@ -102,8 +95,7 @@ class OCICollection
 
     /**
      * size.
-     *
-     * Returns size of the collection
+     * Returns size of the collection.
      *
      * @return int
      *
@@ -115,8 +107,7 @@ class OCICollection
 
     /**
      * trim.
-     *
-     * Trims elements from the end of the collection
+     * Trims elements from the end of the collection.
      *
      * @param int $num
      *

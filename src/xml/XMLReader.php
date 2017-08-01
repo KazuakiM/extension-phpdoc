@@ -2,7 +2,6 @@
 
 /**
  * XMLReader.
- *
  * The XMLReader extension is an XML Pull parser. The reader acts as a cursor going forward on the document stream and stopping at each node on the way.
  *
  * @property  int $attributeCount
@@ -66,8 +65,7 @@ class XMLReader
 
     /**
      * close.
-     *
-     * Close the XMLReader input
+     * Close the XMLReader input.
      *
      * @return bool
      *
@@ -79,8 +77,7 @@ class XMLReader
 
     /**
      * expand.
-     *
-     * Returns a copy of the current node as a DOM object
+     * Returns a copy of the current node as a DOM object.
      *
      * @param DOMNode $basenode(optional)
      *
@@ -94,8 +91,7 @@ class XMLReader
 
     /**
      * getAttribute.
-     *
-     * Get the value of a named attribute
+     * Get the value of a named attribute.
      *
      * @param string $name
      *
@@ -109,8 +105,7 @@ class XMLReader
 
     /**
      * getAttributeNo.
-     *
-     * Get the value of an attribute by index
+     * Get the value of an attribute by index.
      *
      * @param int $index
      *
@@ -124,8 +119,7 @@ class XMLReader
 
     /**
      * getAttributeNs.
-     *
-     * Get the value of an attribute by localname and URI
+     * Get the value of an attribute by localname and URI.
      *
      * @param string $localName
      * @param string $namespaceURI
@@ -140,8 +134,7 @@ class XMLReader
 
     /**
      * getParserProperty.
-     *
-     * Indicates if specified property has been set
+     * Indicates if specified property has been set.
      *
      * @param int $property
      *
@@ -155,8 +148,7 @@ class XMLReader
 
     /**
      * isValid.
-     *
-     * Indicates if the parsed document is valid
+     * Indicates if the parsed document is valid.
      *
      * @return bool
      *
@@ -168,8 +160,7 @@ class XMLReader
 
     /**
      * lookupNamespace.
-     *
-     * Lookup namespace for a prefix
+     * Lookup namespace for a prefix.
      *
      * @param string $prefix
      *
@@ -183,8 +174,7 @@ class XMLReader
 
     /**
      * moveToAttribute.
-     *
-     * Move cursor to a named attribute
+     * Move cursor to a named attribute.
      *
      * @param string $name
      *
@@ -198,8 +188,7 @@ class XMLReader
 
     /**
      * moveToAttributeNo.
-     *
-     * Move cursor to an attribute by index
+     * Move cursor to an attribute by index.
      *
      * @param int $index
      *
@@ -213,8 +202,7 @@ class XMLReader
 
     /**
      * moveToAttributeNs.
-     *
-     * Move cursor to a named attribute
+     * Move cursor to a named attribute.
      *
      * @param string $localName
      * @param string $namespaceURI
@@ -229,8 +217,7 @@ class XMLReader
 
     /**
      * moveToElement.
-     *
-     * Position cursor on the parent Element of current Attribute
+     * Position cursor on the parent Element of current Attribute.
      *
      * @return bool
      *
@@ -242,8 +229,7 @@ class XMLReader
 
     /**
      * moveToFirstAttribute.
-     *
-     * Position cursor on the first Attribute
+     * Position cursor on the first Attribute.
      *
      * @return bool
      *
@@ -255,8 +241,7 @@ class XMLReader
 
     /**
      * moveToNextAttribute.
-     *
-     * Position cursor on the next Attribute
+     * Position cursor on the next Attribute.
      *
      * @return bool
      *
@@ -268,8 +253,7 @@ class XMLReader
 
     /**
      * next.
-     *
-     * Move cursor to next node skipping all subtrees
+     * Move cursor to next node skipping all subtrees.
      *
      * @param string $localname
      *
@@ -283,8 +267,7 @@ class XMLReader
 
     /**
      * open.
-     *
-     * Set the URI containing the XML to parse
+     * Set the URI containing the XML to parse.
      *
      * @param string $URI
      * @param string $encoding (optional)
@@ -302,8 +285,7 @@ class XMLReader
 
     /**
      * read.
-     *
-     * Move to next node in document
+     * Move to next node in document.
      *
      * @return bool
      *
@@ -315,8 +297,7 @@ class XMLReader
 
     /**
      * readInnerXML.
-     *
-     * Retrieve XML from current node
+     * Retrieve XML from current node.
      *
      * @return string
      *
@@ -328,8 +309,7 @@ class XMLReader
 
     /**
      * readOuterXML.
-     *
-     * Retrieve XML from current node, including itself
+     * Retrieve XML from current node, including itself.
      *
      * @return string
      *
@@ -341,8 +321,7 @@ class XMLReader
 
     /**
      * readString.
-     *
-     * Reads the contents of the current node as a string
+     * Reads the contents of the current node as a string.
      *
      * @return string
      *
@@ -354,8 +333,7 @@ class XMLReader
 
     /**
      * setParserProperty.
-     *
-     * Set parser options
+     * Set parser options.
      *
      * @param int  $property
      * @param bool $value
@@ -370,8 +348,7 @@ class XMLReader
 
     /**
      * setRelaxNGSchema.
-     *
-     * Set the filename or URI for a RelaxNG Schema
+     * Set the filename or URI for a RelaxNG Schema.
      *
      * @param string $filename
      *
@@ -385,8 +362,7 @@ class XMLReader
 
     /**
      * setRelaxNGSchemaSource.
-     *
-     * Set the data containing a RelaxNG Schema
+     * Set the data containing a RelaxNG Schema.
      *
      * @param string $source
      *
@@ -400,8 +376,7 @@ class XMLReader
 
     /**
      * setSchema.
-     *
-     * Validate document against XSD
+     * Validate document against XSD.
      *
      * @param string $filename
      *
@@ -417,8 +392,7 @@ class XMLReader
 
     /**
      * xml.
-     *
-     * Set the data containing the XML to parse
+     * Set the data containing the XML to parse.
      *
      * @param string $source
      * @param string $encoding (optional)

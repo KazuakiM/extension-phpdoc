@@ -2,7 +2,6 @@
 
 /**
  * RRDGraph.
- *
  * Class for exporting data from RRD database to image file.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class RRDGraph
 {
     /**
      * __construct.
-     *
-     * Creates new RRDGraph instance
+     * Creates new RRDGraph instance.
      *
      * @param string $path
      *
@@ -26,8 +24,7 @@ class RRDGraph
 
     /**
      * save.
-     *
-     * Saves the result of query into image
+     * Saves the result of query into image.
      *
      * @return array
      *
@@ -39,7 +36,6 @@ class RRDGraph
 
     /**
      * saveVerbose.
-     *
      * Saves the RRD database query into image and returns the verbose information about generated graph.
      *
      * @return array
@@ -52,8 +48,7 @@ class RRDGraph
 
     /**
      * setOptions.
-     *
-     * Sets the options for rrd graph export
+     * Sets the options for rrd graph export.
      *
      * @param array $options
      *

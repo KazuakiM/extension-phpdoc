@@ -2,7 +2,6 @@
 
 /**
  * Memcache.
- *
  * Represents a connection to a set of memcache servers.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class Memcache
 {
     /**
      * add.
-     *
-     * Add an item to the server
+     * Add an item to the server.
      *
      * @param string $key
      * @param mixed  $var
@@ -31,8 +29,7 @@ class Memcache
 
     /**
      * addServer.
-     *
-     * Add a memcached server to connection pool
+     * Add a memcached server to connection pool.
      *
      * @param string   $host
      * @param int      $port             = 11211
@@ -54,8 +51,7 @@ class Memcache
 
     /**
      * close.
-     *
-     * Close memcached server connection
+     * Close memcached server connection.
      *
      * @return bool
      *
@@ -67,8 +63,7 @@ class Memcache
 
     /**
      * connect.
-     *
-     * Open memcached server connection
+     * Open memcached server connection.
      *
      * @param string $host
      * @param int    $port    (optional)
@@ -84,8 +79,7 @@ class Memcache
 
     /**
      * decrement.
-     *
-     * Decrement item's value
+     * Decrement item's value.
      *
      * @param string $key
      * @param int    $value = 1
@@ -100,8 +94,7 @@ class Memcache
 
     /**
      * delete.
-     *
-     * Delete item from the server
+     * Delete item from the server.
      *
      * @param string $key
      * @param int    $timeout = 0
@@ -116,8 +109,7 @@ class Memcache
 
     /**
      * flush.
-     *
-     * Flush all existing items at the server
+     * Flush all existing items at the server.
      *
      * @return bool
      *
@@ -129,8 +121,7 @@ class Memcache
 
     /**
      * get.
-     *
-     * Retrieve item from the server
+     * Retrieve item from the server.
      *
      * @param string $key
      * @param int    &$flags (optional)
@@ -145,8 +136,7 @@ class Memcache
 
     /**
      * getExtendedStats.
-     *
-     * Get statistics from all servers in pool
+     * Get statistics from all servers in pool.
      *
      * @param string $type   (optional)
      * @param int    $slabid (optional)
@@ -162,8 +152,7 @@ class Memcache
 
     /**
      * getServerStatus.
-     *
-     * Returns server status
+     * Returns server status.
      *
      * @param string $host
      * @param int    $port = 11211
@@ -178,8 +167,7 @@ class Memcache
 
     /**
      * getStats.
-     *
-     * Get statistics of the server
+     * Get statistics of the server.
      *
      * @param string $type   (optional)
      * @param int    $slabid (optional)
@@ -195,8 +183,7 @@ class Memcache
 
     /**
      * getVersion.
-     *
-     * Return version of the server
+     * Return version of the server.
      *
      * @return string
      *
@@ -208,8 +195,7 @@ class Memcache
 
     /**
      * increment.
-     *
-     * Increment item's value
+     * Increment item's value.
      *
      * @param string $key
      * @param int    $value = 1
@@ -224,8 +210,7 @@ class Memcache
 
     /**
      * pconnect.
-     *
-     * Open memcached server persistent connection
+     * Open memcached server persistent connection.
      *
      * @param string $host
      * @param int    $port    (optional)
@@ -241,8 +226,7 @@ class Memcache
 
     /**
      * replace.
-     *
-     * Replace value of the existing item
+     * Replace value of the existing item.
      *
      * @param string $key
      * @param mixed  $var
@@ -259,8 +243,7 @@ class Memcache
 
     /**
      * set.
-     *
-     * Store data at the server
+     * Store data at the server.
      *
      * @param string $key
      * @param mixed  $var
@@ -277,8 +260,7 @@ class Memcache
 
     /**
      * setCompressThreshold.
-     *
-     * Enable automatic compression of large values
+     * Enable automatic compression of large values.
      *
      * @param int   $threshold
      * @param float $min_savings (optional)
@@ -293,8 +275,7 @@ class Memcache
 
     /**
      * setServerParams.
-     *
-     * Changes server parameters and status at runtime
+     * Changes server parameters and status at runtime.
      *
      * @param string   $host
      * @param int      $port             = 11211

@@ -3,8 +3,6 @@
 /**
  * VarnishAdmin.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.varnishadmin.php
@@ -13,8 +11,7 @@ class VarnishAdmin
 {
     /**
      * __construct.
-     *
-     * VarnishAdmin constructor
+     * VarnishAdmin constructor.
      *
      * @param array $args (optional)
      *
@@ -26,8 +23,7 @@ class VarnishAdmin
 
     /**
      * auth.
-     *
-     * Authenticate on a varnish instance
+     * Authenticate on a varnish instance.
      *
      * @return bool
      *
@@ -39,8 +35,7 @@ class VarnishAdmin
 
     /**
      * ban.
-     *
-     * Ban URLs using a VCL expression
+     * Ban URLs using a VCL expression.
      *
      * @param string $vcl_regex
      *
@@ -54,8 +49,7 @@ class VarnishAdmin
 
     /**
      * banUrl.
-     *
-     * Ban an URL using a VCL expression
+     * Ban an URL using a VCL expression.
      *
      * @param string $vcl_regex
      *
@@ -69,8 +63,7 @@ class VarnishAdmin
 
     /**
      * clearPanic.
-     *
-     * Clear varnish instance panic messages
+     * Clear varnish instance panic messages.
      *
      * @return int
      *
@@ -82,8 +75,7 @@ class VarnishAdmin
 
     /**
      * connect.
-     *
-     * Connect to a varnish instance administration interface
+     * Connect to a varnish instance administration interface.
      *
      * @return bool
      *
@@ -95,8 +87,7 @@ class VarnishAdmin
 
     /**
      * disconnect.
-     *
-     * Disconnect from a varnish instance administration interface
+     * Disconnect from a varnish instance administration interface.
      *
      * @return bool
      *
@@ -108,8 +99,7 @@ class VarnishAdmin
 
     /**
      * getPanic.
-     *
-     * Get the last panic message on a varnish instance
+     * Get the last panic message on a varnish instance.
      *
      * @return string
      *
@@ -121,8 +111,7 @@ class VarnishAdmin
 
     /**
      * getParams.
-     *
-     * Fetch current varnish instance configuration parameters
+     * Fetch current varnish instance configuration parameters.
      *
      * @return array
      *
@@ -134,8 +123,7 @@ class VarnishAdmin
 
     /**
      * isRunning.
-     *
-     * Check if the varnish slave process is currently running
+     * Check if the varnish slave process is currently running.
      *
      * @return bool
      *
@@ -147,8 +135,7 @@ class VarnishAdmin
 
     /**
      * setCompat.
-     *
-     * Set the class compat configuration param
+     * Set the class compat configuration param.
      *
      * @param int $compat
      *
@@ -160,8 +147,7 @@ class VarnishAdmin
 
     /**
      * setHost.
-     *
-     * Set the class host configuration param
+     * Set the class host configuration param.
      *
      * @param string $host
      *
@@ -173,8 +159,7 @@ class VarnishAdmin
 
     /**
      * setIdent.
-     *
-     * Set the class ident configuration param
+     * Set the class ident configuration param.
      *
      * @param string $ident
      *
@@ -186,8 +171,7 @@ class VarnishAdmin
 
     /**
      * setParam.
-     *
-     * Set configuration param on the current varnish instance
+     * Set configuration param on the current varnish instance.
      *
      * @param string $name
      * @param mixed  $value
@@ -202,8 +186,7 @@ class VarnishAdmin
 
     /**
      * setPort.
-     *
-     * Set the class port configuration param
+     * Set the class port configuration param.
      *
      * @param int $port
      *
@@ -215,8 +198,7 @@ class VarnishAdmin
 
     /**
      * setSecret.
-     *
-     * Set the class secret configuration param
+     * Set the class secret configuration param.
      *
      * @param string $secret
      *
@@ -228,8 +210,7 @@ class VarnishAdmin
 
     /**
      * setTimeout.
-     *
-     * Set the class timeout configuration param
+     * Set the class timeout configuration param.
      *
      * @param int $timeout
      *
@@ -241,8 +222,7 @@ class VarnishAdmin
 
     /**
      * start.
-     *
-     * Start varnish worker process
+     * Start varnish worker process.
      *
      * @return int
      *
@@ -254,8 +234,7 @@ class VarnishAdmin
 
     /**
      * stop.
-     *
-     * Stop varnish worker process
+     * Stop varnish worker process.
      *
      * @return int
      *

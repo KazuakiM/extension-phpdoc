@@ -2,7 +2,6 @@
 
 /**
  * RRDUpdater.
- *
  * Class for updating RDD database file.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class RRDUpdater
 {
     /**
      * __construct.
-     *
-     * Creates new RRDUpdater instance
+     * Creates new RRDUpdater instance.
      *
      * @param string $path
      *
@@ -26,8 +24,7 @@ class RRDUpdater
 
     /**
      * update.
-     *
-     * Update the RRD database file
+     * Update the RRD database file.
      *
      * @param array  $values
      * @param string $time   = time()

@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\Driver\BulkWrite.
- *
  * The MongoDB\Driver\BulkWrite collects one or more write operations that should be sent to the server. After adding any number of insert, update, and delete operations, the collection may be executed via MongoDB\Driver\Manager::executeBulkWrite().
  * Write operations may either be ordered (default) or unordered. Ordered write operations are sent to the server, in the order provided, for serial execution. If a write fails, any remaining operations will be aborted. Unordered operations are sent to the server in an arbitrary order where they may be executed in parallel. Any errors that occur are reported after all operations have been attempted.
  *
@@ -17,9 +16,7 @@ final class BulkWrite implements Countable
 {
     /**
      * __construct.
-     *
-     * Create a new BulkWrite
-     *
+     * Create a new BulkWrite.
      *
      * @param array $options (optional)
      *
@@ -33,8 +30,7 @@ final class BulkWrite implements Countable
 
     /**
      * count.
-     *
-     * Count number of write operations in the bulk
+     * Count number of write operations in the bulk.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -48,8 +44,7 @@ final class BulkWrite implements Countable
 
     /**
      * delete.
-     *
-     * Add a delete operation to the bulk
+     * Add a delete operation to the bulk.
      *
      * @param array|object $filter
      * @param array        $deleteOptions (optional)
@@ -64,8 +59,7 @@ final class BulkWrite implements Countable
 
     /**
      * insert.
-     *
-     * Add an insert operation to the bulk
+     * Add an insert operation to the bulk.
      *
      * @param array|object $document
      *
@@ -81,8 +75,7 @@ final class BulkWrite implements Countable
 
     /**
      * update.
-     *
-     * Add an update operation to the bulk
+     * Add an update operation to the bulk.
      *
      * @param array|object $filter
      * @param array|object $newObj

@@ -2,7 +2,6 @@
 
 /**
  * DOMCdataSection.
- *
  * The DOMCdataSection inherits from DOMText for textural representation of CData constructs.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class DOMCdataSection extends DOMText
 {
     /**
      * __construct.
-     *
-     * Constructs a new DOMCdataSection object
+     * Constructs a new DOMCdataSection object.
      *
      * @param string $value
      *

@@ -3,8 +3,6 @@
 /**
  * GearmanException.
  *
- *
- *
  * @property string $message
  * @property int $code
  * @property string $file

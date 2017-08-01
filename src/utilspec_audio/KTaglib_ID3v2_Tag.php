@@ -2,7 +2,6 @@
 
 /**
  * KTaglib_ID3v2_Tag.
- *
  * Represents and ID3v2 tag. It provides a list of ID3v2 frames and can be used to add and remove additional frames.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class KTaglib_ID3v2_Tag extends KTaglib_Tag
 {
     /**
      * addFrame.
-     *
-     * Add a frame to the ID3v2 tag
+     * Add a frame to the ID3v2 tag.
      *
      * @param KTaglib_ID3v2_Frame $frame
      *
@@ -28,8 +26,7 @@ class KTaglib_ID3v2_Tag extends KTaglib_Tag
 
     /**
      * getFrameList.
-     *
-     * Returns an array of ID3v2 frames, associated with the ID3v2 tag
+     * Returns an array of ID3v2 frames, associated with the ID3v2 tag.
      *
      * @return array
      *

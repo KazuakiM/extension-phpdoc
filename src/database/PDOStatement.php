@@ -2,7 +2,6 @@
 
 /**
  * PDOStatement.
- *
  * Represents a prepared statement and, after the statement is executed, an associated result set.
  *
  * @property string $queryString
@@ -17,8 +16,7 @@ class PDOStatement implements Traversable
 
     /**
      * bindColumn.
-     *
-     * Bind a column to a PHP variable
+     * Bind a column to a PHP variable.
      *
      * @param mixed $column
      * @param mixed &$param
@@ -36,8 +34,7 @@ class PDOStatement implements Traversable
 
     /**
      * bindParam.
-     *
-     * Binds a parameter to the specified variable name
+     * Binds a parameter to the specified variable name.
      *
      * @param mixed $parameter
      * @param mixed &$variable
@@ -55,8 +52,7 @@ class PDOStatement implements Traversable
 
     /**
      * bindValue.
-     *
-     * Binds a value to a parameter
+     * Binds a value to a parameter.
      *
      * @param mixed $parameter
      * @param mixed $value
@@ -72,7 +68,6 @@ class PDOStatement implements Traversable
 
     /**
      * closeCursor.
-     *
      * Closes the cursor, enabling the statement to be executed again.
      *
      * @return bool
@@ -85,8 +80,7 @@ class PDOStatement implements Traversable
 
     /**
      * columnCount.
-     *
-     * Returns the number of columns in the result set
+     * Returns the number of columns in the result set.
      *
      * @return int
      *
@@ -98,9 +92,7 @@ class PDOStatement implements Traversable
 
     /**
      * debugDumpParams.
-     *
-     * Dump an SQL prepared command
-     *
+     * Dump an SQL prepared command.
      *
      * @see http://php.net/manual/en/pdostatement.debugdumpparams.php
      */
@@ -110,8 +102,7 @@ class PDOStatement implements Traversable
 
     /**
      * errorCode.
-     *
-     * Fetch the SQLSTATE associated with the last operation on the statement handle
+     * Fetch the SQLSTATE associated with the last operation on the statement handle.
      *
      * @return string
      *
@@ -123,8 +114,7 @@ class PDOStatement implements Traversable
 
     /**
      * errorInfo.
-     *
-     * Fetch extended error information associated with the last operation on the statement handle
+     * Fetch extended error information associated with the last operation on the statement handle.
      *
      * @return array
      *
@@ -136,8 +126,7 @@ class PDOStatement implements Traversable
 
     /**
      * execute.
-     *
-     * Executes a prepared statement
+     * Executes a prepared statement.
      *
      * @param array $input_parameters (optional)
      *
@@ -151,8 +140,7 @@ class PDOStatement implements Traversable
 
     /**
      * fetch.
-     *
-     * Fetches the next row from a result set
+     * Fetches the next row from a result set.
      *
      * @param int $fetch_style        (optional)
      * @param int $cursor_orientation = FETCH_ORI_NEXT (optional)
@@ -168,8 +156,7 @@ class PDOStatement implements Traversable
 
     /**
      * fetchAll.
-     *
-     * Returns an array containing all of the result set rows
+     * Returns an array containing all of the result set rows.
      *
      * @param int   $fetch_style    (optional)
      * @param mixed $fetch_argument (optional)
@@ -185,8 +172,7 @@ class PDOStatement implements Traversable
 
     /**
      * fetchColumn.
-     *
-     * Returns a single column from the next row of a result set
+     * Returns a single column from the next row of a result set.
      *
      * @param int $column_number = 0
      *
@@ -200,7 +186,6 @@ class PDOStatement implements Traversable
 
     /**
      * fetchObject.
-     *
      * Fetches the next row and returns it as an object.
      *
      * @param string $class_name = 'stdClass'
@@ -216,8 +201,7 @@ class PDOStatement implements Traversable
 
     /**
      * getAttribute.
-     *
-     * Retrieve a statement attribute
+     * Retrieve a statement attribute.
      *
      * @param int $attribute
      *
@@ -231,8 +215,7 @@ class PDOStatement implements Traversable
 
     /**
      * getColumnMeta.
-     *
-     * Returns metadata for a column in a result set
+     * Returns metadata for a column in a result set.
      *
      * @param int $column
      *
@@ -246,8 +229,7 @@ class PDOStatement implements Traversable
 
     /**
      * nextRowset.
-     *
-     * Advances to the next rowset in a multi-rowset statement handle
+     * Advances to the next rowset in a multi-rowset statement handle.
      *
      * @return bool
      *
@@ -259,8 +241,7 @@ class PDOStatement implements Traversable
 
     /**
      * rowCount.
-     *
-     * Returns the number of rows affected by the last SQL statement
+     * Returns the number of rows affected by the last SQL statement.
      *
      * @return int
      *
@@ -272,8 +253,7 @@ class PDOStatement implements Traversable
 
     /**
      * setAttribute.
-     *
-     * Set a statement attribute
+     * Set a statement attribute.
      *
      * @param int   $attribute
      * @param mixed $value
@@ -288,8 +268,7 @@ class PDOStatement implements Traversable
 
     /**
      * setFetchMode.
-     *
-     * Set the default fetch mode for this statement
+     * Set the default fetch mode for this statement.
      *
      * @param int $mode
      *

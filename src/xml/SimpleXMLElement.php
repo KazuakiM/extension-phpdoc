@@ -2,7 +2,6 @@
 
 /**
  * SimpleXMLElement.
- *
  * Represents an element in an XML document.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class SimpleXMLElement implements Traversable
 {
     /**
      * __construct.
-     *
-     * Creates a new SimpleXMLElement object
+     * Creates a new SimpleXMLElement object.
      *
      * @param string $data
      * @param int    $options     = 0
@@ -32,8 +30,7 @@ class SimpleXMLElement implements Traversable
 
     /**
      * __toString.
-     *
-     * Returns the string content
+     * Returns the string content.
      *
      * @retun string
      *
@@ -45,8 +42,7 @@ class SimpleXMLElement implements Traversable
 
     /**
      * addAttribute.
-     *
-     * Adds an attribute to the SimpleXML element
+     * Adds an attribute to the SimpleXML element.
      *
      * @param string $name
      * @param string $value     (optional)
@@ -60,13 +56,11 @@ class SimpleXMLElement implements Traversable
 
     /**
      * addChild.
-     *
-     * Adds a child element to the XML node
+     * Adds a child element to the XML node.
      *
      * @param string $name
      * @param string $value     (optional)
      * @param string $namespace (optional)
-     *
      * @retun SimpleXMLElement
      *
      * @see http://php.net/manual/en/simplexmlelement.addchild.php
@@ -77,11 +71,9 @@ class SimpleXMLElement implements Traversable
 
     /**
      * asXML.
-     *
-     * Return a well-formed XML string based on SimpleXML element
+     * Return a well-formed XML string based on SimpleXML element.
      *
      * @param string $filename (optional)
-     *
      * @retun mixed
      *
      * @see http://php.net/manual/en/simplexmlelement.asxml.php
@@ -92,12 +84,10 @@ class SimpleXMLElement implements Traversable
 
     /**
      * attributes.
-     *
-     * Identifies an element's attributes
+     * Identifies an element's attributes.
      *
      * @param string $ns        = NULL
      * @param bool   $is_prefix = false
-     *
      * @retun SimpleXMLElement
      *
      * @see http://php.net/manual/en/simplexmlelement.attributes.php
@@ -108,12 +98,10 @@ class SimpleXMLElement implements Traversable
 
     /**
      * children.
-     *
-     * Finds children of given node
+     * Finds children of given node.
      *
      * @param string $ns        (optional)
      * @param bool   $is_prefix = false (optional)
-     *
      * @retun SimpleXMLElement
      *
      * @see http://php.net/manual/en/simplexmlelement.children.php
@@ -124,8 +112,7 @@ class SimpleXMLElement implements Traversable
 
     /**
      * count.
-     *
-     * Counts the children of an element
+     * Counts the children of an element.
      *
      * @retun int
      *
@@ -137,12 +124,10 @@ class SimpleXMLElement implements Traversable
 
     /**
      * getDocNamespaces.
-     *
-     * Returns namespaces declared in document
+     * Returns namespaces declared in document.
      *
      * @param bool $recursive = false
      * @param bool $from_root = true
-     *
      * @retun array
      *
      * @see http://php.net/manual/en/simplexmlelement.getdocnamespaces.php
@@ -153,8 +138,7 @@ class SimpleXMLElement implements Traversable
 
     /**
      * getName.
-     *
-     * Gets the name of the XML element
+     * Gets the name of the XML element.
      *
      * @retun string
      *
@@ -166,11 +150,9 @@ class SimpleXMLElement implements Traversable
 
     /**
      * getNamespaces.
-     *
-     * Returns namespaces used in document
+     * Returns namespaces used in document.
      *
      * @param bool $recursive = false
-     *
      * @retun array
      *
      * @see http://php.net/manual/en/simplexmlelement.getnamespaces.php
@@ -181,12 +163,10 @@ class SimpleXMLElement implements Traversable
 
     /**
      * registerXPathNamespace.
-     *
-     * Creates a prefix/ns context for the next XPath query
+     * Creates a prefix/ns context for the next XPath query.
      *
      * @param string $prefix
      * @param string $ns
-     *
      * @retun bool
      *
      * @see http://php.net/manual/en/simplexmlelement.registerxpathnamespace.php
@@ -208,11 +188,9 @@ class SimpleXMLElement implements Traversable
 
     /**
      * xpath.
-     *
-     * Runs XPath query on XML data
+     * Runs XPath query on XML data.
      *
      * @param string $path
-     *
      * @retun array
      *
      * @see http://php.net/manual/en/simplexmlelement.xpath.php

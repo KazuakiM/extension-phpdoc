@@ -2,7 +2,6 @@
 
 /**
  * DOMAttr.
- *
  * DOMAttr represents an attribute in the DOMElement object.
  *
  * @property string     $name

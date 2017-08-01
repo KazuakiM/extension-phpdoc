@@ -2,7 +2,6 @@
 
 /**
  * DOMComment.
- *
  * Represents comment nodes, characters delimited by <!-- and -->.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class DOMComment extends DOMCharacterData
 {
     /**
      * __construct.
-     *
-     * Creates a new DOMComment object
+     * Creates a new DOMComment object.
      *
      * @param string $vale (optional)
      *

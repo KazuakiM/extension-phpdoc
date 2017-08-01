@@ -3,8 +3,6 @@
 /**
  * DOMNotation.
  *
- *
- *
  * @property  string $publicId
  * @property  string $systemId
  *

@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\BSON\UTCDateTime.
- *
  * Represents a [BSON date](https://docs.mongodb.com/manual/reference/bson-types/#date).
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -16,8 +15,7 @@ class UTCDateTime implements MongoDB\BSON\Type, Serializable, JsonSerializable
 {
     /**
      * __construct.
-     *
-     * Construct a new UTCDateTime
+     * Construct a new UTCDateTime.
      *
      * @param int|float|string|DateTimeInterface $milliseconds = null
      *
@@ -29,8 +27,7 @@ class UTCDateTime implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * __toString.
-     *
-     * Returns the string representation of this UTCDateTime
+     * Returns the string representation of this UTCDateTime.
      *
      * @return string
      *
@@ -42,8 +39,7 @@ class UTCDateTime implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * jsonSerialize.
-     *
-     * Returns a representation that can be converted to JSON
+     * Returns a representation that can be converted to JSON.
      *
      * @return mixed
      *
@@ -55,8 +51,7 @@ class UTCDateTime implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * serialize.
-     *
-     * Serialize a UTCDateTime
+     * Serialize a UTCDateTime.
      *
      * @return string
      *
@@ -68,8 +63,7 @@ class UTCDateTime implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * toDateTime.
-     *
-     * Returns the DateTime representation of this UTCDateTime
+     * Returns the DateTime representation of this UTCDateTime.
      *
      * @return DateTime
      *
@@ -81,8 +75,7 @@ class UTCDateTime implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * unserialize.
-     *
-     * Unserialize a UTCDateTime
+     * Unserialize a UTCDateTime.
      *
      * @param string $serialized
      *

@@ -2,7 +2,6 @@
 
 /**
  * MongoDB\BSON\Timestamp.
- *
  * Represents a [BSON timestamp](https://docs.mongodb.com/manual/reference/bson-types/#timestamps), which is an internal MongoDB type not intended for general date storage.
  *
  * @see http://php.net/manual/en/class.mongodb-bson-timestamp.php
@@ -14,8 +13,7 @@ class Timestamp implements MongoDB\BSON\Type, Serializable, JsonSerializable
 {
     /**
      * __construct.
-     *
-     * Construct a new Timestamp
+     * Construct a new Timestamp.
      *
      * @param int $increment
      * @param int $timestamp
@@ -30,8 +28,7 @@ class Timestamp implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * __toString.
-     *
-     * Returns the string representation of this Timestamp
+     * Returns the string representation of this Timestamp.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -45,8 +42,7 @@ class Timestamp implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * jsonSerialize.
-     *
-     * Returns a representation that can be converted to JSON
+     * Returns a representation that can be converted to JSON.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -60,8 +56,7 @@ class Timestamp implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * serialize.
-     *
-     * Serialize a Timestamp
+     * Serialize a Timestamp.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -75,8 +70,7 @@ class Timestamp implements MongoDB\BSON\Type, Serializable, JsonSerializable
 
     /**
      * unserialize.
-     *
-     * Unserialize a Timestamp
+     * Unserialize a Timestamp.
      *
      * @param string $serialized
      *

@@ -2,7 +2,6 @@
 
 /**
  * KTaglib_ID3v2_AttachedPictureFrame.
- *
  * Represents an ID3v2 frame that can hold a picture.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class KTaglib_ID3v2_AttachedPictureFrame extends KTaglib_ID3v2_Frame
 {
     /**
      * getDescription.
-     *
-     * Returns a description for the picture in a picture frame
+     * Returns a description for the picture in a picture frame.
      *
      * @return string
      *
@@ -26,8 +24,7 @@ class KTaglib_ID3v2_AttachedPictureFrame extends KTaglib_ID3v2_Frame
 
     /**
      * getMimeType.
-     *
-     * Returns the mime type of the picture
+     * Returns the mime type of the picture.
      *
      * @return string
      *
@@ -39,8 +36,7 @@ class KTaglib_ID3v2_AttachedPictureFrame extends KTaglib_ID3v2_Frame
 
     /**
      * setMimeType.
-     *
-     * Set's the mime type of the picture
+     * Set's the mime type of the picture.
      *
      * @param string $type
      *
@@ -54,8 +50,7 @@ class KTaglib_ID3v2_AttachedPictureFrame extends KTaglib_ID3v2_Frame
 
     /**
      * getType.
-     *
-     * Returns the type of the image
+     * Returns the type of the image.
      *
      * @return int
      *
@@ -67,8 +62,7 @@ class KTaglib_ID3v2_AttachedPictureFrame extends KTaglib_ID3v2_Frame
 
     /**
      * savePicture.
-     *
-     * Saves the picture to a file
+     * Saves the picture to a file.
      *
      * @param string $filename
      *
@@ -82,8 +76,7 @@ class KTaglib_ID3v2_AttachedPictureFrame extends KTaglib_ID3v2_Frame
 
     /**
      * setPicture.
-     *
-     * Sets the frame picture to the given image
+     * Sets the frame picture to the given image.
      *
      * @param string $filename
      *
@@ -95,8 +88,7 @@ class KTaglib_ID3v2_AttachedPictureFrame extends KTaglib_ID3v2_Frame
 
     /**
      * setType.
-     *
-     * Set the type of the image
+     * Set the type of the image.
      *
      * @param int $type
      *

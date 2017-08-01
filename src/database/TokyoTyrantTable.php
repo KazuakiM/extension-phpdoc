@@ -2,7 +2,6 @@
 
 /**
  * TokyoTyrantTable.
- *
  * Provides an API to the table databases. A table database can be create using the following command: ttserver -port 1979 /tmp/tt_table.tct. In Tokyo Tyrant the table API is a schemaless database which can store arbitrary amount of key-value pairs under a single primary key.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class TokyoTyrantTable extends TokyoTyrant
 {
     /**
      * add.
-     *
-     * Adds a record
+     * Adds a record.
      *
      * @param string $key
      * @param mixed  $increment
@@ -30,8 +28,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * genUid.
-     *
-     * Generate unique id
+     * Generate unique id.
      *
      * @throws TokyoTyrantException
      *
@@ -45,8 +42,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * get.
-     *
-     * Get a row
+     * Get a row.
      *
      * @param mixed $keys
      *
@@ -60,8 +56,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * getIterator.
-     *
-     * Get an iterator
+     * Get an iterator.
      *
      * @throws TokyoTyrantException
      *
@@ -75,8 +70,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * getQuery.
-     *
-     * Get a query object
+     * Get a query object.
      *
      * @throws TokyoTyrantException
      *
@@ -90,8 +84,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * out.
-     *
-     * Remove records
+     * Remove records.
      *
      * @param mixed $keys
      *
@@ -105,8 +98,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * put.
-     *
-     * Store a row
+     * Store a row.
      *
      * @param string $key
      * @param array  $columns
@@ -123,8 +115,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * putCat.
-     *
-     * Concatenates to a row
+     * Concatenates to a row.
      *
      * @param string $key
      * @param array  $columns
@@ -139,8 +130,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * putKeep.
-     *
-     * Put a new record
+     * Put a new record.
      *
      * @param string $key
      * @param array  $columns
@@ -155,8 +145,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * putNr.
-     *
-     * Puts value
+     * Puts value.
      *
      * @param mixed  $keys
      * @param string $value (optional)
@@ -171,8 +160,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * putShl.
-     *
-     * Concatenates to a record
+     * Concatenates to a record.
      *
      * @param string $key
      * @param string $value
@@ -186,8 +174,7 @@ class TokyoTyrantTable extends TokyoTyrant
 
     /**
      * setIndex.
-     *
-     * Sets index
+     * Sets index.
      *
      * @param string $column
      * @param int    $type

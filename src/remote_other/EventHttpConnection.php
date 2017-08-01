@@ -2,7 +2,6 @@
 
 /**
  * EventHttpConnection.
- *
  * Represents an HTTP connection.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class EventHttpConnection
 {
     /**
      * __construct.
-     *
-     * Constructs EventHttpConnection object
+     * Constructs EventHttpConnection object.
      *
      * @param EventBase       $base
      * @param EventDnsBase    $dns_base
@@ -30,8 +28,7 @@ class EventHttpConnection
 
     /**
      * getBase.
-     *
-     * Returns event base associated with the connection
+     * Returns event base associated with the connection.
      *
      * @return EventBase
      *
@@ -43,8 +40,7 @@ class EventHttpConnection
 
     /**
      * getPeer.
-     *
-     * Gets the remote address and port associated with the connection
+     * Gets the remote address and port associated with the connection.
      *
      * @param string &$address
      * @param int    &$port
@@ -57,8 +53,7 @@ class EventHttpConnection
 
     /**
      * makeRequest.
-     *
-     * Makes an HTTP request over the specified connection
+     * Makes an HTTP request over the specified connection.
      *
      * @param EventHttpRequest $req
      * @param int              $type
@@ -74,8 +69,7 @@ class EventHttpConnection
 
     /**
      * setCloseCallback.
-     *
-     * Set callback for connection close
+     * Set callback for connection close.
      *
      * @param callable $callback
      * @param mixed    $data     (optional)
@@ -88,8 +82,7 @@ class EventHttpConnection
 
     /**
      * setLocalAddress.
-     *
-     * Sets the IP address from which HTTP connections are made
+     * Sets the IP address from which HTTP connections are made.
      *
      * @param string $address
      *
@@ -101,8 +94,7 @@ class EventHttpConnection
 
     /**
      * setLocalPort.
-     *
-     * Sets the local port from which connections are made
+     * Sets the local port from which connections are made.
      *
      * @param int $port
      *
@@ -114,8 +106,7 @@ class EventHttpConnection
 
     /**
      * setMaxBodySize.
-     *
-     * Sets maximum body size for the connection
+     * Sets maximum body size for the connection.
      *
      * @param string $max_size
      *
@@ -127,8 +118,7 @@ class EventHttpConnection
 
     /**
      * setMaxHeadersSize.
-     *
-     * Sets maximum header size
+     * Sets maximum header size.
      *
      * @param string $max_size
      *
@@ -140,8 +130,7 @@ class EventHttpConnection
 
     /**
      * setRetries.
-     *
-     * Sets the retry limit for the connection
+     * Sets the retry limit for the connection.
      *
      * @param int $retries
      *
@@ -153,8 +142,7 @@ class EventHttpConnection
 
     /**
      * setTimeout.
-     *
-     * Sets the timeout for the connection
+     * Sets the timeout for the connection.
      *
      * @param int $timeout
      *

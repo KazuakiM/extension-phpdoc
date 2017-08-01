@@ -2,7 +2,6 @@
 
 /**
  * TokyoTyrantIterator.
- *
  * Provides an iterator for TokyoTyrant and TokyoTyrantTable objects. The iterator iterates over all keys and values in the database. TokyoTyrantIterator was added in version 0.2.0.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class TokyoTyrantIterator implements Iterator
 {
     /**
      * __construct.
-     *
-     * Construct an iterator
+     * Construct an iterator.
      *
      * @param mixed $object
      *
@@ -26,8 +24,7 @@ class TokyoTyrantIterator implements Iterator
 
     /**
      * current.
-     *
-     * Get the current value
+     * Get the current value.
      *
      * @return mixed
      *
@@ -39,8 +36,7 @@ class TokyoTyrantIterator implements Iterator
 
     /**
      * key.
-     *
-     * Returns the current key
+     * Returns the current key.
      *
      * @return mixed
      *
@@ -52,8 +48,7 @@ class TokyoTyrantIterator implements Iterator
 
     /**
      * next.
-     *
-     * Move to next key
+     * Move to next key.
      *
      * @return mixed
      *
@@ -65,9 +60,7 @@ class TokyoTyrantIterator implements Iterator
 
     /**
      * rewind.
-     *
-     * Rewinds the iterator
-     *
+     * Rewinds the iterator.
      *
      * @see http://php.net/manual/en/tokyotyrantiterator.rewind.php
      */
@@ -77,8 +70,7 @@ class TokyoTyrantIterator implements Iterator
 
     /**
      * valid.
-     *
-     * Rewinds the iterator
+     * Rewinds the iterator.
      *
      * @return bool
      *

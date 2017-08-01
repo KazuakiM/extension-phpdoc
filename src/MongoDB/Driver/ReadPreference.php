@@ -3,8 +3,6 @@
 /**
  * MongoDB\Driver\ReadPreference.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-driver-readpreference.php
@@ -24,8 +22,7 @@ final class ReadPreference implements MongoDB\BSON\Serializable
 
     /**
      * __construct.
-     *
-     * Construct immutable ReadPreference
+     * Construct immutable ReadPreference.
      *
      * @param int   $mode
      * @param array $tagSets = null
@@ -41,8 +38,7 @@ final class ReadPreference implements MongoDB\BSON\Serializable
 
     /**
      * bsonSerialize.
-     *
-     * Returns an object for BSON serialization
+     * Returns an object for BSON serialization.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -56,8 +52,7 @@ final class ReadPreference implements MongoDB\BSON\Serializable
 
     /**
      * getMaxStalenessSeconds.
-     *
-     * Returns the ReadPreference's "maxStalenessSeconds" option
+     * Returns the ReadPreference's "maxStalenessSeconds" option.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -71,8 +66,7 @@ final class ReadPreference implements MongoDB\BSON\Serializable
 
     /**
      * getMode.
-     *
-     * Returns the ReadPreference's "mode" option
+     * Returns the ReadPreference's "mode" option.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *
@@ -86,8 +80,7 @@ final class ReadPreference implements MongoDB\BSON\Serializable
 
     /**
      * getTagSets.
-     *
-     * Returns the ReadPreference's "tagSets" option
+     * Returns the ReadPreference's "tagSets" option.
      *
      * @throws MongoDB\Driver\Exception\InvalidArgumentException
      *

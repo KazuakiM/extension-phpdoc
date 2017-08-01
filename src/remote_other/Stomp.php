@@ -2,7 +2,6 @@
 
 /**
  * Stomp.
- *
  * Represents a connection between PHP and a Stomp compliant Message Broker.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class Stomp
 {
     /**
      * __construct.
-     *
-     * Opens a connection
+     * Opens a connection.
      *
      * @param string $broker   = ini_get('stomp.default_broker_uri')
      * @param string $username (optional)
@@ -29,8 +27,7 @@ class Stomp
 
     /**
      * __destruct.
-     *
-     * Closes stomp connection
+     * Closes stomp connection.
      *
      * @return bool
      *
@@ -42,8 +39,7 @@ class Stomp
 
     /**
      * abort.
-     *
-     * Rolls back a transaction in progress
+     * Rolls back a transaction in progress.
      *
      * @param string $transaction_id
      * @param array  $headers        (optional)
@@ -58,8 +54,7 @@ class Stomp
 
     /**
      * ack.
-     *
-     * Acknowledges consumption of a message
+     * Acknowledges consumption of a message.
      *
      * @param mixed $msg
      * @param array $headers (optional)
@@ -74,8 +69,7 @@ class Stomp
 
     /**
      * begin.
-     *
-     * Starts a transaction
+     * Starts a transaction.
      *
      * @param string $transaction_id
      * @param array  $headers        (optional)
@@ -90,8 +84,7 @@ class Stomp
 
     /**
      * commit.
-     *
-     * Commits a transaction in progress
+     * Commits a transaction in progress.
      *
      * @param string $transaction_id
      * @param array  $headers        (optional)
@@ -106,8 +99,7 @@ class Stomp
 
     /**
      * error.
-     *
-     * Gets the last stomp error
+     * Gets the last stomp error.
      *
      * @return string
      *
@@ -119,8 +111,7 @@ class Stomp
 
     /**
      * getReadTimeout.
-     *
-     * Gets read timeout
+     * Gets read timeout.
      *
      * @return array
      *
@@ -132,8 +123,7 @@ class Stomp
 
     /**
      * getSessionId.
-     *
-     * Gets the current stomp session ID
+     * Gets the current stomp session ID.
      *
      * @return string
      *
@@ -145,8 +135,7 @@ class Stomp
 
     /**
      * hasFrame.
-     *
-     * Indicates whether or not there is a frame ready to read
+     * Indicates whether or not there is a frame ready to read.
      *
      * @return bool
      *
@@ -158,8 +147,7 @@ class Stomp
 
     /**
      * readFrame.
-     *
-     * Reads the next frame
+     * Reads the next frame.
      *
      * @param string $class_name = 'stompFrame'
      *
@@ -173,8 +161,7 @@ class Stomp
 
     /**
      * send.
-     *
-     * Sends a message
+     * Sends a message.
      *
      * @param string $destination
      * @param mixed  $msg
@@ -190,8 +177,7 @@ class Stomp
 
     /**
      * setReadTimeout.
-     *
-     * Sets read timeout
+     * Sets read timeout.
      *
      * @param int $seconds
      * @param int $microseconds (optional)
@@ -204,8 +190,7 @@ class Stomp
 
     /**
      * subscribe.
-     *
-     * Registers to listen to a given destination
+     * Registers to listen to a given destination.
      *
      * @param string $destination
      * @param array  $headers     (optional)
@@ -220,8 +205,7 @@ class Stomp
 
     /**
      * unsubscribe.
-     *
-     * Removes an existing subscription
+     * Removes an existing subscription.
      *
      * @param string $destination
      * @param array  $headers     (optional)

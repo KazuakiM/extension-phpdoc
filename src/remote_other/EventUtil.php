@@ -3,7 +3,6 @@
 
 /**
  * EventUtil.
- *
  * EventUtil is a singleton with supplimentary methods and constants.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -39,8 +38,7 @@ final class EventUtil
 
     /**
      * __construct.
-     *
-     * The abstract constructor
+     * The abstract constructor.
      *
      * @see http://php.net/manual/en/eventutil.construct.php
      */
@@ -50,8 +48,7 @@ final class EventUtil
 
     /**
      * getLastSocketErrno.
-     *
-     * Returns the most recent socket error number
+     * Returns the most recent socket error number.
      *
      * @param mixed $socket = null
      *
@@ -65,8 +62,7 @@ final class EventUtil
 
     /**
      * getLastSocketError.
-     *
-     * Returns the most recent socket error
+     * Returns the most recent socket error.
      *
      * @param mixed $socket
      *
@@ -80,8 +76,7 @@ final class EventUtil
 
     /**
      * getSocketFd.
-     *
-     * Returns numeric file descriptor of a socket, or stream
+     * Returns numeric file descriptor of a socket, or stream.
      *
      * @param mixed $socket
      *
@@ -95,7 +90,6 @@ final class EventUtil
 
     /**
      * getSocketName.
-     *
      * Retreives the current address to which the socket is bound.
      *
      * @param mixed  $socket
@@ -112,8 +106,7 @@ final class EventUtil
 
     /**
      * setSocketOption.
-     *
-     * Sets socket options
+     * Sets socket options.
      *
      * @param mixed $socket
      * @param int   $level
@@ -130,9 +123,7 @@ final class EventUtil
 
     /**
      * sslRandPoll.
-     *
-     * Generates entropy by means of OpenSSL's RAND_poll()
-     *
+     * Generates entropy by means of OpenSSL's RAND_poll().
      *
      * @see http://php.net/manual/en/eventutil.sslrandpoll.php
      */

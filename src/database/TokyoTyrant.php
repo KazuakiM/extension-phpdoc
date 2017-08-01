@@ -2,8 +2,7 @@
 
 /**
  * TokyoTyrant.
- *
- * The main Tokyo Tyrant class
+ * The main Tokyo Tyrant class.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
@@ -55,8 +54,7 @@ class TokyoTyrant
 
     /**
      * __construct.
-     *
-     * Construct a new TokyoTyrant object
+     * Construct a new TokyoTyrant object.
      *
      * @param string $host    (optional)
      * @param int    $port    = RDBDEF_PORT (optional)
@@ -70,8 +68,7 @@ class TokyoTyrant
 
     /**
      * add.
-     *
-     * Adds to a numeric key
+     * Adds to a numeric key.
      *
      * @param string $key
      * @param number $increment
@@ -87,8 +84,7 @@ class TokyoTyrant
 
     /**
      * connect.
-     *
-     * Connect to a database
+     * Connect to a database.
      *
      * @param string $host
      * @param int    $port    = RDBDEF_PORT
@@ -106,8 +102,7 @@ class TokyoTyrant
 
     /**
      * connectUri.
-     *
-     * Connects to a database
+     * Connects to a database.
      *
      * @param string $uri
      *
@@ -123,8 +118,7 @@ class TokyoTyrant
 
     /**
      * copy.
-     *
-     * Copies the database
+     * Copies the database.
      *
      * @param string $path
      *
@@ -140,8 +134,7 @@ class TokyoTyrant
 
     /**
      * ext.
-     *
-     * Execute a remote script
+     * Execute a remote script.
      *
      * @param string $name
      * @param int    $options
@@ -158,8 +151,7 @@ class TokyoTyrant
 
     /**
      * fwmKeys.
-     *
-     * Returns the forward matching keys
+     * Returns the forward matching keys.
      *
      * @param string $prefix
      * @param int    $max_recs
@@ -174,8 +166,7 @@ class TokyoTyrant
 
     /**
      * get.
-     *
-     * The get purpose
+     * The get purpose.
      *
      * @param mixed $keys
      *
@@ -191,8 +182,7 @@ class TokyoTyrant
 
     /**
      * getIterator.
-     *
-     * Get an iterator
+     * Get an iterator.
      *
      * @throws TokyoTyrantException
      *
@@ -206,8 +196,7 @@ class TokyoTyrant
 
     /**
      * num.
-     *
-     * Number of records in the database
+     * Number of records in the database.
      *
      * @return int
      *
@@ -219,8 +208,7 @@ class TokyoTyrant
 
     /**
      * out.
-     *
-     * Removes records
+     * Removes records.
      *
      * @param mixed $keys
      *
@@ -236,8 +224,7 @@ class TokyoTyrant
 
     /**
      * put.
-     *
-     * Puts values
+     * Puts values.
      *
      * @param mixed  $keys
      * @param string $value = null
@@ -254,8 +241,7 @@ class TokyoTyrant
 
     /**
      * putCat.
-     *
-     * Concatenates to a record
+     * Concatenates to a record.
      *
      * @param mixed  $keys
      * @param string $value (optional)
@@ -272,8 +258,7 @@ class TokyoTyrant
 
     /**
      * putKeep.
-     *
-     * Puts a record
+     * Puts a record.
      *
      * @param mixed  $keys
      * @param string $value (optional)
@@ -290,8 +275,7 @@ class TokyoTyrant
 
     /**
      * putNr.
-     *
-     * Puts value
+     * Puts value.
      *
      * @param mixed  $keys
      * @param string $value = null
@@ -308,8 +292,7 @@ class TokyoTyrant
 
     /**
      * putShl.
-     *
-     * Concatenates to a record
+     * Concatenates to a record.
      *
      * @param string $key
      * @param string $value
@@ -327,8 +310,7 @@ class TokyoTyrant
 
     /**
      * restore.
-     *
-     * Restore the database
+     * Restore the database.
      *
      * @param string $log_dir
      * @param int    $timestamp
@@ -344,8 +326,7 @@ class TokyoTyrant
 
     /**
      * setMaster.
-     *
-     * Set the replication master
+     * Set the replication master.
      *
      * @param string $host
      * @param int    $port
@@ -364,8 +345,7 @@ class TokyoTyrant
 
     /**
      * size.
-     *
-     * Returns the size of the value
+     * Returns the size of the value.
      *
      * @param string $key
      *
@@ -381,8 +361,7 @@ class TokyoTyrant
 
     /**
      * stat.
-     *
-     * Get statistics
+     * Get statistics.
      *
      * @return array
      *
@@ -394,8 +373,7 @@ class TokyoTyrant
 
     /**
      * sync.
-     *
-     * Synchronize the database
+     * Synchronize the database.
      *
      * @throws TokyoTyrantException
      *
@@ -409,8 +387,7 @@ class TokyoTyrant
 
     /**
      * tune.
-     *
-     * Tunes connection values
+     * Tunes connection values.
      *
      * @param float $timeout
      * @param int   $options = RDBT_RECON
@@ -427,8 +404,7 @@ class TokyoTyrant
 
     /**
      * vanish.
-     *
-     * Empties the database
+     * Empties the database.
      *
      * @throws TokyoTyrantException
      *

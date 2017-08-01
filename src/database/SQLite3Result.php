@@ -2,7 +2,6 @@
 
 /**
  * SQLite3Result.
- *
  * A class that handles result sets for the SQLite 3 extension.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class SQLite3Result
 {
     /**
      * columnName.
-     *
-     * Returns the name of the nth column
+     * Returns the name of the nth column.
      *
      * @param int $column_number
      *
@@ -28,8 +26,7 @@ class SQLite3Result
 
     /**
      * columnType.
-     *
-     * Returns the type of the nth column
+     * Returns the type of the nth column.
      *
      * @param int $column_number
      *
@@ -43,8 +40,7 @@ class SQLite3Result
 
     /**
      * fetchArray.
-     *
-     * Fetches a result row as an associative or numerically indexed array or both
+     * Fetches a result row as an associative or numerically indexed array or both.
      *
      * @param int $mode = SQLITE3_BOTH
      *
@@ -58,8 +54,7 @@ class SQLite3Result
 
     /**
      * finalize.
-     *
-     * Closes the result set
+     * Closes the result set.
      *
      * @return bool
      *
@@ -71,8 +66,7 @@ class SQLite3Result
 
     /**
      * numColumns.
-     *
-     * Returns the number of columns in the result set
+     * Returns the number of columns in the result set.
      *
      * @return int
      *
@@ -84,8 +78,7 @@ class SQLite3Result
 
     /**
      * reset.
-     *
-     * Resets the result set back to the first row
+     * Resets the result set back to the first row.
      *
      * @return bool
      *

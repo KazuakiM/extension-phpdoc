@@ -2,7 +2,6 @@
 
 /**
  * EventHttp.
- *
  * Represents HTTP server.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ final class EventHttp
 {
     /**
      * __construct.
-     *
-     * Constructs EventHttp object(the HTTP server)
+     * Constructs EventHttp object(the HTTP server).
      *
      * @param EventBase       $base
      * @param EventSslContext $ctx  = null
@@ -27,8 +25,7 @@ final class EventHttp
 
     /**
      * accept.
-     *
-     * Makes an HTTP server accept connections on the specified socket stream or resource
+     * Makes an HTTP server accept connections on the specified socket stream or resource.
      *
      * @param mixed $socket
      *
@@ -42,8 +39,7 @@ final class EventHttp
 
     /**
      * addServerAlias.
-     *
-     * Adds a server alias to the HTTP server object
+     * Adds a server alias to the HTTP server object.
      *
      * @param string $alias
      *
@@ -57,8 +53,7 @@ final class EventHttp
 
     /**
      * bind.
-     *
-     * Binds an HTTP server on the specified address and port
+     * Binds an HTTP server on the specified address and port.
      *
      * @param string $address
      * @param int    $port
@@ -71,8 +66,7 @@ final class EventHttp
 
     /**
      * removeServerAlias.
-     *
-     * Removes server alias
+     * Removes server alias.
      *
      * @param string $alias
      *
@@ -86,8 +80,7 @@ final class EventHttp
 
     /**
      * setAllowedMethods.
-     *
-     * Sets the what HTTP methods are supported in requests accepted by this server, and passed to user callbacks
+     * Sets the what HTTP methods are supported in requests accepted by this server, and passed to user callbacks.
      *
      * @param int $methods
      *
@@ -99,8 +92,7 @@ final class EventHttp
 
     /**
      * setCallback.
-     *
-     * Sets a callback for specified URI
+     * Sets a callback for specified URI.
      *
      * @param string $path
      * @param string $cb
@@ -114,8 +106,7 @@ final class EventHttp
 
     /**
      * setDefaultCallback.
-     *
-     * Sets default callback to handle requests that are not caught by specific callbacks
+     * Sets default callback to handle requests that are not caught by specific callbacks.
      *
      * @param string $cb
      * @param string $arg (optional)
@@ -128,8 +119,7 @@ final class EventHttp
 
     /**
      * setMaxBodySize.
-     *
-     * Sets maximum request body size
+     * Sets maximum request body size.
      *
      * @param int $value
      *
@@ -141,8 +131,7 @@ final class EventHttp
 
     /**
      * setMaxHeadersSize.
-     *
-     * Sets maximum HTTP header size
+     * Sets maximum HTTP header size.
      *
      * @param int $value
      *
@@ -154,8 +143,7 @@ final class EventHttp
 
     /**
      * setTimeout.
-     *
-     * Sets the timeout for an HTTP request
+     * Sets the timeout for an HTTP request.
      *
      * @param int $value
      *

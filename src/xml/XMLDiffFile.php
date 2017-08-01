@@ -5,8 +5,6 @@ namespace XMLDiff;
 /**
  * XMLDiff.
  *
- *
- *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.xmldiff-file.php
@@ -15,8 +13,7 @@ class XMLDiffFile extends Base
 {
     /**
      * diff.
-     *
-     * Diff two XML files
+     * Diff two XML files.
      *
      * @param string $from
      * @param string $to
@@ -31,8 +28,7 @@ class XMLDiffFile extends Base
 
     /**
      * merge.
-     *
-     * Produce merged XML document
+     * Produce merged XML document.
      *
      * @param string $src
      * @param string $diff

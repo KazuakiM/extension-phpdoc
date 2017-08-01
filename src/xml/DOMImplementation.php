@@ -2,7 +2,6 @@
 
 /**
  * DOMImplementation.
- *
  * The DOMImplementation interface provides a number of methods for performing operations that are independent of any particular instance of the document object model.
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -13,8 +12,7 @@ class DOMImplementation
 {
     /**
      *  __construct.
-     *
-     * Creates a new DOMImplementation object
+     * Creates a new DOMImplementation object.
      *
      *  @see http://php.net/manual/en/domimplementation.construct.php
      */
@@ -24,8 +22,7 @@ class DOMImplementation
 
     /**
      * createDocument.
-     *
-     * Creates a DOMDocument object of the specified type with its document element
+     * Creates a DOMDocument object of the specified type with its document element.
      *
      * @param string          $namespaceURI  = null
      * @param string          $qualifiedName = null
@@ -44,8 +41,7 @@ class DOMImplementation
 
     /**
      * createDocumentType.
-     *
-     * Creates an empty DOMDocumentType object
+     * Creates an empty DOMDocumentType object.
      *
      * @param string $qualifiedName = null
      * @param string $publicId      = null
@@ -63,8 +59,7 @@ class DOMImplementation
 
     /**
      * hasFeature.
-     *
-     * Test if the DOM implementation implements a specific feature
+     * Test if the DOM implementation implements a specific feature.
      *
      * @param string $feature
      * @param string $version

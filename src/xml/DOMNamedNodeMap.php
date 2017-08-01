@@ -3,8 +3,6 @@
 /**
  * DOMNamedNodeMap.
  *
- *
- *
  * @property  int $length
  *
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
@@ -17,8 +15,7 @@ class DOMNamedNodeMap implements Traversable
 
     /**
      * getNamedItem.
-     *
-     * Retrieves a node specified by name
+     * Retrieves a node specified by name.
      *
      * @param string $name
      *
@@ -32,8 +29,7 @@ class DOMNamedNodeMap implements Traversable
 
     /**
      * getNamedItemNS.
-     *
-     * Retrieves a node specified by local name and namespace URI
+     * Retrieves a node specified by local name and namespace URI.
      *
      * @param string $namespaceURI
      * @param string $localName
@@ -48,8 +44,7 @@ class DOMNamedNodeMap implements Traversable
 
     /**
      * item.
-     *
-     * Retrieves a node specified by index
+     * Retrieves a node specified by index.
      *
      * @param int $index
      *

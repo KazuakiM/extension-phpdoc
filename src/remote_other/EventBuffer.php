@@ -2,7 +2,6 @@
 
 /**
  * EventBuffer.
- *
  * EventBuffer represents Libevent's "evbuffer", an utility functionality for buffered I/O.
  * Event buffers are meant to be generally useful for doing the "buffer" part of buffered network I/O.
  *
@@ -27,8 +26,7 @@ class EventBuffer
 
     /**
      * __construct.
-     *
-     * Constructs EventBuffer object
+     * Constructs EventBuffer object.
      *
      * @see http://php.net/manual/en/eventbuffer.construct.php
      */
@@ -38,8 +36,7 @@ class EventBuffer
 
     /**
      * add.
-     *
-     * Append data to the end of an event buffer
+     * Append data to the end of an event buffer.
      *
      * @param string $data
      *
@@ -53,8 +50,7 @@ class EventBuffer
 
     /**
      * addBuffer.
-     *
-     * Move all data from a buffer provided to the current instance of EventBuffer
+     * Move all data from a buffer provided to the current instance of EventBuffer.
      *
      * @param EventBuffer $buf
      *
@@ -68,8 +64,7 @@ class EventBuffer
 
     /**
      * appendFrom.
-     *
-     * Moves the specified number of bytes from a source buffer to the end of the current buffer
+     * Moves the specified number of bytes from a source buffer to the end of the current buffer.
      *
      * @param EventBuffer $buf
      * @param int         $len
@@ -84,8 +79,7 @@ class EventBuffer
 
     /**
      * copyout.
-     *
-     * Copies out specified number of bytes from the front of the buffer
+     * Copies out specified number of bytes from the front of the buffer.
      *
      * @param string &$data
      * @param int    $max_bytes
@@ -100,8 +94,7 @@ class EventBuffer
 
     /**
      * drain.
-     *
-     * Removes specified number of bytes from the front of the buffer without copying it anywhere
+     * Removes specified number of bytes from the front of the buffer without copying it anywhere.
      *
      * @param int $len
      *
@@ -116,9 +109,6 @@ class EventBuffer
     /**
      * enableLocking.
      *
-     *
-     *
-     *
      * @see http://php.net/manual/en/eventbuffer.enablelocking.php
      */
     public function enableLocking(): void
@@ -127,8 +117,7 @@ class EventBuffer
 
     /**
      * expand.
-     *
-     * Reserves space in buffer
+     * Reserves space in buffer.
      *
      * @param int $len
      *
@@ -142,8 +131,7 @@ class EventBuffer
 
     /**
      * freeze.
-     *
-     * Prevent calls that modify an event buffer from succeeding
+     * Prevent calls that modify an event buffer from succeeding.
      *
      * @param bool $at_front
      *
@@ -157,9 +145,7 @@ class EventBuffer
 
     /**
      * lock.
-     *
-     * Acquires a lock on buffer
-     *
+     * Acquires a lock on buffer.
      *
      * @see http://php.net/manual/en/eventbuffer.lock.php
      */
@@ -169,8 +155,7 @@ class EventBuffer
 
     /**
      * prepend.
-     *
-     * Prepend data to the front of the buffer
+     * Prepend data to the front of the buffer.
      *
      * @param string $data
      *
@@ -184,8 +169,7 @@ class EventBuffer
 
     /**
      * prependBuffer.
-     *
-     * Moves all data from source buffer to the front of current buffer
+     * Moves all data from source buffer to the front of current buffer.
      *
      * @param EventBuffer $buf
      *
@@ -199,8 +183,7 @@ class EventBuffer
 
     /**
      * pullup.
-     *
-     * Linearizes data within buffer and returns it's contents as a string
+     * Linearizes data within buffer and returns it's contents as a string.
      *
      * @param int $size
      *
@@ -214,8 +197,7 @@ class EventBuffer
 
     /**
      * read.
-     *
-     * Read data from an evbuffer and drain the bytes read
+     * Read data from an evbuffer and drain the bytes read.
      *
      * @param int $max_bytes
      *
@@ -229,8 +211,7 @@ class EventBuffer
 
     /**
      * readFrom.
-     *
-     * Read data from a file onto the end of the buffer
+     * Read data from a file onto the end of the buffer.
      *
      * @param mixed $fd
      * @param int   $howmuch
@@ -245,8 +226,7 @@ class EventBuffer
 
     /**
      * readLine.
-     *
-     * Extracts a line from the front of the buffer
+     * Extracts a line from the front of the buffer.
      *
      * @param int $eol_style
      *
@@ -260,8 +240,7 @@ class EventBuffer
 
     /**
      * search.
-     *
-     * Scans the buffer for an occurrence of a string
+     * Scans the buffer for an occurrence of a string.
      *
      * @param string $what
      * @param int    $start = 1
@@ -277,8 +256,7 @@ class EventBuffer
 
     /**
      * searchEol.
-     *
-     * Scans the buffer for an occurrence of an end of line
+     * Scans the buffer for an occurrence of an end of line.
      *
      * @param int $start     = 1
      * @param int $eol_style = EOL_ANY
@@ -293,8 +271,7 @@ class EventBuffer
 
     /**
      * substr.
-     *
-     * Substracts a portion of the buffer data
+     * Substracts a portion of the buffer data.
      *
      * @param int $start
      * @param int $length (optional)
@@ -309,8 +286,7 @@ class EventBuffer
 
     /**
      * unfreeze.
-     *
-     * Re-enable calls that modify an event buffer
+     * Re-enable calls that modify an event buffer.
      *
      * @param bool $at_front
      *
@@ -324,8 +300,7 @@ class EventBuffer
 
     /**
      * unlock.
-     *
-     * Releases lock acquired by EventBuffer::lock
+     * Releases lock acquired by EventBuffer::lock.
      *
      * @return bool
      *
@@ -337,8 +312,7 @@ class EventBuffer
 
     /**
      * write.
-     *
-     * Write contents of the buffer to a file or socket
+     * Write contents of the buffer to a file or socket.
      *
      * @param mixed $fd
      * @param int   $howmuch (optional)

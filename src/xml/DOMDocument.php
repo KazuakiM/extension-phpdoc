@@ -3,8 +3,6 @@
 /**
  * DOMDocument.
  *
- *
- *
  * @property  string $actualEncoding
  * @property  DOMConfiguration $config
  * @property  DOMDocumentType $doctype
@@ -53,8 +51,7 @@ class DOMDocument extends DOMNode
 
     /**
      * __construct.
-     *
-     * Creates a new DOMDocument object
+     * Creates a new DOMDocument object.
      *
      * @param string $version  (optional)
      * @param string $encoding (optional)
@@ -67,8 +64,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createAttribute.
-     *
-     * Create new attribute
+     * Create new attribute.
      *
      * @param string $name
      *
@@ -84,8 +80,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createAttributeNS.
-     *
-     * Create new attribute node with an associated namespace
+     * Create new attribute node with an associated namespace.
      *
      * @param string $namespaceURI
      * @param string $qualifiedName
@@ -103,8 +98,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createCDATASection.
-     *
-     * Create new cdata node
+     * Create new cdata node.
      *
      * @param string $data
      *
@@ -118,8 +112,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createComment.
-     *
-     * Create new comment node
+     * Create new comment node.
      *
      * @param string $data
      *
@@ -133,8 +126,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createDocumentFragment.
-     *
-     * Create new document fragment
+     * Create new document fragment.
      *
      * @return DOMDocumentFragment
      *
@@ -146,8 +138,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createElement.
-     *
-     * Create new element node
+     * Create new element node.
      *
      * @param string $name
      * @param string $value (optional)
@@ -164,8 +155,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createElementNS.
-     *
-     * Create new element node with an associated namespace
+     * Create new element node with an associated namespace.
      *
      * @param string $namespaceURI
      * @param string $qualifiedName
@@ -184,8 +174,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createEntityReference.
-     *
-     * Create new entity reference node
+     * Create new entity reference node.
      *
      * @param string $name
      *
@@ -201,8 +190,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createProcessingInstruction.
-     *
-     * Creates new PI node
+     * Creates new PI node.
      *
      * @param string $target
      * @param string $data   (optional)
@@ -219,8 +207,7 @@ class DOMDocument extends DOMNode
 
     /**
      * createTextNode.
-     *
-     * Create new text node
+     * Create new text node.
      *
      * @param string $content
      *
@@ -234,8 +221,7 @@ class DOMDocument extends DOMNode
 
     /**
      * getElementById.
-     *
-     * Searches for an element with a certain id
+     * Searches for an element with a certain id.
      *
      * @param string $elementId
      *
@@ -249,8 +235,7 @@ class DOMDocument extends DOMNode
 
     /**
      * getElementsByTagName.
-     *
-     * Searches for all elements with given local tag name
+     * Searches for all elements with given local tag name.
      *
      * @param string $name
      *
@@ -264,8 +249,7 @@ class DOMDocument extends DOMNode
 
     /**
      * getElementsByTagNameNS.
-     *
-     * Searches for all elements with given tag name in specified namespace
+     * Searches for all elements with given tag name in specified namespace.
      *
      * @param string $namespaceURI
      * @param string $localName
@@ -280,8 +264,7 @@ class DOMDocument extends DOMNode
 
     /**
      * importNode.
-     *
-     * Import node into current document
+     * Import node into current document.
      *
      * @param DOMNode $importedNode
      * @param bool    $deep         (optional)
@@ -298,8 +281,7 @@ class DOMDocument extends DOMNode
 
     /**
      * load.
-     *
-     * Load XML from a file
+     * Load XML from a file.
      *
      * @param string $filename
      * @param int    $options  = 0
@@ -316,8 +298,7 @@ class DOMDocument extends DOMNode
 
     /**
      * loadHTML.
-     *
-     * Load HTML from a string
+     * Load HTML from a string.
      *
      * @param string $source
      * @param int    $options = 0
@@ -334,8 +315,7 @@ class DOMDocument extends DOMNode
 
     /**
      * loadHTMLFile.
-     *
-     * Load HTML from a file
+     * Load HTML from a file.
      *
      * @param string $filename
      * @param int    $options  = 0
@@ -353,8 +333,7 @@ class DOMDocument extends DOMNode
 
     /**
      * loadXML.
-     *
-     * Load XML from a string
+     * Load XML from a string.
      *
      * @param string $source
      * @param int    $options = 0
@@ -371,9 +350,7 @@ class DOMDocument extends DOMNode
 
     /**
      * normalizeDocument.
-     *
-     * Normalizes the document
-     *
+     * Normalizes the document.
      *
      * @see http://php.net/manual/en/domdocument.normalizedocument.php
      */
@@ -383,8 +360,7 @@ class DOMDocument extends DOMNode
 
     /**
      * registerNodeClass.
-     *
-     * Register extended class used to create base node type
+     * Register extended class used to create base node type.
      *
      * @param string $baseclass
      * @param string $extendedclass
@@ -399,8 +375,7 @@ class DOMDocument extends DOMNode
 
     /**
      * relaxNGValidate.
-     *
-     * Performs relaxNG validation on the document
+     * Performs relaxNG validation on the document.
      *
      * @param string $filename
      *
@@ -414,8 +389,7 @@ class DOMDocument extends DOMNode
 
     /**
      * relaxNGValidateSource.
-     *
-     * Performs relaxNG validation on the document
+     * Performs relaxNG validation on the document.
      *
      * @param string $source
      *
@@ -429,8 +403,7 @@ class DOMDocument extends DOMNode
 
     /**
      * save.
-     *
-     * Dumps the internal XML tree back into a file
+     * Dumps the internal XML tree back into a file.
      *
      * @param string $filename
      * @param int    $options  (optional)
@@ -445,8 +418,7 @@ class DOMDocument extends DOMNode
 
     /**
      * saveHTML.
-     *
-     * Dumps the internal document into a string using HTML formatting
+     * Dumps the internal document into a string using HTML formatting.
      *
      * @param DOMNode $node = NULL
      *
@@ -460,8 +432,7 @@ class DOMDocument extends DOMNode
 
     /**
      * saveHTMLFile.
-     *
-     * Dumps the internal document into a file using HTML formatting
+     * Dumps the internal document into a file using HTML formatting.
      *
      * @param string $filename
      *
@@ -475,8 +446,7 @@ class DOMDocument extends DOMNode
 
     /**
      * saveXML.
-     *
-     * Dumps the internal XML tree back into a string
+     * Dumps the internal XML tree back into a string.
      *
      * @param DOMNode $node    (optional)
      * @param int     $options (optional)
@@ -493,8 +463,7 @@ class DOMDocument extends DOMNode
 
     /**
      * schemaValidate.
-     *
-     * Validates a document based on a schema
+     * Validates a document based on a schema.
      *
      * @param string $filename
      * @param int    $flags    (optional)
@@ -509,8 +478,7 @@ class DOMDocument extends DOMNode
 
     /**
      * schemaValidateSource.
-     *
-     * Validates a document based on a schema
+     * Validates a document based on a schema.
      *
      * @param string $source
      * @param int    $flags
@@ -525,8 +493,7 @@ class DOMDocument extends DOMNode
 
     /**
      * validate.
-     *
-     * Validates the document based on its DTD
+     * Validates the document based on its DTD.
      *
      * @return bool
      *
@@ -538,8 +505,7 @@ class DOMDocument extends DOMNode
 
     /**
      * xinclude.
-     *
-     * Substitutes XIncludes in a DOMDocument Object
+     * Substitutes XIncludes in a DOMDocument Object.
      *
      * @param int $options (optional)
      *
