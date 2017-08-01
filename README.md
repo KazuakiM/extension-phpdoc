@@ -20,6 +20,7 @@ $ composer global remove kazuakim/extension-phpdoc
 ## [Function Reference](http://php.net/manual/en/funcref.php)
 
 * [Affecting PHP's Behaviour](http://php.net/manual/en/refs.basic.php.php)
+* [Audio Formats Manipulation](http://php.net/manual/en/refs.utilspec.audio.php)
 * [Database Extensions](http://php.net/manual/en/refs.database.php)
 * [Other Services](http://php.net/manual/en/refs.remote.other.php)
 * [XML Manipulation](http://php.net/manual/en/refs.xml.php)
