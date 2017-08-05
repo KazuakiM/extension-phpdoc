@@ -1,11 +1,9 @@
 language: php
 
+dist: precise
+
 php:
   - 7.1
-
-sudo: true
-
-cache: vendor
 
 before_script:
   - composer require friendsofphp/php-cs-fixer
