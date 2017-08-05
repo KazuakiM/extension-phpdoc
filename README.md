@@ -23,6 +23,7 @@ $ composer global remove kazuakim/extension-phpdoc
 * [Audio Formats Manipulation](http://php.net/manual/en/refs.utilspec.audio.php)
 * [Compression and Archive Extensions](http://php.net/manual/en/refs.compression.php)
 * [Database Extensions](http://php.net/manual/en/refs.database.php)
+* [Date and Time Related Extensions](http://php.net/manual/en/refs.calendar.php)
 * [Other Services](http://php.net/manual/en/refs.remote.other.php)
 * [XML Manipulation](http://php.net/manual/en/refs.xml.php)
 
