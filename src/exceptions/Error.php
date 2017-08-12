@@ -52,7 +52,7 @@ class Error implements Throwable
      *
      * @see http://php.net/manual/en/error.clone.php
      */
-    final private function __clone(): void
+    final private function __clone()
     {
     }
 

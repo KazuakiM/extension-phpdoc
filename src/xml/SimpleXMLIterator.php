@@ -91,16 +91,16 @@ class SimpleXMLIterator extends SimpleXMLElement implements RecursiveIterator, C
     }
 
     /* Inherited methods */
-    //final public function SimpleXMLElement::__construct ( string $data [, int $options = 0 [, bool $data_is_url = false [, string $ns = "" [, bool $is_prefix = false ]]]] )
-    //public function SimpleXMLElement::addAttribute ( string $name [, string $value [, string $namespace ]] ): void
-    //public function SimpleXMLElement::addChild ( string $name [, string $value [, string $namespace ]] ): SimpleXMLElement
-    //public function SimpleXMLElement::asXML ([ string $filename ] ): mixed
-    //public function SimpleXMLElement::attributes ([ string $ns = NULL [, bool $is_prefix = false ]] ): SimpleXMLElement
-    //public function SimpleXMLElement::children ([ string $ns [, bool $is_prefix = false ]] ): SimpleXMLElement
+    //final public function SimpleXMLElement::__construct ( string $data, int $options = 0, bool $data_is_url = false, string $ns = "", bool $is_prefix = false)
+    //public function SimpleXMLElement::addAttribute ( string $name, string $value, string $namespace): void
+    //public function SimpleXMLElement::addChild ( string $name, string $value, string $namespace): SimpleXMLElement
+    //public function SimpleXMLElement::asXML (string $filename ): mixed
+    //public function SimpleXMLElement::attributes (string $ns = NULL, bool $is_prefix = false): SimpleXMLElement
+    //public function SimpleXMLElement::children (string $ns, bool $is_prefix = false): SimpleXMLElement
     //public function SimpleXMLElement::count ( void ): int
-    //public function SimpleXMLElement::getDocNamespaces ([ bool $recursive = false [, bool $from_root = true ]] ): array
+    //public function SimpleXMLElement::getDocNamespaces (bool $recursive = false, bool $from_root = true): array
     //public function SimpleXMLElement::getName ( void ): string
-    //public function SimpleXMLElement::getNamespaces ([ bool $recursive = false ] ): array
+    //public function SimpleXMLElement::getNamespaces (bool $recursive = false ): array
     //public function SimpleXMLElement::registerXPathNamespace ( string $prefix , string $ns ): bool
     //public function SimpleXMLElement::__toString ( void ): string
     //public function SimpleXMLElement::xpath ( string $path ): array

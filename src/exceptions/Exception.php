@@ -53,7 +53,7 @@ class Exception
      *
      * @see http://php.net/manual/en/exception.clone.php
      */
-    final private function __clone(): void
+    final private function __clone()
     {
     }
 
