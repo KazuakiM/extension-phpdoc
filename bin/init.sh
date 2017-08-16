@@ -17,6 +17,8 @@ fi
 
 # TODO : ] escape {{{
 sed -i -e 's/\[\]/array()/g' $action
+sed -i -e 's/\ \]/]/g' $action
+sed -i -e 's/\]\ /]/g' $action
 sed -i -e 's/]/TextBracket/g' $action
 sed -i -e 's/|/TextBar/g' $action
 sed -i -e 's/:/TextColon/g' $action
@@ -32,6 +34,7 @@ sed -i -e 's/ ( /(/g' $action
 sed -i -e 's/ (\[/(\[/g' $action
 sed -i -e 's/ , /, /g' $action
 sed -i -e 's/ )/)/g' $action
+sed -i -e 's/ \[/[/g' $action
 sed -i -e 's/NULL/null/g' $action
 sed -i -e 's/boolean\s/bool /g' $action
 sed -i -e 's/integer/int/g' $action
