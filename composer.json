@@ -1,7 +1,7 @@
 {
     "name":        "kazuakim/extension-phpdoc",
     "type":        "library",
-    "description": "@phpdoc for IDE autocomplete",
+    "description": "phpdoc for IDE autocomplete",
     "keywords":    [
         "phpdoc"
     ],
