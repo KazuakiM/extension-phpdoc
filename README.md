@@ -27,6 +27,8 @@ $ composer global remove kazuakim/extension-phpdoc
 * [File System Related Extensions](http://php.net/manual/en/refs.fileprocess.file.php)
 * [Human Language and Character Encoding Support](http://php.net/manual/en/refs.international.php)
 * [Image Processing and Generation](http://php.net/manual/en/refs.utilspec.image.php)
+* [Mathematical Extensions](http://php.net/manual/en/refs.math.php)
+* [Non-Text MIME Output](http://php.net/manual/en/refs.utilspec.nontext.php)
 * [Other Services](http://php.net/manual/en/refs.remote.other.php)
 * [XML Manipulation](http://php.net/manual/en/refs.xml.php)
 
