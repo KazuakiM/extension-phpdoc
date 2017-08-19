@@ -97,7 +97,7 @@ class Redis
     /**
      * open.
      *
-     * @alias connect()
+     * @alias Redis::connect()
      */
     public function open(string $host, int $port = 6379, float $timeout = 0.0, mixed $reserved = null, int $retry_interval = 0): bool
     {
@@ -129,7 +129,7 @@ class Redis
     /**
      * popen.
      *
-     * @alias pconnect()
+     * @alias Redis::pconnect()
      */
     public function popen(string $host, int $port = 6379, float $timeout = 0.0, string $persistent_id = '', int $retry_interval = 0): bool
     {
@@ -298,7 +298,7 @@ class Redis
     /**
      * delete.
      *
-     * @alias del()
+     * @alias Redis::del()
      */
     public function delete(mixed $key1, string $key2 = null, string $key3 = null): int
     {

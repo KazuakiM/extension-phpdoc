@@ -178,7 +178,7 @@ class SimpleXMLElement implements Traversable
     /**
      * saveXML.
      *
-     * @alias asXML()
+     * @alias SimpleXMLElement::asXML()
      *
      * @see http://php.net/manual/en/simplexmlelement.savexml.php
      */
