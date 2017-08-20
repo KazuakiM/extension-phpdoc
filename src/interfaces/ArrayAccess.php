@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * ArrayAccess.
  * Interface to provide accessing objects as arrays.

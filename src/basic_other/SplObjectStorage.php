@@ -4,7 +4,7 @@
  * SplObjectStorage.
  * The SplObjectStorage class provides a map from objects to data or, by ignoring data, an object set. This dual purpose can be useful in many cases involving the need to uniquely identify objects.
  *
- * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
+ * @copyright[Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under[CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.splobjectstorage.php
  */

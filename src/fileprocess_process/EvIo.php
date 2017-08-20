@@ -75,7 +75,7 @@ class EvIo extends EvWatcher
 
     /* Inherited methods */
     //public function EvWatcher::clear(): int
-    //abstract public function __construct(): EvWatcher::
+    //abstract public function __construct()
     //public function EvWatcher::feed(int $revents): void
     //public function EvWatcher::getLoop(): EvLoop
     //public function EvWatcher::invoke(int $revents): void

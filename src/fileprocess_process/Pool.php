@@ -33,11 +33,9 @@ class Pool
      * @param string $class (optional)
      * @param array  $ctor  (optional)
      *
-     * @return Pool
-     *
      * @see http://php.net/manual/en/pool.construct.php
      */
-    public function __construct(int $size, string $class, array $ctor): Pool
+    public function __construct(int $size, string $class, array $ctor)
     {
     }
 
