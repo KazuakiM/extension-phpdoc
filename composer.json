@@ -13,6 +13,6 @@
     }],
     "scripts": {
         "create": "sh bin/init.sh",
-        "csfixer": "php vendor/bin/php-cs-fixer fix --dry-run --verbose"
+        "csfixer": "php vendor/bin/php-cs-fixer fix --dry-run"
     }
 }
