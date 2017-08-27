@@ -32,6 +32,7 @@ $ composer global remove kazuakim/extension-phpdoc
 * [Process Control Extensions](http://php.net/manual/en/refs.fileprocess.process.php)
 * [Other Basic Extensions](http://php.net/manual/en/refs.basic.other.php)
 * [Other Services](http://php.net/manual/en/refs.remote.other.php)
+* [Search Engine Extensions](http://php.net/manual/en/refs.search.php)
 * [XML Manipulation](http://php.net/manual/en/refs.xml.php)
 
 ## [Language Reference](http://php.net/manual/en/langref.php)
