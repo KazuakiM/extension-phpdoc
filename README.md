@@ -33,6 +33,8 @@ $ composer global remove kazuakim/extension-phpdoc
 * [Other Basic Extensions](http://php.net/manual/en/refs.basic.other.php)
 * [Other Services](http://php.net/manual/en/refs.remote.other.php)
 * [Search Engine Extensions](http://php.net/manual/en/refs.search.php)
+* [Session Extensions](http://php.net/manual/en/refs.basic.session.php)
+* [Variable and Type Related Extensions](http://php.net/manual/en/refs.basic.vartype.php)
 * [XML Manipulation](http://php.net/manual/en/refs.xml.php)
 
 ## [Language Reference](http://php.net/manual/en/langref.php)
