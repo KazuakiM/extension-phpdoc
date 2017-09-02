@@ -3,11 +3,11 @@
 /**
  * Yaf_Response_Abstract.
  *
- *
  * @property $_header
  * @property $_body
  * @property $_sendheader
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-response-abstract.php
@@ -95,7 +95,6 @@ class Yaf_Response_Abstract
      * clearHeaders.
      * The clearHeaders purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-response-abstract.clearheaders.php
      */
     public function clearHeaders(): void
@@ -119,7 +118,6 @@ class Yaf_Response_Abstract
     /**
      * getHeader.
      * The getHeader purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-response-abstract.getheader.php
      */
@@ -146,7 +144,6 @@ class Yaf_Response_Abstract
      * response.
      * send response.
      *
-     *
      * @see http://php.net/manual/en/yaf-response-abstract.response.php
      */
     public function response(): void
@@ -172,7 +169,6 @@ class Yaf_Response_Abstract
      * setHeader.
      * The setHeader purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-response-abstract.setheader.php
      */
     public function setHeader(): void
@@ -183,7 +179,6 @@ class Yaf_Response_Abstract
      * setRedirect.
      * The setRedirect purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-response-abstract.setredirect.php
      */
     public function setRedirect(): void
@@ -193,7 +188,6 @@ class Yaf_Response_Abstract
     /**
      * setAllHeaders.
      * The setAllHeaders purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-response-abstract.setallheaders.php
      */

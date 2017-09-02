@@ -4,6 +4,7 @@
  * RecursiveTreeIterator.
  * Allows iterating over a RecursiveIterator to generate an ASCII graphic tree.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.recursivetreeiterator.php
@@ -37,7 +38,6 @@ class RecursiveTreeIterator extends RecursiveIteratorIterator implements OuterIt
     /**
      * beginChildren.
      * Begin children.
-     *
      *
      * @see http://php.net/manual/en/recursivetreeiterator.beginchildren.php
      */
@@ -97,7 +97,6 @@ class RecursiveTreeIterator extends RecursiveIteratorIterator implements OuterIt
      * endChildren.
      * End children.
      *
-     *
      * @see http://php.net/manual/en/recursivetreeiterator.endchildren.php
      */
     public function endChildren(): void
@@ -107,7 +106,6 @@ class RecursiveTreeIterator extends RecursiveIteratorIterator implements OuterIt
     /**
      * endIteration.
      * End iteration.
-     *
      *
      * @see http://php.net/manual/en/recursivetreeiterator.enditeration.php
      */
@@ -130,7 +128,6 @@ class RecursiveTreeIterator extends RecursiveIteratorIterator implements OuterIt
     /**
      * getPostfix.
      * Get the postfix.
-     *
      *
      * @see http://php.net/manual/en/recursivetreeiterator.getpostfix.php
      */
@@ -166,7 +163,6 @@ class RecursiveTreeIterator extends RecursiveIteratorIterator implements OuterIt
      * next.
      * Move to next element.
      *
-     *
      * @see http://php.net/manual/en/recursivetreeiterator.next.php
      */
     public function next(): void
@@ -177,7 +173,6 @@ class RecursiveTreeIterator extends RecursiveIteratorIterator implements OuterIt
      * nextElement.
      * Next element.
      *
-     *
      * @see http://php.net/manual/en/recursivetreeiterator.nextelement.php
      */
     public function nextElement(): void
@@ -187,7 +182,6 @@ class RecursiveTreeIterator extends RecursiveIteratorIterator implements OuterIt
     /**
      * rewind.
      * Rewind iterator.
-     *
      *
      * @see http://php.net/manual/en/recursivetreeiterator.rewind.php
      */

@@ -3,11 +3,11 @@
 /**
  * Yaf_Session.
  *
- *
  * @property static $_instance
  * @property $_session
  * @property $_started
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-session.php
@@ -79,7 +79,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
      * __sleep.
      * The __sleep purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-session.sleep.php
      */
     private function __sleep(): void
@@ -102,7 +101,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
      * __wakeup.
      * The __wakeup purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-session.wakeup.php
      */
     private function __wakeup(): void
@@ -113,7 +111,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
      * count.
      * The count purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-session.count.php
      */
     public function count(): void
@@ -123,7 +120,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
     /**
      * current.
      * The current purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-session.current.php
      */
@@ -147,7 +143,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
      * getInstance.
      * The getInstance purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-session.getinstance.php
      */
     public static function getInstance(): void
@@ -170,7 +165,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
      * key.
      * The key purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-session.key.php
      */
     public function key(): void
@@ -180,7 +174,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
     /**
      * next.
      * The next purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-session.next.php
      */
@@ -241,7 +234,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
      * rewind.
      * The rewind purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-session.rewind.php
      */
     public function rewind(): void
@@ -252,7 +244,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
      * start.
      * The start purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-session.start.php
      */
     public function start(): void
@@ -262,7 +253,6 @@ class Yaf_Session implements Iterator, ArrayAccess, Countable
     /**
      * valid.
      * The valid purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-session.valid.php
      */

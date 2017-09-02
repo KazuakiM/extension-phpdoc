@@ -6,6 +6,7 @@
  *
  * @property $embed
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.evembed.php
@@ -59,7 +60,6 @@ class EvEmbed extends EvWatcher
     /**
      * sweep.
      * Make a single, non-blocking sweep over the embedded loop.
-     *
      *
      * @see http://php.net/manual/en/evembed.sweep.php
      */

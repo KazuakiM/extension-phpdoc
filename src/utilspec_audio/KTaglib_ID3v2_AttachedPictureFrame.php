@@ -4,6 +4,7 @@
  * KTaglib_ID3v2_AttachedPictureFrame.
  * Represents an ID3v2 frame that can hold a picture.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ktaglib-id3v2-attachedpictureframe.php

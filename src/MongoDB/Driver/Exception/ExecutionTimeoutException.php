@@ -4,6 +4,7 @@
  * MongoDB\Driver\Exception\ExecutionTimeoutException.
  * Thrown when a query or command fails to complete within a specified time limit (e.g. [maxTimeMS](https://docs.mongodb.com/manual/tutorial/terminate-running-operations/#maxtimems)).
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-driver-exception-executiontimeoutexception.php

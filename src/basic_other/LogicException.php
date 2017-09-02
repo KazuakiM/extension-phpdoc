@@ -4,6 +4,7 @@
  * LogicException.
  * Exception that represents error in the program logic. This kind of exception should lead directly to a fix in your code.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.logicexception.php

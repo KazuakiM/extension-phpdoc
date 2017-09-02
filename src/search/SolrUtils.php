@@ -5,6 +5,7 @@
  * Contains utility methods for retrieving the current extension version and preparing query phrases.
  * Also contains method for escaping query strings and parsing XML responses.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.solrutils.php
@@ -13,7 +14,6 @@ abstract class SolrUtils
 {
     /**
      * digestXmlResponse.
-     *
      *
      * @param string $xmlresponse
      * @param int    $parse_mode  = 0
@@ -29,7 +29,6 @@ abstract class SolrUtils
     /**
      * escapeQueryChars.
      *
-     *
      * @param string $str
      *
      * @return string
@@ -43,7 +42,6 @@ abstract class SolrUtils
     /**
      * getSolrVersion.
      *
-     *
      * @return string
      *
      * @see http://php.net/manual/en/solrutils.getsolrversion.php
@@ -54,7 +52,6 @@ abstract class SolrUtils
 
     /**
      * queryPhrase.
-     *
      *
      * @param string $str
      *

@@ -4,6 +4,7 @@
  * RecursiveArrayIterator.
  * This iterator allows to unset and modify values and keys while iterating over Arrays and Objects in the same way as the ArrayIterator. Additionally it is possible to iterate over the current iterator entry.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.recursivearrayiterator.php

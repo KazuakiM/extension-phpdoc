@@ -3,7 +3,7 @@
 /**
  * CairoSurfacePattern.
  *
- *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairosurfacepattern.php
@@ -49,7 +49,6 @@ class CairoSurfacePattern extends CairoPattern
     /**
      * getSurface.
      * The getSurface purpose.
-     *
      *
      * @see http://php.net/manual/en/cairosurfacepattern.getsurface.php
      */

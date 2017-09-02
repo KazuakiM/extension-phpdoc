@@ -4,6 +4,7 @@
  * FilesystemIterator.
  * The Filesystem iterator.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.filesystemiterator.php
@@ -77,7 +78,6 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator
      * next.
      * Move to the next file.
      *
-     *
      * @see http://php.net/manual/en/filesystemiterator.next.php
      */
     public function next(): void
@@ -87,7 +87,6 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator
     /**
      * rewind.
      * Rewinds back to the beginning.
-     *
      *
      * @see http://php.net/manual/en/filesystemiterator.rewind.php
      */

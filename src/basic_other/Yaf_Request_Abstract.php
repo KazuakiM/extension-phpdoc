@@ -3,7 +3,6 @@
 /**
  * Yaf_Request_Abstract.
  *
- *
  * @property $module
  * @property $controller
  * @property $action
@@ -16,6 +15,7 @@
  * @property $dispatched
  * @property $routed
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-request-abstract.php
@@ -41,7 +41,6 @@ class Yaf_Request_Abstract
      * getActionName.
      * The getActionName purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.getactionname.php
      */
     public function getActionName(): void
@@ -52,7 +51,6 @@ class Yaf_Request_Abstract
      * getBaseUri.
      * The getBaseUri purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.getbaseuri.php
      */
     public function getBaseUri(): void
@@ -62,7 +60,6 @@ class Yaf_Request_Abstract
     /**
      * getControllerName.
      * The getControllerName purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-abstract.getcontrollername.php
      */
@@ -87,7 +84,6 @@ class Yaf_Request_Abstract
      * getException.
      * The getException purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.getexception.php
      */
     public function getException(): void
@@ -97,7 +93,6 @@ class Yaf_Request_Abstract
     /**
      * getLanguage.
      * The getLanguage purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-abstract.getlanguage.php
      */
@@ -109,7 +104,6 @@ class Yaf_Request_Abstract
      * getMethod.
      * The getMethod purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.getmethod.php
      */
     public function getMethod(): void
@@ -119,7 +113,6 @@ class Yaf_Request_Abstract
     /**
      * getModuleName.
      * The getModuleName purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-abstract.getmodulename.php
      */
@@ -144,7 +137,6 @@ class Yaf_Request_Abstract
      * getParams.
      * The getParams purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.getparams.php
      */
     public function getParams(): void
@@ -154,7 +146,6 @@ class Yaf_Request_Abstract
     /**
      * getRequestUri.
      * The getRequestUri purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-abstract.getrequesturi.php
      */
@@ -179,7 +170,6 @@ class Yaf_Request_Abstract
      * isCli.
      * The isCli purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.iscli.php
      */
     public function isCli(): void
@@ -189,7 +179,6 @@ class Yaf_Request_Abstract
     /**
      * isDispatched.
      * The isDispatched purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-abstract.isdispatched.php
      */
@@ -201,7 +190,6 @@ class Yaf_Request_Abstract
      * isGet.
      * The isGet purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.isget.php
      */
     public function isGet(): void
@@ -211,7 +199,6 @@ class Yaf_Request_Abstract
     /**
      * isHead.
      * The isHead purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-abstract.ishead.php
      */
@@ -223,7 +210,6 @@ class Yaf_Request_Abstract
      * isOptions.
      * The isOptions purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.isoptions.php
      */
     public function isOptions(): void
@@ -233,7 +219,6 @@ class Yaf_Request_Abstract
     /**
      * isPost.
      * The isPost purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-abstract.ispost.php
      */
@@ -245,7 +230,6 @@ class Yaf_Request_Abstract
      * isPut.
      * The isPut purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.isput.php
      */
     public function isPut(): void
@@ -256,7 +240,6 @@ class Yaf_Request_Abstract
      * isRouted.
      * The isRouted purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-abstract.isrouted.php
      */
     public function isRouted(): void
@@ -266,7 +249,6 @@ class Yaf_Request_Abstract
     /**
      * isXmlHttpRequest.
      * The isXmlHttpRequest purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-abstract.isxmlhttprequest.php
      */
@@ -315,7 +297,6 @@ class Yaf_Request_Abstract
     /**
      * setDispatched.
      * The setDispatched purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-abstract.setdispatched.php
      */

@@ -6,6 +6,7 @@
  * Individual features of a cairo_font_options_t can be set or accessed using functions named cairo_font_options_set_feature_name and cairo_font_options_get_feature_name, like cairo_font_options_set_antialias() and cairo_font_options_get_antialias().
  * New features may be added to CairoFontOptions in the future. For this reason CairoFontOptions::copy(), CairoFontOptions::equal(), CairoFontOptions::merge(), CairoFontOptions::hash() (cairo_font_options_copy(), cairo_font_options_equal(), cairo_font_options_merge(), and cairo_font_options_hash() in procedural way) should be used to copy, check for equality, merge, or compute a hash value of CairoFontOptions objects.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://www.php.net/manual/en/class.cairofontoptions.php

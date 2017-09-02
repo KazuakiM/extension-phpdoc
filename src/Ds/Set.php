@@ -4,6 +4,7 @@
  * Ds\Set.
  * A Set is a sequence of unique values. This implementation uses the same hash table as Ds\Map, where values are used as keys and the mapped value is ignored.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ds-set.php
@@ -66,7 +67,6 @@ class Set implements Ds\Collection
     /**
      * clear.
      * Removes all values.
-     *
      *
      * @see http://php.net/manual/en/ds-set.clear.php
      */
@@ -276,7 +276,6 @@ class Set implements Ds\Collection
     /**
      * reverse.
      * Reverses the set in-place.
-     *
      *
      * @see http://php.net/manual/en/ds-set.reverse.php
      */

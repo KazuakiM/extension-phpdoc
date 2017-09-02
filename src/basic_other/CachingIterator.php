@@ -4,6 +4,7 @@
  * CachingIterator.
  * This object supports cached iteration over another iterator.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cachingiterator.php
@@ -34,7 +35,6 @@ class CachingIterator extends IteratorIterator implements OuterIterator, ArrayAc
      * __toString.
      * Return the string representation of the current element.
      *
-     *
      * @see http://php.net/manual/en/cachingiterator.tostring.php
      */
     public function __toString(): void
@@ -56,7 +56,6 @@ class CachingIterator extends IteratorIterator implements OuterIterator, ArrayAc
     /**
      * current.
      * Return the current element.
-     *
      *
      * @see http://php.net/manual/en/cachingiterator.current.php
      */
@@ -106,7 +105,6 @@ class CachingIterator extends IteratorIterator implements OuterIterator, ArrayAc
      * hasNext.
      * Check whether the inner iterator has a valid next element.
      *
-     *
      * @see http://php.net/manual/en/cachingiterator.hasnext.php
      */
     public function hasNext(): void
@@ -128,7 +126,6 @@ class CachingIterator extends IteratorIterator implements OuterIterator, ArrayAc
     /**
      * next.
      * Move the iterator forward.
-     *
      *
      * @see http://php.net/manual/en/cachingiterator.next.php
      */
@@ -189,7 +186,6 @@ class CachingIterator extends IteratorIterator implements OuterIterator, ArrayAc
      * rewind.
      * Rewind the iterator.
      *
-     *
      * @see http://php.net/manual/en/cachingiterator.rewind.php
      */
     public function rewind(): void
@@ -211,7 +207,6 @@ class CachingIterator extends IteratorIterator implements OuterIterator, ArrayAc
     /**
      * valid.
      * Check whether the current element is valid.
-     *
      *
      * @see http://php.net/manual/en/cachingiterator.valid.php
      */

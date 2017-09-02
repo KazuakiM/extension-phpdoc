@@ -11,6 +11,7 @@
  * @property $_global_library
  * @property static $_instance
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-loader.php
@@ -46,7 +47,6 @@ class Yaf_Loader
      * __sleep.
      * The __sleep purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-loader.sleep.php
      */
     private function __sleep(): void
@@ -56,7 +56,6 @@ class Yaf_Loader
     /**
      * __wakeup.
      * The __wakeup purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-loader.wakeup.php
      */
@@ -68,7 +67,6 @@ class Yaf_Loader
      * autoload.
      * The autoload purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-loader.autoload.php
      */
     public function autoload(): void
@@ -79,7 +77,6 @@ class Yaf_Loader
      * clearLocalNamespace.
      * The clearLocalNamespace purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-loader.clearlocalnamespace.php
      */
     public function clearLocalNamespace(): void
@@ -89,7 +86,6 @@ class Yaf_Loader
     /**
      * getInstance.
      * The getInstance purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-loader.getinstance.php
      */
@@ -115,7 +111,6 @@ class Yaf_Loader
      * getLocalNamespace.
      * The getLocalNamespace purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-loader.getlocalnamespace.php
      */
     public function getLocalNamespace(): void
@@ -126,7 +121,6 @@ class Yaf_Loader
      * import.
      * The import purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-loader.import.php
      */
     public static function import(): void
@@ -136,7 +130,6 @@ class Yaf_Loader
     /**
      * isLocalName.
      * The isLocalName purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-loader.islocalname.php
      */

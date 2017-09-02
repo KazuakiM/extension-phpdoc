@@ -5,6 +5,7 @@
  * The MongoDB\Driver\BulkWrite collects one or more write operations that should be sent to the server. After adding any number of insert, update, and delete operations, the collection may be executed via MongoDB\Driver\Manager::executeBulkWrite().
  * Write operations may either be ordered (default) or unordered. Ordered write operations are sent to the server, in the order provided, for serial execution. If a write fails, any remaining operations will be aborted. Unordered operations are sent to the server in an arbitrary order where they may be executed in parallel. Any errors that occur are reported after all operations have been attempted.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-driver-bulkwrite.php

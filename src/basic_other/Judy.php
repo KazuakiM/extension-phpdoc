@@ -10,6 +10,7 @@
  *  Judy::STRING_TO_INT
  *  Judy::STRING_TO_MIXED.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.judy.php
@@ -279,7 +280,6 @@ class Judy implements ArrayAccess, Iterator
     /**
      * size.
      * Return the size of the current Judy array.
-     *
      *
      * @see http://php.net/manual/en/judy.size.php
      */

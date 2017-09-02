@@ -4,6 +4,7 @@
  * MongoDB\Driver\Exception\UnexpectedValueException.
  * Thrown when the driver encounters an unexpected value (e.g. during BSON serialization or deserialization).
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-driver-exception-unexpectedvalueexception.php

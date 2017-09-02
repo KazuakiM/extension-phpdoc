@@ -4,6 +4,7 @@
  * KTaglib_ID3v2_Frame.
  * The base class for ID3v2 frames. ID3v2 tags are separated in various specialized frames. Some frames can exists multiple times.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ktaglib-id3v2-frame.php

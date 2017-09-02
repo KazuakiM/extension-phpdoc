@@ -4,6 +4,7 @@
  * Yaf_Request_Simple.
  * Yaf_Request_Simple is particularlly used for test puporse. ie. simulate some espacial request under CLI mode.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-request-simple.php
@@ -43,7 +44,6 @@ class Yaf_Request_Simple extends Yaf_Request_Abstract
      * get.
      * The get purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-simple.get.php
      */
     public function get(): void
@@ -53,7 +53,6 @@ class Yaf_Request_Simple extends Yaf_Request_Abstract
     /**
      * getCookie.
      * The getCookie purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-simple.getcookie.php
      */
@@ -65,7 +64,6 @@ class Yaf_Request_Simple extends Yaf_Request_Abstract
      * getFiles.
      * The getFiles purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-simple.getfiles.php
      */
     public function getFiles(): void
@@ -75,7 +73,6 @@ class Yaf_Request_Simple extends Yaf_Request_Abstract
     /**
      * getPost.
      * The getPost purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-simple.getpost.php
      */
@@ -87,7 +84,6 @@ class Yaf_Request_Simple extends Yaf_Request_Abstract
      * getQuery.
      * The getQuery purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-simple.getquery.php
      */
     public function getQuery(): void
@@ -98,7 +94,6 @@ class Yaf_Request_Simple extends Yaf_Request_Abstract
      * getRequest.
      * The getRequest purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-simple.getrequest.php
      */
     public function getRequest(): void
@@ -108,7 +103,6 @@ class Yaf_Request_Simple extends Yaf_Request_Abstract
     /**
      * isXmlHttpRequest.
      * The isXmlHttpRequest purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-simple.isxmlhttprequest.php
      */

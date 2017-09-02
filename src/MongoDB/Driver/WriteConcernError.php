@@ -4,6 +4,7 @@
  * MongoDB\Driver\WriteConcernError.
  * The MongoDB\Driver\WriteConcernError class encapsulates information about a write concern error and may be returned by MongoDB\Driver\WriteResult::getWriteConcernError().
  *
+ * @author Kazuaki MABUCHI
  * @copyrightCopyright(http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed underCC by 3.0 or later(http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-driver-writeconcernerror.php

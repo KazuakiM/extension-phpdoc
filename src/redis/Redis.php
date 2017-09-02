@@ -4,6 +4,7 @@
  * Redis.
  * A PHP extension for Redis.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](https://github.com/ukko/phpredis-phpdoc) by Max Kamashev is licensed under [the MIT License](http://opensource.org/licenses/mit-license.php).
  *
  * @see https://github.com/ukko/phpredis-phpdoc

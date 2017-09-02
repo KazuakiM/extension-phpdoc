@@ -4,6 +4,7 @@
  * LimitIterator.
  * The LimitIterator class allows iteration over a limited subset of items in an Iterator.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.limititerator.php
@@ -78,7 +79,6 @@ class LimitIterator extends IteratorIterator implements OuterIterator
      * next.
      * Move the iterator forward.
      *
-     *
      * @see http://php.net/manual/en/limititerator.next.php
      */
     public function next(): void
@@ -88,7 +88,6 @@ class LimitIterator extends IteratorIterator implements OuterIterator
     /**
      * rewind.
      * Rewind the iterator to the specified starting offset.
-     *
      *
      * @see http://php.net/manual/en/limititerator.rewind.php
      */

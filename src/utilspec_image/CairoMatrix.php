@@ -4,6 +4,7 @@
  * CairoMatrix.
  * Matrices are used throughout cairo to convert between different coordinate spaces.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairomatrix.php
@@ -30,7 +31,6 @@ class CairoMatrix
     /**
      * initIdentity.
      * Creates a new identity matrix.
-     *
      *
      * @see http://php.net/manual/en/cairomatrix.initidentity.php
      */
@@ -79,7 +79,6 @@ class CairoMatrix
     /**
      * invert.
      * The invert purpose.
-     *
      *
      * @see http://php.net/manual/en/cairomatrix.invert.php
      */

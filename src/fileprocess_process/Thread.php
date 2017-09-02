@@ -5,6 +5,7 @@
  * When the start method of a Thread is invoked, the run method code will be executed in separate Thread, in parallel.
  * After the run method is executed the Thread will exit immediately, it will be joined with the creating Thread at the appropriate time.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.thread.php
@@ -14,7 +15,6 @@ class Thread extends Threaded implements Countable, Traversable, ArrayAccess
     /**
      * detach.
      * Execution.
-     *
      *
      * @see http://php.net/manual/en/thread.detach.php
      */
@@ -121,7 +121,6 @@ class Thread extends Threaded implements Countable, Traversable, ArrayAccess
     /**
      * kill.
      * Execution.
-     *
      *
      * @see http://php.net/manual/en/thread.kill.php
      */

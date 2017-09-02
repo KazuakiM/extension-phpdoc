@@ -3,7 +3,7 @@
 /**
  * CairoScaledFont.
  *
- *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairoscaledfont.php
@@ -53,7 +53,6 @@ class CairoScaledFont
      * getFontFace.
      * The getFontFace purpose.
      *
-     *
      * @see http://php.net/manual/en/cairoscaledfont.getfontface.php
      */
     public function getFontFace(): void
@@ -63,7 +62,6 @@ class CairoScaledFont
     /**
      * getFontMatrix.
      * The getFontMatrix purpose.
-     *
      *
      * @see http://php.net/manual/en/cairoscaledfont.getfontmatrix.php
      */
@@ -75,7 +73,6 @@ class CairoScaledFont
      * getFontOptions.
      * The getFontOptions purpose.
      *
-     *
      * @see http://php.net/manual/en/cairoscaledfont.getfontoptions.php
      */
     public function getFontOptions(): void
@@ -85,7 +82,6 @@ class CairoScaledFont
     /**
      * getScaleMatrix.
      * The getScaleMatrix purpose.
-     *
      *
      * @see http://php.net/manual/en/cairoscaledfont.getscalematrix.php
      */

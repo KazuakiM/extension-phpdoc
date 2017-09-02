@@ -4,6 +4,7 @@
  * Yaf_Request_Http.
  * Any request from client is initialized as a Yaf_Request_Http. you can get the rquest infomations like, uri query and post parameters via methods of this class.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-request-http.php
@@ -67,7 +68,6 @@ class Yaf_Request_Http extends Yaf_Request_Abstract
      * getFiles.
      * The getFiles purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-request-http.getfiles.php
      */
     public function getFiles(): void
@@ -107,7 +107,6 @@ class Yaf_Request_Http extends Yaf_Request_Abstract
     /**
      * getRequest.
      * The getRequest purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-request-http.getrequest.php
      */

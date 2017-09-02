@@ -5,6 +5,7 @@
  * This class is provided because Unicode contains large number of characters and incorporates the varied writing systems of the world and their incorrect usage can expose programs or systems to possible security attacks using characters similarity.
  * Provided methods alllow to check whether an individual string is likely an attempt at confusing the reader (spoof detection), such as "pаypаl" spelled with Cyrillic 'а' characters.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.spoofchecker.php

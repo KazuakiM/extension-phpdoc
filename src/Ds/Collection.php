@@ -4,6 +4,7 @@
  * Ds\Collection.
  * Collection is the base interface which covers functionality common to all the data structures in this library. It guarantees that all structures are traversable, countable, and can be converted to json using json_encode().
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ds-collection.php
@@ -16,7 +17,6 @@ interface Collection extends Traversable, Countable, JsonSerializable
     /**
      * clear.
      * Removes all values.
-     *
      *
      * @see http://php.net/manual/en/ds-collection.clear.php
      */

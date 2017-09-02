@@ -4,6 +4,7 @@
  * DateTimeImmutable.
  * This class behaves the same as DateTime except it never modifies itself but returns a new object instead.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.datetimeimmutable.php

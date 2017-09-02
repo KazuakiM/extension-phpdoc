@@ -4,6 +4,7 @@
  * AppendIterator.
  * An Iterator that iterates over several iterators one after the other.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.appenditerator.php
@@ -96,7 +97,6 @@ class AppendIterator extends IteratorIterator implements OuterIterator
      * next.
      * Moves to the next element.
      *
-     *
      * @see http://php.net/manual/en/appenditerator.next.php
      */
     public function next(): void
@@ -106,7 +106,6 @@ class AppendIterator extends IteratorIterator implements OuterIterator
     /**
      * rewind.
      * Rewinds the Iterator.
-     *
      *
      * @see http://php.net/manual/en/appenditerator.rewind.php
      */

@@ -5,6 +5,7 @@
  * A “break iterator” is an ICU object that exposes methods for locating boundaries in text (e.g. word or sentence boundaries). The PHP IntlBreakIterator serves as the base class for all types of ICU break iterators. Where extra functionality is available, the intl extension may expose the ICU break iterator with suitable subclasses, such as IntlRuleBasedBreakIterator or IntlCodePointBreaIterator.
  * This class implements Traversable. Traversing an IntlBreakIterator yields non-negative integer values representing the successive locations of the text boundaries, expressed as UTF-8 code units (byte) counts, taken from the beggining of the text (which has the location 0). The keys yielded by the iterator simply form the sequence of natural numbers {0, 1, 2, …}.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.intlbreakiterator.php

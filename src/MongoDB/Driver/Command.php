@@ -5,6 +5,7 @@
  * The MongoDB\Driver\Command class is a value object that represents a database command.
  * To provide "Command Helpers" the MongoDB\Driver\Command object should be composed.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-driver-command.php

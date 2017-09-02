@@ -9,6 +9,7 @@
  * To use this class, first set the save handler you wish to expose using session.save_handler and then pass an instance of SessionHandler or one extending it to session_set_save_handler().
  * Please note the callback methods of this class are designed to be called internally by PHP and are not meant to be called from user-space code. The return values are equally processed internally by PHP. For more information on the session workflow, please refer session_set_save_handler().
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.sessionhandler.php

@@ -4,6 +4,7 @@
  * ArrayObject.
  * This class allows objects to work as arrays.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.arrayobject.php
@@ -44,7 +45,6 @@ class ArrayObject implements IteratorAggregate, ArrayAccess, Serializable, Count
     /**
      * asort.
      * Sort the entries by value.
-     *
      *
      * @see http://php.net/manual/en/arrayobject.asort.php
      */
@@ -130,7 +130,6 @@ class ArrayObject implements IteratorAggregate, ArrayAccess, Serializable, Count
      * ksort.
      * Sort the entries by key.
      *
-     *
      * @see http://php.net/manual/en/arrayobject.ksort.php
      */
     public function ksort(): void
@@ -141,7 +140,6 @@ class ArrayObject implements IteratorAggregate, ArrayAccess, Serializable, Count
      * natcasesort.
      * Sort an array using a case insensitive "natural order" algorithm.
      *
-     *
      * @see http://php.net/manual/en/arrayobject.natcasesort.php
      */
     public function natcasesort(): void
@@ -151,7 +149,6 @@ class ArrayObject implements IteratorAggregate, ArrayAccess, Serializable, Count
     /**
      * natsort.
      * Sort entries using a "natural order" algorithm.
-     *
      *
      * @see http://php.net/manual/en/arrayobject.natsort.php
      */

@@ -5,6 +5,7 @@
  * Threaded objects form the basis of pthreads ability to execute user code in parallel; they expose synchronization methods and various useful interfaces.
  * Threaded objects, most importantly, provide implicit safety for the programmer; all operations on the object scope are safe.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.threaded.php
@@ -170,7 +171,6 @@ class Threaded implements Collectable, Traversable, Countable, ArrayAccess
     /**
      * run.
      * Execution.
-     *
      *
      * @see http://php.net/manual/en/threaded.run.php
      */

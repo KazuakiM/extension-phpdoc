@@ -210,7 +210,6 @@ interface Sequence extends Ds\Collection
      * reverse.
      * Reverses the sequence in-place.
      *
-     *
      * @see http://php.net/manual/en/ds-sequence.reverse.php
      */
     public function reverse(): void;

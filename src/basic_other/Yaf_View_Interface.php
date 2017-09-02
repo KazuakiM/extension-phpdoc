@@ -4,6 +4,7 @@
  * Yaf_View_Interface.
  * Yaf provides a ability for developers to use coustom view engine instead of build-in engine which is Yaf_View_Simple. There is a example to explain how to do this, please see Yaf_Dispatcher::setView().
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-view-interface.php
@@ -39,7 +40,6 @@ interface Yaf_View_Interface
     /**
      * getScriptPath.
      * The getScriptPath purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-view-interface.getscriptpath.php
      */

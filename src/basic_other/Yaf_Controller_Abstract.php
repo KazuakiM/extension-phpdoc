@@ -16,6 +16,7 @@
  * @property $_invoke_args
  * @property $_view
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-controller-abstract.php
@@ -79,7 +80,6 @@ abstract class Yaf_Controller_Abstract
      * getInvokeArgs.
      * The getInvokeArgs purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-controller-abstract.getinvokeargs.php
      */
     public function getInvokeArgs(): void
@@ -138,7 +138,6 @@ abstract class Yaf_Controller_Abstract
      * getViewpath.
      * The getViewpath purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-controller-abstract.getviewpath.php
      */
     public function getViewpath(): void
@@ -148,7 +147,6 @@ abstract class Yaf_Controller_Abstract
     /**
      * init.
      * Controller initializer.
-     *
      *
      * @see http://php.net/manual/en/yaf-controller-abstract.init.php
      */

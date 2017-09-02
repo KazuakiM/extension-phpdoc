@@ -4,6 +4,7 @@
  * Ev.
  * Ev is a static class providing access to the default loop and to some common operations.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ev.php
@@ -73,7 +74,6 @@ final class Ev
      * embeddableBackends.
      * Returns the set of backends that are embeddable in other event loops.
      *
-     *
      * @see http://php.net/manual/en/ev.embeddablebackends.php
      */
     final public static function embeddableBackends(): void
@@ -132,7 +132,6 @@ final class Ev
      * nowUpdate.
      * Establishes the current time by querying the kernel, updating the time returned by Ev::now in the progress.
      *
-     *
      * @see http://php.net/manual/en/ev.nowupdate.php
      */
     final public static function nowUpdate(): void
@@ -143,7 +142,6 @@ final class Ev
      * recommendedBackends.
      * Returns a bit mask of recommended backends for current platform.
      *
-     *
      * @see http://php.net/manual/en/ev.recommendedbackends.php
      */
     final public static function recommendedBackends(): void
@@ -153,7 +151,6 @@ final class Ev
     /**
      * resume.
      * Resume previously suspended default event loop.
-     *
      *
      * @see http://php.net/manual/en/ev.resume.php
      */
@@ -201,7 +198,6 @@ final class Ev
      * supportedBackends.
      * Returns the set of backends supported by current libev configuration.
      *
-     *
      * @see http://php.net/manual/en/ev.supportedbackends.php
      */
     final public static function supportedBackends(): void
@@ -211,7 +207,6 @@ final class Ev
     /**
      * suspend.
      * Suspend the default event loop.
-     *
      *
      * @see http://php.net/manual/en/ev.suspend.php
      */
@@ -234,7 +229,6 @@ final class Ev
     /**
      * verify.
      * Performs internal consistency checks(for debugging).
-     *
      *
      * @see http://php.net/manual/en/ev.verify.php
      */

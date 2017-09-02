@@ -4,6 +4,7 @@
  * Yaf_Config_Ini.
  * Yaf_Config_Ini enables developers to store configuration data in a familiar INI format and read them in the application by using nested object property syntax. The INI format is specialized to provide both the ability to have a hierarchy of configuration data keys and inheritance between configuration data sections. Configuration data hierarchies are supported by separating the keys with the dot or period character ("."). A section may extend or inherit from another section by following the section name with a colon character (":") and the name of the section from which data are to be inherited.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-config-ini.php
@@ -64,7 +65,6 @@ class Yaf_Config_Ini extends Yaf_Config_Abstract implements Iterator, ArrayAcces
      * count.
      * The count purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-config-ini.count.php
      */
     public function count(): void
@@ -74,7 +74,6 @@ class Yaf_Config_Ini extends Yaf_Config_Abstract implements Iterator, ArrayAcces
     /**
      * current.
      * The current purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-config-ini.current.php
      */
@@ -86,7 +85,6 @@ class Yaf_Config_Ini extends Yaf_Config_Abstract implements Iterator, ArrayAcces
      * key.
      * The key purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-config-ini.key.php
      */
     public function key(): void
@@ -96,7 +94,6 @@ class Yaf_Config_Ini extends Yaf_Config_Abstract implements Iterator, ArrayAcces
     /**
      * next.
      * The next purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-config-ini.next.php
      */
@@ -157,7 +154,6 @@ class Yaf_Config_Ini extends Yaf_Config_Abstract implements Iterator, ArrayAcces
      * readonly.
      * The readonly purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-config-ini.readonly.php
      */
     public function readonly(): void
@@ -167,7 +163,6 @@ class Yaf_Config_Ini extends Yaf_Config_Abstract implements Iterator, ArrayAcces
     /**
      * rewind.
      * The rewind purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-config-ini.rewind.php
      */
@@ -190,7 +185,6 @@ class Yaf_Config_Ini extends Yaf_Config_Abstract implements Iterator, ArrayAcces
     /**
      * valid.
      * The valid purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-config-ini.valid.php
      */

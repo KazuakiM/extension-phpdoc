@@ -4,6 +4,7 @@
  * RecursiveDirectoryIterator.
  * The RecursiveDirectoryIterator provides an interface for iterating recursively over filesystem directories.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.recursivedirectoryiterator.php
@@ -91,7 +92,6 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements SeekableI
      * next.
      * Move to next entry.
      *
-     *
      * @see http://php.net/manual/en/recursivedirectoryiterator.next.php
      */
     public function next(): void
@@ -101,7 +101,6 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements SeekableI
     /**
      * rewind.
      * Rewind dir back to the start.
-     *
      *
      * @see http://php.net/manual/en/recursivedirectoryiterator.rewind.php
      */

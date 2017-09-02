@@ -9,6 +9,7 @@
  * @property $rpid
  * @property $rstatus
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.evchild.php
@@ -62,7 +63,6 @@ class EvChild extends EvWatcher
     /**
      * set.
      * Configures the watcher.
-     *
      *
      * @see http://php.net/manual/en/evchild.set.php
      */

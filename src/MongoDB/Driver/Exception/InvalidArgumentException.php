@@ -4,6 +4,7 @@
  * MongoDB\Driver\Exception\InvalidArgumentException.
  * Thrown when a driver method is given invalid arguments (e.g. invalid option types).
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-driver-exception-invalidargumentexception.php

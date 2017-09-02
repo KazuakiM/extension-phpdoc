@@ -5,6 +5,7 @@
  * This iterator allows to unset and modify values and keys while iterating over Arrays and Objects.
  * When you want to iterate over the same array multiple times you need to instantiate ArrayObject and let it create ArrayIterator instances that refer to it either by using foreach or by calling its getIterator() method manually.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.arrayiterator.php
@@ -41,7 +42,6 @@ class ArrayIterator implements ArrayAccess, SeekableIterator, Countable, Seriali
     /**
      * asort.
      * Sort array by values.
-     *
      *
      * @see http://php.net/manual/en/arrayiterator.asort.php
      */
@@ -89,7 +89,6 @@ class ArrayIterator implements ArrayAccess, SeekableIterator, Countable, Seriali
      * getFlags.
      * Get flags.
      *
-     *
      * @see http://php.net/manual/en/arrayiterator.getflags.php
      */
     public function getFlags(): void
@@ -112,7 +111,6 @@ class ArrayIterator implements ArrayAccess, SeekableIterator, Countable, Seriali
      * ksort.
      * Sort array by keys.
      *
-     *
      * @see http://php.net/manual/en/arrayiterator.ksort.php
      */
     public function ksort(): void
@@ -122,7 +120,6 @@ class ArrayIterator implements ArrayAccess, SeekableIterator, Countable, Seriali
     /**
      * natcasesort.
      * Sort an array naturally, case insensitive.
-     *
      *
      * @see http://php.net/manual/en/arrayiterator.natcasesort.php
      */
@@ -134,7 +131,6 @@ class ArrayIterator implements ArrayAccess, SeekableIterator, Countable, Seriali
      * natsort.
      * Sort an array naturally.
      *
-     *
      * @see http://php.net/manual/en/arrayiterator.natsort.php
      */
     public function natsort(): void
@@ -144,7 +140,6 @@ class ArrayIterator implements ArrayAccess, SeekableIterator, Countable, Seriali
     /**
      * next.
      * Move to next entry.
-     *
      *
      * @see http://php.net/manual/en/arrayiterator.next.php
      */
@@ -206,7 +201,6 @@ class ArrayIterator implements ArrayAccess, SeekableIterator, Countable, Seriali
     /**
      * rewind.
      * Rewind array back to the start.
-     *
      *
      * @see http://php.net/manual/en/arrayiterator.rewind.php
      */

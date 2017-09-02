@@ -4,6 +4,7 @@
  * SolrDocument.
  * Represents a Solr document retrieved from a query response.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.solrdocument.php
@@ -288,7 +289,6 @@ final class SolrDocument implements ArrayAccess, Iterator, Serializable
      * next.
      * Moves the internal pointer to the next field.
      *
-     *
      * @see http://php.net/manual/en/solrdocument.next.php
      */
     public function next(): void
@@ -363,7 +363,6 @@ final class SolrDocument implements ArrayAccess, Iterator, Serializable
     /**
      * rewind.
      * Resets the internal pointer to the beginning.
-     *
      *
      * @see http://php.net/manual/en/solrdocument.rewind.php
      */

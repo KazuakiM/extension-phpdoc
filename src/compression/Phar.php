@@ -4,6 +4,7 @@
  * Phar.
  * The Phar class provides a high-level interface to accessing and creating phar archives.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.phar.php
@@ -461,7 +462,6 @@ class Phar extends RecursiveDirectoryIterator implements Countable, ArrayAccess
      * interceptFileFuncs.
      * instructs phar to intercept fopen, file_get_contents, opendir, and all of the stat-related functions.
      *
-     *
      * @see http://php.net/manual/en/phar.interceptfilefuncs.php
      */
     final public static function interceptFileFuncs(): void
@@ -759,7 +759,6 @@ class Phar extends RecursiveDirectoryIterator implements Countable, ArrayAccess
     /**
      * startBuffering.
      * Start buffering Phar write operations, do not modify the Phar object on disk.
-     *
      *
      * @see http://php.net/manual/en/phar.startbuffering.php
      */

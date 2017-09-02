@@ -5,6 +5,7 @@
  * Objects of this class can be obtained from IntlBreakIterator objects. While the break iterators provide a sequence of boundary positions when iterated, IntlPartsIterator objects provide, as a convenience, the text fragments comprehended between two successive boundaries.
  * The keys may represent the offset of the left boundary, right boundary, or they may just the sequence of non-negative integers. See IntlBreakIterator::getPartsIterator().
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.intlpartsiterator.php

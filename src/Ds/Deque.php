@@ -6,6 +6,7 @@
  * Two pointers are used to keep track of a head and a tail. The pointers can “wrap around” the end of the buffer, which avoids the need to move other values around to make room. This makes shift and unshift very fast —  something a Ds\Vector can’t compete with.
  * Accessing a value by index requires a translation between the index and its corresponding position in the buffer: ((head + position) % capacity).
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ds-deque.php
@@ -68,7 +69,6 @@ class Deque implements Ds\Sequence
     /**
      * clear.
      * Removes all values from the deque.
-     *
      *
      * @see http://php.net/manual/en/ds-deque.clear.php
      */
@@ -327,7 +327,6 @@ class Deque implements Ds\Sequence
     /**
      * reverse.
      * Reverses the deque in-place.
-     *
      *
      * @see http://php.net/manual/en/ds-deque.reverse.php
      */

@@ -4,6 +4,7 @@
  * FilterIterator.
  * This abstract iterator filters out unwanted values. This class should be extended to implement custom iterator filters. The FilterIterator::accept() must be implemented in the subclass.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.filteriterator.php
@@ -74,7 +75,6 @@ abstract class FilterIterator extends IteratorIterator implements OuterIterator
      * next.
      * Move the iterator forward.
      *
-     *
      * @see http://php.net/manual/en/filteriterator.next.php
      */
     public function next(): void
@@ -84,7 +84,6 @@ abstract class FilterIterator extends IteratorIterator implements OuterIterator
     /**
      * rewind.
      * Rewind the iterator.
-     *
      *
      * @see http://php.net/manual/en/filteriterator.rewind.php
      */

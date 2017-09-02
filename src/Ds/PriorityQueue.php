@@ -5,6 +5,7 @@
  * A PriorityQueue is very similar to a Queue. Values are pushed into the queue with an assigned priority, and the value with the highest priority will always be at the front of the queue.
  * Implemented using a max heap.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ds-priorityqueue.php
@@ -55,7 +56,6 @@ class PriorityQueue implements Ds\Collection
     /**
      * clear.
      * Removes all values.
-     *
      *
      * @see http://php.net/manual/en/ds-priorityqueue.clear.php
      */

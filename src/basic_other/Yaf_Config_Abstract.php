@@ -3,10 +3,10 @@
 /**
  * Yaf_Config_Abstract.
  *
- *
  * @property $_config
  * @property $_readonly
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-config-abstract.php
@@ -31,7 +31,6 @@ abstract class Yaf_Config_Abstract
     /**
      * readonly.
      * Find a config whether readonly.
-     *
      *
      * @see http://php.net/manual/en/yaf-config-abstract.readonly.php
      */

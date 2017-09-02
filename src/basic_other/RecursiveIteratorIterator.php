@@ -4,6 +4,7 @@
  * RecursiveIteratorIterator.
  *  Can be used to iterate through recursive iterators.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.recursiveiteratoriterator.php
@@ -33,7 +34,6 @@ class RecursiveIteratorIterator implements OuterIterator
      * beginChildren.
      * Begin children.
      *
-     *
      * @see http://php.net/manual/en/recursiveiteratoriterator.beginchildren.php
      */
     public function beginChildren(): void
@@ -43,7 +43,6 @@ class RecursiveIteratorIterator implements OuterIterator
     /**
      * beginIteration.
      * Begin Iteration.
-     *
      *
      * @see http://php.net/manual/en/recursiveiteratoriterator.beginiteration.php
      */
@@ -91,7 +90,6 @@ class RecursiveIteratorIterator implements OuterIterator
      * endChildren.
      * End children.
      *
-     *
      * @see http://php.net/manual/en/recursiveiteratoriterator.endchildren.php
      */
     public function endChildren(): void
@@ -101,7 +99,6 @@ class RecursiveIteratorIterator implements OuterIterator
     /**
      * endIteration.
      * End Iteration.
-     *
      *
      * @see http://php.net/manual/en/recursiveiteratoriterator.enditeration.php
      */
@@ -175,7 +172,6 @@ class RecursiveIteratorIterator implements OuterIterator
      * next.
      * Move forward to the next element.
      *
-     *
      * @see http://php.net/manual/en/recursiveiteratoriterator.next.php
      */
     public function next(): void
@@ -186,7 +182,6 @@ class RecursiveIteratorIterator implements OuterIterator
      * nextElement.
      * Next element.
      *
-     *
      * @see http://php.net/manual/en/recursiveiteratoriterator.nextelement.php
      */
     public function nextElement(): void
@@ -196,7 +191,6 @@ class RecursiveIteratorIterator implements OuterIterator
     /**
      * rewind.
      * Rewind the iterator to the first element of the top level inner iterator.
-     *
      *
      * @see http://php.net/manual/en/recursiveiteratoriterator.rewind.php
      */

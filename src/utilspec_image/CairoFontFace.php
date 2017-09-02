@@ -5,6 +5,7 @@
  * CairoFontFace abstract class represents a particular font at a particular weight, slant, and other characteristic but no transformation or size.
  * Note: This class can not be instantiated directly, it is created by CairoContext::getFontFace() or cairo_scaled_font_get_font_face().
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairofontface.php

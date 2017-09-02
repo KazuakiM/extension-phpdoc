@@ -3,9 +3,9 @@
 /**
  * Yaf_Config_Simple.
  *
- *
  * @property $_readonly
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-config-simple.php
@@ -68,7 +68,6 @@ class Yaf_Config_Simple extends Yaf_Config_Abstract implements Iterator, ArrayAc
      * count.
      * The count purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-config-simple.count.php
      */
     public function count(): void
@@ -78,7 +77,6 @@ class Yaf_Config_Simple extends Yaf_Config_Abstract implements Iterator, ArrayAc
     /**
      * current.
      * The current purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-config-simple.current.php
      */
@@ -90,7 +88,6 @@ class Yaf_Config_Simple extends Yaf_Config_Abstract implements Iterator, ArrayAc
      * key.
      * The key purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-config-simple.key.php
      */
     public function key(): void
@@ -100,7 +97,6 @@ class Yaf_Config_Simple extends Yaf_Config_Abstract implements Iterator, ArrayAc
     /**
      * next.
      * The next purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-config-simple.next.php
      */
@@ -161,7 +157,6 @@ class Yaf_Config_Simple extends Yaf_Config_Abstract implements Iterator, ArrayAc
      * readonly.
      * The readonly purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-config-simple.readonly.php
      */
     public function readonly(): void
@@ -171,7 +166,6 @@ class Yaf_Config_Simple extends Yaf_Config_Abstract implements Iterator, ArrayAc
     /**
      * rewind.
      * The rewind purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-config-simple.rewind.php
      */
@@ -194,7 +188,6 @@ class Yaf_Config_Simple extends Yaf_Config_Abstract implements Iterator, ArrayAc
     /**
      * valid.
      * The valid purpose.
-     *
      *
      * @see http://php.net/manual/en/yaf-config-simple.valid.php
      */

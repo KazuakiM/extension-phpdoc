@@ -5,6 +5,7 @@
  * CairoStatus is used to indicate errors that can occur when using Cairo. In some cases it is returned directly by functions. but when using CairoContext, the last error, if any, is stored in the object and can be retrieved with CairoContext::status() or cairo_status(). New entries may be added in future versions.
  * Use Cairo::statusToString() or cairo_status_to_string() to get a human-readable representation of an error message.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairostatus.php

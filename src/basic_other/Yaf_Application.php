@@ -11,6 +11,7 @@
  * @property $_running
  * @property $_environ
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-application.php
@@ -41,7 +42,6 @@ final class Yaf_Application
      * __destruct.
      * The __destruct purpose.
      *
-     *
      * @see http://php.net/manual/en/yaf-application.destruct.php
      */
     public function __destruct()
@@ -51,7 +51,6 @@ final class Yaf_Application
     /**
      * __clone.
      * Yaf_Application can not be cloned.
-     *
      *
      * @see http://php.net/manual/en/yaf-application.clone.php
      */
@@ -63,7 +62,6 @@ final class Yaf_Application
      * __sleep.
      * Yaf_Application can not be serialized.
      *
-     *
      * @see http://php.net/manual/en/yaf-application.sleep.php
      */
     private function __sleep(): void
@@ -74,7 +72,6 @@ final class Yaf_Application
      * __wakeup.
      * Yaf_Application can not be unserialized.
      *
-     *
      * @see http://php.net/manual/en/yaf-application.wakeup.php
      */
     private function __wakeup(): void
@@ -84,7 +81,6 @@ final class Yaf_Application
     /**
      * app.
      * Retrieve an Application instance.
-     *
      *
      * @see http://php.net/manual/en/yaf-application.app.php
      */
@@ -119,7 +115,6 @@ final class Yaf_Application
     /**
      * environ.
      * Retrive environ.
-     *
      *
      * @see http://php.net/manual/en/yaf-application.environ.php
      */
@@ -215,7 +210,6 @@ final class Yaf_Application
     /**
      * run.
      * Start Yaf_Application.
-     *
      *
      * @see http://php.net/manual/en/yaf-application.run.php
      */

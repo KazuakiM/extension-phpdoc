@@ -4,6 +4,7 @@
  * IteratorIterator.
  * This iterator wrapper allows the conversion of anything that is Traversable into an Iterator. It is important to understand that most classes that do not implement Iterators have reasons as most likely they do not allow the full Iterator feature set. If so, techniques should be provided to prevent misuse, otherwise expect exceptions or fatal errors.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.iteratoriterator.php
@@ -62,7 +63,6 @@ class IteratorIterator implements OuterIterator
      * next.
      * Forward to the next element.
      *
-     *
      * @see http://php.net/manual/en/iteratoriterator.next.php
      */
     public function next(): void
@@ -72,7 +72,6 @@ class IteratorIterator implements OuterIterator
     /**
      * rewind.
      * Rewind to the first element.
-     *
      *
      * @see http://php.net/manual/en/iteratoriterator.rewind.php
      */

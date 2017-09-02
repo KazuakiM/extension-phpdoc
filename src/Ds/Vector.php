@@ -4,6 +4,7 @@
  * Ds\Vector.
  * A Vector is a sequence of values in a contiguous buffer that grows and shrinks automatically. It’s the most efficient sequential structure because a value’s index is a direct mapping to its index in the buffer, and the growth factor isn't bound to a specific multiple or exponent.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ds-vector.php
@@ -66,7 +67,6 @@ class Vector implements Ds\Sequence
     /**
      * clear.
      * Removes all values.
-     *
      *
      * @see http://php.net/manual/en/ds-vector.clear.php
      */
@@ -325,7 +325,6 @@ class Vector implements Ds\Sequence
     /**
      * reverse.
      * Reverses the vector in-place.
-     *
      *
      * @see http://php.net/manual/en/ds-vector.reverse.php
      */

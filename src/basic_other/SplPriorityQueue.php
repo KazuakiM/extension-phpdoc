@@ -4,6 +4,7 @@
  * SplPriorityQueue.
  * The SplPriorityQueue class provides the main functionalities of a prioritized queue, implemented using a max heap.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.splpriorityqueue.php
@@ -112,7 +113,6 @@ class SplPriorityQueue implements Iterator, Countable
      * next.
      * Move to the next node.
      *
-     *
      * @see http://php.net/manual/en/splpriorityqueue.next.php
      */
     public function next(): void
@@ -123,7 +123,6 @@ class SplPriorityQueue implements Iterator, Countable
      * recoverFromCorruption.
      * Recover from the corrupted state and allow further actions on the queue.
      *
-     *
      * @see http://php.net/manual/en/splpriorityqueue.recoverfromcorruption.php
      */
     public function recoverFromCorruption(): void
@@ -133,7 +132,6 @@ class SplPriorityQueue implements Iterator, Countable
     /**
      * rewind.
      * Rewind iterator back to the start (no-op).
-     *
      *
      * @see http://php.net/manual/en/splpriorityqueue.rewind.php
      */

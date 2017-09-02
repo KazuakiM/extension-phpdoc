@@ -4,6 +4,7 @@
  * SWFDisplayItem.
  * SWFDisplayItem.
  *
+ * @author Kazuaki MABUCHI
  * @copyright Copyright(http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under CC by 3.0 or later(http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.swfdisplayitem.php
@@ -41,7 +42,6 @@ class SWFDisplayItem
     /**
      * endMask.
      * Another way of defining a MASK layer.
-     *
      *
      * @see http://php.net/manual/en/swfdisplayitem.endmask.php
      */
@@ -177,7 +177,6 @@ class SWFDisplayItem
     /**
      * remove.
      * Removes the object from the movie.
-     *
      *
      * @see http://php.net/manual/en/swfdisplayitem.remove.php
      */

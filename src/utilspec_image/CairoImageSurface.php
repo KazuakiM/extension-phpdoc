@@ -4,6 +4,7 @@
  * CairoImageSurface.
  * CairoImageSurface provide the ability to render to memory buffers either allocated by cairo or by the calling code. The supported image formats are those defined in CairoFormat.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairoimagesurface.php

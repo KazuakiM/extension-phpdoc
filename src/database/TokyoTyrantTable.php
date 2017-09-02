@@ -4,6 +4,7 @@
  * TokyoTyrantTable.
  * Provides an API to the table databases. A table database can be create using the following command: ttserver -port 1979 /tmp/tt_table.tct. In Tokyo Tyrant the table API is a schemaless database which can store arbitrary amount of key-value pairs under a single primary key.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.tokyotyranttable.php

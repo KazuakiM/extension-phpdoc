@@ -4,6 +4,7 @@
  * EvFork.
  * Fork watchers are called when a fork() was detected (usually because whoever signalled libev about it by calling EvLoop::fork() ). The invocation is done before the event loop blocks next and before EvCheck watchers are being called, and only in the child after the fork. Note, that if whoever calling EvLoop::fork() calls it in the wrong process, the fork handlers will be invoked, too.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.evfork.php

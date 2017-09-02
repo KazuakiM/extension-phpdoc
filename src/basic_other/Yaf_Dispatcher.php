@@ -17,6 +17,7 @@
  * @property $_default_controller
  * @property $_default_action
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-dispatcher.php
@@ -59,7 +60,6 @@ final class Yaf_Dispatcher
      * __sleep.
      * Yaf_Dispatcher can not be serialized.
      *
-     *
      * @see http://php.net/manual/en/yaf-dispatcher.sleep.php
      */
     private function __sleep(): void
@@ -69,7 +69,6 @@ final class Yaf_Dispatcher
     /**
      * __wakeup.
      * Yaf_Dispatcher can not be unserialized.
-     *
      *
      * @see http://php.net/manual/en/yaf-dispatcher.wakeup.php
      */

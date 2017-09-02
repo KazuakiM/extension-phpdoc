@@ -4,6 +4,7 @@
  * ParentIterator.
  * This extended FilterIterator allows a recursive iteration using RecursiveIteratorIterator that only shows those elements which have children.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.parentiterator.php
@@ -62,7 +63,6 @@ class ParentIterator extends RecursiveFilterIterator implements RecursiveIterato
      * next.
      * Move the iterator forward.
      *
-     *
      * @see http://php.net/manual/en/parentiterator.next.php
      */
     public function next(): void
@@ -72,7 +72,6 @@ class ParentIterator extends RecursiveFilterIterator implements RecursiveIterato
     /**
      * rewind.
      * Rewind the iterator.
-     *
      *
      * @see http://php.net/manual/en/parentiterator.rewind.php
      */

@@ -4,6 +4,7 @@
  * BadMethodCallException.
  * Exception thrown if a callback refers to an undefined method or if some arguments are missing.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.badmethodcallexception.php

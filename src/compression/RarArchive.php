@@ -5,6 +5,7 @@
  * This class represents a RAR archive, which may be formed by several volumes (parts) and which contains a number of RAR entries (i.e., files, directories and other special objects such as symbolic links).
  * Objects of this class can be traversed, yielding the entries stored in the respective RAR archive. Those entries can also be obtained through RarArchive::getEntry() and RarArchive::getEntries().
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.rararchive.php

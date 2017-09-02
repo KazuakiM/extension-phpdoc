@@ -5,6 +5,7 @@
  * A Stack is a “last in, first out” or “LIFO” collection that only allows access to the value at the top of the structure and iterates in that order, destructively.
  * Uses a Ds\stack internally.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ds-stack.php
@@ -53,7 +54,6 @@ class Stack implements Ds\Collection
     /**
      * clear.
      * Removes all values.
-     *
      *
      * @see http://php.net/manual/en/ds-stack.clear.php
      */

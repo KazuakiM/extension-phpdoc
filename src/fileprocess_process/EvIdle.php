@@ -7,6 +7,7 @@
  * Apart from keeping the process non-blocking(which is a useful on its own sometimes), EvIdle watchers are a good place to do "pseudo-background processing" , or delay processing stuff to after the event loop has handled all outstanding events.
  * The most noticeable effect is that as long as any idle watchers are active, the process will not block when waiting for new events.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.evidle.php

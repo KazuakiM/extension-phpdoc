@@ -4,6 +4,7 @@
  * TokyoTyrantIterator.
  * Provides an iterator for TokyoTyrant and TokyoTyrantTable objects. The iterator iterates over all keys and values in the database. TokyoTyrantIterator was added in version 0.2.0.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.tokyotyrantiterator.php

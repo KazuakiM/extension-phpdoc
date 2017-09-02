@@ -4,6 +4,7 @@
  * MultipleIterator.
  * An Iterator that sequentially iterates over all attached iterators.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.multipleiterator.php
@@ -125,7 +126,6 @@ class MultipleIterator implements Iterator
      * next.
      * Moves all attached iterator instances forward.
      *
-     *
      * @see http://php.net/manual/en/multipleiterator.next.php
      */
     public function next(): void
@@ -135,7 +135,6 @@ class MultipleIterator implements Iterator
     /**
      * rewind.
      * Rewinds all attached iterator instances.
-     *
      *
      * @see http://php.net/manual/en/multipleiterator.rewind.php
      */

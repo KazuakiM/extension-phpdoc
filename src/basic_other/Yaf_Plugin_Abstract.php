@@ -6,6 +6,7 @@
  * Plugins are classes. The actual class definition will vary based on the component -- you may need to implement this interface, but the fact remains that the plugin is itself a class.
  * A plugin could be loaded into Yaf by using Yaf_Dispatcher::registerPlugin(), after registerd, All the methods which the plugin implemented according to this interface, will be called at the proper time.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-plugin-abstract.php

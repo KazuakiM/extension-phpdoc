@@ -15,6 +15,7 @@
  * @property $timeout_interval
  * @property $depth
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.evloop.php
@@ -161,7 +162,6 @@ final class EvLoop
      * invokePending.
      * Invoke all pending watchers while resetting their pending state.
      *
-     *
      * @see http://php.net/manual/en/evloop.invokepending.php
      */
     public function invokePending(): void
@@ -190,7 +190,6 @@ final class EvLoop
      * loopFork.
      * Must be called after a fork.
      *
-     *
      * @see http://php.net/manual/en/evloop.loopfork.php
      */
     public function loopFork(): void
@@ -212,7 +211,6 @@ final class EvLoop
     /**
      * nowUpdate.
      * Establishes the current time by querying the kernel, updating the time returned by EvLoop::now in the progress.
-     *
      *
      * @see http://php.net/manual/en/evloop.nowupdate.php
      */
@@ -257,7 +255,6 @@ final class EvLoop
     /**
      * resume.
      * Resume previously suspended default event loop.
-     *
      *
      * @see http://php.net/manual/en/evloop.resume.php
      */
@@ -328,7 +325,6 @@ final class EvLoop
      * suspend.
      * Suspend the loop.
      *
-     *
      * @see http://php.net/manual/en/evloop.suspend.php
      */
     public function suspend(): void
@@ -356,7 +352,6 @@ final class EvLoop
     /**
      * verify.
      * Performs internal consistency checks(for debugging).
-     *
      *
      * @see http://php.net/manual/en/evloop.verify.php
      */

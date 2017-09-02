@@ -4,6 +4,7 @@
  * CairoSurface.
  * This is the base-class for all other Surface types. CairoSurface is the abstract type representing all different drawing targets that cairo can render to. The actual drawings are performed using a CairoContext.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairosurface.php
@@ -23,7 +24,6 @@ class CairoSurface
     /**
      * copyPage.
      * The copyPage purpose.
-     *
      *
      * @see http://php.net/manual/en/cairosurface.copypage.php
      */
@@ -50,7 +50,6 @@ class CairoSurface
      * finish.
      * The finish purpose.
      *
-     *
      * @see http://php.net/manual/en/cairosurface.finish.php
      */
     public function finish(): void
@@ -60,7 +59,6 @@ class CairoSurface
     /**
      * flush.
      * The flush purpose.
-     *
      *
      * @see http://php.net/manual/en/cairosurface.flush.php
      */
@@ -96,7 +94,6 @@ class CairoSurface
      * getFontOptions.
      * The getFontOptions purpose.
      *
-     *
      * @see http://php.net/manual/en/cairosurface.getfontoptions.php
      */
     public function getFontOptions(): void
@@ -118,7 +115,6 @@ class CairoSurface
     /**
      * markDirty.
      * The markDirty purpose.
-     *
      *
      * @see http://php.net/manual/en/cairosurface.markdirty.php
      */
@@ -170,7 +166,6 @@ class CairoSurface
     /**
      * showPage.
      * The showPage purpose.
-     *
      *
      * @see http://php.net/manual/en/cairosurface.showpage.php
      */

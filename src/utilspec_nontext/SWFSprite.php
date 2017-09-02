@@ -4,6 +4,7 @@
  * SWFSprite.
  * An SWFSprite is also known as a "movie clip", this allows one to create objects which are animated in their own timelines. Hence, the sprite has most of the same methods as the movie.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.swfsprite.php
@@ -47,7 +48,6 @@ class SWFSprite
     /**
      * nextFrame.
      * Moves to the next frame of the animation.
-     *
      *
      * @see http://php.net/manual/en/swfsprite.nextframe.php
      */

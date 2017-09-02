@@ -4,6 +4,7 @@
  * CairoContext.
  * Context is the main object used when drawing with cairo. To draw with cairo, you create a CairoContext, set the target CairoSurface, and drawing options for the CairoContext, create shapes with functions . like CairoContext::moveTo() and CairoContext::lineTo(), and then draw shapes with CairoContext::stroke() or CairoContext::fill(). Contexts can be pushed to a stack via CairoContext::save(). They may then safely be changed, without loosing the current state. Use CairoContext::restore() to restore to the saved state.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairocontext.php
@@ -70,7 +71,6 @@ class CairoContext
      * clip.
      * Establishes a new clip region.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.clip.php
      */
     public function clip(): void
@@ -92,7 +92,6 @@ class CairoContext
     /**
      * clipPreserve.
      * Establishes a new clip region from the current clip.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.clippreserve.php
      */
@@ -116,7 +115,6 @@ class CairoContext
      * closePath.
      * Closes the current path.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.closepath.php
      */
     public function closePath(): void
@@ -126,7 +124,6 @@ class CairoContext
     /**
      * copyPage.
      * Emits the current page.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.copypage.php
      */
@@ -209,7 +206,6 @@ class CairoContext
      * fill.
      * Fills the current path.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.fill.php
      */
     public function fill(): void
@@ -231,7 +227,6 @@ class CairoContext
     /**
      * fillPreserve.
      * Fills and preserve the current path.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.fillpreserve.php
      */
@@ -315,7 +310,6 @@ class CairoContext
      * getFontFace.
      * The getFontFace purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.getfontface.php
      */
     public function getFontFace(): void
@@ -325,7 +319,6 @@ class CairoContext
     /**
      * getFontMatrix.
      * The getFontMatrix purpose.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.getfontmatrix.php
      */
@@ -337,7 +330,6 @@ class CairoContext
      * getFontOptions.
      * The getFontOptions purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.getfontoptions.php
      */
     public function getFontOptions(): void
@@ -347,7 +339,6 @@ class CairoContext
     /**
      * getGroupTarget.
      * The getGroupTarget purpose.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.getgrouptarget.php
      */
@@ -395,7 +386,6 @@ class CairoContext
      * getMatrix.
      * The getMatrix purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.getmatrix.php
      */
     public function getMatrix(): void
@@ -430,7 +420,6 @@ class CairoContext
      * getScaledFont.
      * The getScaledFont purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.getscaledfont.php
      */
     public function getScaledFont(): void
@@ -441,7 +430,6 @@ class CairoContext
      * getSource.
      * The getSource purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.getsource.php
      */
     public function getSource(): void
@@ -451,7 +439,6 @@ class CairoContext
     /**
      * getTarget.
      * The getTarget purpose.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.gettarget.php
      */
@@ -498,7 +485,6 @@ class CairoContext
     /**
      * identityMatrix.
      * The identityMatrix purpose.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.identitymatrix.php
      */
@@ -592,7 +578,6 @@ class CairoContext
      * newPath.
      * The newPath purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.newpath.php
      */
     public function newPath(): void
@@ -603,7 +588,6 @@ class CairoContext
      * newSubPath.
      * The newSubPath purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.newsubpath.php
      */
     public function newSubPath(): void
@@ -613,7 +597,6 @@ class CairoContext
     /**
      * paint.
      * The paint purpose.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.paint.php
      */
@@ -649,7 +632,6 @@ class CairoContext
      * popGroup.
      * The popGroup purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.popgroup.php
      */
     public function popGroup(): void
@@ -660,7 +642,6 @@ class CairoContext
      * popGroupToSource.
      * The popGroupToSource purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.popgrouptosource.php
      */
     public function popGroupToSource(): void
@@ -670,7 +651,6 @@ class CairoContext
     /**
      * pushGroup.
      * The pushGroup purpose.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.pushgroup.php
      */
@@ -752,7 +732,6 @@ class CairoContext
      * resetClip.
      * The resetClip purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.resetclip.php
      */
     public function resetClip(): void
@@ -762,7 +741,6 @@ class CairoContext
     /**
      * restore.
      * The restore purpose.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.restore.php
      */
@@ -785,7 +763,6 @@ class CairoContext
     /**
      * save.
      * The save purpose.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.save.php
      */
@@ -1060,7 +1037,6 @@ class CairoContext
      * showPage.
      * The showPage purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.showpage.php
      */
     public function showPage(): void
@@ -1095,7 +1071,6 @@ class CairoContext
      * stroke.
      * The stroke purpose.
      *
-     *
      * @see http://php.net/manual/en/cairocontext.stroke.php
      */
     public function stroke(): void
@@ -1117,7 +1092,6 @@ class CairoContext
     /**
      * strokePreserve.
      * The strokePreserve purpose.
-     *
      *
      * @see http://php.net/manual/en/cairocontext.strokepreserve.php
      */

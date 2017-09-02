@@ -4,6 +4,7 @@
  * SplFixedArray.
  * The SplFixedArray class provides the main functionalities of array. The main differences between a SplFixedArray and a normal PHP array is that the SplFixedArray is of fixed length and allows only integers within the range as indexes. The advantage is that it allows a faster array implementation.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.splfixedarray.php
@@ -27,7 +28,6 @@ class SplFixedArray implements Iterator, ArrayAccess, Countable
     /**
      * __wakeup.
      * Reinitialises the array after being unserialised.
-     *
      *
      * @see http://php.net/manual/en/splfixedarray.wakeup.php
      */
@@ -104,7 +104,6 @@ class SplFixedArray implements Iterator, ArrayAccess, Countable
      * next.
      * Move to next entry.
      *
-     *
      * @see http://php.net/manual/en/splfixedarray.next.php
      */
     public function next(): void
@@ -173,7 +172,6 @@ class SplFixedArray implements Iterator, ArrayAccess, Countable
     /**
      * rewind.
      * Rewind iterator back to the start.
-     *
      *
      * @see http://php.net/manual/en/splfixedarray.rewind.php
      */

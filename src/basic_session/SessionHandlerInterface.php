@@ -5,6 +5,7 @@
  * SessionHandlerInterface is an interface which defines a prototype for creating a custom session handler. In order to pass a custom session handler to session_set_save_handler() using its OOP invocation, the class must implement this interface.
  * Please note the callback methods of this class are designed to be called internally by PHP and are not meant to be called from user-space code.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.sessionhandlerinterface.php
@@ -14,14 +15,12 @@ interface SessionHandlerInterface
     /**
      * close.
      *
-     *
      * @see http://php.net/manual/en/sessionhandlerinterface.close.php
      */
     public function close();
 
     /**
      * destroy.
-     *
      *
      * @param string $session_id
      *
@@ -34,7 +33,6 @@ interface SessionHandlerInterface
     /**
      * gc.
      *
-     *
      * @param int $maxlifetime
      *
      * @return bool
@@ -45,7 +43,6 @@ interface SessionHandlerInterface
 
     /**
      * open.
-     *
      *
      * @param string $save_path
      * @param string $session_name
@@ -59,7 +56,6 @@ interface SessionHandlerInterface
     /**
      * read.
      *
-     *
      * @param string $session_id
      *
      * @return string
@@ -70,7 +66,6 @@ interface SessionHandlerInterface
 
     /**
      * write.
-     *
      *
      * @param string $session_id
      * @param string $session_data

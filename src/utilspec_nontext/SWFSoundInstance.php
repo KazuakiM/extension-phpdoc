@@ -4,6 +4,7 @@
  * SWFSoundInstance.
  * SWFSoundInstance objects are returned by the SWFSprite::startSound() and SWFMovie::startSound() methods.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.swfsoundinstance.php
@@ -49,7 +50,6 @@ class SWFSoundInstance
     /**
      * noMultiple.
      * Description.
-     *
      *
      * @see http://php.net/manual/en/swfsoundinstance.nomultiple.php
      */

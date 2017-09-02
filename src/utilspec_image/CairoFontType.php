@@ -7,6 +7,7 @@
  * The various CairoFontFace functions can be used with a font face of any type.
  * The type of a CairoScaledFont is determined by the type of the CairoFontFace passed to CairoScaledFont::__construct() or cairo_scaled_font_create(). The scaled font type can be queried with CairoScaledFont::getType() or cairo_scaled_font_get_type().
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairofonttype.php

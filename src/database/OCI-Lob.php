@@ -4,6 +4,7 @@
  * OCI-Lob.
  * OCI8 LOB functionality for large binary (BLOB) and character (CLOB) objects.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.OCI-Lob.php

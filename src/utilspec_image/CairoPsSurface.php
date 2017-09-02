@@ -3,7 +3,7 @@
 /**
  * CairoPsSurface.
  *
- *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.cairopssurface.php
@@ -28,7 +28,6 @@ class CairoPsSurface extends CairoSurface
      * dscBeginPageSetup.
      * The dscBeginPageSetup purpose.
      *
-     *
      * @see http://php.net/manual/en/cairopssurface.dscbeginpagesetup.php
      */
     public function dscBeginPageSetup(): void
@@ -38,7 +37,6 @@ class CairoPsSurface extends CairoSurface
     /**
      * dscBeginSetup.
      * The dscBeginSetup purpose.
-     *
      *
      * @see http://php.net/manual/en/cairopssurface.dscbeginsetup.php
      */

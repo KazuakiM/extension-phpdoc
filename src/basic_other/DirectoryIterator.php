@@ -4,6 +4,7 @@
  * DirectoryIterator.
  * The DirectoryIterator class provides a simple interface for viewing the contents of filesystem directories.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.directoryiterator.php
@@ -319,7 +320,6 @@ class DirectoryIterator extends SplFileInfo implements SeekableIterator
      * next.
      * Move forward to next DirectoryIterator item.
      *
-     *
      * @see http://php.net/manual/en/directoryiterator.next.php
      */
     public function next(): void
@@ -329,7 +329,6 @@ class DirectoryIterator extends SplFileInfo implements SeekableIterator
     /**
      * rewind.
      * Rewind the DirectoryIterator back to the start.
-     *
      *
      * @see http://php.net/manual/en/directoryiterator.rewind.php
      */

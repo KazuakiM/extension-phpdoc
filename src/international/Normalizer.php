@@ -10,6 +10,7 @@
  *  Normalization Form KC (NFKC) - Compatibility Decomposition followed by Canonical Composition
  * The different forms are defined in terms of a set of transformations on the text, transformations that are expressed by both an algorithm and a set of data files.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.normalizer.php

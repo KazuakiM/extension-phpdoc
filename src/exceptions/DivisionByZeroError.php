@@ -4,6 +4,7 @@
  * DivisionByZeroError.
  * DivisionByZeroError is thrown when an attempt is made to divide a number by zero.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.divisionbyzeroerror.php

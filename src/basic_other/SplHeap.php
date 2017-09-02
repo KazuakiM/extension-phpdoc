@@ -4,6 +4,7 @@
  * SplHeap.
  * The SplHeap class provides the main functionalities of a Heap.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.splheap.php
@@ -98,7 +99,6 @@ abstract class SplHeap implements Iterator, Countable
      * next.
      * Move to the next node.
      *
-     *
      * @see http://php.net/manual/en/splheap.next.php
      */
     public function next(): void
@@ -109,7 +109,6 @@ abstract class SplHeap implements Iterator, Countable
      * recoverFromCorruption.
      * Recover from the corrupted state and allow further actions on the heap.
      *
-     *
      * @see http://php.net/manual/en/splheap.recoverfromcorruption.php
      */
     public function recoverFromCorruption(): void
@@ -119,7 +118,6 @@ abstract class SplHeap implements Iterator, Countable
     /**
      * rewind.
      * Rewind iterator back to the start (no-op).
-     *
      *
      * @see http://php.net/manual/en/splheap.rewind.php
      */

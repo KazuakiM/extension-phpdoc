@@ -4,6 +4,7 @@
  * SplObjectStorage.
  * The SplObjectStorage class provides a map from objects to data or, by ignoring data, an object set. This dual purpose can be useful in many cases involving the need to uniquely identify objects.
  *
+ * @author Kazuaki MABUCHI
  * @copyright[Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under[CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.splobjectstorage.php
@@ -129,7 +130,6 @@ class SplObjectStorage implements Countable, Iterator, Serializable, ArrayAccess
      * next.
      * Move to the next entry.
      *
-     *
      * @see http://php.net/manual/en/splobjectstorage.next.php
      */
     public function next(): void
@@ -218,7 +218,6 @@ class SplObjectStorage implements Countable, Iterator, Serializable, ArrayAccess
     /**
      * rewind.
      * Rewind the iterator to the first storage element.
-     *
      *
      * @see http://php.net/manual/en/splobjectstorage.rewind.php
      */

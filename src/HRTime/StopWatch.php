@@ -3,7 +3,7 @@
 /**
  * HRTime\StopWatch.
  *
- *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.hrtime-stopwatch.php
@@ -81,7 +81,6 @@ class StopWatch extends HRTime\PerformanceCounter
      * start.
      * Start time measurement.
      *
-     *
      * @see http://php.net/manual/en/hrtime-stopwatch.start.php
      */
     public function start(): void
@@ -91,7 +90,6 @@ class StopWatch extends HRTime\PerformanceCounter
     /**
      * stop.
      * Stop time measurement.
-     *
      *
      * @see http://php.net/manual/en/hrtime-stopwatch.stop.php
      */

@@ -7,6 +7,7 @@
  * @property $filtername
  * @property $params
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.php-user-filter.php
@@ -36,7 +37,6 @@ class php_user_filter
     /**
      * onClose.
      * Called when closing the filter.
-     *
      *
      * @see http://php.net/manual/en/php-user-filter.onclose.php
      */

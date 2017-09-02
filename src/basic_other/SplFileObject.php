@@ -4,6 +4,7 @@
  * SplFileObject.
  * The SplFileObject class offers an object oriented interface for a file.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.splfileobject.php
@@ -283,7 +284,6 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, SeekableIt
      * getChildren.
      * No purpose.
      *
-     *
      * @see http://php.net/manual/en/splfileobject.getchildren.php
      */
     public function getChildren(): void
@@ -353,7 +353,6 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, SeekableIt
     /**
      * next.
      * Read next line.
-     *
      *
      * @see http://php.net/manual/en/splfileobject.next.php
      */

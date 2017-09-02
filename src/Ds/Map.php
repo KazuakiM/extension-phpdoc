@@ -4,6 +4,7 @@
  * Ds\Map.
  * A Map is a sequential collection of key-value pairs, almost identical to an array used in a similar context. Keys can be any type, but must be unique. Values are replaced if added to the map using the same key.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.ds-map.php
@@ -66,7 +67,6 @@ class Map implements Ds\Collection
     /**
      * clear.
      * Removes all values.
-     *
      *
      * @see http://php.ne/manual/en/ds-map.clear.php
      */
@@ -375,7 +375,6 @@ class Map implements Ds\Collection
     /**
      * reverse.
      * Reverses the map in-place.
-     *
      *
      * @see http://php.net/manual/en/ds-map.reverse.php
      */

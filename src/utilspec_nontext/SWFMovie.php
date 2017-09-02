@@ -4,6 +4,7 @@
  * SWFMovie.
  * SWFMovie is a movie object representing an SWF movie.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.swfmovie.php
@@ -108,7 +109,6 @@ class SWFMovie
     /**
      * nextFrame.
      * Moves to the next frame of the animation.
-     *
      *
      * @see http://php.net/manual/en/swfmovie.nextframe.php
      */
@@ -267,7 +267,6 @@ class SWFMovie
     /**
      * writeExports.
      * Description.
-     *
      *
      * @see http://php.net/manual/en/swfmovie.writeexports.php
      */

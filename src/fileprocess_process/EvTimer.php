@@ -10,6 +10,7 @@
  * @property $repeat
  * @property $remaining
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.evtimer.php
@@ -44,7 +45,6 @@ class EvTimer extends EvWatcher
     /**
      * again.
      * Restarts the timer watcher.
-     *
      *
      * @see http://php.net/manual/en/evtimer.again.php
      */

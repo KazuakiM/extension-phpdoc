@@ -6,6 +6,7 @@
  * And Yaf_Route_Static is designed to handle the 80% requirement.
  * please *NOTE* that it is unecessary to instance a Yaf_Route_Static, also unecesary to add it into Yaf_Router's routes stack, since there is always be one in Yaf_Router's routes stack, and always be called at the last time.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.yaf-route-static.php

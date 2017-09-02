@@ -4,6 +4,7 @@
  * SplDoublyLinkedList.
  * The SplDoublyLinkedList class provides the main functionalities of a doubly linked list.
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.spldoublylinkedlist.php
@@ -113,7 +114,6 @@ class SplDoublyLinkedList implements Iterator, ArrayAccess, Countable
      * next.
      * Move to next entry.
      *
-     *
      * @see http://php.net/manual/en/spldoublylinkedlist.next.php
      */
     public function next(): void
@@ -197,7 +197,6 @@ class SplDoublyLinkedList implements Iterator, ArrayAccess, Countable
      * prev.
      * Move to previous entry.
      *
-     *
      * @see http://php.net/manual/en/spldoublylinkedlist.prev.php
      */
     public function prev(): void
@@ -219,7 +218,6 @@ class SplDoublyLinkedList implements Iterator, ArrayAccess, Countable
     /**
      * rewind.
      * Rewind iterator back to the start.
-     *
      *
      * @see http://php.net/manual/en/spldoublylinkedlist.rewind.php
      */

@@ -5,6 +5,7 @@
  * BSON type for the » Decimal128 floating-point format, which supports numbers with up to 34 decimal digits (i.e. significant digits) and an exponent range of −6143 to +6144.
  * Unlike the double BSON type (i.e. float in PHP), which only stores an approximation of the decimal values, the decimal data type stores the exact value. For example, MongoDB\BSON\Decimal128('9.99') has a precise value of 9.99 where as a double 9.99 would have an approximate value of 9.9900000000000002131628….
  *
+ * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
  * @see http://php.net/manual/en/class.mongodb-bson-decimal128.php
