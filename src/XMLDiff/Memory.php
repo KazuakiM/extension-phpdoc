@@ -1,7 +1,5 @@
 <?php
 
-namespace XMLDiff;
-
 /**
  * XMLDiff.
  *
@@ -10,7 +8,10 @@ namespace XMLDiff;
  *
  * @see http://php.net/manual/en/class.xmldiff-memory.php
  */
-class XMLDiffMemory extends Base
+
+namespace XMLDiff;
+
+class Memory extends XMLDiff\Base
 {
     /**
      * diff.

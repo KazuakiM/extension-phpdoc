@@ -1,7 +1,5 @@
 <?php
 
-namespace XMLDiff;
-
 /**
  * XMLDiff.
  * Base abstract class for all the comparsion classes in the extension.
@@ -11,7 +9,10 @@ namespace XMLDiff;
  *
  * @see http://php.net/manual/en/class.xmldiff-base.php
  */
-abstract class XMLDiffBase
+
+namespace XMLDiff;
+
+abstract class Base
 {
     /**
      * __construct.

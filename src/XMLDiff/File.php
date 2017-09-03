@@ -1,44 +1,45 @@
 <?php
 
-namespace XMLDiff;
-
 /**
  * XMLDiff.
  *
  * @author Kazuaki MABUCHI
  * @copyright [Copyright](http://php.net/manual/cc.license.php) by the PHP Documentation Group is licensed under [CC by 3.0 or later](http://creativecommons.org/licenses/by/3.0/).
  *
- * @see http://php.net/manual/en/class.xmldiff-dom.php
+ * @see http://php.net/manual/en/class.xmldiff-file.php
  */
-class XMLDiffDOM extends Base
+
+namespace XMLDiff;
+
+class File extends XMLDiff\Base
 {
     /**
      * diff.
-     * Diff two DOMDocument objects.
+     * Diff two XML files.
      *
-     * @param DOMDocument $from
-     * @param DOMDocument $to
+     * @param string $from
+     * @param string $to
      *
-     * @return DOMDocument
+     * @return string
      *
-     * @see http://php.net/manual/en/xmldiff-dom.diff.php
+     * @see http://php.net/manual/en/xmldiff-file.diff.php
      */
-    public function diff(DOMDocument $from, DOMDocument $to): DOMDocument
+    public function diff(string $from, string $to): string
     {
     }
 
     /**
      * merge.
-     * Produce merged DOMDocument.
+     * Produce merged XML document.
      *
-     * @param DOMDocument $src
-     * @param DOMDocument $diff
+     * @param string $src
+     * @param string $diff
      *
-     * @return DOMDocument
+     * @return string
      *
-     * @see http://php.net/manual/en/xmldiff-dom.merge.php
+     * @see http://php.net/manual/en/xmldiff-file.merge.php
      */
-    public function merge(DOMDocument $src, DOMDocument $diff): DOMDocument
+    public function merge(string $src, string $diff): string
     {
     }
 
