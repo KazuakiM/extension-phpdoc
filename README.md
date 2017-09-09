@@ -16,6 +16,9 @@ $ composer global require kazuakim/extension-phpdoc
 ```bash
 $ composer global remove kazuakim/extension-phpdoc
 ```
+## Usage for Vim
+
+<img src="https://kazuakim.github.io/SlideShow-Vim-for-PHP/img/vim8.gif" height="480px" />
 
 ## [Function Reference](http://php.net/manual/en/funcref.php)
 
